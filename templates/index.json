@@ -177,17 +177,17 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "product_list_text_YFtzcL": {
-              "type": "_product-list-text",
-              "name": "t:names.collection_title",
+            "text_QU4Crq": {
+              "type": "text",
+              "name": "t:names.text",
               "settings": {
-                "text": "<p>SHOP OUR BEST-SELLERSs</p>",
+                "text": "<h2>SHOP OUR BEST-SELLERS</h2><p>Fan favorites worn in and out of the studio.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h2",
+                "type_preset": "rte",
                 "font": "var(--font-body--family)",
-                "font_size": "",
+                "font_size": "1rem",
                 "line_height": "normal",
                 "letter_spacing": "normal",
                 "case": "none",
@@ -219,7 +219,7 @@
             }
           },
           "block_order": [
-            "product_list_text_YFtzcL",
+            "text_QU4Crq",
             "product_list_button_MWeP9V"
           ]
         },

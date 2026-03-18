@@ -45,6 +45,7 @@
           "settings": {
             "custom_css": "",
             "label": "Shop Now",
+            "icon_width": 20,
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button",
@@ -1185,6 +1186,7 @@
           "settings": {
             "custom_css": "",
             "label": "View All",
+            "icon_width": 20,
             "link": "shopify://blogs/news",
             "open_in_new_tab": false,
             "style_class": "link",
@@ -1454,6 +1456,7 @@
                   "settings": {
                     "custom_css": "no-border-r uppercase-btn",
                     "label": "View Details",
+                    "icon_width": 20,
                     "link": "{{ closest.article.url }}",
                     "open_in_new_tab": false,
                     "style_class": "button-secondary",
@@ -3121,6 +3124,7 @@
                 "custom_css": "forced-row flex items-center",
                 "label": "Discover the Story",
                 "icon": "shopify://shop_images/solid-chevron-right.svg",
+                "icon_width": 13,
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",

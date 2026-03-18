@@ -110,7 +110,13 @@
         <a href="{{ section.settings.btn_link }}" class="button button-primary">{{ section.settings.btn_text }}</a>
       </div>
     </div>
-    <div class="images flex"></div>
+    <div class="images flex">
+      {{
+        section.settings.image_1
+        | image_url: width: section.settings.image_1.width, height: section.settings.image_1.height
+        | image_tag
+      }}
+    </div>
   </div>
 </div>
 

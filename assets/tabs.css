@@ -8,7 +8,7 @@
     display: none;
 }
 
-.tabs__tab [aria-selected="true"] {
+.tabs__tab[aria-selected="true"] {
     background-color: black;
     color: white;
 }

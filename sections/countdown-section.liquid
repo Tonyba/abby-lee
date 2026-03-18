@@ -22,16 +22,18 @@
 <div class="section color-{{ section.settings.color_scheme }}">
   <div class="flex">
     <div class="texts">
-      <div class="subheading">{{ section.settings.subheading }}</div>
-      <div class="heading">
-        {{ section.settings.heading }}
+      <div class="inner">
+        <div class="subheading">{{ section.settings.subheading }}</div>
+        <div class="heading">
+          {{ section.settings.heading }}
+        </div>
+
+        {{ section.settings.text }}
+
+        <div class="countdown-container"></div>
+
+        <a href="{{ section.settings.btn_link }}" class="button button-primary">{{ section.settings.btn_text }}</a>
       </div>
-
-      {{ section.settings.text }}
-
-      <div class="countdown-container"></div>
-
-      <a href="{{ section.settings.btn_link }}" class="button button-primary">{{ section.settings.btn_text }}</a>
     </div>
     <div class="images flex"></div>
   </div>

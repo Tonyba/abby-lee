@@ -662,7 +662,7 @@
             "placement": "below_image",
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "flex-start",
-            "collection_card_gap": 8,
+            "collection_card_gap": 0,
             "inherit_color_scheme": true,
             "color_scheme": "",
             "border": "none",
@@ -689,10 +689,10 @@
                 "background": true,
                 "background_color": "#ffffff",
                 "corner_radius": 0,
-                "padding-block-start": 4,
-                "padding-block-end": 4,
-                "padding-inline-start": 8,
-                "padding-inline-end": 8
+                "padding-block-start": 12,
+                "padding-block-end": 0,
+                "padding-inline-start": 20,
+                "padding-inline-end": 0
               },
               "blocks": {}
             },

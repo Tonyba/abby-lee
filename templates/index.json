@@ -1452,7 +1452,7 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "custom_css": "no-border-r",
+                    "custom_css": "no-border-r uppercase-btn",
                     "label": "View Details",
                     "link": "{{ closest.article.url }}",
                     "open_in_new_tab": false,

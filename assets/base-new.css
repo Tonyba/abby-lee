@@ -216,4 +216,7 @@ button {
     min-height: 535px;
 }
 
-.event-view-container {}
+.event-view-container {
+    font-weight: 600;
+    text-transform: uppercase;
+}

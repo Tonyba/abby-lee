@@ -11,6 +11,7 @@
 
 .tabs__tab {
     border-radius: 50px;
+    text-transform: uppercase;
 }
 
 .tabs__tab[aria-selected="true"] {

@@ -1298,7 +1298,7 @@
               "name": "t:names.title",
               "static": true,
               "settings": {
-                "type_preset": "rte",
+                "type_preset": "h5",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -1356,7 +1356,7 @@
               "name": "view details",
               "static": true,
               "settings": {
-                "custom_css": "event-view-cotainer",
+                "custom_css": "event-view-container",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",

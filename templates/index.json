@@ -3730,9 +3730,9 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "custom_css": "",
+                    "custom_css": "flex",
                     "text": "<p>Featured Story</p>",
-                    "width": "fit-content",
+                    "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "rte",

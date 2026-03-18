@@ -3797,11 +3797,33 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "story_carousel_eQfMbm": {
+              "type": "story-carousel",
+              "name": "story carousel",
+              "settings": {},
+              "blocks": {
+                "story_carousel_item_fL3UMV": {
+                  "type": "story-carousel-item",
+                  "name": "story carousel Item",
+                  "settings": {
+                    "main_text": "\"Wearing ALDC reminds me to train harder and perform with confidence.\"",
+                    "content": "<p>Every time I step into the studio wearing ALDC gear, I feel connected to something bigger than myself. It's not just apparel—it's a mindset. The quality keeps up with my toughest routines, and the fit gives me the confidence to push my limits.</p><p><br/>When I'm on stage, I know I'm wearing the same brand that champions trust. That feeling is irreplaceable.<br/></p>",
+                    "name": "Ava M.",
+                    "subtext": ""
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "story_carousel_item_fL3UMV"
+              ]
             }
           },
           "block_order": [
             "group_UCt4Xg",
-            "text_8Ddccz"
+            "text_8Ddccz",
+            "story_carousel_eQfMbm"
           ]
         },
         "group_NeKepJ": {

@@ -1398,7 +1398,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "custom_css": "location-icon flex forced-row",
+                    "custom_css": "location-icon flex forced-row gap-10",
                     "text": "<p>{{ closest.article.metafields.custom.location.value }}</p>",
                     "width": "fit-content",
                     "max_width": "normal",
@@ -1425,7 +1425,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "custom_css": "date-icon flex forced-row",
+                    "custom_css": "date-icon flex forced-row gap-10",
                     "text": "<p>{{ closest.article.metafields.custom.event_date | metafield_tag }}</p>",
                     "width": "fit-content",
                     "max_width": "normal",

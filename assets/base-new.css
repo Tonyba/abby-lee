@@ -234,4 +234,5 @@ button {
 .subheading-red * {
     color: #FB0101;
     text-transform: uppercase;
+    letter-spacing: 5%;
 }

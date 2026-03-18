@@ -85,7 +85,10 @@
 
         {{ section.settings.text }}
 
-        <div class="countdown-container flex">
+        <div
+          class="countdown-container flex"
+          data-date="{{ section.settings.day }}/{{ section.settings.month }}/{{ section.settings.year }}"
+        >
           <div class="count-item" data-type="days">
             <div class="count-number">0</div>
             <div class="count-text">Days</div>

@@ -63,6 +63,10 @@ button {
     gap: 20px;
 }
 
+.no-gap {
+    gap: 0;
+}
+
 .mb-4 {
     margin-bottom: 40px;
 }

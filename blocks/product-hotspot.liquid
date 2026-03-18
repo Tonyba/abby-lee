@@ -15,6 +15,20 @@
 <div
   data-testid="product-hotspots"
   class="section-product-hotspots__wrapper section-product-hotspots"
+  style="
+    {% render 'spacing-style', settings: block.settings %}
+    {% render 'gap-style', value: 28 %}
+    {% if block.settings.section_height != 'auto' %}
+      --ratio: {{ block.settings.section_height }};
+    {% elsif block.settings.image != blank %}
+      --ratio: {{ block.settings.image.aspect_ratio }};
+    {% endif %}
+    --product-title-gap: {{ block.settings.product_title_gap }}px;
+    --hotspot-size: 36px;
+    --minimum-width-dialog: 260px;
+    --maximum-width-dialog: 330px;
+    --width-product-image-dialog: 110px;
+  "
 >
   <div class="section-product-hotspots__wrapper">
     <div class="section-product-hotspots__content">

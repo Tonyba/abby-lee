@@ -16,11 +16,11 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>Browse our latest products</p>",
+            "text": "<h1>Wear the Legacy</h1><p>Official Abby Lee Dance Company Apparel & Experiences.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "h1",
+            "type_preset": "rte",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",

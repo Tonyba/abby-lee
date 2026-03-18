@@ -701,7 +701,7 @@
               "name": "t:names.collection_card_image",
               "static": true,
               "settings": {
-                "image_ratio": "adapt",
+                "image_ratio": "square",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
@@ -724,7 +724,11 @@
       ],
       "name": "t:names.collections_grid",
       "settings": {
-        "collection_list": [],
+        "collection_list": [
+          "dancewear",
+          "t-shirts-hoodies",
+          "valentines-sale"
+        ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "columns": 3,

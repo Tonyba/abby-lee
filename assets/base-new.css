@@ -156,3 +156,7 @@ button {
     letter-spacing: 0;
     line-height: 160%;
 }
+
+.product-carousel slideshow-slide {
+    min-height: 558px;
+}

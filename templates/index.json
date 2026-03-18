@@ -415,6 +415,8 @@
       "type": "countdown-section",
       "name": "Countdown Section",
       "settings": {
+        "bg_color": "",
+        "color_scheme": "scheme-5",
         "heading": "",
         "subheading": "",
         "text": "",

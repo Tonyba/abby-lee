@@ -3884,6 +3884,7 @@
               "type": "product-hotspot",
               "name": "t:names.product_hotspots",
               "settings": {
+                "image": "shopify://shop_images/82eed567c290f7ca0a9051bc7023098d3ebdc51e.jpg",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",

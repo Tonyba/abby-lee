@@ -3118,7 +3118,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "custom_css": "forced-row flex",
+                "custom_css": "forced-row flex items-center",
                 "label": "Discover the Story",
                 "icon": "shopify://shop_images/solid-chevron-right.svg",
                 "link": "shopify://collections/all",

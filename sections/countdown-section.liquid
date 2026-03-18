@@ -60,7 +60,24 @@
 
         {{ section.settings.text }}
 
-        <div class="countdown-container"></div>
+        <div class="countdown-container flex">
+          <div class="count-item">
+            <div class="count-number">7</div>
+            <div class="count-text">Days</div>
+          </div>
+          <div class="count-item">
+            <div class="count-number">24</div>
+            <div class="count-text">Hours</div>
+          </div>
+          <div class="count-item">
+            <div class="count-number">60</div>
+            <div class="count-text">Minutes</div>
+          </div>
+          <div class="count-item">
+            <div class="count-number">60</div>
+            <div class="count-seconds">Minutes</div>
+          </div>
+        </div>
 
         <a href="{{ section.settings.btn_link }}" class="button button-primary">{{ section.settings.btn_text }}</a>
       </div>

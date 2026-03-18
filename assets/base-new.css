@@ -136,3 +136,9 @@ button {
 .custom-home-hero {
     min-height: 731px !important;
 }
+
+/*product carousel*/
+
+.product-carousel .link {
+    border-bottom: 2px solid black;
+}

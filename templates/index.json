@@ -1266,7 +1266,7 @@
           "name": "t:names.blog_card",
           "static": true,
           "settings": {
-            "custom_css": "event-card",
+            "custom_css": "event-card fix-post-img-h",
             "alignment": "left",
             "gap": 8,
             "inherit_color_scheme": true,

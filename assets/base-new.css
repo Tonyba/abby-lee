@@ -119,6 +119,10 @@ button {
     flex-direction: column;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
 .dark-overlay::after {
     content: '';
     width: 100%;

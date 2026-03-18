@@ -7,29 +7,7 @@
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
 
 <div
-  class="
-    section
-    section--{{ section.settings.section_width }}
-    section-product-hotspots
-    color-{{ section.settings.color_scheme }}
-    spacing-style
-    gap-style
-  "
   data-testid="product-hotspots"
-  style="
-    {% render 'spacing-style', settings: section.settings %}
-    {% render 'gap-style', value: 28 %}
-    {% if section.settings.section_height != 'auto' %}
-      --ratio: {{ section.settings.section_height }};
-    {% elsif section.settings.image != blank %}
-      --ratio: {{ section.settings.image.aspect_ratio }};
-    {% endif %}
-    --product-title-gap: {{ section.settings.product_title_gap }}px;
-    --hotspot-size: 36px;
-    --minimum-width-dialog: 260px;
-    --maximum-width-dialog: 330px;
-    --width-product-image-dialog: 110px;
-  "
 >
   <div class="section-product-hotspots__wrapper">
     <div class="section-product-hotspots__header">

@@ -2330,12 +2330,40 @@
                 "text_kEmVNg",
                 "icon_dJL9GA"
               ]
+            },
+            "text_DqUrhV": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "custom_css": "",
+                "text": "<p>Real feedback helps our dance community grow.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_D67hfP",
             "text_HpGAwJ",
-            "group_f9E3PE"
+            "group_f9E3PE",
+            "text_DqUrhV"
           ]
         }
       },

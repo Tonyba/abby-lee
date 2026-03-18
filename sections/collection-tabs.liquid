@@ -14,7 +14,7 @@
           class="tabs__tab button-secondary"
           id="tab-{{ forloop.index }}"
           role="tab"
-          aria-selected=" {% if forloop.index == 1 %} true {% else %} false {% endif %}"
+          aria-selected="{% if forloop.index == 1 %} true {% else %} false {% endif %}"
           aria-controls="panel-{{ forloop.index }}"
         >
           {{ collection.title }}
@@ -29,6 +29,9 @@
           id="panel-{{ forloop.index }}"
           role="tabpanel"
           aria-labelledby="tab-{{ forloop.index }}"
+          {% if forloop.index == 1 %}
+            hidden
+          {% endif %}
         >
           <div class="embla__viewport">
             <div class="embla__container">

@@ -13,7 +13,11 @@
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
 <div class="section color-{{ section.settings.color_scheme }}">
   <div class="flex">
-    <div class="texts"></div>
+    <div class="texts">
+      <div class="subheading">{{ section.settings.subheading }}</div>
+      {{ section.settings.heading }}
+      {{ section.settings.text }}
+    </div>
     <div class="images flex"></div>
   </div>
 </div>

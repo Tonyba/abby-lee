@@ -16,10 +16,6 @@
   data-testid="product-hotspots"
 >
   <div class="section-product-hotspots__wrapper">
-    <div class="section-product-hotspots__header">
-      {% content_for 'block', type: 'text', id: 'heading' %}
-    </div>
-
     <div class="section-product-hotspots__content">
       {% if section.settings.toggle_overlay %}
         {% render 'overlay', settings: section.settings, layer: 'var(--layer-flat)' %}

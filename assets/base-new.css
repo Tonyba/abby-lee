@@ -261,6 +261,6 @@ button {
 }
 
 /*latests news*/
-.latest-news-h .group-block-content {
+.latest-news-h>.group-block-content {
     min-height: 500px;
 }

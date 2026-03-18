@@ -1298,7 +1298,7 @@
               "name": "t:names.title",
               "static": true,
               "settings": {
-                "type_preset": "rte",
+                "type_preset": "h5",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -1451,8 +1451,8 @@
         "blog": "news",
         "layout_type": "carousel",
         "carousel_on_mobile": true,
-        "post_limit": 5,
-        "columns": 3,
+        "post_limit": 8,
+        "columns": 4,
         "mobile_columns": "2",
         "mobile_card_size": "60cqw",
         "columns_gap": 8,
@@ -1460,7 +1460,7 @@
         "icons_style": "arrow",
         "icons_shape": "circle",
         "section_width": "page-width",
-        "gap": 12,
+        "gap": 10,
         "color_scheme": "",
         "padding-block-start": 0,
         "padding-block-end": 77

@@ -3033,6 +3033,33 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "text_U6A7LY": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "custom_css": "subheading-red",
+                "text": "<h5>A legacy built on discipline, passion, and unstoppable dancers.</h5>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "text_KEzWFm": {
               "type": "text",
               "name": "t:names.heading",
@@ -3089,6 +3116,7 @@
             }
           },
           "block_order": [
+            "text_U6A7LY",
             "text_KEzWFm",
             "text_jT3dp7"
           ]

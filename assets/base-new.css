@@ -271,7 +271,7 @@ button {
 /*studio*/
 .shopify-section:has(.studio-fix-img) .background-image-container img {
     height: 100%;
-    width: 72%;
+    width: 60%;
     right: 0;
     position: absolute;
 }

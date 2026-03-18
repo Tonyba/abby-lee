@@ -1397,9 +1397,9 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "custom_css": "no-border",
+                    "custom_css": "no-border-r",
                     "label": "View Details",
-                    "link": "shopify://collections/all",
+                    "link": "shopify://blogs/news",
                     "open_in_new_tab": false,
                     "style_class": "button-secondary",
                     "width": "custom",

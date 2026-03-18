@@ -3,11 +3,14 @@
 .tabs__list {
     margin-bottom: 40px;
     gap: 12px;
-    border-radius: 50px;
 }
 
 .tabs__panel[hidden] {
     display: none;
+}
+
+.tabs__tab {
+    border-radius: 50px;
 }
 
 .tabs__tab[aria-selected="true"] {

@@ -5,17 +5,19 @@
   <div class="heading">{{ section.settings.heading }}</div>
 
   <div class="collections tabs-container">
-    {% for collection in section.settings.collection_list %}
-      <button
-        class="tabs__tab"
-        id="{{ collection.handle }}"
-        role="tab"
-        aria-selected="true"
-        aria-controls="panel-{{ forloop.index }}"
-      >
-        {{ collection.title }}
-      </button>
-    {% endfor %}
+    <div class="tabs__list" role="tablist" aria-label="collections">
+      {% for collection in section.settings.collection_list %}
+        <button
+          class="tabs__tab"
+          id="{{ collection.handle }}"
+          role="tab"
+          aria-selected="true"
+          aria-controls="panel-{{ forloop.index }}"
+        >
+          {{ collection.title }}
+        </button>
+      {% endfor %}
+    </div>
   </div>
 </div>
 

@@ -2647,7 +2647,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "custom_css": "",
+                        "custom_css": "latest-news-text",
                         "text": "<p>Watch now on youtube</p>",
                         "width": "fit-content",
                         "max_width": "normal",

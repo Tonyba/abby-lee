@@ -2769,7 +2769,7 @@
                       "name": "t:names.icon",
                       "settings": {
                         "icon": "price_tag",
-                        "image_upload": "shopify://shop_images/Vector_2.svg",
+                        "image_upload": "shopify://shop_images/spotify_1_1.svg",
                         "width": 24,
                         "link": "",
                         "open_in_new_tab": false
@@ -2781,7 +2781,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "custom_css": "latest-news-text",
-                        "text": "<p>Watch now on youtube</p>",
+                        "text": "<p>LISTEN NOW on spotify/apple</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",

@@ -1425,7 +1425,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "custom_css": "date-icon",
+                    "custom_css": "date-icon flex forced-row",
                     "text": "<p>{{ closest.article.metafields.custom.event_date | metafield_tag }}</p>",
                     "width": "fit-content",
                     "max_width": "normal",

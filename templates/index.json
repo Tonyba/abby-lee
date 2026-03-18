@@ -1544,7 +1544,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "subheading-red",
-                "text": "<h4>New arrivals</h4>",
+                "text": "<h5>New arrivals</h5>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",

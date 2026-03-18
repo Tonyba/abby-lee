@@ -3120,6 +3120,7 @@
               "settings": {
                 "custom_css": "",
                 "label": "Discover the Story",
+                "icon": "shopify://shop_images/solid-chevron-right.svg",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",

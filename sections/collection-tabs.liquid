@@ -3,6 +3,15 @@
 
   <div class="collections tabs-container">
     {% for collection in section.settings.collection_list %}
+      <button
+        class="tabs__tab"
+        id="{{ collection.handle }}"
+        role="tab"
+        aria-selected="true"
+        aria-controls="panel-{{ forloop.index }}"
+      >
+        {{ collection.title }}
+      </button>
     {% endfor %}
   </div>
 </div>

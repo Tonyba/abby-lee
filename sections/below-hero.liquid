@@ -13,6 +13,9 @@
   .below-hero .section--page-width > .flex {
     justify-content: space-between;
   }
+
+  .below-hero img {
+  }
 {% endstylesheet %}
 
 <div class="section-background color-scheme-2" bis_skin_checked="1"></div>
@@ -24,7 +27,9 @@
       </div>
 
       {% if forloop.index != forloop.last %}
-        <img src="{{ 'black-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
+        <div class="embla__item">
+          <img src="{{ 'black-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
+        </div>
       {% endif %}
     {% endfor %}
   </div>

@@ -60,6 +60,7 @@
 <div
   class="
     featured-blog-posts-card spacing-style border-style
+    {{ block_settings.custom_css }}
     {% if section.settings.layout_type == 'editorial' %}blog-post-card--flexible-aspect-ratio{% endif %}
     {% if block_settings.inherit_color_scheme == false %}color-{{ block_settings.color_scheme }}{% endif %}
   "

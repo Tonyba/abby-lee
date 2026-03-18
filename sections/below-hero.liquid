@@ -8,7 +8,7 @@
 <div class="flex">
   {% for item in blocks %}
     <div class="embla__item">
-      {{ item.settings }}
+      {{ item.settings.text }}
     </div>
   {% endfor %}
 </div>
@@ -27,7 +27,14 @@
   "blocks": [
     {
       "name": "text",
-      "type": "text"
+      "type": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
     }
   ],
   "presets": [

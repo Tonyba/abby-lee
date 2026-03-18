@@ -172,3 +172,8 @@ button {
 .product-carousel .product-badges__badge {
     letter-spacing: 0.5px;
 }
+
+/*collection grid*/
+.collection-grid-item .h4 * {
+    text-transform: uppercase;
+}

@@ -1,0 +1,76 @@
+{% liquid
+  assign blocks = section.blocks
+%}
+
+{% stylesheet %}
+  .below-hero {
+    padding: 20px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5%;
+  }
+
+  .below-hero .section--page-width > .flex {
+    justify-content: space-between;
+  }
+
+  .below-hero img {
+  }
+{% endstylesheet %}
+
+<div class="section-background color-scheme-2" bis_skin_checked="1"></div>
+<div class="section section--page-width color-{{ section.settings.color_scheme }}">
+  <div class="flex items-center">
+    {% for item in blocks %}
+      {% liquid
+        assign modulo_result = forloop.index | modulo: 2
+      %}
+
+      <div class="embla__item">
+        {{ item.settings.text }}
+      </div>
+
+      {% if forloop.index != forloop.length %}
+        <div class="embla__item">
+          {% if modulo_result == 1 %}
+            <img src="{{ 'black-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
+          {% else %}
+            <img src="{{ 'transparent-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Below Hero",
+  "class": "below-hero",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "text",
+      "type": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "below hero"
+    }
+  ]
+}
+{% endschema %}

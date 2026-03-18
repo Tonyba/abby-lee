@@ -1,0 +1,96 @@
+{% liquid
+  assign localization_font = '--menu-localization-font: var(--font-[localization_font]--family); ' | replace: '[localization_font]', block.settings.localization_font
+  assign localization_font_size = '--menu-localization-font-size: [localization_font_size]; ' | replace: '[localization_font_size]', block.settings.localization_font_size
+  assign color_shadow = '--color-shadow: rgb(var(--color-foreground-rgb) / var(--opacity-10-25));'
+  assign form_style = localization_font | append: localization_font_size | append: color_shadow
+%}
+
+{% render 'localization-selector',
+  show_country: true,
+  show_language: false,
+  localization_font: block.settings.localization_font,
+  localization_font_size: block.settings.localization_font_size,
+  country_selector_style: block.settings.country_selector_style,
+  color_scheme: block.settings.color_scheme,
+  localization_style: 'dropdown',
+  form_style: form_style,
+  form_id: block.id
+%}
+
+{% schema %}
+{
+  "name": "localizacion selector",
+  "class": "localization-selector",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "country_selector_style",
+      "label": "t:settings.flag",
+      "default": true
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme"
+    },
+    {
+      "type": "select",
+      "id": "localization_font_size",
+      "label": "t:settings.size",
+      "options": [
+        {
+          "value": "0.625rem",
+          "label": "10px"
+        },
+        {
+          "value": "0.75rem",
+          "label": "12px"
+        },
+        {
+          "value": "0.875rem",
+          "label": "14px"
+        },
+        {
+          "value": "1rem",
+          "label": "16px"
+        },
+        {
+          "value": "1.125rem",
+          "label": "18px"
+        }
+      ],
+      "default": "1rem"
+    },
+    {
+      "type": "select",
+      "id": "localization_font",
+      "label": "t:settings.font",
+      "options": [
+        {
+          "value": "heading",
+          "label": "t:options.heading"
+        },
+        {
+          "value": "subheading",
+          "label": "t:options.subheading"
+        },
+        {
+          "value": "body",
+          "label": "t:options.body"
+        },
+        {
+          "value": "accent",
+          "label": "t:options.accent"
+        }
+      ],
+      "default": "heading",
+      "visible_if": "{{ section.settings.show_currency }}"
+    }
+  ],
+  "presets": [
+    {
+      "name": "localizacion selector"
+    }
+  ]
+}
+{% endschema %}

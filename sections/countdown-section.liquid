@@ -1,0 +1,289 @@
+{% stylesheet %}
+  .countdown-section .section {
+    padding: 50px 0;
+  }
+
+  .countdown-section .heading * {
+    font-size: 52px;
+  }
+
+  .countdown-section .subheading {
+    padding: 10px 20px;
+    background-color: var(--color-foreground);
+    color: black;
+    margin-bottom: 23px;
+    border-radius: 3px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-flex;
+    gap: 3px;
+  }
+
+  .countdown-section .subheading p {
+    margin-top: 0;
+  }
+
+  .countdown-section .heading strong {
+    color: var(--color-primary-button-background);
+  }
+
+  .countdown-section .inner {
+    max-width: 576px;
+  }
+
+  .countdown-section .texts {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+  }
+
+  .countdown-container {
+    margin-bottom: 20px;
+  }
+
+  .countdown-container .count-item {
+    width: 105px;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    background-color: #ffffff75;
+    border-radius: 12px;
+    border: 1px solid white;
+  }
+
+  .countdown-container .count-number {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .countdown-container .count-text {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .countdown-section .images img {
+    width: 50%;
+    height: 589px;
+  }
+  .countdown-section .section {
+    --full-page-grid-central-column-width: 100%;
+  }
+
+  .countdown-section .section > .flex > * {
+    width: 50%;
+  }
+{% endstylesheet %}
+
+<style>
+  .countdown-section .section-background {
+      background-image: {{ section.settings.bg_color }}
+  }
+</style>
+
+<div class="section-background color-{{ section.settings.color_scheme }}"></div>
+<div class="section color-{{ section.settings.color_scheme }} overflow-hidden">
+  <div class="flex items-center">
+    <div class="texts">
+      <div class="inner">
+        <div class="subheading">
+          <span class="icon">
+            <img src="{{ 'sparks.svg' | asset_url }}" width="20" height="20" alt="sparks">
+          </span>
+          {{ section.settings.subheading }}
+        </div>
+        <div class="heading">
+          {{ section.settings.heading }}
+        </div>
+
+        {{ section.settings.text }}
+
+        <div
+          class="countdown-container flex"
+          data-date="{{ section.settings.day }}/{{ section.settings.month }}/{{ section.settings.year }}"
+        >
+          <div class="count-item" data-type="days">
+            <div class="count-number">0</div>
+            <div class="count-text">Days</div>
+          </div>
+          <div class="count-item" data-type="hours">
+            <div class="count-number">0</div>
+            <div class="count-text">Hours</div>
+          </div>
+          <div class="count-item" data-type="minutes">
+            <div class="count-number">0</div>
+            <div class="count-text">Minutes</div>
+          </div>
+          <div class="count-item" data-type="seconds">
+            <div class="count-number">0</div>
+            <div class="count-text">Seconds</div>
+          </div>
+        </div>
+
+        <a href="{{ section.settings.btn_link }}" class="button button-primary">{{ section.settings.btn_text }}</a>
+      </div>
+    </div>
+    <div class="images flex no-gap">
+      {{
+        section.settings.image_1
+        | image_url: width: section.settings.image_1.width, height: section.settings.image_1.height
+        | image_tag: height: 600, class: 'img-cover'
+      }}
+
+      {{
+        section.settings.image_2
+        | image_url: width: section.settings.image_2.width, height: section.settings.image_2.height
+        | image_tag: height: 600, class: 'img-cover'
+      }}
+    </div>
+  </div>
+</div>
+
+<script src="{{ 'countdown.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "Countdown Section",
+  "class": "countdown-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Design"
+    },
+    {
+      "type": "color_background",
+      "id": "bg_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme"
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading",
+      "info": "bold texts will be red"
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "header",
+      "content": "countdown",
+      "info": "this section will hide if on the selected date or older"
+    },
+    {
+      "type": "number",
+      "id": "day",
+      "label": "Day"
+    },
+    {
+      "type": "select",
+      "id": "month",
+      "label": "Month",
+      "options": [
+        {
+          "value": "1",
+          "label": "January"
+        },
+        {
+          "value": "2",
+          "label": "February"
+        },
+        {
+          "value": "3",
+          "label": "March"
+        },
+        {
+          "value": "4",
+          "label": "April"
+        },
+        {
+          "value": "5",
+          "label": "May"
+        },
+        {
+          "value": "6",
+          "label": "June"
+        },
+        {
+          "value": "7",
+          "label": "July"
+        },
+        {
+          "value": "8",
+          "label": "August"
+        },
+        {
+          "value": "9",
+          "label": "September"
+        },
+        {
+          "value": "10",
+          "label": "October"
+        },
+        {
+          "value": "11",
+          "label": "November"
+        },
+        {
+          "value": "12",
+          "label": "December"
+        }
+      ]
+    },
+    {
+      "type": "number",
+      "id": "year",
+      "label": "Year"
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text"
+    },
+    {
+      "type": "url",
+      "id": "btn_link",
+      "label": "Button Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Countdown Section"
+    }
+  ]
+}
+{% endschema %}

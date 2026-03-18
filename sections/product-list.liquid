@@ -9,6 +9,7 @@
     section
     section--{{ section.settings.section_width }}
     color-{{ section.settings.color_scheme }}
+    {{ section.settings.custom_css }}
     section-resource-list
     spacing-style
     gap-style
@@ -97,6 +98,11 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_css",
+      "label": "Custom CSS Class"
+    },
     {
       "type": "collection",
       "id": "collection",

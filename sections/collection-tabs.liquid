@@ -1,0 +1,110 @@
+{{ 'embla-styles.css' | asset_url | stylesheet_tag }}
+{{ 'tabs.css' | asset_url | stylesheet_tag }}
+
+{% stylesheet %}
+  .heading {
+    margin-bottom: 20px;
+  }
+
+  .collection-tabs {
+    padding: 40px 0;
+  }
+
+  .collection-tabs .tabs__tab {
+    background-color: white;
+    box-shadow: unset;
+  }
+{% endstylesheet %}
+
+<style>
+  #shopify-section-{{ section.id }} {
+      background-color: {{section.settings.bg_color }}
+  }
+</style>
+
+<div class="section section section--page-width">
+  <div class="heading">{{ section.settings.heading }}</div>
+
+  <div class="collections tabs-container relative">
+    <div class="tabs__list flex" role="tablist" aria-label="collections">
+      {% for collection in section.settings.collection_list %}
+        <button
+          class="tabs__tab button-secondary"
+          id="tab-{{ forloop.index }}"
+          role="tab"
+          aria-selected="{% if forloop.index == 1 %} true {% else %} false {% endif %}"
+          aria-controls="panel-{{ forloop.index }}"
+        >
+          {{ collection.title }}
+        </button>
+      {% endfor %}
+    </div>
+
+    <div class="tabs__panels">
+      {% for collection in section.settings.collection_list %}
+        <div
+          class="tabs__panel embla cols-4 product-carousel dark-arrows "
+          id="panel-{{ forloop.index }}"
+          role="tabpanel"
+          aria-labelledby="tab-{{ forloop.index }}"
+          {% if forloop.index == 1 %}
+            hidden
+          {% endif %}
+        >
+          <div class="embla__viewport">
+            <div class="embla__container">
+              {% for product in collection.products %}
+                <div class="embla__item">
+                  {% content_for 'block', type: '_product-card', id: 'static-product-card', closest.product: product %}
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="embla__controls flex">
+            <button class="embla__button embla__button--prev">
+              {{ 'icon-chevron-left.svg' | inline_asset_content }}
+            </button>
+            <button class="embla__button embla__button--next">
+              {{ 'icon-chevron-right.svg' | inline_asset_content }}
+            </button>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script src="{{ 'tabs.js' | asset_url }}" defer></script>
+<script src="{{ 'embla-carousel.umd.js' | asset_url }}" defer></script>
+<script src="{{ 'mount-embla.js' | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "collection tabs",
+  "class": "collection-tabs",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "BG Color"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "collection_list",
+      "id": "collection_list",
+      "label": "Collections",
+      "limit": 8
+    }
+  ],
+  "presets": [
+    {
+      "name": "collections tabs"
+    }
+  ]
+}
+{% endschema %}

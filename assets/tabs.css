@@ -1,0 +1,21 @@
+/* El atributo hidden oculta el panel */
+
+.tabs__list {
+    margin-bottom: 40px;
+    gap: 12px;
+}
+
+.tabs__panel[hidden] {
+    display: none;
+}
+
+.tabs__tab {
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tabs__tab[aria-selected="true"] {
+    background-color: black;
+    color: white;
+}

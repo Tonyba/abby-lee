@@ -60,6 +60,7 @@
 <div
   class="
     featured-blog-posts-card spacing-style border-style
+    {{ block_settings.custom_css }}
     {% if section.settings.layout_type == 'editorial' %}blog-post-card--flexible-aspect-ratio{% endif %}
     {% if block_settings.inherit_color_scheme == false %}color-{{ block_settings.color_scheme }}{% endif %}
   "
@@ -96,6 +97,8 @@
       {{ details }}
       {{ description }}
     </div>
+
+    {% content_for 'block', id: 'more-stuff', type: 'group' %}
   </div>
 </div>
 
@@ -152,6 +155,11 @@
   "name": "t:names.blog_card",
   "tag": null,
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_css",
+      "label": "Custom CSS Classes"
+    },
     {
       "type": "header",
       "content": "t:content.text"

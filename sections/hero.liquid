@@ -496,7 +496,7 @@
   {% endcomment %}
 
   <div
-    class="hero__container spacing-style section section--full-width"
+    class="hero__container spacing-style section section--full-width {{ section.settings.custom_css }}"
     style="{% render 'spacing-style', settings: section.settings %}"
   >
     {%- if section.settings.link != blank -%}
@@ -779,6 +779,11 @@
     "groups": ["header"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_css",
+      "label": "Custom CSS Class"
+    },
     {
       "type": "header",
       "content": "t:content.media_1"

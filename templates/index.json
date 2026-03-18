@@ -333,6 +333,19 @@
               },
               "blocks": {}
             },
+            "review_cM33jf": {
+              "type": "review",
+              "name": "t:names.product_review_stars",
+              "settings": {
+                "stars_style": "shaded",
+                "show_number": true,
+                "rating_color": "primary",
+                "type_preset": "paragraph",
+                "width": "100%",
+                "alignment": "left"
+              },
+              "blocks": {}
+            },
             "product_title_KqitGq": {
               "type": "product-title",
               "name": "t:names.title",
@@ -384,6 +397,7 @@
           },
           "block_order": [
             "product_card_gallery_677WP3",
+            "review_cM33jf",
             "product_title_KqitGq",
             "price_JQzVV4"
           ]

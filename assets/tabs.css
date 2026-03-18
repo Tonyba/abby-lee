@@ -1,4 +1,9 @@
 /* El atributo hidden oculta el panel */
+
+.tabs__list {
+    margin-bottom: 40px;
+}
+
 .tabs__panel[hidden] {
     display: none;
 }

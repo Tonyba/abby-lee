@@ -28,7 +28,7 @@
 
       {% if forloop.index != forloop.last %}
         <div class="embla__item">
-          <img src="{{ 'black-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
+          {% cycle <img src="{{ 'black-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">,  <img src="{{ 'transparent-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30"> %}
         </div>
       {% endif %}
     {% endfor %}

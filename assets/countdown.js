@@ -1,16 +1,16 @@
 (function () {
-
     const countdown_date = document.querySelector('.countdown-container');
     if (!countdown_date) return;
 
     const selected_date = countdown_date.getAttribute('data-date') ?? '';
     const [day, month, year] = selected_date.split('/').map(Number);
-    const dateObject = new Date(year ?? 1, (month ?? 1) - 1, day);
+    const targetDate = new Date(year ?? 1, (month ?? 1) - 1, day); // Fecha en hora local
 
-    const days = document.querySelector('[data-type="days"] .count-number');
-    const hours = document.querySelector('[data-type="hours"] .count-number');
-    const minutes = document.querySelector('[data-type="minutes"] .count-number');
-    const seconds = document.querySelector('[data-type="seconds"] .count-number');
+    // Elementos del DOM donde se muestran los valores
+    const daysEl = document.querySelector('[data-type="days"] .count-number');
+    const hoursEl = document.querySelector('[data-type="hours"] .count-number');
+    const minutesEl = document.querySelector('[data-type="minutes"] .count-number');
+    const secondsEl = document.querySelector('[data-type="seconds"] .count-number');
 
     // Si algún elemento no existe, salimos
     if (!daysEl || !hoursEl || !minutesEl || !secondsEl) return;
@@ -48,5 +48,4 @@
 
     // Actualizar cada segundo
     const intervalId = setInterval(updateCountdown, 1000);
-
 }());

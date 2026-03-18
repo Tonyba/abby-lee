@@ -1427,7 +1427,7 @@
                   "settings": {
                     "custom_css": "date-icon flex forced-row gap-10 border-b",
                     "text": "<p>{{ closest.article.metafields.custom.event_date | metafield_tag }}</p>",
-                    "width": "fit-content",
+                    "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "rte",

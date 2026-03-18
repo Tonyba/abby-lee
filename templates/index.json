@@ -339,7 +339,7 @@
               "settings": {
                 "stars_style": "shaded",
                 "show_number": true,
-                "rating_color": "primary",
+                "rating_color": "foreground",
                 "type_preset": "paragraph",
                 "width": "100%",
                 "alignment": "left"

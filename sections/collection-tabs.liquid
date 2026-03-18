@@ -30,7 +30,9 @@
           <div class="embla__viewport">
             <div class="embla__container">
               {% for product in collection.products %}
-                {% content_for 'block', type: '_product-card', id: 'static-product-card', closest.product: product %}
+                <div class="embla__item">
+                  {% content_for 'block', type: '_product-card', id: 'static-product-card', closest.product: product %}
+                </div>
               {% endfor %}
             </div>
           </div>

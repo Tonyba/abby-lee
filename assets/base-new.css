@@ -134,5 +134,5 @@ button {
 
 /*home hero*/
 .custom-home-hero {
-    min-height: 731px;
+    min-height: 731px !important;
 }

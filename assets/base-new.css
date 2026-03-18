@@ -197,3 +197,7 @@ button {
     letter-spacing: 0.5px;
     color: black
 }
+
+.fix-post-img-h .image-block {
+    min-height: 535px;
+}

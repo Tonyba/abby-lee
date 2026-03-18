@@ -6,7 +6,7 @@ h2,
 
 .fix-heading h4 * {
     text-transform: uppercase !important;
-    font-weight: 600 !important;
+    font-weight: bold !important;
 }
 
 .h2-big h2 {

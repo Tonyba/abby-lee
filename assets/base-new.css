@@ -236,3 +236,10 @@ button {
     text-transform: uppercase;
     letter-spacing: 5%;
 }
+
+/*videos arrival*/
+.arrival-container .arrival-text {
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 5%;
+}

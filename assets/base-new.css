@@ -160,3 +160,7 @@ button {
 .product-carousel slideshow-slide {
     min-height: 558px;
 }
+
+.product-carousel .product-badges__badge {
+    letter-spacing: 0.5px;
+}

@@ -1,7 +1,9 @@
 <div class="embla__item">
   <div class="inner">
     <div class="main-text flex items-center">
-      <span class="icon"></span>
+      <span class="icon">
+        {{ 'quote.svg' | inline_asset_content }}
+      </span>
       <div class="text">"{{ block.settings.main_text }}"</div>
     </div>
 

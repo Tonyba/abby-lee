@@ -416,7 +416,7 @@
       "name": "Countdown Section",
       "settings": {
         "bg_color": "linear-gradient(114.24deg, rgba(228, 12, 20, 1) 5%, rgba(0, 0, 0, 1) 40.56%, rgba(0, 0, 0, 0) 48.01%)",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-3be62942-8b08-41b4-9b8e-4fb7bef9b1e3",
         "heading": "<p>This Month’s  Exclusive Drop</p>",
         "subheading": "<p>Limited Edition</p>",
         "text": "<p>Own it before it disappears. Limited quantities. No restocks.</p>",

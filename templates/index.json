@@ -1393,28 +1393,12 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "button_aGaQ6K": {
-                  "type": "button",
-                  "name": "t:names.button",
-                  "settings": {
-                    "custom_css": "no-border-r",
-                    "label": "View Details",
-                    "link": "{{ closest.article.url }}",
-                    "open_in_new_tab": false,
-                    "style_class": "button-secondary",
-                    "width": "custom",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
-                  },
-                  "blocks": {}
-                },
                 "text_E9jtPk": {
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "",
+                    "text": "<p>{{ closest.article.metafields.custom.event_date | metafield_tag }}</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1435,11 +1419,27 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "button_aGaQ6K": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "custom_css": "no-border-r",
+                    "label": "View Details",
+                    "link": "{{ closest.article.url }}",
+                    "open_in_new_tab": false,
+                    "style_class": "button-secondary",
+                    "width": "custom",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "button_aGaQ6K",
-                "text_E9jtPk"
+                "text_E9jtPk",
+                "button_aGaQ6K"
               ]
             }
           },

@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "hero_jVaWmY": {
       "type": "hero",
@@ -61,7 +61,12 @@
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
+        "image_1": "shopify://shop_images/0343AFE2-E9E6-446A-8CDB-09B1A110AC65.jpg",
         "media_type_2": "image",
+        "stack_media_on_mobile": false,
+        "custom_mobile_media": false,
+        "media_type_1_mobile": "image",
+        "media_type_2_mobile": "image",
         "link": "",
         "open_in_new_tab": false,
         "content_direction": "column",
@@ -77,7 +82,7 @@
         "section_height_custom": 50,
         "color_scheme": "scheme-6",
         "toggle_overlay": true,
-        "overlay_color": "#12121266",
+        "overlay_color": "#0000004d",
         "overlay_style": "solid",
         "gradient_direction": "to bottom",
         "blurred_reflection": false,

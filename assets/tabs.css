@@ -2,6 +2,8 @@
 
 .tabs__list {
     margin-bottom: 40px;
+    gap: 12px;
+    border-radius: 50px;
 }
 
 .tabs__panel[hidden] {

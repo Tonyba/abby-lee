@@ -9,8 +9,8 @@
   style="
     left: calc({{ block.settings.x-position }}% - var(--button-size) / 2);
     top: calc({{ block.settings.y-position }}% - var(--button-size) / 2);
-    --hotspot-bg: {{ hostpot_settings.hotspot_color }};
-    --hotspot-bullseye: {{ hostpot_settings.bullseye_color }};
+    --hotspot-bg: rgba(255,255,255,0.5);
+    --hotspot-bullseye: var(--color-primary-button-background);
   "
   data-product-url="{{ block.settings.product.url }}"
   data-product-title="{{ block.settings.product.title | escape }}"

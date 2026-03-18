@@ -410,11 +410,24 @@
         "padding-block-start": 80,
         "padding-block-end": 70
       }
+    },
+    "countdown_section_qNgcMg": {
+      "type": "countdown-section",
+      "name": "Countdown Section",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "text": "",
+        "month": "january",
+        "btn_text": "",
+        "btn_link": ""
+      }
     }
   },
   "order": [
     "hero_jVaWmY",
     "below_hero_BFtW8z",
-    "product_list_fa6P9H"
+    "product_list_fa6P9H",
+    "countdown_section_qNgcMg"
   ]
 }

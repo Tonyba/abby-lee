@@ -1833,7 +1833,7 @@
                     "custom_css": "arrival-red",
                     "text": "<p>Happy Dancers</p>",
                     "width": "100%",
-                    "max_width": "normal",
+                    "max_width": "none",
                     "alignment": "center",
                     "type_preset": "rte",
                     "font": "var(--font-body--family)",

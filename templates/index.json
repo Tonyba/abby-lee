@@ -3534,7 +3534,7 @@
               "name": "t:names.description",
               "settings": {
                 "custom_css": "",
-                "text": "<p>Where the scent of blood, sweat, and tears lingers behind the mirrors... </p><p>Where the echoes of corrections, counts, and applause still resonate through the walls... </p><p>Where the energy of goals, triumphs, and hard-earned achievements fills the air... And where the dreams, hopes, and silent prayers of those who came before still whisper all around you...</p><p><strong>This is more than a studio.</strong></p><p><strong>It’s where champions are made.</strong><br/><br/></p>",
+                "text": "<p>Where the scent of blood, sweat, and tears lingers behind the mirrors... </p><p>Where the echoes of corrections, counts, and applause still resonate through the walls... </p><p>Where the energy of goals, triumphs, and hard-earned achievements fills the air... And where the dreams, hopes, and silent prayers of those who came before still whisper all around you...</p><p><em><strong>This is more than a studio.</strong></em></p><p><em><strong>It’s where champions are made.</strong></em><br/><br/></p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -3612,7 +3612,7 @@
       ],
       "name": "Our Studio",
       "settings": {
-        "custom_css": "left-right-overlay",
+        "custom_css": "left-right-overlay studio-fix-img",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

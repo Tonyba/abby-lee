@@ -39,7 +39,12 @@
   <div class="flex">
     <div class="texts">
       <div class="inner">
-        <div class="subheading">{{ section.settings.subheading }}</div>
+        <div class="subheading">
+          <span class="icon">
+            <img src="{{ 'sparks.svg' | asset_url }}" width="20" height="20" alt="sparks">
+          </span>
+          {{ section.settings.subheading }}
+        </div>
         <div class="heading">
           {{ section.settings.heading }}
         </div>

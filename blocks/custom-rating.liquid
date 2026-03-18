@@ -1,3 +1,10 @@
+{% stylesheet %}
+  .custom-rating .rating {
+    font-size: 43px;
+    font-weight: 600;
+  }
+{% endstylesheet %}
+
 {% liquid
   assign rating = block.settings.rating
   assign scale_max = 5
@@ -5,7 +12,7 @@
   assign block_settings = block.settings
 -%}
 
-<div class="flex">
+<div class="flex items-center">
   <div class="rating">
     {{ block.settings.rating }}
   </div>

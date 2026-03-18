@@ -92,6 +92,44 @@
         "padding-block-end": 44
       }
     },
+    "below_hero_BFtW8z": {
+      "type": "below-hero",
+      "blocks": {
+        "text_hgratE": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Official ALDC Store</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_hgratE"
+      ],
+      "name": "below hero",
+      "settings": {
+        "color_scheme": ""
+      }
+    },
     "product_list_fa6P9H": {
       "type": "product-list",
       "blocks": {
@@ -133,7 +171,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h3>{{ closest.collection.title }}</h3>",
+                "text": "<p>SHOP OUR BEST-SELLERSs</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -289,6 +327,7 @@
   },
   "order": [
     "hero_jVaWmY",
+    "below_hero_BFtW8z",
     "product_list_fa6P9H"
   ]
 }

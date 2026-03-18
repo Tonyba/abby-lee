@@ -659,7 +659,7 @@
           "name": "t:names.collection_card",
           "static": true,
           "settings": {
-            "custom_css": "collection-",
+            "custom_css": "collection-grid",
             "placement": "below_image",
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "flex-start",

@@ -10,7 +10,7 @@
     letter-spacing: 5%;
   }
 
-  .below-hero .flex {
+  .below-hero .section--page-width > .flex {
     justify-content: space-between;
   }
 {% endstylesheet %}
@@ -20,7 +20,9 @@
   <div class="flex">
     {% for item in blocks %}
       <div class="embla__item">
-        {{ item.settings.text }}
+        <div class="flex">
+          {{ item.settings.text }}
+        </div>
       </div>
     {% endfor %}
   </div>

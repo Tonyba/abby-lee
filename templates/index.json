@@ -3743,7 +3743,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "subheading-red",
-                    "text": "<p>Featured Story</p>",
+                    "text": "<h5>Featured Story</h5>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",

@@ -919,7 +919,7 @@
       },
       "name": "collections tabs",
       "settings": {
-        "bg_color": "",
+        "bg_color": "#f5f5f5",
         "heading": "<h2>Explore More</h2>",
         "collection_list": [
           "dancewear",

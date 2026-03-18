@@ -1183,7 +1183,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "custom_css": "custom-link",
+            "custom_css": "",
             "label": "View All",
             "link": "shopify://blogs/news",
             "open_in_new_tab": false,
@@ -1202,7 +1202,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "custom_css": "",
+        "custom_css": "custom-link",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

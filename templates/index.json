@@ -1319,11 +1319,10 @@
             "blog-post-info-text": {
               "type": "_blog-post-info-text",
               "name": "t:names.details",
-              "disabled": true,
               "static": true,
               "settings": {
                 "show_date": true,
-                "show_author": true,
+                "show_author": false,
                 "type_preset": "",
                 "alignment": "left",
                 "show_alignment": false,

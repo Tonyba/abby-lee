@@ -21,7 +21,7 @@
 
     <div class="tabs__panels">
       {% for collection in section.settings.collection_list %}
-        <div class="tabs__panel" id="panel-1" role="tabpanel" aria-labelledby="tab-1">
+        <div class="tabs__panel" id="panel-1" role="tabpanel" aria-labelledby="tab-{{ forloop.index }}">
           <p>Contenido de la pestaña 1. Aquí va la información correspondiente.</p>
         </div>
       {% endfor %}

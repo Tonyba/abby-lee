@@ -103,6 +103,11 @@
     right: 0;
 }
 
+.dark-arrows .embla__button {
+    background-color: #D9D9D9;
+    color: black
+}
+
 @media only screen and (max-width: 1024px) {
     .cols-3-t {
         --slide-size: 33.33%;

@@ -246,5 +246,9 @@ button {
 }
 
 .arrival-container .arrival-red {
-    color: var(--color-primary-button-background)
+    color: var(--color-primary-button-background);
+    font-size: 21px;
+    letter-spacing: 5%;
+    line-height: 1;
+    text-transform: uppercase;
 }

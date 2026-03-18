@@ -3879,7 +3879,21 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "hotspot_product_Kg7nky": {
+              "type": "_hotspot-product",
+              "name": "t:names.hotspot_product",
+              "settings": {
+                "product": "aldc-hoodie",
+                "x-position": 22,
+                "y-position": 50
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "hotspot_product_Kg7nky"
+          ]
         }
       },
       "block_order": [

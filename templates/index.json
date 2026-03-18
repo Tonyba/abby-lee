@@ -499,6 +499,18 @@
               },
               "blocks": {}
             },
+            "custom_rating_TXgaRY": {
+              "type": "custom-rating",
+              "name": "custom rating",
+              "settings": {
+                "rating": 4.9,
+                "stars_style": "shaded",
+                "rating_color": "primary",
+                "alignment": "left",
+                "type_preset": "paragraph"
+              },
+              "blocks": {}
+            },
             "text_6Ww3DT": {
               "type": "text",
               "name": "t:names.description",
@@ -529,6 +541,7 @@
           },
           "block_order": [
             "text_G9D6zU",
+            "custom_rating_TXgaRY",
             "text_6Ww3DT"
           ]
         }

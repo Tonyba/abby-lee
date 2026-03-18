@@ -23,10 +23,6 @@
   <div class="flex items-center">
     {% for item in blocks %}
       {% liquid
-        assign my_number = forloop.index
-        assign divided_result = my_number | divided_by: 2
-        assign multiplied_result = divided_result | times: 2
-
         assign modulo_result = forloop.index | modulo: 2
       %}
 
@@ -36,7 +32,7 @@
 
       {% if forloop.index != forloop.length %}
         <div class="embla__item">
-          {% if true %}
+          {% if modulo_result == 1 %}
             <img src="{{ 'transparent-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
           {% else %}
             <img src="{{ 'black-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">

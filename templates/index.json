@@ -2590,6 +2590,18 @@
                 "padding-inline-end": 0
               },
               "blocks": {
+                "icon_pxcXAV": {
+                  "type": "icon",
+                  "name": "t:names.icon",
+                  "settings": {
+                    "icon": "price_tag",
+                    "image_upload": "shopify://shop_images/Vector_2.svg",
+                    "width": 24,
+                    "link": "",
+                    "open_in_new_tab": false
+                  },
+                  "blocks": {}
+                },
                 "text_bRJCYd": {
                   "type": "text",
                   "name": "t:names.text",
@@ -2619,6 +2631,7 @@
                 }
               },
               "block_order": [
+                "icon_pxcXAV",
                 "text_bRJCYd"
               ]
             }

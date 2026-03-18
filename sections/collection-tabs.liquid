@@ -1,4 +1,5 @@
 {{ 'embla-styles.css' | asset_url | stylesheet_tag }}
+{{ 'tabs.css' | asset_url | stylesheet_tag }}
 
 {% stylesheet %}
 {% endstylesheet %}
@@ -44,6 +45,7 @@
   </div>
 </div>
 
+<script src="{{ 'tabs.js' | asset_url }}" defer></script>
 <script src="{{ 'embla-carousel.umd.js' | asset_url }}" defer></script>
 <script src="{{ 'mount-embla.js' | asset_url }}" defer></script>
 

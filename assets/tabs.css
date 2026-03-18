@@ -1,0 +1,4 @@
+/* El atributo hidden oculta el panel */
+.tabs__panel[hidden] {
+    display: none;
+}

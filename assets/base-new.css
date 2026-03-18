@@ -190,7 +190,7 @@ button {
 }
 
 /*event*/
-.blog-post-details {
+.event-card .blog-post-details {
     font-size: 14px;
     font-weight: 600;
 }

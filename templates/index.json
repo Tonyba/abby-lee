@@ -425,8 +425,8 @@
         "day": 13,
         "month": "may",
         "year": 2016,
-        "btn_text": "",
-        "btn_link": ""
+        "btn_text": "Shop the Collection",
+        "btn_link": "shopify://collections/all"
       }
     }
   },

@@ -1,8 +1,13 @@
+{{ 'embla-styles.css' | asset_url | stylesheet_tag }}
+
 <div class="embla">
   <div class="embla__viewport">
     <div class="embla__container"></div>
   </div>
 </div>
+
+<script src="{{ 'embla-carousel.umd.js' | asset_url }}" defer></script>
+<script src="{{ 'mount-embla.js' | asset_url }}" defer></script>
 
 {% schema %}
 {

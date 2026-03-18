@@ -1009,12 +1009,40 @@
             "padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "text_yh4gWX": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "custom_css": "",
+            "text": "<p>Join 50,000+ dancers. Unsubscribe anytime.</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "custom",
+            "font": "var(--font-accent--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "text_KjnyPL",
         "text_TKWdbP",
-        "email_signup_pQ3xRj"
+        "email_signup_pQ3xRj",
+        "text_yh4gWX"
       ],
       "name": "t:names.email_signup",
       "settings": {

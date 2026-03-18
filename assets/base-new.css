@@ -4,6 +4,11 @@ h2,
     font-size: 26px;
 }
 
+.fix-heading h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
 .h2-big h2 {
     font-size: 40px;
 }

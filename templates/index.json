@@ -3901,18 +3901,19 @@
                 "padding-block-end": 40
               },
               "blocks": {
-                "hotspot_product_JXPdH7": {
-                  "type": "_hotspot-product",
+                "custom_hospot_product_gfJhY6": {
+                  "type": "custom-hospot-product",
+                  "name": "t:names.hotspot_product",
                   "settings": {
                     "product": "aldc-hoodie",
-                    "x-position": 15,
+                    "x-position": 20,
                     "y-position": 50
                   },
                   "blocks": {}
                 }
               },
               "block_order": [
-                "hotspot_product_JXPdH7"
+                "custom_hospot_product_gfJhY6"
               ]
             }
           },
@@ -4018,7 +4019,7 @@
         "gradient_direction": "to top",
         "section_width": "page-width",
         "section_height": "auto",
-        "hotspot_color": "#FFFFFF57",
+        "hotspot_color": "#ffffff57",
         "bullseye_color": "#ffffff",
         "color_scheme": "scheme-1",
         "product_title_gap": 8,

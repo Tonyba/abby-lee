@@ -3726,11 +3726,23 @@
                 "padding-inline-end": 0
               },
               "blocks": {
+                "icon_EyzjDm": {
+                  "type": "icon",
+                  "name": "t:names.icon",
+                  "settings": {
+                    "icon": "heart",
+                    "image_upload": "shopify://shop_images/heart.svg",
+                    "width": 30,
+                    "link": "",
+                    "open_in_new_tab": false
+                  },
+                  "blocks": {}
+                },
                 "text_mNMhdX": {
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "custom_css": "flex",
+                    "custom_css": "subheading-red",
                     "text": "<p>Featured Story</p>",
                     "width": "100%",
                     "max_width": "normal",
@@ -3755,6 +3767,7 @@
                 }
               },
               "block_order": [
+                "icon_EyzjDm",
                 "text_mNMhdX"
               ]
             },

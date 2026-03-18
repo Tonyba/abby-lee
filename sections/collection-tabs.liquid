@@ -11,6 +11,12 @@
   }
 {% endstylesheet %}
 
+<style>
+  .section-{{ section.id }} {
+      background-color: {{section.settings.bg_color }}
+  }
+</style>
+
 <div class="section section section--page-width">
   <div class="heading">{{ section.settings.heading }}</div>
 

@@ -22,6 +22,10 @@
       <div class="embla__item">
         {{ item.settings.text }}
       </div>
+
+      {% if forloop.index != forloop.last %}
+        <img src="{{ 'asterisk-black' | asset_url }}" alt="asterisk" width="30" height="30">
+      {% endif %}
     {% endfor %}
   </div>
 </div>

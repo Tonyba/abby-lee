@@ -40,6 +40,11 @@ button {
     letter-spacing: 5%;
 }
 
+.uppercase-btn {
+    font-weight: 600;
+    letter-spacing: 5%;
+}
+
 .flex-1 {
     flex: 1
 }

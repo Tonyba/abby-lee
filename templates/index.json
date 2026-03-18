@@ -99,35 +99,45 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Official ALDC Store</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
+            "text": "<p>Official ALDC Store</p>"
+          }
+        },
+        "text_ezT3dy": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "Secure Checkout"
+          }
+        },
+        "text_GF4mfG": {
+          "type": "text",
+          "settings": {
+            "text": "Free Shipping Over $75"
+          }
+        },
+        "text_kkmPyL": {
+          "type": "text",
+          "settings": {
+            "text": "Verified Event Tickets"
+          }
+        },
+        "text_Gfbhy8": {
+          "type": "text",
+          "settings": {
+            "text": "Official ALDC Store"
+          }
         }
       },
       "block_order": [
-        "text_hgratE"
+        "text_hgratE",
+        "text_ezT3dy",
+        "text_GF4mfG",
+        "text_kkmPyL",
+        "text_Gfbhy8"
       ],
       "name": "below hero",
       "settings": {
-        "color_scheme": ""
+        "color_scheme": "scheme-2"
       }
     },
     "product_list_fa6P9H": {

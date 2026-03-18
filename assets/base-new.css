@@ -50,8 +50,7 @@ button {
 }
 
 .shopify-section:has(.left-right-overlay) .overlay {
-    background-image:
-        linear-gradient(89.81deg, #070605 29.41%, rgba(7, 6, 5, 0) 61.75%);
+    background-image: linear-gradient(89.81deg, #070605 29.41%, rgba(7, 6, 5, 0) 61.75%);
 }
 
 

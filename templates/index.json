@@ -831,7 +831,12 @@
       "settings": {
         "bg_color": "",
         "heading": "<h2>Explore More</h2>",
-        "collection_list": []
+        "collection_list": [
+          "dancewear",
+          "international-merch",
+          "t-shirts-hoodies",
+          "valentines-sale"
+        ]
       }
     }
   },

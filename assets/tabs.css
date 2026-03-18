@@ -15,7 +15,8 @@
     font-weight: bold;
 }
 
-.tabs__tab[aria-selected="true"] {
-    background-color: black;
-    color: white;
+.tabs__tab[aria-selected="true"],
+.tabs__tab:hover {
+    background-color: black !important;
+    color: white !important;
 }

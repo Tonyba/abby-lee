@@ -824,6 +824,15 @@
         "padding-block-start": 30,
         "padding-block-end": 63
       }
+    },
+    "collection_tabs_e8ejrT": {
+      "type": "collection-tabs",
+      "name": "collections tabs",
+      "settings": {
+        "bg_color": "",
+        "heading": "<h2>Explore More</h2>",
+        "collection_list": []
+      }
     }
   },
   "order": [
@@ -832,6 +841,7 @@
     "product_list_fa6P9H",
     "countdown_section_qNgcMg",
     "section_U4Em6e",
-    "collection_list_7CJRkw"
+    "collection_list_7CJRkw",
+    "collection_tabs_e8ejrT"
   ]
 }

@@ -3890,7 +3890,7 @@
                 "gradient_direction": "to top",
                 "section_width": "full-width",
                 "section_height": "auto",
-                "hotspot_color": "#FFFFFF57",
+                "hotspot_color": "#ffffff57",
                 "bullseye_color": "#ffffff",
                 "color_scheme": "scheme-1",
                 "product_title_gap": 8,
@@ -3903,7 +3903,7 @@
                 "hotspot_product_JXPdH7": {
                   "type": "_hotspot-product",
                   "settings": {
-                    "product": "",
+                    "product": "aldc-hoodie",
                     "x-position": 40,
                     "y-position": 40
                   },
@@ -3915,34 +3915,6 @@
                     "product": "",
                     "x-position": 60,
                     "y-position": 60
-                  },
-                  "blocks": {}
-                },
-                "heading": {
-                  "type": "text",
-                  "name": "t:names.heading",
-                  "static": true,
-                  "settings": {
-                    "custom_css": "",
-                    "text": "<p>Shop the look</p>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h4",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
                   },
                   "blocks": {}
                 }

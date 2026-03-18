@@ -190,7 +190,8 @@ button {
 }
 
 /*event*/
-.event-card .blog-post-details {
+.event-card .blog-post-details * {
     font-size: 14px;
     font-weight: 600;
+    text-transform: uppercase;
 }

@@ -3962,7 +3962,7 @@
           "type": "_hotspot-product",
           "settings": {
             "product": "aldc-everyone-s-replaceable",
-            "x-position": 40,
+            "x-position": 20,
             "y-position": 40
           },
           "blocks": {}

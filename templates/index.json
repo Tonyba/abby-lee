@@ -391,7 +391,7 @@
       },
       "name": "t:names.featured_collection",
       "settings": {
-        "custom_css": "shop-best-sellers",
+        "custom_css": "product-carousel",
         "collection": "all",
         "layout_type": "carousel",
         "carousel_on_mobile": false,

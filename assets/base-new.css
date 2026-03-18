@@ -232,5 +232,6 @@ button {
 
 /*subheadings*/
 .subheading-red * {
-    color: #FB0101
+    color: #FB0101;
+    text-transform: uppercase;
 }

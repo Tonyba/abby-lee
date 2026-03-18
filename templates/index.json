@@ -183,6 +183,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
+                "custom_css": "",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -436,6 +437,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "custom_css": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -586,6 +588,7 @@
           "type": "group",
           "name": "t:names.header",
           "settings": {
+            "custom_css": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -676,6 +679,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
+                "custom_css": "",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -719,7 +723,7 @@
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "h4",
+                    "type_preset": "h5",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",

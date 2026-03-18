@@ -174,8 +174,7 @@ button {
 }
 
 /*collection grid*/
-.collection-grid-item .h4 * {
+.collection-grid-item .h5 * {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 18px;
 }

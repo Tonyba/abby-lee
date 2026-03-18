@@ -1,5 +1,8 @@
 <div class="section section section--page-width">
   <div class="heading">{{ section.settings.heading }}</div>
+
+  {% for collection in section.settings.collection_list %}
+  {% endfor %}
 </div>
 
 <script src="{{ 'embla-carousel.umd.js' | asset_url }}" defer></script>

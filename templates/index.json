@@ -2249,8 +2249,8 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "custom_css": "",
-                "label": "Shop now",
+                "custom_css": "with-pencil",
+                "label": "Leave a review",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",

@@ -8,22 +8,22 @@
 <product-hotspot-component
   class="hotspot{% if hotspot_product == blank and request.design_mode == false %} hotspot--hidden-touch hidden--mobile{% endif %}"
   style="
-    left: calc({{ settings.x-position }}% - var(--button-size) / 2);
-    top: calc({{ settings.y-position }}% - var(--button-size) / 2);
-    --hotspot-bg: {{ settings.hotspot_color }};
-    --hotspot-bullseye: {{ settings.bullseye_color }};
+    left: calc({{ block.settings.x-position }}% - var(--button-size) / 2);
+    top: calc({{ block.settings.y-position }}% - var(--button-size) / 2);
+    --hotspot-bg: {{ section.settings.hotspot_color }};
+    --hotspot-bullseye: {{ section.settings.bullseye_color }};
   "
-  data-product-url="{{ settings.product.url }}"
-  data-product-title="{{ settings.product.title | escape }}"
-  data-id="{{ id }}"
-  {{ shopify_attributes }}
+  data-product-url="{{ block.settings.product.url }}"
+  data-product-title="{{ block.settings.product.title | escape }}"
+  data-id="{{ block.id }}"
+  {{ block.shopify_attributes }}
 >
   <button
     class="hotspot-trigger"
     aria-label="{{ 'accessibility.open_hotspot' | t }}"
     ref="trigger"
     on:click="/handleHotspotClick"
-    style="anchor-name: --hotspot-trigger-{{ id }};"
+    style="anchor-name: --hotspot-trigger-{{ block.id }};"
   ></button>
   <dialog
     class="hotspot-dialog"

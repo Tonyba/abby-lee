@@ -33,10 +33,7 @@
 
   {% if block_settings.icon != blank %}
     <span class="icon">
-      {{
-        block_settings.icon | image_url: width: block_settings.icon_width, height: '24' | image_tag
-        '
-      }}
+      {{ block_settings.icon | image_url: width: block_settings.icon_width, height: '24' | image_tag }}
     </span>
   {% endif %}
 </a>

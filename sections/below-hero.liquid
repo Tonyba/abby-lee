@@ -5,14 +5,14 @@
 {% stylesheet %}
 {% endstylesheet %}
 
-<div class="section section--page-width color-{{ section.settings.color_scheme }}"></div>
-
-<div class="flex">
-  {% for item in blocks %}
-    <div class="embla__item">
-      {{ item.settings.text }}
-    </div>
-  {% endfor %}
+<div class="section section--page-width color-{{ section.settings.color_scheme }}">
+  <div class="flex">
+    {% for item in blocks %}
+      <div class="embla__item">
+        {{ item.settings.text }}
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}

@@ -27,7 +27,8 @@
           role="tabpanel"
           aria-labelledby="tab-{{ forloop.index }}"
         >
-          <p>Contenido de la pestaña 1. Aquí va la información correspondiente.</p>
+          {% for product in collection.products %}
+          {% endfor %}
         </div>
       {% endfor %}
     </div>

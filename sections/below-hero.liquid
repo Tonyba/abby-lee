@@ -7,7 +7,7 @@
 
 <div class="flex">
   {% for item in blocks %}
-    {{ item.settings.text | json }}
+    {{ item.settings | json }}
     <div class="embla__item">
       {{ item.settings }}
     </div>

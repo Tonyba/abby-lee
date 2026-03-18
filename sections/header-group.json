@@ -135,7 +135,7 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "flex-end",
             "vertical_alignment_flex_direction_column": "flex-start",
             "gap": 8,
             "width": "fill",
@@ -165,7 +165,22 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
-          "blocks": {}
+          "blocks": {
+            "localization_selector_mJHPWp": {
+              "type": "localization-selector",
+              "name": "localizacion selector",
+              "settings": {
+                "country_selector_style": true,
+                "color_scheme": "",
+                "localization_font_size": "1rem",
+                "localization_font": "heading"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "localization_selector_mJHPWp"
+          ]
         }
       },
       "block_order": [
@@ -179,7 +194,7 @@
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
-        "vertical_alignment": "flex-start",
+        "vertical_alignment": "center",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",

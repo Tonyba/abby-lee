@@ -417,9 +417,9 @@
       "settings": {
         "bg_color": "linear-gradient(114.24deg, rgba(228, 12, 20, 1) 5%, rgba(0, 0, 0, 1) 40.56%, rgba(0, 0, 0, 0) 48.01%)",
         "color_scheme": "scheme-5",
-        "heading": "This Month’s  Exclusive Drop",
-        "subheading": "",
-        "text": "",
+        "heading": "<p>This Month’s  Exclusive Drop</p>",
+        "subheading": "<p>Limited Edition</p>",
+        "text": "<p>Own it before it disappears. Limited quantities. No restocks.</p>",
         "image_1": "shopify://shop_images/Facetune_03-11-2025-11-31-21.jpg",
         "image_2": "shopify://shop_images/Facetune_03-11-2025-11-26-48.jpg",
         "day": 13,

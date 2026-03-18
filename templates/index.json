@@ -1266,7 +1266,7 @@
           "name": "t:names.blog_card",
           "static": true,
           "settings": {
-            "custom_css": "event-card",
+            "custom_css": "event-card product-carousel",
             "alignment": "left",
             "gap": 8,
             "inherit_color_scheme": true,

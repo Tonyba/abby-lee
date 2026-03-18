@@ -244,3 +244,7 @@ button {
     letter-spacing: 5%;
     line-height: 1;
 }
+
+.arrival-container .arrival-red {
+    color: var(--color-primary-button-background)
+}

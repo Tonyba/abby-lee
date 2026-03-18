@@ -1,7 +1,11 @@
 (function () {
 
     const countdown_date = document.querySelector('.countdown-container');
-    const selected_date = Date.parse(countdown_date?.getAttribute('data-date'));
+    if (!countdown_date) return;
 
-    console.log(selected_date)
+    const selected_date = countdown_date.getAttribute('data-date') ?? '';
+    const [day, month, year] = selected_date.split('/').map(Number);
+    const dateObject = new Date(year ?? 1, (month ?? 1) - 1, day);
+
+    console.log(dateObject)
 }());

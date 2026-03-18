@@ -20,15 +20,11 @@
     </div>
 
     <div class="tabs__panels">
-      <div class="tabs__panel" id="panel-1" role="tabpanel" aria-labelledby="tab-1">
-        <p>Contenido de la pestaña 1. Aquí va la información correspondiente.</p>
-      </div>
-      <div class="tabs__panel" id="panel-2" role="tabpanel" aria-labelledby="tab-2" hidden>
-        <p>Contenido de la pestaña 2. Otro texto interesante.</p>
-      </div>
-      <div class="tabs__panel" id="panel-3" role="tabpanel" aria-labelledby="tab-3" hidden>
-        <p>Contenido de la pestaña 3. Más detalles aquí.</p>
-      </div>
+      {% for collection in section.settings.collection_list %}
+        <div class="tabs__panel" id="panel-1" role="tabpanel" aria-labelledby="tab-1">
+          <p>Contenido de la pestaña 1. Aquí va la información correspondiente.</p>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </div>

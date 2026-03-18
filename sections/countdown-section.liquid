@@ -4,7 +4,11 @@
   }
 {% endstylesheet %}
 
-<div>hey {{ section.settings.bg_color }}</div>
+<style>
+  .countdown-section .section-background {
+      background-image: {{ section.settings.bg_color }}
+  }
+</style>
 
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
 <div class="section color-{{ section.settings.color_scheme }}">

@@ -45,6 +45,10 @@ button {
     letter-spacing: 5%;
 }
 
+.border-b {
+    border-bottom: 1px solid #d9d9d9
+}
+
 .flex-1 {
     flex: 1
 }

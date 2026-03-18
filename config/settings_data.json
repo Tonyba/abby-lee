@@ -49,7 +49,7 @@
     "card_hover_effect": "none",
     "badge_position": "top-left",
     "badge_corner_radius": 4,
-    "badge_sale_color_scheme": "scheme-1",
+    "badge_sale_color_scheme": "scheme-5",
     "badge_sold_out_color_scheme": "scheme-5",
     "badge_font_family": "accent",
     "badge_text_transform": "uppercase",

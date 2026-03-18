@@ -10,8 +10,8 @@
   style="
     left: calc({{ block.settings.x-position }}% - var(--button-size) / 2);
     top: calc({{ block.settings.y-position }}% - var(--button-size) / 2);
-    --hotspot-bg: {{ section.settings.hotspot_color }};
-    --hotspot-bullseye: {{ section.settings.bullseye_color }};
+    --hotspot-bg: {{ block.settings.hotspot_color }};
+    --hotspot-bullseye: {{ block.settings.bullseye_color }};
   "
   data-product-url="{{ block.settings.product.url }}"
   data-product-title="{{ block.settings.product.title | escape }}"

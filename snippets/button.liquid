@@ -30,6 +30,10 @@
   {{ block.shopify_attributes }}
 >
   {{ block_settings.label }}
+
+  {% if block_settings.icon != blank %}
+    <span class="icon"> </span>
+  {% endif %}
 </a>
 
 {% stylesheet %}

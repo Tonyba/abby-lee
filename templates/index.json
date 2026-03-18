@@ -2685,7 +2685,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
-                "custom_css": "latest-news-h",
+                "custom_css": "latest-news-h latest-news-item",
                 "content_direction": "row",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "center",

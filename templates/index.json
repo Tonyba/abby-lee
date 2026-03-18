@@ -3534,7 +3534,7 @@
               "name": "t:names.description",
               "settings": {
                 "custom_css": "",
-                "text": "<p><strong>Dance nourishes the body, sharpens the mind, and uplifts the spirit</strong><br/><br/>The Abby Lee Dance Company began as a non-profit organization over 35 years ago, created to provide talented and dedicated young dancers with the opportunity to train under some of the most respected educators in the dance world and to compete nationally against other gifted performers. <br/><br/>For 30 successful years, the Abby Lee Dance Company served as the resident competition team of the Maryen Lorrain Dance Studio in Pittsburgh, Pennsylvania.</p>",
+                "text": "<p>Where the scent of blood, sweat, and tears lingers behind the mirrors... </p><p>Where the echoes of corrections, counts, and applause still resonate through the walls... </p><p>Where the energy of goals, triumphs, and hard-earned achievements fills the air... And where the dreams, hopes, and silent prayers of those who came before still whisper all around you...</p><p>This is more than a studio.It’s where champions are made.<br/><br/></p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -3555,31 +3555,12 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "button_b7dRnm": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "custom_css": "forced-row flex items-center",
-                "label": "Discover the Story",
-                "icon": "shopify://shop_images/solid-chevron-right.svg",
-                "icon_width": 13,
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "text_JHJeJC",
             "text_yg4knc",
-            "text_zjGCnM",
-            "button_b7dRnm"
+            "text_zjGCnM"
           ]
         },
         "group_qynE9L": {

@@ -1399,7 +1399,7 @@
                   "settings": {
                     "custom_css": "no-border-r",
                     "label": "View Details",
-                    "link": "shopify://blogs/news",
+                    "link": "{{ closest.article.url }}",
                     "open_in_new_tab": false,
                     "style_class": "button-secondary",
                     "width": "custom",

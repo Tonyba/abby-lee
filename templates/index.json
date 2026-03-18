@@ -3880,19 +3880,83 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "hotspot_product_Kg7nky": {
-              "type": "_hotspot-product",
-              "name": "t:names.hotspot_product",
+            "product_hotspot_QLFKUh": {
+              "type": "product-hotspot",
+              "name": "t:names.product_hotspots",
               "settings": {
-                "product": "aldc-hoodie",
-                "x-position": 22,
-                "y-position": 50
+                "image": "shopify://shop_images/82eed567c290f7ca0a9051bc7023098d3ebdc51e.jpg",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "section_width": "full-width",
+                "section_height": "auto",
+                "hotspot_color": "#FFFFFF57",
+                "bullseye_color": "#ffffff",
+                "color_scheme": "scheme-1",
+                "product_title_gap": 8,
+                "product_title_preset": "",
+                "product_price_preset": "",
+                "padding-block-start": 40,
+                "padding-block-end": 40
               },
-              "blocks": {}
+              "blocks": {
+                "hotspot_product_rkrtDz": {
+                  "type": "_hotspot-product",
+                  "settings": {
+                    "product": "",
+                    "x-position": 40,
+                    "y-position": 40
+                  },
+                  "blocks": {}
+                },
+                "hotspot_product_YipLPx": {
+                  "type": "_hotspot-product",
+                  "settings": {
+                    "product": "",
+                    "x-position": 60,
+                    "y-position": 60
+                  },
+                  "blocks": {}
+                },
+                "heading": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "disabled": true,
+                  "static": true,
+                  "settings": {
+                    "custom_css": "",
+                    "text": "<p>Shop the look</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h4",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "hotspot_product_rkrtDz",
+                "hotspot_product_YipLPx"
+              ]
             }
           },
           "block_order": [
-            "hotspot_product_Kg7nky"
+            "product_hotspot_QLFKUh"
           ]
         }
       },

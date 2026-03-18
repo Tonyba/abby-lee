@@ -5,6 +5,12 @@
   assign block_settings = block.settings
 -%}
 
+<div class="flex">
+  <div class="rating"></div>
+
+  <div class="stars"></div>
+</div>
+
 {%- if rating != blank -%}
   {% liquid
     assign star_count_rating = scale_max
@@ -23,10 +29,7 @@
     assign svg_filled_stars = rating | floor | plus: decimal_rounded
   %}
 
-  <div class="flex">
-
-        <div class="stars">
-             <div
+  <div
     class="rating-wrapper rating-color--{{ block_settings.rating_color }} justify-{{ block_settings.alignment }} size-style"
     style="{% render 'size-style', settings: block_settings %}"
     {{ block.shopify_attributes }}
@@ -81,10 +84,6 @@
     </div>
   </div>
 {%- endif -%}
-        </div>
-  </div>
-
- 
 
 {% schema %}
 {

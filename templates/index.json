@@ -60,6 +60,7 @@
       ],
       "name": "t:names.hero",
       "settings": {
+        "custom_css": "custom-home-hero",
         "media_type_1": "image",
         "image_1": "shopify://shop_images/0343AFE2-E9E6-446A-8CDB-09B1A110AC65.jpg",
         "media_type_2": "image",

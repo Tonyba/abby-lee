@@ -20,6 +20,11 @@ button {
     cursor: pointer;
 }
 
+
+.no-border-r {
+    border-radius: 0;
+}
+
 .custom-link .link {
     border-bottom: 2px solid black;
     padding-bottom: 4.5px;
@@ -201,3 +206,5 @@ button {
 .fix-post-img-h .image-block {
     min-height: 535px;
 }
+
+.event-view-container {}

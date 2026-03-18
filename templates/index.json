@@ -389,7 +389,7 @@
           ]
         }
       },
-      "name": "t:names.featured_collection",
+      "name": "SHOP OUR BEST-SELLERS",
       "settings": {
         "custom_css": "product-carousel",
         "collection": "all",

@@ -3880,28 +3880,27 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "product_hotspot_QLFKUh": {
+            "product_hotspot_jQnXyB": {
               "type": "product-hotspot",
               "name": "t:names.product_hotspots",
               "settings": {
-                "image": "shopify://shop_images/82eed567c290f7ca0a9051bc7023098d3ebdc51e.jpg",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
-                "section_width": "full-width",
+                "section_width": "page-width",
                 "section_height": "auto",
                 "hotspot_color": "#FFFFFF57",
                 "bullseye_color": "#ffffff",
                 "color_scheme": "scheme-1",
-                "product_title_gap": 0,
+                "product_title_gap": 8,
                 "product_title_preset": "",
                 "product_price_preset": "",
-                "padding-block-start": 0,
-                "padding-block-end": 0
+                "padding-block-start": 40,
+                "padding-block-end": 40
               },
               "blocks": {
-                "hotspot_product_rkrtDz": {
+                "hotspot_product_JXPdH7": {
                   "type": "_hotspot-product",
                   "settings": {
                     "product": "",
@@ -3910,7 +3909,7 @@
                   },
                   "blocks": {}
                 },
-                "hotspot_product_YipLPx": {
+                "hotspot_product_wbga4D": {
                   "type": "_hotspot-product",
                   "settings": {
                     "product": "",
@@ -3922,7 +3921,6 @@
                 "heading": {
                   "type": "text",
                   "name": "t:names.heading",
-                  "disabled": true,
                   "static": true,
                   "settings": {
                     "custom_css": "",
@@ -3950,13 +3948,13 @@
                 }
               },
               "block_order": [
-                "hotspot_product_rkrtDz",
-                "hotspot_product_YipLPx"
+                "hotspot_product_JXPdH7",
+                "hotspot_product_wbga4D"
               ]
             }
           },
           "block_order": [
-            "product_hotspot_QLFKUh"
+            "product_hotspot_jQnXyB"
           ]
         }
       },
@@ -4057,7 +4055,7 @@
         "gradient_direction": "to top",
         "section_width": "page-width",
         "section_height": "auto",
-        "hotspot_color": "#FFFFFF57",
+        "hotspot_color": "#ffffff57",
         "bullseye_color": "#ffffff",
         "color_scheme": "scheme-1",
         "product_title_gap": 8,

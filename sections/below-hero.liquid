@@ -7,9 +7,8 @@
 
 <div class="flex">
   {% for item in blocks %}
-    {{ item.settings | json }}
     <div class="embla__item">
-      {{ item.text }}
+      {{ item.settings }}
     </div>
   {% endfor %}
 </div>

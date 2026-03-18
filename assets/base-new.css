@@ -46,8 +46,13 @@ button {
 }
 
 .shopify-section:has(.redish-gradient) .section-background {
-    background-image: linear-gradient(114.24deg, rgba(228, 12, 20, 1) 5%, rgba(0, 0, 0, 1) 40.56%, rgba(0, 0, 0, 0) 48.01%);
+    background-image:
+        conic-gradient(from 190.83deg at 41.16% 46.22%, #150E10 -13.85deg, #333333 32.88deg, #151313 79.62deg, #150E10 157.5deg, #E40C14 237.12deg, #150E10 346.15deg, #333333 392.88deg),
+        linear-gradient(0deg, #000000, #000000),
+        linear-gradient(114.24deg, #000000 -40.56%, #E40C14 -9.9%, rgba(0, 0, 0, 0) 48.01%);
 }
+
+
 
 .border-b {
     border-bottom: 1px solid #d9d9d9

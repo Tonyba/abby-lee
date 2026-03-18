@@ -34,6 +34,7 @@
 
       {% if forloop.index != forloop.length %}
         <div class="embla__item">
+          {{ divided_result }}
           {% if multiplied_result == 2 %}
             <img src="{{ 'transparent-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
           {% else %}

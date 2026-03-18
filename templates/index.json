@@ -2312,10 +2312,23 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "icon_dJL9GA": {
+                  "type": "icon",
+                  "name": "t:names.icon",
+                  "settings": {
+                    "icon": "map_pin",
+                    "image_upload": "shopify://shop_images/pencil.svg",
+                    "width": 24,
+                    "link": "",
+                    "open_in_new_tab": false
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "text_kEmVNg"
+                "text_kEmVNg",
+                "icon_dJL9GA"
               ]
             }
           },

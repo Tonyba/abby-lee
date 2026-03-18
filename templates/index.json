@@ -3905,24 +3905,14 @@
                   "type": "_hotspot-product",
                   "settings": {
                     "product": "aldc-hoodie",
-                    "x-position": 40,
-                    "y-position": 40
-                  },
-                  "blocks": {}
-                },
-                "hotspot_product_wbga4D": {
-                  "type": "_hotspot-product",
-                  "settings": {
-                    "product": "",
-                    "x-position": 60,
-                    "y-position": 60
+                    "x-position": 15,
+                    "y-position": 50
                   },
                   "blocks": {}
                 }
               },
               "block_order": [
-                "hotspot_product_JXPdH7",
-                "hotspot_product_wbga4D"
+                "hotspot_product_JXPdH7"
               ]
             }
           },
@@ -4021,6 +4011,7 @@
       ],
       "name": "t:names.product_hotspots",
       "settings": {
+        "image": "shopify://shop_images/82eed567c290f7ca0a9051bc7023098d3ebdc51e.jpg",
         "toggle_overlay": false,
         "overlay_color": "#00000026",
         "overlay_style": "solid",

@@ -267,3 +267,8 @@ button {
 .latest-news-h>.group-block-content {
     min-height: 500px;
 }
+
+/*studio*/
+.shopify-section:has(.studio-fix-img) .background-image-container img {
+    object-position: 20vw 50%;
+}

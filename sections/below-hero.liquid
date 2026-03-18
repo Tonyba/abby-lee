@@ -28,13 +28,15 @@
         assign multiplied_result = divided_result | times: 2
 
         assign last = forloop.last | minus: 1
+        assign current = forloop.index | minus: 1
       %}
 
       <div class="embla__item">
+        {{ current }}
         {{ item.settings.text }}
       </div>
 
-      {% if forloop.index != last %}
+      {% if current != forloop.last %}
         <div class="embla__item">
           {% if multiplied_result == 2 %}
             <img src="{{ 'transparent-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">

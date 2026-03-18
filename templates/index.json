@@ -936,8 +936,8 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "custom_css": "",
-            "text": "<h2>Subscribe to our emails</h2>",
+            "custom_css": "h2-big",
+            "text": "<h2>Get 10% Off Your First Order</h2>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -963,7 +963,7 @@
           "type": "text",
           "settings": {
             "custom_css": "",
-            "text": "<p>Be the first to know about new collections and special offers. </p>",
+            "text": "<p>Early access to drops & presales. Exclusive offers for ALDC insiders.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",

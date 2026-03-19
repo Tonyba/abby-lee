@@ -4162,7 +4162,7 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "custom_css": "",
+                    "custom_css": "circle",
                     "label": "",
                     "icon": "shopify://shop_images/tiktok.svg",
                     "icon_width": 20,

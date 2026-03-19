@@ -294,7 +294,7 @@ button {
 }
 
 /*footer*/
-.footer-first .group-block-content:not(:last-child)::after {
+.footer-first .custom-section-content>*>*:not(:last-child)::after {
     content: '';
     width: 1px;
     height: 89px;

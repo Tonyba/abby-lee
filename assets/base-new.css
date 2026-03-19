@@ -375,6 +375,10 @@ button {
     color: black;
 }
 
+#facet-inputs-component-filter-v-option-size label {
+    justify-content: center;
+}
+
 #facet-inputs-component-filter-v-option-size svg {
     display: none;
 }

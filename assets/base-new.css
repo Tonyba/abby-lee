@@ -342,6 +342,8 @@ button {
 
 .last-footer nav ul {
     display: flex;
+    justify-content: flex-end;
+    gap: 16px
 }
 
 .last-footer .menu__item+.menu__item {

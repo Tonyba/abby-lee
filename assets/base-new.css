@@ -328,3 +328,9 @@ button {
     border-radius: 0;
     padding: 12px;
 }
+
+.footer-cols .email-signup__input-group button {
+    background-color: transparent;
+    border: 1px solid var(--color-primary-button-background);
+    color: var(--color-foreground);
+}

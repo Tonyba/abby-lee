@@ -2,8 +2,6 @@
   assign hotspot_product = closest.product
   assign placeholder_product_title = 'placeholders.product_title' | t
   assign hotspot_product_title = hotspot_product.title | default: placeholder_product_title
-
-  assign block_settings = closest.block_settings
 %}
 
 <product-hotspot-component
@@ -11,8 +9,8 @@
   style="
     left: calc({{ block.settings.x-position }}% - var(--button-size) / 2);
     top: calc({{ block.settings.y-position }}% - var(--button-size) / 2);
-    --hotspot-bg: {{block_settings.hotspot_color}};
-    --hotspot-bullseye: {{block_settings.bullseye_color}};
+    --hotspot-bg: rgba(255,255,255,0.5);
+    --hotspot-bullseye: var(--color-primary-button-background);
   "
   data-product-url="{{ block.settings.product.url }}"
   data-product-title="{{ block.settings.product.title | escape }}"

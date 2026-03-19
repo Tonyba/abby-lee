@@ -360,6 +360,11 @@ button {
 
 /*products collection*/
 
+.facets--vertical {
+    position: sticky;
+    top: 121px;
+}
+
 .product-archive-before .text-block {
     text-transform: uppercase;
     font-weight: 600;

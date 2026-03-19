@@ -373,7 +373,6 @@ button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: black;
-    text-align: center;
 }
 
 #facet-inputs-component-filter-v-option-size svg {
@@ -388,6 +387,7 @@ button {
     justify-content: center;
     border: 1px solid;
     width: 100%;
+    text-emphasis: center;
 }
 
 #facet-inputs-component-filter-v-option-size .checkbox:has(input:checked) {

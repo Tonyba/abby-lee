@@ -403,7 +403,9 @@ button {
     color: white;
 }
 
-#facet-inputs-component-filter-v-option-size .checkbox:has(input:checked) {
+#facet-inputs-component-filter-v-option-size .checkbox:has(input:checked),
+#facet-inputs-component-filter-v-option-size .checkbox:has(input:checked) .checkbox__label-text {
+
     background-color: #000000;
     color: white;
 }

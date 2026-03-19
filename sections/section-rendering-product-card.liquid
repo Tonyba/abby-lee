@@ -30,6 +30,7 @@
 
 <product-card
   data-product-id="{{ product.id }}"
+  class="{{ section.settings.custom_css }}"
   {% if settings.transition_to_main_product %}
     data-product-transition="true"
     {% if featured_media_url != blank %}
@@ -69,6 +70,11 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    },
     {
       "type": "product",
       "id": "product",

@@ -18,6 +18,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "custom_css": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -59,6 +60,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "custom_css": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -99,6 +101,7 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
+                "custom_css": "",
                 "text": "<p>Virtual Workshop This Weekend</p>",
                 "width": "100%",
                 "max_width": "normal",
@@ -130,6 +133,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
+            "custom_css": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",

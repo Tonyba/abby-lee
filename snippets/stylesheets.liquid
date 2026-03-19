@@ -3,6 +3,6 @@
 {{ 'base-new.css' | asset_url | stylesheet_tag: preload: true }}
 {% render 'mask-icons' %}
 
-{% if template == 'product' %}
+{% if template.name == 'product' %}
   {{ 'product-new.css' | asset_url | stylesheet_tag: preload: true }}
 {% endif %}

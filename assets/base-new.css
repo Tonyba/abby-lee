@@ -361,4 +361,6 @@ button {
 
 .product-archive-before .text-block {
     text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
 }

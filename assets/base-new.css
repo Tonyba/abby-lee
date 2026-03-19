@@ -373,6 +373,11 @@ button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: black;
+    text-align: center;
+}
+
+#facet-inputs-component-filter-v-option-size svg {
+    display: none;
 }
 
 

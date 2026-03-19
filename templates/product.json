@@ -850,7 +850,7 @@
       "block_order": [
         "group_4BDfgc"
       ],
-      "name": "t:names.multicolumn",
+      "name": "product description",
       "settings": {
         "custom_css": "",
         "content_direction": "row",
@@ -876,8 +876,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-start": 80,
+        "padding-block-end": 74
       }
     },
     "section_GDanVm": {
@@ -1180,7 +1180,7 @@
         "group_WGL9Da",
         "group_YreJdK"
       ],
-      "name": "t:names.multicolumn",
+      "name": "custom columns",
       "settings": {
         "custom_css": "",
         "content_direction": "row",

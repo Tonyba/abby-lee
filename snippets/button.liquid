@@ -10,6 +10,14 @@
 
 {% assign block_settings = block.settings %}
 
+{% if block_settings.icon != blank %}
+  <style>
+    .button--{{ block.id }}  img {
+      width: {{block_settings.icon_width}}px;
+    }
+  </style>
+{% endif %}
+
 <a
   {% if link == blank %}
     role="link"
@@ -30,6 +38,12 @@
   {{ block.shopify_attributes }}
 >
   {{ block_settings.label }}
+
+  {% if block_settings.icon != blank %}
+    <span class="icon">
+      {{ block_settings.icon | image_url: width: block_settings.icon_width, height: '24' | image_tag }}
+    </span>
+  {% endif %}
 </a>
 
 {% stylesheet %}

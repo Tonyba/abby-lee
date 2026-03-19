@@ -1,0 +1,83 @@
+{% stylesheet %}
+  .story-carousel-item .main-text {
+    background-color: #f5f5f5;
+    padding: 18px 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .story-carousel-item .author-container {
+    padding-left: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-left: 2px solid var(--color-primary-button-background);
+    margin-top: 47px;
+  }
+
+  .story-carousel-item .author-name {
+    font-weight: 600;
+  }
+
+  .story-carousel-item .subtext {
+    color: rgba(0, 0, 0, 0.5);
+  }
+{% endstylesheet %}
+
+<div class="embla__item">
+  <div class="inner">
+    <div class="main-text flex items-center">
+      <span class="icon">
+        {{ 'quote.svg' | inline_asset_content }}
+      </span>
+      <div class="text">{{ block.settings.main_text }}</div>
+    </div>
+
+    <div class="content">
+      {{ block.settings.content }}
+    </div>
+
+    <div class="author-container">
+      <div class="author-name">{{ block.settings.name }}</div>
+      <div class="subtext">{{ block.settings.subtext }}</div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "story carousel Item",
+  "class": "story-carousel-item",
+  "settings": [
+    {
+      "type": "text",
+      "id": "main_text",
+      "label": "Main Text"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "header",
+      "content": "Author"
+    },
+    {
+      "type": "text",
+      "id": "name",
+      "label": "name"
+    },
+    {
+      "type": "text",
+      "id": "subtext",
+      "label": "Position/location"
+    }
+  ],
+  "presets": [
+    {
+      "name": "story carousel Item"
+    }
+  ]
+}
+{% endschema %}

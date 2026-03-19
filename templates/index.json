@@ -4195,7 +4195,7 @@
       "block_order": [
         "group_LKCbaF"
       ],
-      "name": "t:names.multicolumn",
+      "name": "Join the #ALDCStyle community.",
       "settings": {
         "custom_css": "",
         "content_direction": "row",
@@ -4250,6 +4250,7 @@
       "block_order": [
         "instafeed_app_block_KRk63X"
       ],
+      "name": "insta feed",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,

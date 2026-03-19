@@ -1182,7 +1182,7 @@
       ],
       "name": "custom columns",
       "settings": {
-        "custom_css": "",
+        "custom_css": "product-custom-cols",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

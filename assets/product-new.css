@@ -1,3 +1,4 @@
 .product-accordions .details__header {
     text-transform: uppercase !important;
+    font-weight: bold !important;
 }

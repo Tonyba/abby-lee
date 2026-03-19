@@ -1542,6 +1542,18 @@
                 "padding-inline-end": 40
               },
               "blocks": {
+                "icon_L3mnrY": {
+                  "type": "icon",
+                  "name": "t:names.icon",
+                  "settings": {
+                    "icon": "price_tag",
+                    "image_upload": "shopify://shop_images/pencil.svg",
+                    "width": 24,
+                    "link": "",
+                    "open_in_new_tab": false
+                  },
+                  "blocks": {}
+                },
                 "text_HN6Aqa": {
                   "type": "text",
                   "name": "t:names.text",
@@ -1571,6 +1583,7 @@
                 }
               },
               "block_order": [
+                "icon_L3mnrY",
                 "text_HN6Aqa"
               ]
             },

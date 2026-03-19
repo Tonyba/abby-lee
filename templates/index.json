@@ -4058,7 +4058,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
-                "custom_css": "",
+                "custom_css": "follow-us-container",
                 "content_direction": "row",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "center",

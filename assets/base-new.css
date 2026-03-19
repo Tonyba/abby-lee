@@ -418,3 +418,7 @@ button {
     display: flex;
     align-items: center;
 }
+
+.checkbox__label span {
+    color: black
+}

@@ -9,6 +9,10 @@ h2,
     font-weight: bold !important;
 }
 
+.circle {
+    border-radius: 100%;
+}
+
 .h2-big h2 {
     font-size: 40px;
 }

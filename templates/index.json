@@ -4031,8 +4031,8 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "custom_css": "h2-big",
-                "text": "<h2>Join the #ALDCStyle community.<br/>Tag <span style=\"text-decoration:underline\">@ALDCOfficial</span> and get featured.</h2>",
+                "custom_css": "h2-big bold-red",
+                "text": "<h2>Join the <strong>#ALDCStyle</strong> community.<br/>Tag <span style=\"text-decoration:underline\">@ALDCOfficial</span> and get featured.</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",

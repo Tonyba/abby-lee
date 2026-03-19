@@ -482,7 +482,7 @@
                 "accordion_row_zTKVcF": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Return policy",
+                    "heading": "PRODUCT DESCRIPTION",
                     "open_by_default": true,
                     "icon": "none",
                     "width": 20
@@ -522,7 +522,7 @@
                 "accordion_row_LmWDBe": {
                   "type": "_accordion-row",
                   "settings": {
-                    "heading": "Shipping",
+                    "heading": "Size & Fit",
                     "open_by_default": false,
                     "icon": "none",
                     "width": 20

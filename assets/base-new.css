@@ -383,7 +383,7 @@ button {
     padding-left: 0;
 }
 
-#facet-inputs-component-filter-v-option-size svg {
+#facet-inputs-component-filter-v-option-size .checkbox svg {
     display: none;
 }
 

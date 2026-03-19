@@ -343,3 +343,7 @@ button {
 .last-footer nav ul {
     display: flex;
 }
+
+.last-footer .menu__item+.menu__item {
+    margin-block-start: unset;
+}

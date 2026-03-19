@@ -229,6 +229,18 @@
               },
               "block_order": []
             },
+            "icon_FKGy9k": {
+              "type": "icon",
+              "name": "t:names.icon",
+              "settings": {
+                "icon": "price_tag",
+                "image_upload": "shopify://shop_images/Group_18913_1.svg",
+                "width": 152,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
             "text_aEtTtq": {
               "type": "text",
               "name": "Product description",
@@ -262,6 +274,7 @@
             "divider_VJhene",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
+            "icon_FKGy9k",
             "text_aEtTtq"
           ]
         }

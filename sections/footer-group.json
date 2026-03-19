@@ -911,6 +911,60 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "text_xYc38i": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "custom_css": "bold-red",
+                "text": "<h5><strong>15% OFF</strong> your order when you sign-up to our emails</h5>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "custom",
+                "font": "var(--font-heading--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "loose",
+                "case": "uppercase",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_gm6hpa": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "custom_css": "",
+                "text": "<p>A new perspective in your inbox. Sign up for our newsletter to stay connected on events happenings, product launches, and more.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "custom",
+                "font": "var(--font-body--family)",
+                "font_size": "0.875rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "email_signup_xhahGy": {
               "type": "email-signup",
               "name": "t:names.email_signup",
@@ -939,6 +993,8 @@
             }
           },
           "block_order": [
+            "text_xYc38i",
+            "text_gm6hpa",
             "email_signup_xhahGy"
           ]
         }

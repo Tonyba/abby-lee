@@ -369,7 +369,7 @@ button {
     border-bottom: 1px solid #D9D9D9;
 }
 
-#facet-inputs-component-filter-v-t-shopify-size ul {
+#facet-inputs-component-filter-v-option-size ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }

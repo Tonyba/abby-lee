@@ -393,7 +393,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
+    border: 1px solid #D9D9D9;
     width: 100%;
 }
 

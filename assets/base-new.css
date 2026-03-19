@@ -373,3 +373,11 @@ button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+#facet-inputs-component-filter-v-option-size li {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    border: 1px solid
+}

@@ -306,6 +306,7 @@
           "name": "t:names.product_card",
           "static": true,
           "settings": {
+            "custom_css": "",
             "product_card_gap": 8,
             "inherit_color_scheme": true,
             "color_scheme": "",
@@ -833,6 +834,7 @@
           "type": "_product-card",
           "static": true,
           "settings": {
+            "custom_css": "",
             "product_card_gap": 0,
             "inherit_color_scheme": true,
             "color_scheme": "",

@@ -11,7 +11,7 @@
   style="
     left: calc({{ block.settings.x-position }}% - var(--button-size) / 2);
     top: calc({{ block.settings.y-position }}% - var(--button-size) / 2);
-    --hotspot-bg: rgba(255,255,255,0.5);
+    --hotspot-bg: {{block_settings.hotspot_color}};
     --hotspot-bullseye: var(--color-primary-button-background);
   "
   data-product-url="{{ block.settings.product.url }}"

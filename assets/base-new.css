@@ -358,3 +358,7 @@ button {
 }
 
 /*products collection*/
+
+.product-archive-before .text-block {
+    text-transform: uppercase;
+}

@@ -343,7 +343,10 @@ button {
 .last-footer nav ul {
     display: flex;
     justify-content: flex-end;
-    gap: 16px
+    gap: 16px;
+    padding-right: 20px;
+    border-right: 1px solid #5C5C5C;
+    border-top: 1px solid #5C5C5C;
 }
 
 .last-footer .menu__item+.menu__item {

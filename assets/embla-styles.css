@@ -110,9 +110,11 @@
 
 .dark-arrows-2 .embla__button {
     background-color: #f5f5f5;
+    color: black;
 }
 
-.dark-arrows .embla__button:hover {
+.dark-arrows .embla__button:hover,
+.dark-arrows-2 .embla__button:hover {
     background-color: black;
     color: white;
 }

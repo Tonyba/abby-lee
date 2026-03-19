@@ -570,6 +570,7 @@
           "type": "_product-card",
           "static": true,
           "settings": {
+            "custom_css": "probando",
             "product_card_gap": 4,
             "inherit_color_scheme": true,
             "color_scheme": "",

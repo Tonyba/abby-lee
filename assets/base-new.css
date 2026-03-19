@@ -379,6 +379,10 @@ button {
     justify-content: center;
 }
 
+#facet-inputs-component-filter-v-option-size .checkbox__label-text {
+    padding-left: 0;
+}
+
 #facet-inputs-component-filter-v-option-size svg {
     display: none;
 }

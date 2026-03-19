@@ -304,3 +304,7 @@ button {
     top: 50%;
     transform: translateY(-50%);
 }
+
+.footer-cols .footer-content {
+    grid-template-columns: repeat(6, 1fr) !important;
+}

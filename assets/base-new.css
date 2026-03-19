@@ -299,4 +299,7 @@ button {
     width: 1px;
     height: 89px;
     background-color: #D9D9D9;
+    position: absolute;
+    right: 0;
+    top: 50%;
 }

@@ -1049,7 +1049,7 @@
       ],
       "name": "t:names.email_signup",
       "settings": {
-        "custom_css": "",
+        "custom_css": "email-signup-section",
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

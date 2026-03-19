@@ -1,0 +1,208 @@
+{% stylesheet %}
+  /* --- Estilos para Breadcrumbs (Bloque) --- */
+  .breadcrumbs {
+    font-size: 0.85em;
+    margin: 1rem 0;
+    padding: 0 1rem;
+  }
+
+  .breadcrumbs ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .breadcrumbs li {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* Separador vía CSS (según la opción elegida por el usuario) */
+  .breadcrumbs li:not(:last-child):after {
+    content: var(--breadcrumb-separator, '›');
+    display: inline-block;
+    margin: 0 0.5rem;
+    color: currentColor;
+    opacity: 0.7;
+  }
+
+  /* Estilos para el ícono de casa */
+  .breadcrumbs svg {
+    display: block;
+    width: 14px;
+    height: 14px;
+  }
+
+  .breadcrumbs .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  /* Página actual (no es un enlace) */
+  .breadcrumbs [aria-current='page'] {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .breadcrumbs a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+
+  .breadcrumbs a:hover {
+    border-bottom-color: currentColor;
+  }
+{% endstylesheet %}
+
+{% if block.settings.show_breadcrumbs %}
+  {% unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' %}
+    {% assign t = template | split: '.' | first %}
+
+    <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
+      <div class="page-width">
+        <ol>
+          <!-- Enlace al inicio -->
+          <li>
+            <a href="{{ routes.root_url }}" title="Home">
+              {% if block.settings.show_home_icon %}
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  role="presentation"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M1 5.5L7 1L13 5.5V12C13 12.5304 12.7893 13.0391 12.4142 13.4142C12.0391 13.7893 11.5304 14 11 14H3C2.46957 14 1.96086 13.7893 1.58579 13.4142C1.21071 13.0391 1 12.5304 1 12V5.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M5 14V8H9V14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="visually-hidden">Home</span>
+              {% else %}
+                Home
+              {% endif %}
+            </a>
+          </li>
+
+          {% case t %}
+            {% when 'page' %}
+              <li>
+                <a href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
+              </li>
+
+            {% when 'product' %}
+              {% if collection.url %}
+                <li>
+                  {{ collection.title | link_to: collection.url }}
+                </li>
+              {% elsif product.collections.first %}
+                {% assign primary_collection = product.collections.first %}
+                <li>
+                  <a href="{{ primary_collection.url }}">{{ primary_collection.title }}</a>
+                </li>
+              {% endif %}
+              <li>
+                <a href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+              </li>
+
+            {% when 'collection' and collection.handle %}
+              {% if current_tags %}
+                <li>{{ collection.title | link_to: collection.url }}</li>
+                <li>
+                  {% capture tag_url %}{{ collection.url }}/{{ current_tags | join: "+"}}{% endcapture %}
+                  <a href="{{ tag_url }}" aria-current="page">{{ current_tags | join: ' + ' }}</a>
+                </li>
+              {% else %}
+                <li>
+                  <a href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
+                </li>
+              {% endif %}
+
+            {% when 'blog' %}
+              {% if current_tags %}
+                <li>{{ blog.title | link_to: blog.url }}</li>
+                <li>
+                  {% capture tag_url %}{{ blog.url }}/tagged/{{ current_tags | join: "+" }}{% endcapture %}
+                  <a href="{{ tag_url }}" aria-current="page">{{ current_tags | join: ' + ' }}</a>
+                </li>
+              {% else %}
+                <li>
+                  <a href="{{ blog.url }}" aria-current="page">{{ blog.title }}</a>
+                </li>
+              {% endif %}
+
+            {% when 'article' %}
+              <li>{{ blog.title | link_to: blog.url }}</li>
+              <li>
+                <a href="{{ article.url }}" aria-current="page">{{ article.title }}</a>
+              </li>
+
+            {% else %}
+              <li aria-current="page">
+                <a href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
+              </li>
+          {% endcase %}
+        </ol>
+      </div>
+    </nav>
+  {% endunless %}
+{% endif %}
+
+{% schema %}
+{
+  "name": "Breadcrumbs",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_breadcrumbs",
+      "label": "Mostrar breadcrumbs",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "separator",
+      "label": "Estilo del separador",
+      "options": [
+        {
+          "value": "arrow",
+          "label": "Flecha (›)"
+        },
+        {
+          "value": "slash",
+          "label": "Slash (/)"
+        },
+        {
+          "value": "pipe",
+          "label": "Pipe (|)"
+        }
+      ],
+      "default": "arrow"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_home_icon",
+      "label": "Mostrar ícono de casa en lugar de 'Home'",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "breadcrumbs",
+      "category": "Navigation"
+    }
+  ]
+}
+{% endschema %}

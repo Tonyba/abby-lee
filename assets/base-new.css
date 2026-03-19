@@ -339,3 +339,7 @@ button {
     background-color: var(--color-primary-button-background);
     color: var(--color-primary-button-text);
 }
+
+.last-footer nav ul {
+    display: flex;
+}

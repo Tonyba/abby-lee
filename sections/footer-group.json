@@ -364,7 +364,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "custom_css": "",
+        "custom_css": "footer-first",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

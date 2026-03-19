@@ -2,6 +2,8 @@
   assign hotspot_product = closest.product
   assign placeholder_product_title = 'placeholders.product_title' | t
   assign hotspot_product_title = hotspot_product.title | default: placeholder_product_title
+
+  assign block_settings = closest.block_settings
 %}
 
 <product-hotspot-component

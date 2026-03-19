@@ -34,6 +34,10 @@ button {
     border-radius: 0;
 }
 
+.bold-red strong {
+    color: #FB0101
+}
+
 .custom-link .link {
     border-bottom: 2px solid black;
     padding-bottom: 4.5px;

@@ -1,10 +1,25 @@
 {{ 'embla-styles.css' | asset_url | stylesheet_tag }}
 
-<div class="embla cols-1">
+{% stylesheet %}
+  .story-carousel .embla__controls {
+    margin-top: 47px;
+  }
+{% endstylesheet %}
+
+<div class="embla cols-1 dark-arrows-2">
   <div class="embla__viewport">
     <div class="embla__container">
       {% content_for 'blocks' %}
     </div>
+  </div>
+
+  <div class="embla__controls flex">
+    <button class="embla__button embla__button--prev">
+      {{ 'icon-chevron-left.svg' | inline_asset_content }}
+    </button>
+    <button class="embla__button embla__button--next">
+      {{ 'icon-chevron-right.svg' | inline_asset_content }}
+    </button>
   </div>
 </div>
 

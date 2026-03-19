@@ -1,12 +1,12 @@
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
 <div
-  class="section section--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }}"
+  class="section section--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }} {{ section.settings.custom_css }}"
 >
   {% liquid
     assign total_blocks = section.blocks.size
 
     # Grid layout calculations
-    assign grid_columns = total_blocks | at_most: 4
+    assign grid_columns = total_blocks
 
     # Calculate last row counts using modulo arithmetic
     # last_row_count = (total_blocks - 1) % N + 1
@@ -136,6 +136,11 @@
     "groups": ["footer"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_css",
+      "label": "CSS Classes"
+    },
     {
       "type": "select",
       "id": "section_width",

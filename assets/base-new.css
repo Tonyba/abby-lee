@@ -307,6 +307,7 @@ button {
 
 .footer-cols .footer-content {
     grid-template-columns: repeat(8, 1fr) !important;
+    gap: 90px
 }
 
 .footer-cols .footer-content>*:last-child {

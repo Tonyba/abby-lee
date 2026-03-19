@@ -383,3 +383,5 @@ button {
     border: 1px solid;
     width: 100%;
 }
+
+#facet-inputs-component-filter-v-option-size .checkbox::has(input:checked) {}

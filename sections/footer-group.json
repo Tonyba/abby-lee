@@ -174,7 +174,7 @@
               "name": "t:names.icon",
               "settings": {
                 "icon": "price_tag",
-                "image_upload": "shopify://shop_images/delivery-parcel_1_1.svg",
+                "image_upload": "shopify://shop_images/heart_2324688_1.svg",
                 "width": 40,
                 "link": "",
                 "open_in_new_tab": false
@@ -288,7 +288,7 @@
               "name": "t:names.icon",
               "settings": {
                 "icon": "price_tag",
-                "image_upload": "shopify://shop_images/delivery-parcel_1_1.svg",
+                "image_upload": "shopify://shop_images/worldwide-location_1.svg",
                 "width": 40,
                 "link": "",
                 "open_in_new_tab": false

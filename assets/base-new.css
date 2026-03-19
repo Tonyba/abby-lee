@@ -388,7 +388,7 @@ button {
 }
 
 
-#facet-inputs-component-filter-v-option-size .checkbox {
+#facet-inputs-component-filter-v-option-size label {
     height: 50px;
     display: flex;
     align-items: center;

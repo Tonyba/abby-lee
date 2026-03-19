@@ -397,7 +397,8 @@ button {
     width: 100%;
 }
 
-#facet-inputs-component-filter-v-option-size label:hover {
+#facet-inputs-component-filter-v-option-size label:hover,
+#facet-inputs-component-filter-v-option-size label:hover .checkbox__label-text {
     background-color: #000000;
     color: white;
 }

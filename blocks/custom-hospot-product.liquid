@@ -4,6 +4,8 @@
   assign hotspot_product_title = hotspot_product.title | default: placeholder_product_title
 %}
 
+{{ 'hey' }}
+
 <product-hotspot-component
   class="hotspot{% if hotspot_product == blank and request.design_mode == false %} hotspot--hidden-touch hidden--mobile{% endif %}"
   style="

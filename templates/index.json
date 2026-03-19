@@ -4032,7 +4032,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "h2-big",
-                "text": "<h2>Join the #ALDCStyle community.<br/>Tag @ALDCOfficial and get featured.</h2>",
+                "text": "<h2>Join the #ALDCStyle community.<br/>Tag <span style=\"text-decoration:underline\">@ALDCOfficial</span> and get featured.</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",

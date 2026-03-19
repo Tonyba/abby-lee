@@ -60,7 +60,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h4>FAST DELIVERY</h4>",
+                "text": "<h5>FAST DELIVERY</h5>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -87,7 +87,7 @@
               "name": "t:names.description",
               "settings": {
                 "custom_css": "",
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
+                "text": "<p>Last min outfit? We have you covered with standard and economy shipping.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",

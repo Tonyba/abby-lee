@@ -492,7 +492,7 @@
                       "type": "text",
                       "settings": {
                         "custom_css": "",
-                        "text": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn't the case, let us know and we'll do our best to work with you to make it right.</p>",
+                        "text": "{{ closest.product.metafields.custom.short_product_description | metafield_tag }}",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -606,33 +606,6 @@
                 "accordion_row_LmWDBe",
                 "accordion_row_LFQ6hF"
               ]
-            },
-            "text_aEtTtq": {
-              "type": "text",
-              "name": "Product description",
-              "settings": {
-                "custom_css": "",
-                "text": "{{ closest.product.description }}",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-primary--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
@@ -642,8 +615,7 @@
             "buy_buttons_eYQEYi",
             "icon_FKGy9k",
             "group_tzbwcy",
-            "accordion_H49V98",
-            "text_aEtTtq"
+            "accordion_H49V98"
           ]
         }
       },

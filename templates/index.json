@@ -4121,10 +4121,67 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {}
+                },
+                "button_rJCGzg": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "custom_css": "",
+                    "label": "",
+                    "icon": "shopify://shop_images/x_1.svg",
+                    "icon_width": 20,
+                    "link": "shopify://collections/all",
+                    "open_in_new_tab": false,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                },
+                "button_mdpDKw": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "custom_css": "",
+                    "label": "",
+                    "icon": "shopify://shop_images/instagram_7_1.svg",
+                    "icon_width": 20,
+                    "link": "shopify://collections/all",
+                    "open_in_new_tab": false,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                },
+                "button_iLdH9R": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "custom_css": "",
+                    "label": "",
+                    "icon": "shopify://shop_images/tiktok.svg",
+                    "icon_width": 20,
+                    "link": "shopify://collections/all",
+                    "open_in_new_tab": false,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "text_N64rpq"
+                "text_N64rpq",
+                "button_rJCGzg",
+                "button_mdpDKw",
+                "button_iLdH9R"
               ]
             }
           },

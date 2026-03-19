@@ -283,3 +283,8 @@ button {
 .shopify-section:has(.studio-fix-img.left-right-overlay) .overlay {
     background-image: linear-gradient(89.81deg, #070605 41%, rgba(7, 6, 5, 0) 50%);
 }
+
+/*follow us*/
+.follow-us-container .circle {
+    padding: 10px 11px;
+}

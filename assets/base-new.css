@@ -384,4 +384,7 @@ button {
     width: 100%;
 }
 
-#facet-inputs-component-filter-v-option-size .checkbox::has(input:checked) {}
+#facet-inputs-component-filter-v-option-size .checkbox::has(input:checked) {
+    background-color: #000000;
+    color: white;
+}

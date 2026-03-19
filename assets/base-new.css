@@ -361,8 +361,8 @@ button {
 /*products collection*/
 
 .facets--vertical {
-    position: sticky;
-    top: 121px;
+    position: sticky !important;
+    top: 121px !important;
 }
 
 .product-archive-before .text-block {

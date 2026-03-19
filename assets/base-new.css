@@ -364,3 +364,7 @@ button {
     font-weight: 600;
     font-size: 18px;
 }
+
+.product-archive-before {
+    border-bottom: 1px solid #D9D9D9;
+}

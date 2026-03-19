@@ -317,3 +317,14 @@ button {
 .footer-cols .email-signup__input-group {
     flex-direction: column;
 }
+
+.footer-cols .email-signup__input-group>* {
+    width: 100%;
+}
+
+.footer-cols .email-signup__input-group input {
+    border: 0;
+    border-bottom: 1px solid #5C5C5C;
+    border-radius: 0;
+    padding: 12px;
+}

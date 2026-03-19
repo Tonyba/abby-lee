@@ -1009,6 +1009,7 @@
       ],
       "name": "t:names.footer",
       "settings": {
+        "custom_css": "footer-cols",
         "section_width": "page-width",
         "gap": 20,
         "color_scheme": "scheme-1",

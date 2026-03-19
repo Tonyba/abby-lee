@@ -720,8 +720,8 @@
         "gap": 48,
         "enable_sticky_add_to_cart": true,
         "color_scheme": "",
-        "padding-block-start": 0,
-        "padding-block-end": 0
+        "padding-block-start": 30,
+        "padding-block-end": 50
       }
     },
     "product_recommendations_qggXJq": {
@@ -789,6 +789,10 @@
               },
               "blocks": {}
             },
+            "judge_me_reviews_preview_badge_cYaQr4": {
+              "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+              "settings": {}
+            },
             "product_title_M7MJkb": {
               "type": "product-title",
               "name": "t:names.product_title",
@@ -839,6 +843,7 @@
           },
           "block_order": [
             "product_card_gallery_DNizbJ",
+            "judge_me_reviews_preview_badge_cYaQr4",
             "product_title_M7MJkb",
             "price_gLWgA6"
           ]

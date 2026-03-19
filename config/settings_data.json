@@ -444,7 +444,7 @@
         "settings": {
           "background": "#fbfbfb",
           "foreground_heading": "#000000",
-          "foreground": "#000000",
+          "foreground": "#5c5c5c",
           "primary": "#000000",
           "primary_hover": "#000000",
           "border": "#0000000f",

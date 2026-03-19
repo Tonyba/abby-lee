@@ -724,6 +724,52 @@
         "padding-block-end": 50
       }
     },
+    "below_hero_LDwyib": {
+      "type": "below-hero",
+      "blocks": {
+        "text_p6dFff": {
+          "type": "text",
+          "settings": {
+            "text": "Official ALDC Store"
+          }
+        },
+        "text_ccybyi": {
+          "type": "text",
+          "settings": {
+            "text": "Secure Checkout"
+          }
+        },
+        "text_fm64NL": {
+          "type": "text",
+          "settings": {
+            "text": "Free Shipping Over $75"
+          }
+        },
+        "text_rdCEp9": {
+          "type": "text",
+          "settings": {
+            "text": "Verified Event Tickets"
+          }
+        },
+        "text_kKEYY4": {
+          "type": "text",
+          "settings": {
+            "text": "Official ALDC Store"
+          }
+        }
+      },
+      "block_order": [
+        "text_p6dFff",
+        "text_ccybyi",
+        "text_fm64NL",
+        "text_rdCEp9",
+        "text_kKEYY4"
+      ],
+      "name": "below hero",
+      "settings": {
+        "color_scheme": "scheme-2"
+      }
+    },
     "product_recommendations_qggXJq": {
       "type": "product-recommendations",
       "blocks": {
@@ -919,6 +965,7 @@
   },
   "order": [
     "main",
+    "below_hero_LDwyib",
     "product_recommendations_qggXJq",
     "1773942810ede51288"
   ]

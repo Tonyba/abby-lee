@@ -294,4 +294,9 @@ button {
 }
 
 /*footer*/
-.footer-first {}
+.footer-first .group-block-content::after {
+    content: '';
+    width: 1px;
+    height: 89px;
+    background-color: #D9D9D9;
+}

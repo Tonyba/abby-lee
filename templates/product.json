@@ -1481,7 +1481,7 @@
                 "custom_css": "",
                 "text": "<p>Leave a review and receive 10% off your next order. Share your ALDC experience!<br/></p>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "center",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",

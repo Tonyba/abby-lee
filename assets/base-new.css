@@ -316,6 +316,7 @@ button {
 
 .footer-cols .email-signup__input-group {
     flex-direction: column;
+    gap: 29px;
 }
 
 .footer-cols .email-signup__input-group>* {

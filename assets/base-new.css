@@ -374,7 +374,8 @@ button {
     grid-template-columns: repeat(2, 1fr);
 }
 
-#facet-inputs-component-filter-v-option-size li {
+
+#facet-inputs-component-filter-v-option-size .checkbox {
     height: 50px;
     display: flex;
     align-items: center;

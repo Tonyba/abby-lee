@@ -275,7 +275,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+                    "text": "<p>Pickup available at<strong> 11316 Santa Monica Blvd</strong><br/>Usually ready in 2-4 days</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",

@@ -1044,6 +1044,7 @@
       "block_order": [
         "judge_me_reviews_review_widget_9B9yeE"
       ],
+      "name": "reviews",
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,

@@ -24,9 +24,9 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
+            "gap": 0,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -55,6 +55,18 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "icon_7FTULb": {
+              "type": "icon",
+              "name": "t:names.icon",
+              "settings": {
+                "icon": "price_tag",
+                "image_upload": "shopify://shop_images/delivery-parcel_1_1.svg",
+                "width": 40,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
             "text_Pewz68": {
               "type": "text",
               "name": "t:names.heading",
@@ -75,7 +87,7 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
+                "padding-block-start": 26,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -102,7 +114,7 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
+                "padding-block-start": 5,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -111,11 +123,12 @@
             }
           },
           "block_order": [
+            "icon_7FTULb",
             "text_Pewz68",
             "text_KmzYNg"
           ]
         },
-        "group_yBKXxJ": {
+        "group_jhANEQ": {
           "type": "group",
           "name": "t:names.column",
           "settings": {
@@ -125,9 +138,9 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
+            "gap": 0,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -156,39 +169,24 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_DxjTq4": {
+            "icon_3WeF9Y": {
+              "type": "icon",
+              "name": "t:names.icon",
+              "settings": {
+                "icon": "price_tag",
+                "image_upload": "shopify://shop_images/delivery-parcel_1_1.svg",
+                "width": 40,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
+            "text_iy8UEB": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h2>Quality first</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_HFwtck": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "custom_css": "",
-                "text": "<p>We obsess over the details and strive to deliver the best products at the best prices, every time.</p>",
+                "text": "<h5>QUICK SUPPORT</h5>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -203,7 +201,34 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
+                "padding-block-start": 26,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_Fit3Yy": {
+              "type": "text",
+              "name": "t:names.description",
+              "settings": {
+                "custom_css": "",
+                "text": "<p>Our team is dedicated to providing outstanding customer service every step of the way.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "custom",
+                "font": "var(--font-body--family)",
+                "font_size": "0.875rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 5,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -212,11 +237,12 @@
             }
           },
           "block_order": [
-            "text_DxjTq4",
-            "text_HFwtck"
+            "icon_3WeF9Y",
+            "text_iy8UEB",
+            "text_Fit3Yy"
           ]
         },
-        "group_eBFneL": {
+        "group_JBEt34": {
           "type": "group",
           "name": "t:names.column",
           "settings": {
@@ -226,9 +252,9 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
+            "gap": 0,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -257,39 +283,24 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_rYUdwm": {
+            "icon_e4tMpN": {
+              "type": "icon",
+              "name": "t:names.icon",
+              "settings": {
+                "icon": "price_tag",
+                "image_upload": "shopify://shop_images/delivery-parcel_1_1.svg",
+                "width": 40,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
+            "text_TVcMPL": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h2>Customer care</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h4",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "text_YMzp8B": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "custom_css": "",
-                "text": "<p>We're always on your side: keeping our loyal customers happy is our top priority and number one goal.</p>",
+                "text": "<h5>WORLDWIDE SHIPPING</h5>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -304,7 +315,34 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
+                "padding-block-start": 26,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_E3dmWb": {
+              "type": "text",
+              "name": "t:names.description",
+              "settings": {
+                "custom_css": "",
+                "text": "<p>We offer worldwide shipping so every ALDC fan can access exclusive merch.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "custom",
+                "font": "var(--font-body--family)",
+                "font_size": "0.875rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 5,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -313,15 +351,16 @@
             }
           },
           "block_order": [
-            "text_rYUdwm",
-            "text_YMzp8B"
+            "icon_e4tMpN",
+            "text_TVcMPL",
+            "text_E3dmWb"
           ]
         }
       },
       "block_order": [
         "group_irLRtB",
-        "group_yBKXxJ",
-        "group_eBFneL"
+        "group_jhANEQ",
+        "group_JBEt34"
       ],
       "name": "t:names.multicolumn",
       "settings": {

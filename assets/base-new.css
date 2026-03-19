@@ -306,10 +306,14 @@ button {
 }
 
 .footer-cols .footer-content {
-    grid-template-columns: repeat(8, 1fr) !important;
+    grid-template-columns: repeat(7, 1fr) !important;
     gap: 90px
 }
 
 .footer-cols .footer-content>*:last-child {
-    grid-column: span 3;
+    grid-column: span 2;
+}
+
+.footer-cols .email-signup__input-group {
+    flex-direction: column;
 }

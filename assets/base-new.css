@@ -306,5 +306,9 @@ button {
 }
 
 .footer-cols .footer-content {
-    grid-template-columns: repeat(6, 1fr) !important;
+    grid-template-columns: repeat(7, 1fr) !important;
+}
+
+.footer-cols .footer-content>*:last-child {
+    grid-column: span 2;
 }

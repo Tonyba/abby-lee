@@ -413,3 +413,8 @@ button {
 .checkbox .icon-checkmark {
     --checkbox-size: 28px
 }
+
+.checkbox__label {
+    display: flex;
+    align-items: center;
+}

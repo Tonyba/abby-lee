@@ -17,7 +17,7 @@
           "name": "breadcrumbs",
           "settings": {
             "show_breadcrumbs": true,
-            "separator": "arrow",
+            "separator": "slash",
             "show_home_icon": false
           },
           "blocks": {}

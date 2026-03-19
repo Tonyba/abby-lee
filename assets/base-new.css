@@ -409,3 +409,7 @@ button {
     background-color: #000000;
     color: white;
 }
+
+.checkbox .icon-checkmark {
+    --checkbox-size: 28px
+}

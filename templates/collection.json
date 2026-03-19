@@ -12,6 +12,16 @@
     "section": {
       "type": "section",
       "blocks": {
+        "breadcrumbs_GYQBgL": {
+          "type": "breadcrumbs",
+          "name": "breadcrumbs",
+          "settings": {
+            "show_breadcrumbs": true,
+            "separator": "arrow",
+            "show_home_icon": false
+          },
+          "blocks": {}
+        },
         "text_tqQTNE": {
           "type": "text",
           "name": "Title",
@@ -44,7 +54,7 @@
           "name": "Description",
           "settings": {
             "custom_css": "",
-            "text": "{{ closest.collection.description }}",
+            "text": "<p>{{ closest.collection.description }}</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -68,6 +78,7 @@
         }
       },
       "block_order": [
+        "breadcrumbs_GYQBgL",
         "text_tqQTNE",
         "text_twGGkJ"
       ],

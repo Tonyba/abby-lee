@@ -1083,23 +1083,23 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "custom_css": "",
-            "content_direction": "column",
+            "custom_css": "follow-us-container",
+            "content_direction": "row",
             "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
+            "horizontal_alignment": "flex-end",
             "vertical_alignment": "center",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-end",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
+            "gap": 12,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
             "height": "fit",
             "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
             "background_media": "none",
             "video_position": "cover",
             "background_image_position": "cover",
@@ -1120,29 +1120,65 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "social_links_Yji34K": {
-              "type": "social-links",
-              "name": "t:names.social_media_links",
+            "button_RHHLL9": {
+              "type": "button",
+              "name": "t:names.button",
               "settings": {
-                "facebook_url": "https://www.facebook.com/",
-                "instagram_url": "#",
-                "youtube_url": "#",
-                "tiktok_url": "#",
-                "twitter_url": "#",
-                "threads_url": "",
-                "linkedin_url": "",
-                "bluesky_url": "",
-                "snapchat_url": "",
-                "pinterest_url": "",
-                "tumblr_url": "",
-                "vimeo_url": "",
-                "custom_url": ""
+                "custom_css": "circle",
+                "label": "",
+                "icon": "shopify://shop_images/x_1.svg",
+                "icon_width": 15,
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "button_J3PjVJ": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "custom_css": "circle",
+                "label": "",
+                "icon": "shopify://shop_images/instagram_7_1.svg",
+                "icon_width": 15,
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "button_CbGCmA": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "custom_css": "circle",
+                "label": "",
+                "icon": "shopify://shop_images/tiktok.svg",
+                "icon_width": 15,
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "social_links_Yji34K"
+            "button_RHHLL9",
+            "button_J3PjVJ",
+            "button_CbGCmA"
           ]
         }
       },

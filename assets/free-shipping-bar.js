@@ -85,6 +85,7 @@
     function fetchCartAndUpdate(cart) {
         if (cart) {
             if (window.Shopify) window.Shopify.cart = cart;
+            updateFreeShippingBar();
             return;
         }
         fetch('/cart.js')
@@ -107,9 +108,7 @@
 
         // Listen for cart updates via AJAX (standard Shopify events)
         document.addEventListener('cart:update', function (e) {
-            console.log(e.detail.resource)
             fetchCartAndUpdate(e.detail.resource);
-            console.log('updated');
         });
 
         // If the cart is updated via theme's own AJAX, they might not trigger our events.

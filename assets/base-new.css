@@ -430,6 +430,9 @@ button {
 }
 
 /* cart */
+.cart-summary__inner {
+    padding: 0 !important;
+}
 
 .cart-drawer__dialog {
     --sidebar-width: 700px

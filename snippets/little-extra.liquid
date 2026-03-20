@@ -2,6 +2,8 @@
   assign products = all_products
 %}
 
+{{ products.first | json }}
+
 {% stylesheet %}
   .litle-extra-container {
     margin-top: auto;

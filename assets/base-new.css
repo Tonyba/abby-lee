@@ -431,11 +431,10 @@ button {
 
 /* cart */
 
-@media screen and (min-width: 750px) {
-    :root {
-        --sidebar-width: 700px
+.cart-drawer__dialog {
+    @media screen and (min-width: 750px) {
+        width: 700px;
     }
-
 }
 
 

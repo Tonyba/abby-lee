@@ -32,7 +32,7 @@
           "static": true,
           "settings": {
             "gap": 24,
-            "image_ratio": "portrait",
+            "image_ratio": "square",
             "dividers": true,
             "vendor": false,
             "padding-block-start": 0,
@@ -46,7 +46,7 @@
           "type": "_cart-summary",
           "static": true,
           "settings": {
-            "extend_summary": true,
+            "extend_summary": false,
             "inherit_color_scheme": false,
             "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
             "border": "none",

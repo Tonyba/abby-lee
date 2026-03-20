@@ -70,9 +70,9 @@
   .free-shipping-bar:not(.free-shipping-achieved) .fsb-message:after {
     display: block;
     content: '';
-    -webkit-mask: url(https://resourcemap.vendeveloper.com/wp-content/uploads/2026/03/globle.svg) no-repeat center /
+    -webkit-mask: url({{ 'truck.svg' | asset_url }}) no-repeat center /
       15px;
-    background-color: #14a569;
+    background-color: currentColor;
     display: block;
   }
 </style>

@@ -47,8 +47,8 @@
           "static": true,
           "settings": {
             "extend_summary": true,
-            "inherit_color_scheme": true,
-            "color_scheme": "scheme-1",
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-58084d4c-a86e-4d0a-855e-a0966e5043f7",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,

@@ -1,6 +1,8 @@
 {% liquid
-  assign products = collection.all.products
+  assign products = all_products.all
 %}
+
+{{ products.size }}
 
 {% stylesheet %}
   .litle-extra-container {

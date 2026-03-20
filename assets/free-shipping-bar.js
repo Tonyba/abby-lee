@@ -49,7 +49,6 @@
 
         // Get cart total from Shopify's cart data
         let cartTotal = 0;
-
         if (window.Shopify && window.Shopify.cart) {
             cartTotal = window.Shopify.cart.total_price;
         } else {
@@ -84,8 +83,17 @@
 
     // Function to get cart data from Shopify AJAX API and update
     function fetchCartAndUpdate(cart) {
-        if (window.Shopify) window.Shopify.cart = cart;
-        updateFreeShippingBar();
+        if (cart) {
+            if (window.Shopify) window.Shopify.cart = cart;
+            return;
+        }
+        fetch('/cart.js')
+            .then(response => response.json())
+            .then(cart_fetched => {
+                if (window.Shopify) window.Shopify.cart = cart_fetched;
+                updateFreeShippingBar();
+            })
+            .catch(error => console.error('Error fetching cart:', error));
     }
 
     function initlogic() {
@@ -100,8 +108,8 @@
         // Listen for cart updates via AJAX (standard Shopify events)
         document.addEventListener('cart:update', function (e) {
             console.log(e)
-            console.log('updating')
             fetchCartAndUpdate(e.detail.resource);
+            console.log('updated');
         });
 
         // If the cart is updated via theme's own AJAX, they might not trigger our events.

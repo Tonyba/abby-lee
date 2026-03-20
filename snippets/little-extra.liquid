@@ -2,8 +2,6 @@
   assign products = all_products
 %}
 
-{{ products.first.title | json }}
-
 {% stylesheet %}
   .litle-extra-container {
     margin-top: auto;
@@ -53,12 +51,12 @@
 
   <div class="embla__viewport">
     <div class="embla__container">
-      {% for product in products %}
+      {% for item in products %}
         hey
-        {% if product.available %}
+        {% if item.available %}
           <div class="embla__item">
-            {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
-            <h6>{{ product.title }}</h6>
+            {{ item.featured_image | image_url: width: 250, height: 250 | image_tag }}
+            <h6>{{ item.title }}</h6>
           </div>
         {% endif %}
       {% endfor %}

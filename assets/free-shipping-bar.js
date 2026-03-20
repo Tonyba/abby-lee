@@ -59,8 +59,6 @@
             }
         }
 
-        console.log(cartTotal)
-
         let remaining = threshold - cartTotal;
         let percent = (cartTotal / threshold) * 100;
         if (percent > 100) percent = 100;
@@ -72,6 +70,7 @@
             const progressBar = barContainer.querySelector('.fsb-progress-bar');
             if (progressBar) progressBar.style.width = '100%';
         } else {
+            console.log('hey')
             barContainer.classList.remove('free-shipping-achieved');
             const remainingFormatted = formatMoney(remaining);
             const messageEl = barContainer.querySelector('.fsb-message-text');

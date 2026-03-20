@@ -428,3 +428,10 @@ button {
 .checkbox__label span {
     color: black
 }
+
+/* cart */
+.checkout-black {
+    background-color: black;
+    color: white;
+    padding: 17px 20px;
+}

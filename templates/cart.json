@@ -308,7 +308,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h2>Intentional design</h2>",
+                "text": "<h2>Love Your Gear? Get 10% Off.</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -335,9 +335,9 @@
               "name": "t:names.description",
               "settings": {
                 "custom_css": "",
-                "text": "<p>We create with intention. Our products solve real problems with clean design and honest materials.</p>",
+                "text": "<p>Leave a review and receive 10% off your next order. Share your ALDC experience!<br/></p>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "center",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",

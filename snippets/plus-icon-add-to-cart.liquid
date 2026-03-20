@@ -23,7 +23,7 @@
 {% endstylesheet %}
 
 <style>
-  .cart-add-to-drawer add-to-cart-component button:after {
+  .cart-add-to-drawer button[data-added="true"]:after {
     content: '';
     -webkit-mask: url({{ 'icon-plus.svg' | asset_url }}) no-repeat center / 21px;
     background-color: currentColor;

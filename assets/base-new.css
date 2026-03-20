@@ -434,6 +434,11 @@ button {
     padding: 0 !important;
 }
 
+.cart-summary__inner .free-shipping-bar {
+    padding: 0;
+    margin: 0;
+}
+
 .cart-drawer__dialog {
     --sidebar-width: 700px
 }

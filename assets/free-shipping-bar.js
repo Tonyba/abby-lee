@@ -89,10 +89,6 @@
             .catch((error) => console.error('Error fetching cart:', error));
     }
 
-    Shopify.onCartUpdate = function (cart) {
-        alert('There are now ' + cart.item_count + ' items in the cart.');
-    };
-
     // Initial update on page load
     document.addEventListener('DOMContentLoaded', function () {
         // Set initial data from existing cart if available

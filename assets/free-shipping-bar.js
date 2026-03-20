@@ -83,6 +83,7 @@
             console.log(percent);
             console.log(remainingFormatted)
             progressBar.style.width = percent + '%';
+            console.log(progressBar)
         }
     }
 

@@ -91,8 +91,8 @@
             .catch((error) => console.error('Error fetching cart:', error));
     }
 
-    // Initial update on page load
-    document.addEventListener('DOMContentLoaded', function () {
+    function initlogic() {
+        console.log('initing');
         // Set initial data from existing cart if available
         if (window.Shopify && window.Shopify.cart) {
             updateFreeShippingBar();
@@ -117,6 +117,11 @@
         // Instead, we'll intercept the fetch of cart.js? That's heavy.
         // We'll rely on the fact that the theme should trigger 'cart:updated' after any cart change.
         // If not, we can provide an optional manual trigger for theme developers to call window.updateFreeShippingBar().
+    }
+
+    // Initial update on page load
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(() => initlogic(), 1000);
     });
 
     // Expose function globally so theme can manually trigger update if needed

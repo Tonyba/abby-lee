@@ -47,6 +47,13 @@
 
 
 
+
+    }
+
+    function handleShippingCart(barContainer) {
+
+
+
         const threshold = parseFloat(barContainer.dataset.freeShippingThreshold) || 7500; // in cents
 
         // Get cart total from Shopify's cart data

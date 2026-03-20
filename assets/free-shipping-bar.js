@@ -82,14 +82,8 @@
     }
 
     // Function to get cart data from Shopify AJAX API and update
-    function fetchCartAndUpdate() {
-        fetch('/cart.js')
-            .then((response) => response.json())
-            .then((cart) => {
-                if (window.Shopify) window.Shopify.cart = cart;
-                updateFreeShippingBar();
-            })
-            .catch((error) => console.error('Error fetching cart:', error));
+    function fetchCartAndUpdate(cart) {
+        if (window.Shopify) window.Shopify.cart = cart;
     }
 
     function initlogic() {
@@ -98,13 +92,13 @@
         if (window.Shopify && window.Shopify.cart) {
             updateFreeShippingBar();
         } else {
-            fetchCartAndUpdate();
+            fetchCartAndUpdate(window.Shopify.cart);
         }
 
         // Listen for cart updates via AJAX (standard Shopify events)
         document.addEventListener('cart:update', function (e) {
             console.log(e)
-            fetchCartAndUpdate();
+            fetchCartAndUpdate(e.detail.resource.total_price);
             console.log('updated');
         });
 

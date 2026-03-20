@@ -78,6 +78,8 @@
             if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted}  away from Free Standard Shipping`;
             const progressBar = barContainer.querySelector('.fsb-progress-bar');
             if (progressBar) progressBar.style.width = percent + '%';
+            console.log(progressBar)
+            console.log(percent + '%')
             console.log(percent);
             console.log(remainingFormatted)
         }

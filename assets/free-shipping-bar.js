@@ -40,6 +40,7 @@
 
     // Function to update the free shipping bar
     function updateFreeShippingBar() {
+        console.log('pasandini')
         const barContainer = document.querySelector('.free-shipping-bar');
         console.log(barContainer)
         if (!barContainer) return;

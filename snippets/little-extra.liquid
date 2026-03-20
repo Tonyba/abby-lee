@@ -51,12 +51,11 @@
 
   <div class="embla__viewport">
     <div class="embla__container">
-      {% for item in products %}
-        hey
-        {% if item.available %}
+      {% for product in products %}
+        {% if product.available %}
           <div class="embla__item">
-            {{ item.featured_image | image_url: width: 250, height: 250 | image_tag }}
-            <h6>{{ item.title }}</h6>
+            {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
+            <h6>{{ product.title }}</h6>
           </div>
         {% endif %}
       {% endfor %}

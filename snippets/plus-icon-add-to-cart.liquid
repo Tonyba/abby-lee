@@ -1,17 +1,6 @@
 {% liquid
   assign id = 'now' | date: '%N' | modulo: 100
-%}
-
-{% liquid
   assign id = 'BuyButtons-ProductSubmitButton-' | append: id
-
-  assign product_variant_media = product.selected_or_first_available_variant.featured_media.preview_image | image_url: width: 100
-  if product.selected_or_first_available_variant.featured_media.preview_image == blank
-    assign product_variant_media = product.featured_media.preview_image | image_url: width: 100
-  endif
-%}
-
-{% liquid
   assign class = 'add-to-cart-button '
   assign id = 'BuyButtons-ProductSubmitButton-' | append: id
 %}
@@ -20,9 +9,9 @@
   {% render 'add-to-cart-button',
     id: id,
     class: class,
-    can_add_to_cart: can_add_to_cart,
-    product: closest.product,
-    add_to_cart_text: add_to_cart_text,
+    can_add_to_cart: product.available,
+    product: product,
+    add_to_cart_text: 'test',
     data_testid: 'standalone-add-to-cart'
   %}
 </span>

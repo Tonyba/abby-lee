@@ -248,7 +248,7 @@
         "mobile_columns": "1",
         "mobile_card_size": "60cqw",
         "columns_gap": 8,
-        "rows_gap": 24,
+        "rows_gap": 40,
         "icons_style": "arrow",
         "icons_shape": "none",
         "section_width": "page-width",

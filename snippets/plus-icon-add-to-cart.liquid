@@ -1,8 +1,10 @@
 {% stylesheet %}
 {% endstylesheet %}
 
+<style></style>
+
 <span
-  class="buy-buttons-block buy-buttons-block--{{ product.id }}"
+  class="cart-add-to-drawer buy-buttons-block buy-buttons-block--{{ product.id }}"
 >
   {%- if product != blank -%}
     {%- assign product_form_id = 'BuyButtons-ProductForm-' | append: product.id -%}

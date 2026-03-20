@@ -5,6 +5,11 @@
 {% liquid
   assign class = 'add-to-cart-button '
   assign id = 'BuyButtons-ProductSubmitButton-' | append: id
+
+  assign product_variant_media = product.selected_or_first_available_variant.featured_media.preview_image | image_url: width: 100
+  if product.selected_or_first_available_variant.featured_media.preview_image == blank
+    assign product_variant_media = product.featured_media.preview_image | image_url: width: 100
+  endif
 %}
 
 <add-to-cart-component

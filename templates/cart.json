@@ -253,7 +253,7 @@
         "icons_shape": "none",
         "section_width": "page-width",
         "horizontal_alignment": "flex-start",
-        "gap": 28,
+        "gap": 40,
         "color_scheme": "scheme-1",
         "padding-block-start": 60,
         "padding-block-end": 100

@@ -440,6 +440,10 @@ button {
     background-color: #F5F5F5;
 }
 
+.cart-drawer__dialog shopify-accelerated-checkout-cart {
+    display: none;
+}
+
 .cart-drawer__dialog {
     --sidebar-width: 700px
 }

@@ -225,7 +225,7 @@
       },
       "name": "t:names.featured_collection",
       "settings": {
-        "custom_css": "",
+        "custom_css": "product-carousel custom-link",
         "collection": "all",
         "layout_type": "grid",
         "carousel_on_mobile": false,

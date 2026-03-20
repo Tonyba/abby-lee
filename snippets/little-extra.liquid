@@ -57,7 +57,7 @@
       {% paginate collections['all-products'].products by 10 %}
         {% for product in collections['all-products'].products %}
           <div class="embla__item">
-            {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
+            {{ product.featured_image | image_url: width: 250, height: 250 | image_tag: class: 'img-cover' }}
             <h6>{{ product.title }}</h6>
             <div class="flex">
               {{ product.price | money }}

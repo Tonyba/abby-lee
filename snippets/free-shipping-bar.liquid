@@ -3,9 +3,18 @@
   Shows progress bar and message indicating how much more to spend for free shipping.
 {% endcomment %}
 
+{% liquid
+  assign free_shipping_minimum = settings.free_shipping_threshold
+  if free_shipping_minimum != blank
+    assign free_shipping_minimum = free_shipping_minimum | times: 100.0
+  else
+    assign free_shipping_minimum = 7500
+  endif
+%}
+
 <div
   class="free-shipping-bar"
-  data-free-shipping-threshold="{{ settings.free_shipping_threshold | default: 7500 | times: 1.0 }}"
+  data-free-shipping-threshold="{{ free_shipping_minimum }}"
 >
   <div class="fsb-message">
     <span class="fsb-message-text">

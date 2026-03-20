@@ -430,6 +430,11 @@ button {
 }
 
 /* cart */
+
+:root {
+    --sidebar-width: 700px
+}
+
 .checkout-black {
     background-color: black;
     color: white;

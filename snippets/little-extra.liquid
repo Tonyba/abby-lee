@@ -16,7 +16,7 @@
       {% for product in products %}
         {% if product.available %}
           <div class="embla__item">
-            {{ product.images }}
+            {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
           </div>
         {% endif %}
       {% endfor %}

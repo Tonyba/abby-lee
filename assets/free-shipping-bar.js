@@ -100,7 +100,6 @@
         document.addEventListener('cart:update', function (e) {
             console.log(e)
             fetchCartAndUpdate(e.detail.resource);
-            console.log('updated');
         });
 
         // If the cart is updated via theme's own AJAX, they might not trigger our events.

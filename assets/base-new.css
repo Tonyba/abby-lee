@@ -451,4 +451,5 @@ button {
 
 .checkout-cart-container .payment-icons__list {
     gap: 13px !important;
+    justify-content: center;
 }

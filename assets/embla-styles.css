@@ -92,6 +92,10 @@
     --slide-spacing: 0px;
 }
 
+.gap-6 {
+    --slide-spacing: 6px;
+}
+
 .cols-5 {
     --slide-size: 20%;
 }

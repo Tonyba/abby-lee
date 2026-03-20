@@ -47,6 +47,7 @@
       }
 
       let remaining = threshold - cartTotal;
+
       let percent = (cartTotal / threshold) * 100;
       if (percent > 100) percent = 100;
       if (remaining <= 0) {
@@ -85,10 +86,6 @@
         // Usually Shopify object is available on cart page. If not, we can load it.
         // For simplicity, we'll assume it's present. If not, we'll still try to use formatMoney.
       }
-
-      console.log(window.Shopify);
-
-      console.log('cart ');
 
       // Set initial data from existing cart if available
       if (window.Shopify && window.Shopify.cart) {

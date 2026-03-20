@@ -440,9 +440,9 @@ button {
 }
 
 .checkout-cart-container {
-    padding-bottom: 10px
+    padding-bottom: 0px
 }
 
 .checkout-black .payment-icons__list {
-    gap: 13px;
+    gap: 13px !important;
 }

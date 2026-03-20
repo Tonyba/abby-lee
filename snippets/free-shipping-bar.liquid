@@ -7,6 +7,7 @@
   class="free-shipping-bar"
   data-free-shipping-threshold="{{ settings.free_shipping_threshold | default: 7500 | times: 1.0 }}"
 >
+  {{ settings.free_shipping_threshold }}
   <div class="fsb-message">
     <span class="fsb-message-text">
       {% comment %} Dynamic text will be updated by JS {% endcomment %}

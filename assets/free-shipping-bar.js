@@ -59,8 +59,6 @@
             }
         }
 
-        console.log(cartTotal)
-
         let remaining = threshold - cartTotal;
         let percent = (cartTotal / threshold) * 100;
         if (percent > 100) percent = 100;

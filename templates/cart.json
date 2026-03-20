@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "cart-section": {
       "type": "main-cart",
@@ -105,11 +105,11 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h3>You may also like</h3>",
+                "text": "<h2>Customers who bought this item also bought</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h4",
+                "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "",
                 "line_height": "normal",
@@ -126,25 +126,10 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "product_list_button_eibbma": {
-              "type": "_product-list-button",
-              "name": "t:names.product_list_button",
-              "settings": {
-                "label": "View all",
-                "open_in_new_tab": false,
-                "style_class": "link",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "product_list_text_fifeh4",
-            "product_list_button_eibbma"
+            "product_list_text_fifeh4"
           ]
         },
         "static-product-card": {
@@ -152,6 +137,7 @@
           "name": "t:names.product_card",
           "static": true,
           "settings": {
+            "custom_css": "",
             "product_card_gap": 4,
             "inherit_color_scheme": true,
             "color_scheme": "",
@@ -169,7 +155,7 @@
               "type": "_product-card-gallery",
               "name": "t:names.product_card_media",
               "settings": {
-                "image_ratio": "adapt",
+                "image_ratio": "square",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
@@ -239,6 +225,7 @@
       },
       "name": "t:names.featured_collection",
       "settings": {
+        "custom_css": "",
         "collection": "all",
         "layout_type": "grid",
         "carousel_on_mobile": false,

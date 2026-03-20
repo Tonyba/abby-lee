@@ -84,6 +84,7 @@
     // Function to get cart data from Shopify AJAX API and update
     function fetchCartAndUpdate(cart) {
         if (window.Shopify) window.Shopify.cart = cart;
+        updateFreeShippingBar();
     }
 
     function initlogic() {

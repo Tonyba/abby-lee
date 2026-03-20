@@ -18,6 +18,10 @@
     position: relative;
 }
 
+.embla__button {
+    cursor: pointer;
+}
+
 .absolute-arrows .embla__button {
     position: absolute;
     top: 50%;

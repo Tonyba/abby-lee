@@ -120,6 +120,9 @@
         </button>
       </div>
 
+      
+      {% render 'free-shipping-bar' %}
+
       <div
         class="cart-drawer__content"
         aria-label="{{ 'accessibility.cart' | t }}"
@@ -133,7 +136,6 @@
          
         
         <div class="cart-drawer__items">
-         
           {% render 'cart-products', force_empty: true %}
         </div>
       </div>
@@ -218,7 +220,6 @@
                 <div
                   class="cart-drawer__summary"
                 >
-                  {% render 'free-shipping-bar' %}
                   {% render 'cart-checkout-secure' %}
                   {% render 'cart-summary', section_id: section.id %}
                 </div>

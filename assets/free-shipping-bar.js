@@ -79,7 +79,8 @@
             const progressBar = barContainer.querySelector('.fsb-progress-bar');
             if (progressBar) progressBar.style.width = percent + '%';
 
-            progressBar.style.width = '50%';
+            setTimeout(() => { progressBar.style.width = '50%'; }, 100)
+
 
         }
     }

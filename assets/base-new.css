@@ -443,6 +443,6 @@ button {
     padding-bottom: 0px
 }
 
-.checkout-black .payment-icons__list {
+.checkout-cart-container .payment-icons__list {
     gap: 13px !important;
 }

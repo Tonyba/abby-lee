@@ -438,7 +438,7 @@ button {
 .cart-items__title {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 14p !important;
+    font-size: 14px !important;
 }
 
 .cart-items__unit-price-wrapper * {

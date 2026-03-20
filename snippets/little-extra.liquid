@@ -13,8 +13,12 @@
 
   <div class="embla__viewport">
     <div class="embla__container">
-      {% for item in products %}
-        <div class="embla__item"></div>
+      {% for product in products %}
+        {% if product.available %}
+          <div class="embla__item">
+            {{ product.images }}
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>

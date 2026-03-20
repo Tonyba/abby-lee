@@ -1,7 +1,3 @@
-{% liquid
-  assign products = all_products
-%}
-
 {{ products.size }}
 
 {% stylesheet %}
@@ -53,14 +49,14 @@
 
   <div class="embla__viewport">
     <div class="embla__container">
-      {% for product in products %}
-        {% if product.available %}
+      {% paginate collections['all-products'].products by 10 %}
+        {% for product in collections['all-products'].products %}
           <div class="embla__item">
             {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
             <h6>{{ product.title }}</h6>
           </div>
-        {% endif %}
-      {% endfor %}
+        {% endfor %}
+      {% endpaginate %}
     </div>
   </div>
 </div>

@@ -50,6 +50,10 @@
 
       let percent = (cartTotal / threshold) * 100;
       if (percent > 100) percent = 100;
+
+      console.log(percent);
+      console.log(remaining);
+
       if (remaining <= 0) {
         // Free shipping achieved
         barContainer.classList.add('free-shipping-achieved');

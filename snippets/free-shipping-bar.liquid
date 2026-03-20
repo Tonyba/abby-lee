@@ -59,11 +59,11 @@
       console.log(formatted);
 
       // If the format includes {{amount_no_decimals}} handle it
-      if (moneyFormat.includes('{{amount_no_decimals}}')) {
+      /* if (moneyFormat.includes('{{amount_no_decimals}}')) {
         const amountNoDecimals = Math.floor(amount);
         formatted = moneyFormat.replace('{{amount_no_decimals}}', amountNoDecimals);
         formatted = formatted.replace('{{amount}}', amount.toFixed(2));
-      }
+      }*/
 
       return formatted;
     }

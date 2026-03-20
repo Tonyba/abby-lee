@@ -1,0 +1,108 @@
+{% comment %}
+  Free Shipping Bar - Threshold: $75
+  Shows progress bar and message indicating how much more to spend for free shipping.
+{% endcomment %}
+
+{% liquid
+  assign free_shipping_minimum = settings.free_shipping_threshold
+  if free_shipping_minimum != blank
+    assign free_shipping_minimum = free_shipping_minimum | times: 100.0
+  else
+    assign free_shipping_minimum = 7500
+  endif
+%}
+
+{% stylesheet %}
+  .free-shipping-bar {
+    font-family: inherit;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+
+  .fsb-message {
+    margin-bottom: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  .fsb-progress {
+    background: #e0e0e0;
+    border-radius: 20px;
+    height: 8px;
+    overflow: hidden;
+  }
+  .fsb-progress-bar {
+    background: #4caf50;
+    width: 0%;
+    height: 100%;
+    transition: width 0.3s ease;
+  }
+  .free-shipping-achieved .fsb-progress-bar {
+    background: #2e7d32;
+  }
+  .free-shipping-achieved .fsb-message-text {
+    color: #2e7d32;
+    font-weight: bold;
+  }
+
+  .fsb-message-text {
+    font-weight: 600;
+  }
+
+  .free-shipping-below {
+    margin-top: 16px;
+    font-weight: 600;
+    color: #5c5c5c;
+  }
+
+  .fsb-progress-bar {
+    background-color: var(--color-primary-button-background);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .free-shipping-bar {
+      padding: 10px;
+    }
+    .fsb-message {
+      font-size: 12px;
+    }
+  }
+{% endstylesheet %}
+
+<style>
+   .free-shipping-bar:not(.free-shipping-achieved) .fsb-message {
+    display: flex;
+    gap: 14px;
+  }
+
+  .free-shipping-bar:not(.free-shipping-achieved) .fsb-message:after {
+    display: block;
+    content: '';
+    -webkit-mask: url({{ 'truck.svg' | asset_url }}) no-repeat center /
+      22px;
+    background-color: currentColor;
+    display: block;
+    width: 22px;
+    height: 18px;
+    flex-shrink: 0
+  }
+</style>
+
+<div
+  class="free-shipping-bar"
+  data-free-shipping-threshold="{{ free_shipping_minimum }}"
+>
+  <div class="fsb-message items-center">
+    <span class="fsb-message-text">
+      {% comment %} Dynamic text will be updated by JS {% endcomment %}
+    </span>
+  </div>
+  <div class="fsb-progress">
+    <div class="fsb-progress-bar" style="width: 0%;"></div>
+  </div>
+  <div class="flex justify-between free-shipping-below">
+    <span> {{ '0' | money_with_currency }} </span>
+    <span> {{ free_shipping_minimum | money_with_currency }} </span>
+  </div>
+</div>

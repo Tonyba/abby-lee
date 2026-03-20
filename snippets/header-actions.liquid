@@ -120,6 +120,7 @@
         </button>
       </div>
 
+
       <div
         class="cart-drawer__content"
         aria-label="{{ 'accessibility.cart' | t }}"
@@ -130,7 +131,8 @@
         >
           {{ 'content.your_cart_is_empty' | t }}
         </h2>
-
+         
+        
         <div class="cart-drawer__items">
           {% render 'cart-products', force_empty: true %}
         </div>
@@ -202,6 +204,8 @@
                 </button>
               </div>
 
+              {% render 'free-shipping-bar' %}
+
               <scroll-hint
                 class="cart-drawer__content"
                 aria-label="{{ 'accessibility.cart' | t }}"
@@ -213,9 +217,12 @@
                   {% render 'cart-products', drawer_context: 'drawer' %}
                 </scroll-hint>
 
+                {% render 'little-extra' %}
+
                 <div
                   class="cart-drawer__summary"
                 >
+                  {% render 'cart-checkout-secure' %}
                   {% render 'cart-summary', section_id: section.id %}
                 </div>
               </scroll-hint>

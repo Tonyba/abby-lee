@@ -18,6 +18,10 @@
     position: relative;
 }
 
+.embla__button {
+    cursor: pointer;
+}
+
 .absolute-arrows .embla__button {
     position: absolute;
     top: 50%;
@@ -86,6 +90,10 @@
 
 .no-gap {
     --slide-spacing: 0px;
+}
+
+.gap-6 {
+    --slide-spacing: 6px;
 }
 
 .cols-5 {

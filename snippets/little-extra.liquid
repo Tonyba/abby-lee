@@ -1,0 +1,88 @@
+{{ products.size }}
+
+{% stylesheet %}
+  .litle-extra-container {
+    margin-top: auto;
+    background-color: #f5f5f5;
+  }
+
+  .cart-drawer__summary {
+    margin-top: unset;
+  }
+
+  .litle-extra-container {
+    padding: 33px 77px;
+  }
+
+  .litle-extra-container p {
+    margin-top: unset;
+    color: #5c5c5c;
+  }
+
+  .litle-extra-container h5 {
+    margin-bottom: unset;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .litle-extra-header {
+    margin-bottom: 25px;
+  }
+
+  .litle-extra-container .embla__container img {
+    width: 100%;
+    height: 196px;
+    margin-bottom: 12px;
+  }
+
+  .litle-extra-container h6 {
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+
+  .litle-extra-container .price {
+    font-weight: 600;
+  }
+{% endstylesheet %}
+
+<div class="litle-extra-container embla cols-3 gap-6 dark-arrows">
+  <div class="flex justify-between litle-extra-header">
+    <div class="texts">
+      <h5>Add a little extra</h5>
+      <p>add one or more of these items to get free delivery</p>
+    </div>
+
+    <div class="buttons flex">
+      <div class="embla__button embla__button--prev">
+        {{ 'icon-chevron-left.svg' | inline_asset_content }}
+      </div>
+      <div class="embla__button embla__button--next">
+        {{ 'icon-chevron-right.svg' | inline_asset_content }}
+      </div>
+    </div>
+  </div>
+
+  <div class="embla__viewport">
+    <div class="embla__container">
+      {% paginate collections['all-products'].products by 10 %}
+        {% for product in collections['all-products'].products %}
+          <div class="embla__item relative">
+            {{ product.featured_image | image_url: width: 250, height: 250 | image_tag: class: 'img-cover' }}
+            <h6>{{ product.title }}</h6>
+            <div class="flex price">
+              {{ product.price | money }}
+            </div>
+            {% render 'plus-icon-add-to-cart', product: product %}
+          </div>
+        {% endfor %}
+      {% endpaginate %}
+    </div>
+  </div>
+</div>
+
+<script src="{{ 'embla-carousel.umd.js' | asset_url }}" defer></script>
+<script src="{{ 'mount-embla.js' | asset_url }}" defer></script>

@@ -41,7 +41,7 @@
     "type_size_h5": "18",
     "type_line_height_h5": "display-loose",
     "type_font_h6": "subheading",
-    "type_size_h6": "12",
+    "type_size_h6": "16",
     "type_line_height_h6": "display-loose",
     "page_width": "narrow",
     "page_transition_enabled": false,
@@ -65,6 +65,7 @@
     "cart_price_font": "subheading",
     "show_cart_note": false,
     "show_add_discount_code": true,
+    "free_shipping_threshold": 75,
     "drawer_drop_shadow": true,
     "icon_stroke": "default",
     "input_border_width": 1,
@@ -88,6 +89,13 @@
     "variant_button_width": "equal-width-buttons",
     "button_font_weight_secondary": "default",
     "content_for_index": [],
+    "blocks": {
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -111,7 +119,7 @@
           "secondary_button_hover_text": "#ffffff",
           "secondary_button_hover_border": "#000000",
           "input_background": "#ffffffc7",
-          "input_text_color": "#333333",
+          "input_text_color": "#000000",
           "input_border_color": "#dfdfdf",
           "input_hover_background": "#00000003",
           "variant_background_color": "#ffffff",

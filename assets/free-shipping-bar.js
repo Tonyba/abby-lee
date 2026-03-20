@@ -70,6 +70,7 @@
             const progressBar = barContainer.querySelector('.fsb-progress-bar');
             if (progressBar) progressBar.style.width = '100%';
         } else {
+            console.log(barContainer)
             barContainer.classList.remove('free-shipping-achieved');
             const remainingFormatted = formatMoney(remaining);
             const messageEl = barContainer.querySelector('.fsb-message-text');
@@ -92,7 +93,7 @@
     }
 
     function initlogic() {
-        console.log('initing');
+
         // Set initial data from existing cart if available
         if (window.Shopify && window.Shopify.cart) {
             updateFreeShippingBar();

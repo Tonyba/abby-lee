@@ -102,7 +102,8 @@
         }
 
         // Listen for cart updates via AJAX (standard Shopify events)
-        document.addEventListener('cart:update', function () {
+        document.addEventListener('cart:update', function (e) {
+            console.log(e)
             fetchCartAndUpdate();
             console.log('updated');
         });

@@ -45,6 +45,9 @@
 
         if (!barContainer) return;
 
+
+        console.log(window.Shopify.cart)
+
         const threshold = parseFloat(barContainer.dataset.freeShippingThreshold) || 7500; // in cents
 
         // Get cart total from Shopify's cart data

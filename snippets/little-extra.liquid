@@ -17,6 +17,7 @@
         {% if product.available %}
           <div class="embla__item">
             {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
+            <h6>{{ product.title }}</h6>
           </div>
         {% endif %}
       {% endfor %}

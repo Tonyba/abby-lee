@@ -438,3 +438,7 @@ button {
     font-weight: bold;
     letter-spacing: 5%;
 }
+
+.checkout-black .payment-icons__list {
+    gap: 13px;
+}

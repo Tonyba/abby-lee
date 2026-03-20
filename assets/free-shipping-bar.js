@@ -103,15 +103,9 @@
         }
 
         // Listen for cart updates via AJAX (standard Shopify events)
-        document.addEventListener('cart:updated', function () {
+        document.addEventListener('cart:update', function () {
             fetchCartAndUpdate();
             console.log('updated');
-        });
-
-        // Also listen for any custom event that might update cart (e.g., in drawer)
-        document.addEventListener('cart:change', function () {
-            fetchCartAndUpdate();
-            console.log('changed');
         });
 
         // If the cart is updated via theme's own AJAX, they might not trigger our events.

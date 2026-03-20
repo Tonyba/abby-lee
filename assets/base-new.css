@@ -446,7 +446,7 @@ button {
 }
 
 .checkout-cart-container {
-    padding-bottom: 0px
+    width: 100%;
 }
 
 .checkout-cart-container .payment-icons__list {

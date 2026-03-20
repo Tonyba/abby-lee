@@ -12,23 +12,7 @@
   endif
 %}
 
-<div
-  class="free-shipping-bar"
-  data-free-shipping-threshold="{{ free_shipping_minimum }}"
->
-  <div class="fsb-message">
-    <span class="fsb-message-text">
-      {% comment %} Dynamic text will be updated by JS {% endcomment %}
-    </span>
-  </div>
-  <div class="fsb-progress">
-    <div class="fsb-progress-bar" style="width: 0%;"></div>
-  </div>
-</div>
-
-<script src="{{ 'free-shipping-bar.js' | asset_url }}" defer></script>
-
-<style>
+{% stylesheet %}
   .free-shipping-bar {
     background: #f9f9f9;
     border-radius: 8px;
@@ -72,4 +56,20 @@
       font-size: 12px;
     }
   }
-</style>
+{% endstylesheet %}
+
+<div
+  class="free-shipping-bar"
+  data-free-shipping-threshold="{{ free_shipping_minimum }}"
+>
+  <div class="fsb-message">
+    <span class="fsb-message-text">
+      {% comment %} Dynamic text will be updated by JS {% endcomment %}
+    </span>
+  </div>
+  <div class="fsb-progress">
+    <div class="fsb-progress-bar" style="width: 0%;"></div>
+  </div>
+</div>
+
+<script src="{{ 'free-shipping-bar.js' | asset_url }}" defer></script>

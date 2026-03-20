@@ -70,7 +70,7 @@
                 // Free shipping achieved
                 barContainer.classList.add('free-shipping-achieved');
                 const messageEl = barContainer.querySelector('.fsb-message-text');
-                if (messageEl) messageEl.innerHTML = '🎉 ¡Felicidades! Tienes envío gratis 🎉';
+                if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';
                 const progressBar = barContainer.querySelector('.fsb-progress-bar');
                 if (progressBar) progressBar.style.width = '100%';
             } else {

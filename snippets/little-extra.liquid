@@ -52,6 +52,7 @@
   <div class="embla__viewport">
     <div class="embla__container">
       {% for product in products %}
+        hey
         {% if product.available %}
           <div class="embla__item">
             {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}

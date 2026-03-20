@@ -70,13 +70,16 @@
             const progressBar = barContainer.querySelector('.fsb-progress-bar');
             if (progressBar) progressBar.style.width = '100%';
         } else {
-            console.log('hey')
             barContainer.classList.remove('free-shipping-achieved');
             const remainingFormatted = formatMoney(remaining);
             const messageEl = barContainer.querySelector('.fsb-message-text');
             if (messageEl) messageEl.innerHTML = `¡Agrega ${remainingFormatted} más para obtener envío gratis!`;
             const progressBar = barContainer.querySelector('.fsb-progress-bar');
             if (progressBar) progressBar.style.width = percent + '%';
+
+            console.log(remainingFormatted)
+            console.log(messageEl);
+            console.log(progressBar);
         }
     }
 

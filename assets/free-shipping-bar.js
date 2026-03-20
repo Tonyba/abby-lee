@@ -50,7 +50,7 @@
         // Get cart total from Shopify's cart data
         let cartTotal = 0;
 
-        console.log(window.Shopify.cart)
+
 
         if (window.Shopify && window.Shopify.cart) {
             cartTotal = window.Shopify.cart.total_price;

@@ -441,7 +441,7 @@ button {
     font-size: 14px !important;
 }
 
-.cart-items__unit-price-wrapper * {
+.cart-items__price * {
     font-weight: bold !important;
     font-size: 18px !important;
 }

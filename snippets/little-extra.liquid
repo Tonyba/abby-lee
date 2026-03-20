@@ -55,20 +55,11 @@
   }
 {% endstylesheet %}
 
-<div class="litle-extra-container embla cols-3 gap-6 dark-arrows">
+<div class="litle-extra-container embla cols-3 gap-6 dark-arrows absolute-arrows">
   <div class="flex justify-between litle-extra-header">
     <div class="texts">
       <h5>Add a little extra</h5>
       <p>add one or more of these items to get free delivery</p>
-    </div>
-
-    <div class="buttons flex">
-      <div class="embla__button embla__button--prev">
-        {{ 'icon-chevron-left.svg' | inline_asset_content }}
-      </div>
-      <div class="embla__button embla__button--next">
-        {{ 'icon-chevron-right.svg' | inline_asset_content }}
-      </div>
     </div>
   </div>
 
@@ -86,6 +77,15 @@
           </div>
         {% endfor %}
       {% endpaginate %}
+    </div>
+  </div>
+
+  <div class="buttons flex">
+    <div class="embla__button embla__button--prev">
+      {{ 'icon-chevron-left.svg' | inline_asset_content }}
+    </div>
+    <div class="embla__button embla__button--next">
+      {{ 'icon-chevron-right.svg' | inline_asset_content }}
     </div>
   </div>
 </div>

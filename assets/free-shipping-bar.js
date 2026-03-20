@@ -40,12 +40,14 @@
 
     // Function to update the free shipping bar
     function updateFreeShippingBar() {
-        console.log('pasandini')
+
         const barContainer = document.querySelector('.free-shipping-bar');
-        console.log(barContainer)
+
         if (!barContainer) return;
 
         const threshold = parseFloat(barContainer.dataset.freeShippingThreshold) || 7500; // in cents
+
+        console.log(threshold)
 
         // Get cart total from Shopify's cart data
         let cartTotal = 0;

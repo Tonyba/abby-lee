@@ -1,7 +1,17 @@
 {% stylesheet %}
 {% endstylesheet %}
 
-<style></style>
+<style>
+  .cart-add-to-drawer button:after {
+    content: '';
+    -webkit-mask: url({{ 'icon-plus.svg' | asset_url }}) no-repeat center / 21px;
+    background-color: currentColor;
+    display: block;
+    width: 22px;
+    height: 18px;
+
+  }
+</style>
 
 <span
   class="cart-add-to-drawer buy-buttons-block buy-buttons-block--{{ product.id }}"

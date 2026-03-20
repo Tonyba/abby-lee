@@ -50,8 +50,6 @@
         // Get cart total from Shopify's cart data
         let cartTotal = 0;
 
-
-
         if (window.Shopify && window.Shopify.cart) {
             cartTotal = window.Shopify.cart.total_price;
         } else {
@@ -86,6 +84,7 @@
 
     // Function to get cart data from Shopify AJAX API and update
     function fetchCartAndUpdate(cart) {
+        console.log('fetching')
         if (window.Shopify) window.Shopify.cart = cart;
         updateFreeShippingBar();
     }

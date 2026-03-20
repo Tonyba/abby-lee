@@ -435,8 +435,9 @@ button {
 }
 
 .cart-summary__inner .free-shipping-bar {
-    padding: 0;
+    padding: 20px 30px;
     margin: 0;
+    background-color: #F5F5F5;
 }
 
 .cart-drawer__dialog {

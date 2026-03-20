@@ -440,6 +440,11 @@ button {
     font-weight: 600;
 }
 
+.cart-items__unit-price-wrapper * {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .checkout-black {
     background-color: black;
     color: white;

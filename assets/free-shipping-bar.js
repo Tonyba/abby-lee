@@ -41,11 +41,11 @@
     // Function to update the free shipping bar
     function updateFreeShippingBar() {
 
-        const barContainer = document.querySelector('.free-shipping-bar');
+        const barContainer = Array.from(document.querySelectorAll('.free-shipping-bar'));
 
-        if (!barContainer) return;
+        if (!barContainer.length) return;
 
-
+        barContainer.map(bar => handleShippingCart(bar));
 
 
     }

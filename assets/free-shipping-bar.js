@@ -70,7 +70,8 @@
             const progressBar = barContainer.querySelector('.fsb-progress-bar');
             if (progressBar) progressBar.style.width = '100%';
         } else {
-            console.log(barContainer)
+            console.log(percent);
+            console.log(remainingFormatted)
             barContainer.classList.remove('free-shipping-achieved');
             const remainingFormatted = formatMoney(remaining);
             const messageEl = barContainer.querySelector('.fsb-message-text');

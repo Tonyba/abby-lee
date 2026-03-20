@@ -41,6 +41,7 @@
     // Function to update the free shipping bar
     function updateFreeShippingBar() {
         const barContainer = document.querySelector('.free-shipping-bar');
+        console.log(barContainer)
         if (!barContainer) return;
 
         const threshold = parseFloat(barContainer.dataset.freeShippingThreshold) || 7500; // in cents

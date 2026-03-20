@@ -431,9 +431,13 @@ button {
 
 /* cart */
 
-:root {
-    --sidebar-width: 700px
+@media screen and (min-width: 750px) {
+    :root {
+        --sidebar-width: 700px
+    }
+
 }
+
 
 .checkout-black {
     background-color: black;

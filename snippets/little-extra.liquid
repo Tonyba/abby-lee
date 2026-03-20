@@ -2,7 +2,7 @@
   assign products = all_products
 %}
 
-{{ products.first | json }}
+{{ products.first.title | json }}
 
 {% stylesheet %}
   .litle-extra-container {

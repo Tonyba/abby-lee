@@ -1,5 +1,5 @@
 {% liquid
-
+  assign products = collection.products
 %}
 
 {% stylesheet %}
@@ -13,7 +13,9 @@
 
   <div class="embla__viewport">
     <div class="embla__container">
-      <div class="embla__item"></div>
+      {% for item in products %}
+        <div class="embla__item"></div>
+      {% endfor %}
     </div>
   </div>
 </div>

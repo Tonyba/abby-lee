@@ -54,6 +54,9 @@
           <div class="embla__item">
             {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
             <h6>{{ product.title }}</h6>
+            <div class="flex">
+              {{ product.price | money_with_currency }}
+            </div>
           </div>
         {% endfor %}
       {% endpaginate %}

@@ -76,6 +76,7 @@
             <div class="flex price">
               {{ product.price | money }}
             </div>
+            {% render 'plus-icon-add-to-cart', product: product %}
           </div>
         {% endfor %}
       {% endpaginate %}

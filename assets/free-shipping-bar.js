@@ -84,7 +84,6 @@
 
     // Function to get cart data from Shopify AJAX API and update
     function fetchCartAndUpdate(cart) {
-        console.log('fetching: ' + cart);
         if (window.Shopify) window.Shopify.cart = cart;
         updateFreeShippingBar();
     }
@@ -101,6 +100,7 @@
         // Listen for cart updates via AJAX (standard Shopify events)
         document.addEventListener('cart:update', function (e) {
             console.log(e)
+            console.log('updating')
             fetchCartAndUpdate(e.detail.resource);
         });
 

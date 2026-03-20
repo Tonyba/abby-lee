@@ -7,7 +7,6 @@
   class="free-shipping-bar"
   data-free-shipping-threshold="{{ settings.free_shipping_threshold | default: 7500 | times: 1.0 }}"
 >
-  {{ settings.free_shipping_threshold }}
   <div class="fsb-message">
     <span class="fsb-message-text">
       {% comment %} Dynamic text will be updated by JS {% endcomment %}
@@ -79,7 +78,7 @@
     }
 
     // Initial update on page load
-    /* document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function () {
       // Ensure Shopify object exists (for formatMoney)
       if (typeof Shopify === 'undefined') {
         // If Shopify object not available, we need to load it or define fallback.
@@ -109,10 +108,10 @@
       // Instead, we'll intercept the fetch of cart.js? That's heavy.
       // We'll rely on the fact that the theme should trigger 'cart:updated' after any cart change.
       // If not, we can provide an optional manual trigger for theme developers to call window.updateFreeShippingBar().
-    });*/
+    });
 
     // Expose function globally so theme can manually trigger update if needed
-    /*  window.updateFreeShippingBar = updateFreeShippingBar;*/
+    window.updateFreeShippingBar = updateFreeShippingBar;
   })();
 </script>
 

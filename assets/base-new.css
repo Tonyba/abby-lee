@@ -440,9 +440,9 @@ button {
     font-weight: 600;
 }
 
-.cart-items__unit-price-wrapper * {
-    font-weight: bold;
-    font-size: 18px;
+.cart-items__unit-price-wrapper {
+    font-weight: bold !important;
+    font-size: 18px !important;
 }
 
 .checkout-black {

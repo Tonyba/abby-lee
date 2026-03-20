@@ -28,6 +28,11 @@
   .litle-extra-header {
     margin-bottom: 25px;
   }
+
+  .litle-extra-header .embla__container img {
+    width: 100%;
+    height: 196px;
+  }
 {% endstylesheet %}
 
 <div class="litle-extra-container embla">
@@ -55,7 +60,7 @@
             {{ product.featured_image | image_url: width: 250, height: 250 | image_tag }}
             <h6>{{ product.title }}</h6>
             <div class="flex">
-              {{ product.price | money_with_currency }}
+              {{ product.price | money }}
             </div>
           </div>
         {% endfor %}

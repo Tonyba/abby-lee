@@ -435,6 +435,10 @@ button {
     --sidebar-width: 700px
 }
 
+.cart-items__title {
+    text-transform: uppercase;
+    font-weight: 600;
+}
 
 .checkout-black {
     background-color: black;

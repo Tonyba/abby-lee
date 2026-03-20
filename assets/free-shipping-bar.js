@@ -64,25 +64,26 @@
         let remaining = threshold - cartTotal;
         let percent = (cartTotal / threshold) * 100;
         if (percent > 100) percent = 100;
-        if (remaining <= 0) {
-            // Free shipping achieved
-            barContainer.classList.add('free-shipping-achieved');
-            const messageEl = barContainer.querySelector('.fsb-message-text');
-            if (messageEl) messageEl.innerHTML = '🎉 ¡Felicidades! Tienes envío gratis 🎉';
-            const progressBar = barContainer.querySelector('.fsb-progress-bar');
-            if (progressBar) progressBar.style.width = '100%';
-        } else {
-            barContainer.classList.remove('free-shipping-achieved');
-            const remainingFormatted = formatMoney(remaining);
-            const messageEl = barContainer.querySelector('.fsb-message-text');
-            if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted}  away from Free Standard Shipping`;
-            const progressBar = barContainer.querySelector('.fsb-progress-bar');
-            if (progressBar) progressBar.style.width = percent + '%';
 
-            setTimeout(() => { progressBar.style.width = percent + '%'; }, 100)
+        setTimeout(() => {
+            if (remaining <= 0) {
+                // Free shipping achieved
+                barContainer.classList.add('free-shipping-achieved');
+                const messageEl = barContainer.querySelector('.fsb-message-text');
+                if (messageEl) messageEl.innerHTML = '🎉 ¡Felicidades! Tienes envío gratis 🎉';
+                const progressBar = barContainer.querySelector('.fsb-progress-bar');
+                if (progressBar) progressBar.style.width = '100%';
+            } else {
+                barContainer.classList.remove('free-shipping-achieved');
+                const remainingFormatted = formatMoney(remaining);
+                const messageEl = barContainer.querySelector('.fsb-message-text');
+                if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted}  away from Free Standard Shipping`;
+                const progressBar = barContainer.querySelector('.fsb-progress-bar');
+                if (progressBar) progressBar.style.width = percent + '%';
+            }
+        }, 100)
 
 
-        }
     }
 
     // Function to get cart data from Shopify AJAX API and update

@@ -12,6 +12,11 @@
     background-color: #f9f9f9;
     padding: 30px 50px;
   }
+
+  .featured-post-wrapper img {
+    height: 321px;
+    width: 100%;
+  }
 {% endstylesheet %}
 
 {% if featured_article %}
@@ -20,7 +25,7 @@
       {{
         featured_article.image
         | image_url: width: featured_article.image.width, height: featured_article.image.height
-        | image_tag
+        | image_tag: class: 'img-cover'
       }}
     </a>
     <div class="featured-post-content">

@@ -499,3 +499,7 @@ button {
 .blog-archive .blog-posts-container {
     column-gap: 10px;
 }
+
+.blog-archive .tags {
+    color: #fb0101;
+}

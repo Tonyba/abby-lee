@@ -16,6 +16,8 @@
       {%- content_for 'block', id: 'heading', type: '_heading', text: article.title -%}
     </a>
 
+    {% content_for 'block', id: 'meta', type: 'group' %}
+
     {% content_for 'block',
       id: 'blog-post-details',
       type: '_blog-post-info-text',

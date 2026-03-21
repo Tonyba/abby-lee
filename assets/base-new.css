@@ -524,13 +524,11 @@ button {
     margin-top: 20px;
     line-height: 160%;
     font-weight: 600;
-    position: relative;
 }
 
 .blog-archive .blog-post-card__content-text a:after {
     content: ' ';
     /* Required for pseudo-elements to display, even if empty */
-    position: absolute;
     /* Position the pseudo-element */
     right: 5px;
     /* Adjust as needed for spacing */

@@ -6,7 +6,9 @@
   {% for article in tagged_articles %}
     <div class="col flex">
       <div class="number">{{ forloop.index }}</div>
-      <div class="content"></div>
+      <div class="content">
+        <h5>{{ article.title }}</h5>
+      </div>
     </div>
   {% endfor %}
 </div>

@@ -495,3 +495,7 @@ button {
     height: 340px;
     width: 100%;
 }
+
+.blog-archive .blog-posts-container {
+    column-gap: 10px;
+}

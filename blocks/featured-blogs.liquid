@@ -1,15 +1,9 @@
-{% assign featured_articles = '' | split: '' %}
-
-{% for article in blogs.news.articles %}
-  {% if article.tags contains 'featured' %}
-    {% assign featured_articles = featured_articles | slice: forloop.index0 | concat: featured_articles %}
-  {% endif %}
-{% endfor %}
-
-{% assign featured_articles = featured_articles | reverse %}
+{% liquid
+  assign tagged_articles = blogs.news.articles
+%}
 
 <div class="grid cols-2">
-  {% for article in featured_articles %}
+  {% for article in tagged_articles %}
     <div class="col flex">
       <div class="number">#{{ forloop.index }}</div>
       <div class="content">

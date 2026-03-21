@@ -359,7 +359,7 @@
       "block_order": [
         "group_rBTtwE"
       ],
-      "name": "t:names.multicolumn",
+      "name": "featured",
       "settings": {
         "custom_css": "redish-gradient",
         "content_direction": "column",

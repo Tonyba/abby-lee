@@ -273,7 +273,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "custom_css": "",
+            "custom_css": "border-b-red",
             "content_direction": "row",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -355,7 +355,7 @@
             "text_DYHwGw"
           ]
         },
-        "featured_blogs_78nrzK": {
+        "featured_blogs_bAkhqJ": {
           "type": "featured-blogs",
           "name": "Featured Blogs",
           "settings": {},
@@ -364,7 +364,7 @@
       },
       "block_order": [
         "group_rBTtwE",
-        "featured_blogs_78nrzK"
+        "featured_blogs_bAkhqJ"
       ],
       "name": "featured",
       "settings": {

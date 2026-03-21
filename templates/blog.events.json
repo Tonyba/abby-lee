@@ -113,7 +113,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
+            "gap": 12,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -142,6 +142,16 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "breadcrumbs_jqqKgP": {
+              "type": "breadcrumbs",
+              "name": "breadcrumbs",
+              "settings": {
+                "show_breadcrumbs": true,
+                "separator": "slash",
+                "show_home_icon": false
+              },
+              "blocks": {}
+            },
             "text_3aYY33": {
               "type": "text",
               "name": "t:names.heading",
@@ -174,7 +184,7 @@
               "name": "t:names.description",
               "settings": {
                 "custom_css": "",
-                "text": "<p>We're always on your side: keeping our loyal customers happy is our top priority and number one goal.</p>",
+                "text": "<p>Performance-driven pieces made to move.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -198,6 +208,7 @@
             }
           },
           "block_order": [
+            "breadcrumbs_jqqKgP",
             "text_3aYY33",
             "text_X8Qw6P"
           ]
@@ -216,7 +227,7 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
+        "gap": 12,
         "section_width": "page-width",
         "section_height": "",
         "section_height_custom": 50,
@@ -232,8 +243,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-start": 33,
+        "padding-block-end": 33
       }
     }
   },

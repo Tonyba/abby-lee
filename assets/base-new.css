@@ -567,3 +567,9 @@ button {
 .cat-menu .details-content {
     padding: 7px 0;
 }
+
+.cat-menu .active {
+    background-color: black;
+    color: white;
+    border-color: black;
+}

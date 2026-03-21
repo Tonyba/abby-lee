@@ -2,7 +2,6 @@
 
 {% for article in blogs.news.articles %}
   {% if article.tags contains 'featured' %}
-    {{ article.tags }}
     {% assign featured_articles = featured_articles | slice: forloop.index0 | concat: featured_articles %}
   {% endif %}
 {% endfor %}

@@ -1,18 +1,23 @@
-{% liquid
-  assign tagged_articles = blogs.news.articles | where: 'tags', 'featured'
-%}
+{% assign featured_articles = '' | split: '' %}
+
+{% for article in blogs.news.articles %}
+  {% if article.tags contains 'featured' %}
+    {% assign featured_articles = featured_articles | append: article %}
+  {% endif %}
+{% endfor %}
 
 <div class="grid cols-2">
-  {% for article in tagged_articles %}
+  {% for article in featured_articles %}
     <div class="col flex">
-      <div class="number">{{ forloop.index }}</div>
+      <div class="number">#{{ forloop.index }}</div>
       <div class="content">
         <h5>{{ article.title }}</h5>
       </div>
     </div>
+  {% else %}
+    <p>No hay artículos destacados.</p>
   {% endfor %}
 </div>
-
 {% schema %}
 {
   "name": "Featured Blogs",

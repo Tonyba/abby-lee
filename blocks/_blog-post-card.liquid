@@ -16,7 +16,9 @@
       {%- content_for 'block', id: 'heading', type: '_heading', text: article.title -%}
     </a>
 
-    {% content_for 'block', id: 'meta', type: 'group' %}
+    <div class="flex" id="meta">
+      {%- content_for 'block', id: 'date-meta', type: 'text', text: article.created_at -%}
+    </div>
 
     {% content_for 'block',
       id: 'blog-post-details',

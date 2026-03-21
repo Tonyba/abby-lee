@@ -568,7 +568,8 @@ button {
     padding: 7px 0;
 }
 
-.cat-menu .active {
+.cat-menu .active,
+.cat-menu a:hover {
     background-color: black;
     color: white;
     border-color: black;

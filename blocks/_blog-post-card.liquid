@@ -17,7 +17,8 @@
     </a>
 
     <div class="flex" id="meta">
-      {%- content_for 'block', id: 'date', type: '_heading', text: article.created_at -%}
+      {% assign date_text = article.created_at | date: '%m.%d.%Y' %}
+      {%- content_for 'block', id: 'date', type: '_heading', text: date_text -%}
     </div>
 
     {% content_for 'block',

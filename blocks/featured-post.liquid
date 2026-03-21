@@ -44,7 +44,9 @@
       </div>
 
       <div class="big-h2">
-        <h2>{{ featured_article.title }}</h2>
+        <h2>
+          <a href="{{ featured_article.url }}">{{ featured_article.title }}</a>
+        </h2>
         <p>{{ featured_article.excerpt_or_content }}</p>
         <a class="flex read-article items-center" href="{{ featured_article.url }}">
           Read Article

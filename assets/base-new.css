@@ -560,7 +560,8 @@ button {
     font-weight: 600;
     font-size: 18px;
     line-height: 180%;
-    border: 1px solid #d9d9d9
+    border: 1px solid #d9d9d9;
+    display: block;
 }
 
 .cat-menu .details-content {

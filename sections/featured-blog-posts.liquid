@@ -1,7 +1,7 @@
 {% liquid
   assign max_items = section.settings.post_limit
 
-  if template.name == 'blog'
+  if template.name == 'blog' and section.settings.inherit_query
     assign max_items = 999
   endif
 %}

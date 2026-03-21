@@ -497,6 +497,7 @@
       "settings": {
         "custom_css": "blog-archive-loop",
         "blog": "events",
+        "inherit_query": true,
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "post_limit": 10,

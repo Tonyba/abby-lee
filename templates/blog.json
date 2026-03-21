@@ -281,7 +281,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
+            "gap": 26,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -310,6 +310,18 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "icon_jA4WD4": {
+              "type": "icon",
+              "name": "t:names.icon",
+              "settings": {
+                "icon": "price_tag",
+                "image_upload": "shopify://shop_images/Vector_3.svg",
+                "width": 30,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
             "text_DYHwGw": {
               "type": "text",
               "name": "t:names.heading",
@@ -339,6 +351,7 @@
             }
           },
           "block_order": [
+            "icon_jA4WD4",
             "text_DYHwGw"
           ]
         }

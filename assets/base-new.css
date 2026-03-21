@@ -513,6 +513,10 @@ button {
 
 }
 
+.blog-archive .blog-post-card__content-text {
+    justify-content: flex-start;
+}
+
 .blog-archive .blog-post-card__content-text a {
     padding: 7px 20px;
     border: 1px solid #D9D9D9;

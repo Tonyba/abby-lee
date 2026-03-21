@@ -538,9 +538,9 @@ button {
     transform: rotate(-45deg);
     /* Rotate into a chevron shape and fine-tune vertical centering */
     display: inline-block;
-    border-bottom: 2px solid currentColor;
+    border-bottom: 3px solid currentColor;
     /* Use currentColor to easily change color with text color */
-    border-right: 2px solid currentColor;
+    border-right: 3px solid currentColor;
     height: 10px;
     /* Size of the chevron arms */
     width: 10px;

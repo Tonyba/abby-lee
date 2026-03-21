@@ -5,7 +5,7 @@
     get__cat_elms.map(elm => {
 
         let href = elm.getAttribute('href');
-        href = href?.replace('/blogs/news', '');
+        href = href?.replace('/blogs/news', '').trim();
 
         console.log(href, '=', get_current);
 

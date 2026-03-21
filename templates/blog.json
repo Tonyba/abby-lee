@@ -218,10 +218,17 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "featured_post_fNiPBX": {
+              "type": "featured-post",
+              "name": "featured post",
+              "settings": {},
+              "blocks": {}
             }
           },
           "block_order": [
-            "text_3nPGUp"
+            "text_3nPGUp",
+            "featured_post_fNiPBX"
           ]
         }
       },

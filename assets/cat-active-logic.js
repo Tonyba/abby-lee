@@ -3,7 +3,9 @@
     const get__cat_elms = Array.from(document.querySelectorAll('.cat-menu a'));
 
     get__cat_elms.map(elm => {
-        const href = elm.getAttribute('href');
+
+        let href = elm.getAttribute('href');
+        href = href?.replace('/blogs/news', '');
 
         if (get_current.includes(href)) {
             elm.classList.add('active');

@@ -58,11 +58,11 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h2>Customer care</h2>",
+                "text": "<h1>The ALDC Blog</h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
-                "type_preset": "h4",
+                "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",

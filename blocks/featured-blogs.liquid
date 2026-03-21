@@ -2,9 +2,12 @@
 
 {% for article in blogs.news.articles %}
   {% if article.tags contains 'featured' %}
-    {% assign featured_articles = featured_articles | push: article %}
+    {{ article.tags }}
+    {% assign featured_articles = featured_articles | slice: forloop.index0 | concat: featured_articles %}
   {% endif %}
 {% endfor %}
+
+{% assign featured_articles = featured_articles | reverse %}
 
 <div class="grid cols-2">
   {% for article in featured_articles %}

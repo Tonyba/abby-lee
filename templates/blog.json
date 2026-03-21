@@ -272,7 +272,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "custom_css": "border-b",
+            "custom_css": "border-b cat-menu",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",

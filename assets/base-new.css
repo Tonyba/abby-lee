@@ -483,4 +483,4 @@ button {
 }
 
 /*blog*/
-.blog-archive .blog-post-item {}
+.blog-archive .blog-post-item:not(:first-child) {}

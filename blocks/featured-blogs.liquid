@@ -1,9 +1,13 @@
 {% liquid
-
+  assign desired_tag = 'featured'
 %}
 
 <div class="grid">
-  <div class="col"></div>
+  {% for article in blogs.news.articles %}
+    {% if article.tags contains desired_tag %}
+      <div class="col"></div>
+    {% endif %}
+  {% endfor %}
 </div>
 
 {% schema %}

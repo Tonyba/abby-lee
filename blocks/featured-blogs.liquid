@@ -4,14 +4,14 @@
 
 <div class="grid cols-2">
   {% for article in tagged_articles %}
-    <div class="col flex">
-      <div class="number">#{{ forloop.index }}</div>
-      <div class="content">
-        <h5>{{ article.title }}</h5>
+    {% if article.tags contains 'featured' %}
+      <div class="col flex">
+        <div class="number">#{{ forloop.index }}</div>
+        <div class="content">
+          <h5>{{ article.title }}</h5>
+        </div>
       </div>
-    </div>
-  {% else %}
-    <p>No hay artículos destacados.</p>
+    {% endif %}
   {% endfor %}
 </div>
 {% schema %}

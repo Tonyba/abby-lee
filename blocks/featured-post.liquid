@@ -7,6 +7,9 @@
   {% endif %}
 {% endfor %}
 
+{% stylesheet %}
+{% endstylesheet %}
+
 {% if featured_article %}
   <div class="featured-post-wrapper">
     {{
@@ -14,6 +17,8 @@
       | image_url: width: featured_article.image.width, height: featured_article.image.height
       | image_tag
     }}
+
+    <div class="featured-post-content"></div>
   </div>
 {% endif %}
 

@@ -512,3 +512,10 @@ button {
     color: #fb0101;
 
 }
+
+.blog-archive .blog-post-card__content-text a {
+    padding: 7px 20px;
+    border: 1px solid #D9D9D9;
+    border-radius: 3px;
+    display: inline-block;
+}

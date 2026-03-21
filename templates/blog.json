@@ -261,6 +261,7 @@
         "title"
       ],
       "settings": {
+        "custom_css": "blog-archive",
         "color_scheme": "",
         "padding-block-start": 70,
         "padding-block-end": 60

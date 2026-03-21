@@ -1,3 +1,17 @@
+{% stylesheet %}
+  .featured-blogs .col {
+    background-color: white;
+    color: black;
+  }
+
+  .featured-blogs .content {
+  }
+
+  .featured-blogs .number {
+    color: #5c5c5c;
+  }
+{% endstylesheet %}
+
 {% liquid
   assign tagged_articles = blogs.news.articles
   assign current = 1
@@ -12,6 +26,7 @@
           <h5>{{ article.title }}</h5>
         </div>
       </div>
+      {% assign current = current | plus: 1 %}
     {% endif %}
   {% endfor %}
 </div>

@@ -1,12 +1,10 @@
 {% liquid
-  assign desired_tag = 'featured'
+  assign tagged_articles = blogs.news.articles | where: 'tags', 'featured'
 %}
 
 <div class="grid">
-  {% for article in blogs.news.articles %}
-    {% if article.tags contains desired_tag %}
-      <div class="col"></div>
-    {% endif %}
+  {% for article in tagged_articles %}
+    <div class="col"></div>
   {% endfor %}
 </div>
 

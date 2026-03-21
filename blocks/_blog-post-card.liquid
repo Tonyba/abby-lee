@@ -24,7 +24,7 @@
       <div class="tags">
         {% for tag in article.tags %}
           {{ tag }}
-          {% if forloop.last != false %}, {% endif %}
+          {% if forloop.last == false %}, {% endif %}
         {% endfor %}
       </div>
     </div>

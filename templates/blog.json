@@ -117,7 +117,7 @@
       "block_order": [
         "group_Dz9awf"
       ],
-      "name": "t:names.multicolumn",
+      "name": "header",
       "settings": {
         "custom_css": "blog-hero",
         "content_direction": "row",

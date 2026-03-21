@@ -531,18 +531,10 @@ button {
 
 .blog-archive .blog-post-card__content-text a:after {
     content: ' ';
-    /* Required for pseudo-elements to display, even if empty */
-    /* Position the pseudo-element */
-    /* Adjust as needed for spacing */
-    /* Center vertically */
     transform: rotate(-45deg);
-    /* Rotate into a chevron shape and fine-tune vertical centering */
     display: inline-block;
     border-bottom: 3px solid currentColor;
-    /* Use currentColor to easily change color with text color */
     border-right: 3px solid currentColor;
-    height: 10px;
-    /* Size of the chevron arms */
-    width: 10px;
-    /* Size of the chevron arms */
+    height: 8px;
+    width: 8px;
 }

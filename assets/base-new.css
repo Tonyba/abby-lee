@@ -490,3 +490,8 @@ button {
 .blog-archive .blog-post-card {
     flex-direction: column !important;
 }
+
+.blog-archive .blog-post-card__image-container img {
+    height: 340px;
+    width: 100%;
+}

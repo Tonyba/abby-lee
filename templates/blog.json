@@ -401,7 +401,7 @@
               "name": "t:names.group",
               "settings": {
                 "custom_css": "",
-                "content_direction": "column",
+                "content_direction": "row",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
@@ -433,8 +433,8 @@
                 "placeholder": "",
                 "padding-block-start": 40,
                 "padding-block-end": 40,
-                "padding-inline-start": 20,
-                "padding-inline-end": 20
+                "padding-inline-start": 30,
+                "padding-inline-end": 30
               },
               "blocks": {}
             },
@@ -475,8 +475,8 @@
                 "placeholder": "",
                 "padding-block-start": 40,
                 "padding-block-end": 40,
-                "padding-inline-start": 20,
-                "padding-inline-end": 20
+                "padding-inline-start": 30,
+                "padding-inline-end": 30
               },
               "blocks": {}
             }

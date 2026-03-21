@@ -525,3 +525,9 @@ button {
     line-height: 160%;
     font-weight: 600;
 }
+
+.blog-archive .blog-post-card__content-text a:after {
+    content: '';
+    width: 8px;
+    height: 13px;
+}

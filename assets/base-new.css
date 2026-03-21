@@ -544,3 +544,7 @@ button {
     height: 8px;
     width: 8px;
 }
+
+.cat-menu .list-unstyled {
+    display: flex;
+}

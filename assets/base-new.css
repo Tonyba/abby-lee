@@ -548,3 +548,7 @@ button {
 .cat-menu .list-unstyled {
     display: flex;
 }
+
+.cat-menu .list-unstyled li {
+    margin-top: 0;
+}

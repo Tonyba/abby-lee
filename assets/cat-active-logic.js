@@ -7,6 +7,8 @@
         let href = elm.getAttribute('href');
         href = href?.replace('/blogs/news', '');
 
+        console.log(href);
+
         if (get_current.includes(href)) {
             elm.classList.add('active');
         }

@@ -514,12 +514,12 @@ button {
 }
 
 .blog-archive .blog-post-card__content-text {
-    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .blog-archive .blog-post-card__content-text a {
     padding: 7px 20px;
     border: 1px solid #D9D9D9;
     border-radius: 3px;
-    display: inline-block;
+    margin-top: 20px;
 }

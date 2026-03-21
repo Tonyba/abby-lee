@@ -530,4 +530,6 @@ button {
     content: '';
     width: 8px;
     height: 13px;
+    background-color: currentColor;
+    display: block;
 }

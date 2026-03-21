@@ -23,10 +23,8 @@
 
       <div class="tags">
         {% for tag in article.tags %}
-          {% if tag != 'featured' %}
-            {{ tag }}
-            {% if forloop.last != false %}, {% endif %}
-          {% endif %}
+          {{ tag }}
+          {% if forloop.last != false %}, {% endif %}
         {% endfor %}
       </div>
     </div>

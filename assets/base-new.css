@@ -66,6 +66,10 @@ button {
     border-bottom: 1px solid #d9d9d9
 }
 
+.border-b-red {
+    border-bottom: 1px solid #FB0101;
+}
+
 .flex-1 {
     flex: 1
 }

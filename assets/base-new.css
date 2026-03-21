@@ -529,6 +529,12 @@ button {
     gap: 10px;
 }
 
+.blog-archive .blog-post-card__content-text a:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
 .blog-archive .blog-post-card__content-text a:after {
     content: ' ';
     transform: rotate(-45deg);

@@ -50,7 +50,7 @@
 
             <div class="tags">
               {% for tag in article.tags %}
-                {% if article.tags contains 'featured' %}
+                {% if tag != 'featured' %}
                   {{ tag }}
                 {% endif %}
               {% endfor %}

@@ -481,3 +481,6 @@ button {
     gap: 12px !important;
     justify-content: center;
 }
+
+/*blog*/
+.blog-archive .blog-post-item {}

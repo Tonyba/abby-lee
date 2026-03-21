@@ -488,5 +488,5 @@ button {
 }
 
 .blog-archive .blog-post-card {
-    flex-direction: column;
+    flex-direction: column !important;
 }

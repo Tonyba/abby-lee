@@ -1,3 +1,22 @@
+{% assign featured_article = null %}
+
+{% for article in blog.articles %}
+  {% if article.tags contains 'featured' %}
+    {% assign featured_article = article %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if featured_article %}
+  <div class="featured-post-wrapper">
+    {{
+      featured_article.image
+      | image_url: width: featured_article.image.width, height: featured_article.image.height
+      | image_tag
+    }}
+  </div>
+{% endif %}
+
 {% schema %}
 {
   "name": "featured post",

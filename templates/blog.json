@@ -231,7 +231,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
-        "content_direction": "row",
+        "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "flex-start",

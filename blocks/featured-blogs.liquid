@@ -35,7 +35,7 @@
 
           <div class="flex">
             <div class="date">
-              {{ article.created_at }}
+              {{ article.created_at | date: '%B %d, %Y' }}
             </div>
           </div>
         </div>

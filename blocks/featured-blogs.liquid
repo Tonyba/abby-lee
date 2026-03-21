@@ -2,7 +2,7 @@
 
 {% for article in blogs.news.articles %}
   {% if article.tags contains 'featured' %}
-    {% assign featured_articles = featured_articles | append: article %}
+    {% assign featured_articles = featured_articles | push: article %}
   {% endif %}
 {% endfor %}
 

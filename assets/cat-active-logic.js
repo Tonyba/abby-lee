@@ -7,9 +7,9 @@
 
         let href = elm.getAttribute('href');
 
-        console.log(baseUrl, '=', (baseUrl + href));
+        console.log(get_current, '=', (baseUrl + href));
 
-        if (baseUrl == baseUrl + href) {
+        if (get_current == baseUrl + href) {
             elm.classList.add('active');
         }
 

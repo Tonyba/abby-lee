@@ -175,7 +175,7 @@
               "name": "t:names.title",
               "static": true,
               "settings": {
-                "type_preset": "h4",
+                "type_preset": "h5",
                 "font": "var(--font-primary--family)",
                 "font_size": "",
                 "line_height": "normal",

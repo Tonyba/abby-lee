@@ -483,4 +483,6 @@ button {
 }
 
 /*blog*/
-.blog-archive .blog-post-item:not(:first-child) {}
+.blog-archive .blog-post-item {
+    --col-span: 2;
+}

@@ -41,6 +41,14 @@
       <div class="big-h2">
         <h2>{{ featured_article.title }}</h2>
         <p>{{ featured_article.excerpt_or_content }}</p>
+        <a class="flex read-article" href="{{ featured_article.url }}">
+          Read Article
+          <span class="icon">
+            <svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.53288 0L0 1.53293L4.96707 6.5L0 11.4671L1.53288 13L8.03288 6.5L1.53288 0Z" fill="currentColor"/>
+            </svg>
+          </span>
+        </a>
       </div>
     </div>
   </div>

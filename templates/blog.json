@@ -367,7 +367,7 @@
       "settings": {
         "custom_css": "blog-archive",
         "color_scheme": "",
-        "padding-block-start": 40,
+        "padding-block-start": 0,
         "padding-block-end": 60
       }
     },

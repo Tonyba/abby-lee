@@ -509,8 +509,8 @@
         "section_width": "page-width",
         "gap": 10,
         "color_scheme": "",
-        "padding-block-start": 0,
-        "padding-block-end": 77
+        "padding-block-start": 52,
+        "padding-block-end": 100
       }
     }
   },

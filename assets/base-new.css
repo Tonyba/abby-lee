@@ -547,6 +547,7 @@ button {
 
 .cat-menu .list-unstyled {
     display: flex;
+    gap: 16px
 }
 
 .cat-menu .list-unstyled li {

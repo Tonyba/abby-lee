@@ -486,3 +486,7 @@ button {
 .blog-archive .blog-post-item {
     --col-span: 2;
 }
+
+.blog-archive .blog-post-card {
+    flex-direction: column;
+}

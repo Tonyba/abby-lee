@@ -52,6 +52,7 @@
               {% for tag in article.tags %}
                 {% if tag != 'featured' %}
                   {{ tag }}
+                  {% if forloop.last != false %}, {% endif %}
                 {% endif %}
               {% endfor %}
             </div>

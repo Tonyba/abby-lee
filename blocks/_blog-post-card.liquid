@@ -18,7 +18,17 @@
 
     <div class="flex" id="meta">
       {% assign date_text = article.created_at | date: '%m.%d.%Y' %}
+
       {%- content_for 'block', id: 'date', type: '_heading', text: date_text -%}
+
+      <div class="tags">
+        {% for tag in article.tags %}
+          {% if tag != 'featured' %}
+            {{ tag }}
+            {% if forloop.last != false %}, {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
 
     {% content_for 'block',

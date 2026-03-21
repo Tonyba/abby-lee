@@ -354,10 +354,17 @@
             "icon_jA4WD4",
             "text_DYHwGw"
           ]
+        },
+        "featured_blogs_78nrzK": {
+          "type": "featured-blogs",
+          "name": "Featured Blogs",
+          "settings": {},
+          "blocks": {}
         }
       },
       "block_order": [
-        "group_rBTtwE"
+        "group_rBTtwE",
+        "featured_blogs_78nrzK"
       ],
       "name": "featured",
       "settings": {

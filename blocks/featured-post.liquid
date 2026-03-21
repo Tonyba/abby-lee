@@ -12,12 +12,13 @@
 
 {% if featured_article %}
   <div class="featured-post-wrapper">
-    {{
-      featured_article.image
-      | image_url: width: featured_article.image.width, height: featured_article.image.height
-      | image_tag
-    }}
-
+    <a href="{{ featured_article.url }}">
+      {{
+        featured_article.image
+        | image_url: width: featured_article.image.width, height: featured_article.image.height
+        | image_tag
+      }}
+    </a>
     <div class="featured-post-content">
       <div class="flex meta">
         <div class="date flex items-center">

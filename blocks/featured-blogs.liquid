@@ -8,6 +8,7 @@
 
   .featured-blogs h5 {
     text-transform: uppercase;
+    margin-bottom: 12px;
   }
 
   .featured-blogs .content {
@@ -33,7 +34,7 @@
         <div class="content">
           <h5>{{ article.title }}</h5>
 
-          <div class="flex">
+          <div class="flex meta">
             <div class="date">
               {{ article.created_at | date: '%m.%d.%Y' }}
             </div>

@@ -526,6 +526,7 @@ button {
     font-weight: 600;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .blog-archive .blog-post-card__content-text a:after {

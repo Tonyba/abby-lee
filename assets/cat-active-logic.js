@@ -3,8 +3,6 @@
     const get__cat_elms = Array.from(document.querySelectorAll('.cat-menu a'));
     const baseUrl = window.location.origin + '/blogs/news';
 
-    console.log(baseUrl)
-
     get__cat_elms.map(elm => {
 
         let href = elm.getAttribute('href');

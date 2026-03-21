@@ -47,6 +47,12 @@
               </span>
               {{ article.created_at | date: '%m.%d.%Y' }}
             </div>
+
+            <div class="tags">
+              {% for tag in article.tags %}
+                {{ tag }}
+              {% endfor %}
+            </div>
           </div>
         </div>
       </div>

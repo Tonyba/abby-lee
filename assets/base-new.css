@@ -13,7 +13,8 @@ h2,
     border-radius: 100%;
 }
 
-.h2-big h2 {
+.h2-big h2,
+.h2-big h1 {
     font-size: 40px;
 }
 

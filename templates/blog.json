@@ -57,7 +57,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "custom_css": "",
+                "custom_css": "h2-big",
                 "text": "<h1>The ALDC Blog</h1>",
                 "width": "100%",
                 "max_width": "normal",

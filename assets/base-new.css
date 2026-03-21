@@ -505,6 +505,7 @@ button {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.5px;
+    padding-top: 8px;
 }
 
 .blog-archive .tags {

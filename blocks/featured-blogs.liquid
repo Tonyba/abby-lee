@@ -34,7 +34,7 @@
   assign current = 1
 %}
 
-<div class="grid cols-2">
+<div class="grid cols-2 no-template-areas">
   {% for article in tagged_articles %}
     {% if article.tags contains 'featured' %}
       <div class="col flex items-center">

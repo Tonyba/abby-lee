@@ -21,9 +21,9 @@ h2,
     text-transform: uppercase !important;
 }
 
-.divider-red {
+.divider-red .divider__line {
     --color-border: #FB0101;
-    --divider-border-thickness: 3px;
+    --divider-border-thickness: 3px !important;
 }
 
 .circle {

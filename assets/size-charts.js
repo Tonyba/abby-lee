@@ -23,7 +23,10 @@
         if (type == 'cm') {
 
         } else {
-
+            cells.map((cell) => {
+                const values = cell.textContent.split('-');
+                console.log(values)
+            });
         }
     }
 

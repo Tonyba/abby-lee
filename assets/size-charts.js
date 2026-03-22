@@ -1,6 +1,8 @@
 
 (function () {
 
-    var Book = 'hello';
+    const switches = Array.from(document.querySelectorAll('.switch'));
+
+    switches
 
 }());

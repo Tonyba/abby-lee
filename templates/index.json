@@ -9,6 +9,14 @@
  */
 {
   "sections": {
+    "popup_welcome_iiGbBM": {
+      "type": "popup-welcome",
+      "name": "Popup Welcome",
+      "settings": {
+        "title": "",
+        "content": ""
+      }
+    },
     "hero_jVaWmY": {
       "type": "hero",
       "blocks": {
@@ -1487,7 +1495,9 @@
       },
       "name": "t:names.blog_posts_carousel",
       "settings": {
+        "custom_css": "",
         "blog": "events",
+        "inherit_query": false,
         "layout_type": "carousel",
         "carousel_on_mobile": true,
         "post_limit": 8,
@@ -4288,6 +4298,7 @@
     }
   },
   "order": [
+    "popup_welcome_iiGbBM",
     "hero_jVaWmY",
     "below_hero_BFtW8z",
     "product_list_fa6P9H",

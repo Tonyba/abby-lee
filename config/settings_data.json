@@ -504,7 +504,7 @@
           "foreground": "#5c5c5c",
           "primary": "#000000",
           "primary_hover": "#000000",
-          "border": "#0000000f",
+          "border": "#d9d9d9",
           "shadow": "#000000",
           "primary_button_background": "#fb0101",
           "primary_button_text": "#ffffff",

@@ -43,7 +43,7 @@ h2,
 }
 
 .button-secondary {
-    border-width: 2px !important;
+    --style-border-width-secondary: 2px;
 }
 
 .no-border-r {

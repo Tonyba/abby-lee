@@ -2,6 +2,7 @@
 (function () {
 
     const switches = Array.from(document.querySelectorAll('.switch'));
+    let currentUnit = 'cm';
 
     switches.map((item) => {
 
@@ -14,6 +15,10 @@
     });
 
     function switch_logic(type) {
+
+        if (currentUnit == type) return;
+
+        currentUnit = type;
 
         const cells = Array.from(document.querySelectorAll('.table-body > .flex > div'));
         const type_unit = Array.from(document.querySelectorAll('.unit'));

@@ -2001,7 +2001,7 @@
               "type": "image",
               "name": "t:names.image",
               "settings": {
-                "image": "shopify://shop_images/IMG_4930_2.jpg",
+                "image": "shopify://shop_images/IMG_7526_2.jpg",
                 "link": "",
                 "image_ratio": "adapt",
                 "width": "fill",
@@ -2152,7 +2152,7 @@
               "name": "t:names.text",
               "settings": {
                 "custom_css": "",
-                "text": "<p>Known for her tough-love approach and eye for talent, Abby shares exclusive behind-the-scenes content, dance tutorials, reaction videos, and her candid take on all things dance and entertainment. Viewers can expect personal stories, never-before-seen footage from her time on Dance Moms, and insights into the dance industry straight from the source. Whether you're a longtime fan or new to the world of competitive dance, Abby’s channel is a front-row seat to the drama, the discipline, and the drive that made her a household name.</p>",
+                "text": "<p>The ultimate podcast for dance fans who crave the inside scoop. Hosted by Abby Lee Miller, the podcast dives deep into the world of competitive dance, serving up all the behind-the-scenes drama, studio rivalries, and reality show revelations fans love. <br/><br/>Each episode offers a mix of juicy gossip, expert commentary, and exclusive interviews with dancers, choreographers, and industry pros. Whether it's breaking news or untold stories, Leave It on the Dance Floor doesn't hold back—this is where the real drama unfolds.</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",

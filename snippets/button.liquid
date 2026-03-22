@@ -12,7 +12,8 @@
 
 {% if block_settings.icon != blank %}
   <style>
-    .button--{{ block.id }}  img {
+    .button--{{ block.id }}  img,
+    .button-secondary--{{ block.id }}  img {
       width: {{block_settings.icon_width}}px;
     }
   </style>

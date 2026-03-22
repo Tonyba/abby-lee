@@ -36,7 +36,7 @@
                 first_value = first_value * 2.54;
                 second_value = second_value * 2.54;
 
-                cell.textContent = `${first_value} - ${second_value}`;
+                cell.textContent = `${first_value.toFixed(2)} - ${second_value.toFixed(2)}`;
 
             });
 
@@ -50,7 +50,7 @@
                 first_value = first_value / 2.54;
                 second_value = second_value / 2.54;
 
-                cell.textContent = `${first_value} - ${second_value}`;
+                cell.textContent = `${first_value.toFixed(2)} - ${second_value.toFixed(2)}`;
 
             });
         }

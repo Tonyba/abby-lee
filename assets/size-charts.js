@@ -14,6 +14,11 @@
     });
 
     function switch_logic(type) {
+
+        const cells = document.querySelectorAll('.table-body > .flex > div');
+
+        console.log(cells)
+
         if (type == 'cm') {
 
         } else {

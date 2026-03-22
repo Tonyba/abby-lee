@@ -4,3 +4,9 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.pickup-availability__row {
+    background-color: #F5F5F5;
+    text-align: center;
+    justify-content: center;
+}

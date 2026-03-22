@@ -916,7 +916,7 @@
                         "align_baseline": false,
                         "horizontal_alignment_flex_direction_column": "flex-start",
                         "vertical_alignment_flex_direction_column": "center",
-                        "gap": 12,
+                        "gap": 17,
                         "width": "fill",
                         "custom_width": 100,
                         "width_mobile": "fill",
@@ -945,6 +945,18 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
+                        "icon_N3JQ96": {
+                          "type": "icon",
+                          "name": "t:names.icon",
+                          "settings": {
+                            "icon": "price_tag",
+                            "image_upload": "shopify://shop_images/orders.svg",
+                            "width": 30,
+                            "link": "",
+                            "open_in_new_tab": false
+                          },
+                          "blocks": {}
+                        },
                         "text_ENatCw": {
                           "type": "text",
                           "name": "t:names.text",
@@ -974,6 +986,7 @@
                         }
                       },
                       "block_order": [
+                        "icon_N3JQ96",
                         "text_ENatCw"
                       ]
                     }

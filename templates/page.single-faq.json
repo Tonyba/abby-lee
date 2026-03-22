@@ -201,7 +201,7 @@
               "name": "t:names.description",
               "settings": {
                 "custom_css": "",
-                "text": "<p>We obsess over the details and strive to deliver the best products at the best prices, every time.</p>",
+                "text": "<p>Support with product sizing, restock notifications, product aftercare and our commitment to Sustainability</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "left",
@@ -261,7 +261,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 63,
-        "padding-block-end": 48
+        "padding-block-end": 60
       }
     }
   },

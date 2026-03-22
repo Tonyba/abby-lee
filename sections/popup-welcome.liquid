@@ -1,3 +1,6 @@
+{% stylesheet %}
+{% endstylesheet %}
+
 <div class="hide">
   <div class="popup-content"></div>
 </div>
@@ -9,7 +12,18 @@
 {
   "name": "Popup Welcome",
   "class": "popup-welcome",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    }
+  ],
   "presets": [
     {
       "name": "Popup Welcome"

@@ -5,7 +5,9 @@
     console.log(img_cols)
 
     Array.from(img_cols).map(img => {
+
         const image = img.querySelector('.image-block');
+        console.log(image)
         if (image?.querySelector('svg')) image.classList.add('hide');
 
     });

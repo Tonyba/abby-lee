@@ -233,10 +233,11 @@ button {
     min-height: 558px;
 }
 
-.product-carousel .product-badges__badge {
+.product-badges__badge {
     letter-spacing: 0.5px;
     font-size: 14px;
 }
+
 
 /*collection grid*/
 .collection-grid-item .h5 * {

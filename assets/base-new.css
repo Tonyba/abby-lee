@@ -639,3 +639,7 @@ button {
     font-family: Montserrat;
     text-transform: uppercase;
 }
+
+.below-legacy-about .group-block:not(:last-child) {
+    border-right: 1px solid;
+}

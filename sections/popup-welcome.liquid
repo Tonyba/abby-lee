@@ -63,7 +63,10 @@
 
 <div class="hide">
   <div class="popup-content-custom color-scheme-7">
-    <h2>{{ section.settings.title }}</h2>
+    <h2>
+      {{ section.settings.title }}
+      {{ localization.country }}
+    </h2>
     {{ section.settings.content }}
 
     <a class="button" href="{{ section.settings.btn_link }}">{{ section.settings.btn_text }}</a>

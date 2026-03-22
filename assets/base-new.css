@@ -4,6 +4,10 @@ h2,
     font-size: 26px;
 }
 
+.z-9 {
+    z-index: 9;
+}
+
 .hide {
     display: none;
 }

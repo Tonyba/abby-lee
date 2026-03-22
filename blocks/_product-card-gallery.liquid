@@ -27,10 +27,7 @@
           {% endif %}    
         {% endfor %}
 
-      {%- if product.available == false or product.compare_at_price > product.price or product.tags contains 'best seller' or product.tags contains 'trending' -%}
-       
-
-      
+      {%- if product.available == false or product.compare_at_price > product.price  -%}
 
         <div
           class="

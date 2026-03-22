@@ -128,7 +128,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
+            "gap": 0,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -189,8 +189,8 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-start": 17,
+                "padding-block-end": 17,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -217,6 +217,33 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 0,
+                "padding-block-end": 60,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_fkh44G": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "custom_css": "",
+                "text": "<h5>How to measure</h5><ul><li><strong>BUST</strong>: Measure around the fullest part of your bust, keeping the tape measure horizontal.</li><li><strong>WAIST:</strong> Measure around the narrowest part (typically where your body bends side to side), keeping the tape measure horizontal</li><li><strong>HIPS:</strong> Measure around the fullest part of your hips, keeping the tape measure horizontal.</li></ul>",
+                "width": "fit-content",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 38,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
@@ -227,7 +254,8 @@
           "block_order": [
             "icon_4TxgYV",
             "text_FtCfiM",
-            "text_BkdhHA"
+            "text_BkdhHA",
+            "text_fkh44G"
           ]
         }
       },

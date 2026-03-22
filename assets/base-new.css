@@ -593,6 +593,11 @@ button {
     border-radius: 100%;
     width: 40px;
     height: 40px;
+    color: white
+}
+
+.faq-items [open] {
+    padding: 40px 30px;
 }
 
 .faq-items [open],

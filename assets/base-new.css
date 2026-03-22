@@ -574,3 +574,7 @@ button {
     color: white;
     border-color: black;
 }
+
+.faq-items accordion-custom {
+    background-color: #000000;
+}

@@ -9,6 +9,7 @@
         --badge-font-family: var(--font-{{ settings.badge_font_family }}--family); --badge-font-weight: var(--font-{{ settings.badge_font_family }}--weight); --badge-text-transform: {{ settings.badge_text_transform }};
       "
     >
+      {{ product.tags | json }}
       {%- if product.available == false or product.compare_at_price > product.price or product.tags contains 'best seller' or product.tags contains 'trending' -%}
        
         <div

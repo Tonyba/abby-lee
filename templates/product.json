@@ -795,7 +795,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "custom_css": "",
+            "custom_css": "prod-img-col",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -892,7 +892,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "custom_css": "",
+            "custom_css": "prod-img-col",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",

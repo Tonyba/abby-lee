@@ -2011,7 +2011,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "custom_css": "",
-                            "text": "<p>Returns & Exchanges</p>",
+                            "text": "<p>Product Availability & Regions</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",

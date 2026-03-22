@@ -9,12 +9,12 @@
         --badge-font-family: var(--font-{{ settings.badge_font_family }}--family); --badge-font-weight: var(--font-{{ settings.badge_font_family }}--weight); --badge-text-transform: {{ settings.badge_text_transform }};
       "
     >
-      {%- if product.available == false or product.compare_at_price > product.price or product.tags contains 'best seller' -%}
+      {%- if product.available == false or product.compare_at_price > product.price or product.tags contains 'best seller' or product.tags contains 'trending' -%}
        
         <div
           class="
             product-badges__badge product-badges__badge--rectangle
-            {% if product.available == false or product.tags contains 'best seller' %} color-{{ settings.badge_sold_out_color_scheme }}{% elsif product.compare_at_price > product.price %} color-{{ settings.badge_sale_color_scheme }}{% endif %}
+            {% if product.available == false or product.tags contains 'best seller' %} color-{{ settings.badge_sold_out_color_scheme }}{% elsif product.compare_at_price > product.price or product.tags contains 'trending' %} color-{{ settings.badge_sale_color_scheme }}{% endif %}
           "
         >
           
@@ -24,6 +24,8 @@
             {{ 'content.product_badge_sale' | t }}
           {% elsif product.tags contains 'best seller' %}
              Best Seller
+          {% elsif product.tags contains 'trending' %}
+             Trending
           {%- endif -%}
         </div>
       {%- endif -%}

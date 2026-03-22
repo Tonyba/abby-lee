@@ -19,6 +19,7 @@
     letter-spacing: 5%;
     text-transform: uppercase;
     border-bottom: 1px solid;
+    line-height: 160%;
 }
 
 .pickup-availability__column:first-child {

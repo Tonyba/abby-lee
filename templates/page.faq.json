@@ -262,8 +262,8 @@
                     "placeholder": "",
                     "padding-block-start": 24,
                     "padding-block-end": 24,
-                    "padding-inline-start": 45,
-                    "padding-inline-end": 45
+                    "padding-inline-start": 40,
+                    "padding-inline-end": 40
                   },
                   "blocks": {
                     "group_qCYk4w": {
@@ -394,8 +394,8 @@
                     "placeholder": "",
                     "padding-block-start": 24,
                     "padding-block-end": 24,
-                    "padding-inline-start": 45,
-                    "padding-inline-end": 45
+                    "padding-inline-start": 40,
+                    "padding-inline-end": 40
                   },
                   "blocks": {
                     "group_jfVDAe": {
@@ -526,7 +526,7 @@
                     "placeholder": "",
                     "padding-block-start": 24,
                     "padding-block-end": 24,
-                    "padding-inline-start": 45,
+                    "padding-inline-start": 40,
                     "padding-inline-end": 45
                   },
                   "blocks": {

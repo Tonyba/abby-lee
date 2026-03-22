@@ -1788,11 +1788,11 @@
               "name": "t:names.text",
               "settings": {
                 "custom_css": "subheading-red",
-                "text": "<p>The ALDC YouTube channel </p>",
+                "text": "<h5>The ALDC YouTube channel </h5>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h5",
+                "type_preset": "rte",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",

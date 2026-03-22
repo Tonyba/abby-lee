@@ -196,6 +196,12 @@
               },
               "blocks": {}
             },
+            "size_charts_cLfp6g": {
+              "type": "size-charts",
+              "name": "Size Charts",
+              "settings": {},
+              "blocks": {}
+            },
             "text_BkdhHA": {
               "type": "text",
               "name": "t:names.description",
@@ -254,6 +260,7 @@
           "block_order": [
             "icon_4TxgYV",
             "text_FtCfiM",
+            "size_charts_cLfp6g",
             "text_BkdhHA",
             "text_fkh44G"
           ]

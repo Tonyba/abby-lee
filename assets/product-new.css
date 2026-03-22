@@ -10,5 +10,8 @@
     text-align: center;
     justify-content: center;
     padding: 21px;
+}
+
+.pickup-availability__row * {
     font-size: 16px;
 }

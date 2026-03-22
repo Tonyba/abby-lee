@@ -4,6 +4,10 @@ h2,
     font-size: 26px;
 }
 
+.hide {
+    display: none;
+}
+
 .fix-heading h4 * {
     text-transform: uppercase !important;
     font-weight: bold !important;

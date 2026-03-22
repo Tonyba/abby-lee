@@ -9,12 +9,21 @@
 {%- enddoc -%}
 
 {% assign block_settings = block.settings %}
+{% assign icon_width = block_settings.icon_width %}
 
 {% if block_settings.icon != blank %}
   <style>
-    .button--{{ block.id }}  img,
-    .button-secondary--{{ block.id }}  img {
-      width: {{block_settings.icon_width}}px;
+    .button--{{ block.id }}  .icon:after,
+    .button-secondary--{{ block.id }}  .icon:after {
+      width: {{icon_width}}px;
+    }
+
+    .button--{{ block.id }}  .icon:after,
+    .button-secondary--{{ block.id }}  .icon:after {
+      content: '';
+      -webkit-mask: url({{ block_settings.icon | image_url: width: icon_width, height: 24  }}) no-repeat center / {{icon_width}}px;
+      background-color: currentColor;
+      display: block;
     }
   </style>
 {% endif %}

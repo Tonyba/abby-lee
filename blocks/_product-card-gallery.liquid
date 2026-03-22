@@ -13,7 +13,7 @@
        
 
         {% for tag in product.tags %}
-          {% if product.tags contains 'best seller' or product.tags contains 'trending' %}
+          {% if tag == 'best seller' or tag == 'trending' %}
               <div
             class="
               product-badges__badge product-badges__badge--rectangle

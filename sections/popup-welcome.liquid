@@ -67,6 +67,7 @@
 
 <div class="hide">
   <div class="popup-content-custom color-scheme-7">
+    <button class="popup-close" aria-label="Cerrar popup">×</button>
     <h2>
       {{ section.settings.title }}
       {{ localization.country }}
@@ -98,13 +99,6 @@
 
     // Clonar el contenido para no modificar el original
     const popupContent = originalContent.cloneNode(true);
-
-    // Añadir botón de cierre (X) al contenido clonado
-    const closeButton = document.createElement('button');
-    closeButton.innerHTML = '&times;';
-    closeButton.className = 'popup-close';
-    closeButton.setAttribute('aria-label', 'Cerrar popup');
-    popupContent.insertBefore(closeButton, popupContent.firstChild);
 
     // Agregar el contenido al overlay
     overlay.appendChild(popupContent);

@@ -19,6 +19,9 @@
         const now = new Date();
         const diff = targetDate - now; // Diferencia en milisegundos
 
+        console.log('hey')
+        console.log(diff)
+
         // Si la fecha ya pasó, mostramos 00:00:00 y detenemos el intervalo
         if (diff <= 0) {
             daysEl.textContent = '00';

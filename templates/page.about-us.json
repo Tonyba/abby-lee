@@ -3141,7 +3141,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "uppercase",
-                "text": "<h4>Authenticity.</h4>",
+                "text": "<h4>Discipline & Drive.</h4>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -3255,7 +3255,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "uppercase",
-                "text": "<h4>Authenticity.</h4>",
+                "text": "<p>Transformation.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",

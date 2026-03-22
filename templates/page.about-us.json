@@ -1134,8 +1134,8 @@
                     "custom_width_mobile": 100,
                     "height": "fit",
                     "custom_height": 100,
-                    "inherit_color_scheme": true,
-                    "color_scheme": "",
+                    "inherit_color_scheme": false,
+                    "color_scheme": "scheme-d8e589a9-01a0-4889-b27d-44750bd5a7a2",
                     "background_media": "none",
                     "video_position": "cover",
                     "background_image_position": "cover",
@@ -1153,7 +1153,7 @@
                     "padding-block-start": 30,
                     "padding-block-end": 30,
                     "padding-inline-start": 30,
-                    "padding-inline-end": 0
+                    "padding-inline-end": 30
                   },
                   "blocks": {
                     "icon_FaYtXF": {

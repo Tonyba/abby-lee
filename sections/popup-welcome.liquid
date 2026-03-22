@@ -29,6 +29,18 @@
         }, 50);
       }
     }
+
+    waitForPopup(init);
+
+    function init() {
+      const popup = document.querySelector('.popup-content-custom');
+      const myPopup = new Popup({
+        id: 'my-popup',
+        title: 'My First Popup',
+        content: popup,
+        showImmediately: true,
+      });
+    }
   })();
 </script>
 

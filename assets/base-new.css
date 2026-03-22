@@ -236,7 +236,7 @@ button {
 }
 
 [ref="overflowMenu"] li:first-child a {
-    display: flex !important;
+    flex-direction: row;
 }
 
 [ref="overflowMenu"] li:first-child a::after,

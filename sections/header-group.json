@@ -194,7 +194,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "custom_css": "z-9",
+        "custom_css": "topba",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

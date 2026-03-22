@@ -591,6 +591,8 @@ button {
 .faq-items .details__header .svg-wrapper {
     background-color: #FB0101;
     border-radius: 100%;
+    width: 40px;
+    height: 40px;
 }
 
 .faq-items [open],

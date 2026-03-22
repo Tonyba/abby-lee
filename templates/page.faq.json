@@ -1808,7 +1808,7 @@
                           "name": "t:names.icon",
                           "settings": {
                             "icon": "price_tag",
-                            "image_upload": "shopify://shop_images/calendar_803add25-a9f9-498e-895a-66515780a820.svg",
+                            "image_upload": "shopify://shop_images/Vector.svg",
                             "width": 30,
                             "link": "",
                             "open_in_new_tab": false
@@ -1999,7 +1999,7 @@
                           "name": "t:names.icon",
                           "settings": {
                             "icon": "price_tag",
-                            "image_upload": "shopify://shop_images/technical.svg",
+                            "image_upload": "shopify://shop_images/global.svg",
                             "width": 30,
                             "link": "",
                             "open_in_new_tab": false

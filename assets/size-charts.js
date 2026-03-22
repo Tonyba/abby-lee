@@ -36,7 +36,7 @@
                 first_value = first_value * 2.54;
                 second_value = second_value * 2.54;
 
-                cell.textContent = `${Math.round(first_value)} - ${Math.round(second_value)}`;
+                cell.textContent = `${Math.floor(first_value)} - ${Math.floor(second_value)}`;
 
             });
 
@@ -50,7 +50,7 @@
                 first_value = first_value / 2.54;
                 second_value = second_value / 2.54;
 
-                cell.textContent = `${Math.round(first_value)} - ${Math.round(second_value)}`;
+                cell.textContent = `${Math.floor(first_value)} - ${Math.floor(second_value)}`;
 
             });
         }

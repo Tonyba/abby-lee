@@ -235,6 +235,7 @@ button {
 
 .product-carousel .product-badges__badge {
     letter-spacing: 0.5px;
+    font-size: 14px;
 }
 
 /*collection grid*/

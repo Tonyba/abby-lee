@@ -1461,15 +1461,30 @@
                     "padding-inline-end": 30
                   },
                   "blocks": {
-                    "icon_k3nHWK": {
-                      "type": "icon",
-                      "name": "t:names.icon",
+                    "text_p8eBr7": {
+                      "type": "text",
+                      "name": "t:names.text",
                       "settings": {
-                        "icon": "price_tag",
-                        "image_upload": "shopify://shop_images/Dance_Moms_el_loguix_1.png",
-                        "width": 200,
-                        "link": "",
-                        "open_in_new_tab": false
+                        "custom_css": "",
+                        "text": "<p>Multiple Talk Show Appearances</p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-heading--family)",
+                        "font_size": "1.125rem",
+                        "line_height": "normal",
+                        "letter_spacing": "loose",
+                        "case": "uppercase",
+                        "wrap": "pretty",
+                        "color": "var(--color-foreground-heading)",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
                       },
                       "blocks": {}
                     },
@@ -1502,7 +1517,7 @@
                     }
                   },
                   "block_order": [
-                    "icon_k3nHWK",
+                    "text_p8eBr7",
                     "text_ADNA3f"
                   ]
                 }

@@ -128,7 +128,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 0,
+            "gap": 30,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -177,8 +177,8 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 17,
-                "padding-block-end": 17,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -444,7 +444,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "custom_css": "",
-                            "text": "<p>Problem With Your Order?</p>",
+                            "text": "<p>Still Waiting On A Refund Or Exchange?</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",
@@ -576,7 +576,7 @@
                           "name": "t:names.text",
                           "settings": {
                             "custom_css": "",
-                            "text": "<p>Problem With Your Order?</p>",
+                            "text": "<p>Expected Delivery Date</p>",
                             "width": "fit-content",
                             "max_width": "normal",
                             "alignment": "left",

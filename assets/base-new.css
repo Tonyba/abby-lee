@@ -631,3 +631,10 @@ button {
 .about-us-hero {
     min-height: 800px;
 }
+
+.below-legacy-about {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 5%;
+    font-family: Montserrat;
+}

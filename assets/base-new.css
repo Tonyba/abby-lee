@@ -627,12 +627,7 @@ button {
     color: #000000;
 }
 
-/*popup*/
-.pop-content-blocks {
-    text-align: left !important;
-}
-
-.blocks-renderer .block.text-block h2 {
-    font-weight: 600 !important;
-    text-transform: uppercase !important;
+/*about us*/
+.about-us-hero {
+    min-height: 800px;
 }

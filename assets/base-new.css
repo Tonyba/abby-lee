@@ -578,6 +578,7 @@ button {
 .faq-items .details {
     background-color: #000000;
     color: white;
+    padding: 40px 30px;
 }
 
 .faq-items [open],

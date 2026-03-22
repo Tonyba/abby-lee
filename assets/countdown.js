@@ -15,6 +15,10 @@
     // Si algún elemento no existe, salimos
     if (!daysEl || !hoursEl || !minutesEl || !secondsEl) return;
 
+
+    // Actualizar cada segundo
+    const intervalId = setInterval(updateCountdown, 1000);
+
     function updateCountdown() {
         const now = new Date();
         const diff = targetDate - now; // Diferencia en milisegundos
@@ -51,6 +55,4 @@
     // Ejecutar inmediatamente para mostrar el valor inicial
     updateCountdown();
 
-    // Actualizar cada segundo
-    const intervalId = setInterval(updateCountdown, 1000);
 }());

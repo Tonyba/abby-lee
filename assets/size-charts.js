@@ -14,7 +14,11 @@
     });
 
     function switch_logic(type) {
-        console.log(type)
+        if (type == 'cm') {
+
+        } else {
+
+        }
     }
 
 }());

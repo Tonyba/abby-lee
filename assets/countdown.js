@@ -28,6 +28,7 @@
             minutesEl.textContent = '00';
             secondsEl.textContent = '00';
             clearInterval(intervalId);
+            console.log('hey')
             console.log(document.querySelector('.countdown-section'))
             document.querySelector('.countdown-section')?.classList.add('hide');
             return;

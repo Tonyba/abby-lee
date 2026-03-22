@@ -968,7 +968,7 @@
                             "alignment": "left",
                             "type_preset": "custom",
                             "font": "var(--font-accent--family)",
-                            "font_size": "1rem",
+                            "font_size": "1.125rem",
                             "line_height": "normal",
                             "letter_spacing": "normal",
                             "case": "none",
@@ -1013,7 +1013,7 @@
                 "icon_9NhrdX"
               ]
             },
-            "group_D8it9x": {
+            "group_r3nPRY": {
               "type": "group",
               "name": "t:names.group",
               "settings": {
@@ -1032,15 +1032,15 @@
                 "custom_width_mobile": 100,
                 "height": "fit",
                 "custom_height": 100,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-2",
                 "background_media": "none",
                 "video_position": "cover",
                 "background_image_position": "cover",
                 "border": "solid",
                 "border_width": 1,
                 "border_opacity": 100,
-                "border_radius": 0,
+                "border_radius": 3,
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
@@ -1054,7 +1054,7 @@
                 "padding-inline-end": 45
               },
               "blocks": {
-                "group_nrit79": {
+                "group_jt4RKe": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -1095,7 +1095,7 @@
                     "padding-inline-end": 0
                   },
                   "blocks": {
-                    "group_bpQmKF": {
+                    "group_m7PnxU": {
                       "type": "group",
                       "name": "t:names.group",
                       "settings": {
@@ -1136,19 +1136,19 @@
                         "padding-inline-end": 0
                       },
                       "blocks": {
-                        "icon_LbhKm8": {
+                        "icon_WHpCkw": {
                           "type": "icon",
                           "name": "t:names.icon",
                           "settings": {
                             "icon": "price_tag",
-                            "image_upload": "shopify://shop_images/exchange.svg",
+                            "image_upload": "shopify://shop_images/orders.svg",
                             "width": 30,
                             "link": "",
                             "open_in_new_tab": false
                           },
                           "blocks": {}
                         },
-                        "text_WXzk8f": {
+                        "text_a6WrQM": {
                           "type": "text",
                           "name": "t:names.text",
                           "settings": {
@@ -1159,7 +1159,7 @@
                             "alignment": "left",
                             "type_preset": "custom",
                             "font": "var(--font-accent--family)",
-                            "font_size": "1rem",
+                            "font_size": "1.125rem",
                             "line_height": "normal",
                             "letter_spacing": "normal",
                             "case": "none",
@@ -1177,16 +1177,16 @@
                         }
                       },
                       "block_order": [
-                        "icon_LbhKm8",
-                        "text_WXzk8f"
+                        "icon_WHpCkw",
+                        "text_a6WrQM"
                       ]
                     }
                   },
                   "block_order": [
-                    "group_bpQmKF"
+                    "group_m7PnxU"
                   ]
                 },
-                "icon_jDPRGQ": {
+                "icon_MVLgXM": {
                   "type": "icon",
                   "name": "t:names.icon",
                   "settings": {
@@ -1200,14 +1200,14 @@
                 }
               },
               "block_order": [
-                "group_nrit79",
-                "icon_jDPRGQ"
+                "group_jt4RKe",
+                "icon_MVLgXM"
               ]
             }
           },
           "block_order": [
             "group_AtmgFE",
-            "group_D8it9x"
+            "group_r3nPRY"
           ]
         }
       },

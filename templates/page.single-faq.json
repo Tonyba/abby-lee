@@ -450,7 +450,7 @@
       ],
       "name": "t:names.faq_section",
       "settings": {
-        "custom_css": "",
+        "custom_css": "faq-items",
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

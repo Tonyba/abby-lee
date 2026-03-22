@@ -42,6 +42,9 @@ h2,
     cursor: pointer;
 }
 
+.button-secondary {
+    border-width: 2px !important;
+}
 
 .no-border-r {
     border-radius: 0;

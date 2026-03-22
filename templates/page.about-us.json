@@ -3255,7 +3255,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "uppercase",
-                "text": "<p>Transformation.</p>",
+                "text": "<h4>Transformation.</h4>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -3369,7 +3369,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "uppercase",
-                "text": "<h4>Authenticity.</h4>",
+                "text": "<h4>Community.</h4>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",

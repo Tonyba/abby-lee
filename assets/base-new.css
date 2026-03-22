@@ -21,6 +21,11 @@ h2,
     text-transform: uppercase !important;
 }
 
+.divider-red {
+    --color-border: #FB0101;
+    --divider-border-thickness: 3px;
+}
+
 .circle {
     border-radius: 100%;
 }

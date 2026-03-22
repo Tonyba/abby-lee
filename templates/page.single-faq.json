@@ -485,7 +485,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "custom_css": "",
+            "custom_css": "border-b",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -517,7 +517,7 @@
             "open_in_new_tab": false,
             "placeholder": "",
             "padding-block-start": 10,
-            "padding-block-end": 0,
+            "padding-block-end": 25,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -527,7 +527,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h2>Customer care</h2>",
+                "text": "<h2>Contact Us</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -548,38 +548,10 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "text_3rVrWP": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "custom_css": "",
-                "text": "<p>We're always on your side: keeping our loyal customers happy is our top priority and number one goal.</p>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "text_gWrNU3",
-            "text_3rVrWP"
+            "text_gWrNU3"
           ]
         }
       },
@@ -613,7 +585,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 0,
-        "padding-block-end": 25
+        "padding-block-end": 0
       }
     },
     "section_YUjQBN": {

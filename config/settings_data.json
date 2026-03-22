@@ -24,7 +24,7 @@
     "type_line_height_h1": "display-tight",
     "type_letter_spacing_h1": "heading-loose",
     "type_case_h1": "uppercase",
-    "type_font_h2": "accent",
+    "type_font_h2": "heading",
     "type_size_h2": "24",
     "type_line_height_h2": "display-tight",
     "type_letter_spacing_h2": "heading-loose",
@@ -102,11 +102,6 @@
       },
       "1232542678405107163": {
         "type": "shopify://apps/instafeed/blocks/head-block/c447db20-095d-4a10-9725-b5977662c9d5",
-        "disabled": false,
-        "settings": {}
-      },
-      "18408366429334172745": {
-        "type": "shopify://apps/pop-convert-pop-ups-banners/blocks/app-embed/ed587aec-4936-43ae-a1b3-1c9e0d08f185",
         "disabled": false,
         "settings": {}
       }

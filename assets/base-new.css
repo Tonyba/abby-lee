@@ -600,6 +600,10 @@ button {
     padding: 40px 30px;
 }
 
+.faq-items .details-content {
+    padding-top: 20px;
+}
+
 .faq-items [open],
 .faq-items .details:hover {
     background-color: #F9F9F9;

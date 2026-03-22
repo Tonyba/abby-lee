@@ -13,17 +13,9 @@
 
 {% if block_settings.icon != blank %}
   <style>
-    .button--{{ block.id }}  .icon:after,
-    .button-secondary--{{ block.id }}  .icon:after {
+    .button--{{ block.id }}  img,
+    .button-secondary--{{ block.id }} img {
       width: {{icon_width}}px;
-    }
-
-    .button--{{ block.id }}  .icon:after,
-    .button-secondary--{{ block.id }}  .icon:after {
-      content: '';
-      -webkit-mask: url({{ block_settings.icon | image_url: width: icon_width, height: 24  }}) no-repeat center / {{icon_width}}px;
-      background-color: currentColor;
-      display: block;
     }
   </style>
 {% endif %}
@@ -50,7 +42,9 @@
   {{ block_settings.label }}
 
   {% if block_settings.icon != blank %}
-    <span class="icon"> </span>
+    <span class="icon">
+      {{ block_settings.icon | image_url: width: block_settings.icon_width, height: '24' | image_tag }}
+    </span>
   {% endif %}
 </a>
 

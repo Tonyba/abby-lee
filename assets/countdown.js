@@ -26,6 +26,7 @@
             minutesEl.textContent = '00';
             secondsEl.textContent = '00';
             clearInterval(intervalId);
+            countdown_date?.classList.add('hide');
             return;
         }
 

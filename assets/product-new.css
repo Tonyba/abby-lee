@@ -18,6 +18,7 @@
     font-weight: 600;
     letter-spacing: 5%;
     text-transform: uppercase;
+    border-bottom: 1px solid;
 }
 
 .pickup-availability__column:first-child {

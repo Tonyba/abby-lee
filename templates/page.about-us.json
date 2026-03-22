@@ -2747,9 +2747,10 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "custom_css": "no-border-r",
+                    "custom_css": "no-border-r row-reverse",
                     "label": "Listen now",
-                    "icon_width": 20,
+                    "icon": "shopify://shop_images/Group_4.svg",
+                    "icon_width": 27,
                     "link": "shopify://collections/all",
                     "open_in_new_tab": false,
                     "style_class": "button-secondary",

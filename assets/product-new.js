@@ -6,8 +6,8 @@
     Array.from(img_cols).map(img => {
 
         const image = img.querySelector('.image-block');
-        console.log(image?.querySelector('.hero__media'))
-        if (image?.querySelector('.hero__media')) image.classList.add('hide');
+        console.log(image?.querySelector('.placeholder-image'))
+        if (image?.querySelector('.placeholder-image')) image.classList.add('hide');
 
     });
 

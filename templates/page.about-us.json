@@ -1841,10 +1841,37 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "custom_css": "",
-                "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+                "custom_css": "bold-red",
+                "text": "<p><strong>The official Abby Lee Miller YouTube channel offers fans an unfiltered look into the world of the iconic dance coach, choreographer, and television personality.</strong></p>",
                 "width": "fit-content",
-                "max_width": "normal",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_XC9qkW": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "custom_css": "",
+                "text": "<p>Known for her tough-love approach and eye for talent, Abby shares exclusive behind-the-scenes content, dance tutorials, reaction videos, and her candid take on all things dance and entertainment. Viewers can expect personal stories, never-before-seen footage from her time on Dance Moms, and insights into the dance industry straight from the source. Whether you're a longtime fan or new to the world of competitive dance, Abby’s channel is a front-row seat to the drama, the discipline, and the drive that made her a household name.</p>",
+                "width": "100%",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -1868,7 +1895,8 @@
           "block_order": [
             "text_BiAfbK",
             "text_QyNFBF",
-            "text_pVFfaM"
+            "text_pVFfaM",
+            "text_XC9qkW"
           ]
         }
       },

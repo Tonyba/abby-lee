@@ -2753,7 +2753,7 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "custom_css": "no-border-r row-reverse flex",
+                    "custom_css": "no-border-r row-reverse flex items-center",
                     "label": "Listen now",
                     "icon": "shopify://shop_images/Group_4.svg",
                     "inline_icon": true,

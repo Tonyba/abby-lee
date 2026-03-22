@@ -381,10 +381,38 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "text_RXTHrm": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "custom_css": "",
+                "text": "<p>At just 14, Abby Lee Miller founded the Abby Lee Dance Company, determined to train strong, fearless, and technically skilled dancers capable of executing her bold choreography.<br/><br/>By 22, she had taken over her mother’s esteemed studio and expanded the ALDC Competition Team to 148 members. Fueled by passion, perseverance, and a massive leap of faith, Abby built a state-of-the-art facility in her hometown, producing not only professional dancers but stars. Her students have graced 25 Broadway shows, performed at Tokyo Disney, danced with the Rockettes, and appeared in top productions worldwide.<br/><br/>In 2011, Abby became a household name with Dance Moms, a global TV sensation. Today, she continues to teach, inspire, and entertain through live events, online classes, and her thriving digital platforms—cementing her legacy as a force in the dance world.</p>",
+                "width": "fit-content",
+                "max_width": "none",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "text_tAja6T"
+            "text_tAja6T",
+            "text_RXTHrm"
           ]
         }
       },

@@ -16,8 +16,9 @@
     function switch_logic(type) {
 
         const cells = document.querySelectorAll('.table-body > .flex > div');
+        const type_unit = Array.from(document.querySelectorAll('.unit'));
 
-        console.log(cells)
+        type_unit.map((unit) => unit.textContent = type);
 
         if (type == 'cm') {
 

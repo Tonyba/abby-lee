@@ -17,6 +17,10 @@ h2,
     font-weight: bold !important;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 .circle {
     border-radius: 100%;
 }

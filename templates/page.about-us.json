@@ -3101,7 +3101,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "custom_css": "fix-heading",
+        "custom_css": "",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

@@ -13,8 +13,8 @@
       "type": "popup-welcome",
       "name": "Popup Welcome",
       "settings": {
-        "title": "",
-        "content": ""
+        "title": "Welcome to",
+        "content": "<ul><li>Buy in local currency</li><li>All Duties And Taxes Already Included - </li><li>No Hidden Fees</li><li>Excellent international delivery costs</li></ul>"
       }
     },
     "hero_jVaWmY": {

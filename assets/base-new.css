@@ -588,6 +588,11 @@ button {
     gap: 20px
 }
 
+.faq-items .details__header .svg-wrapper {
+    background-color: #FB0101;
+    border-radius: 100%;
+}
+
 .faq-items [open],
 .faq-items .details:hover {
     background-color: #F9F9F9;

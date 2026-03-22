@@ -30,11 +30,14 @@ h2,
     display: flex;
 }
 
-.button {
+.button,
+.button-secondary {
     font-weight: bold;
 }
 
-button {
+
+.button,
+.button-secondary {
     cursor: pointer;
 }
 

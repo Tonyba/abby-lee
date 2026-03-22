@@ -1141,7 +1141,7 @@
                           "name": "t:names.icon",
                           "settings": {
                             "icon": "price_tag",
-                            "image_upload": "shopify://shop_images/orders.svg",
+                            "image_upload": "shopify://shop_images/exchange.svg",
                             "width": 30,
                             "link": "",
                             "open_in_new_tab": false

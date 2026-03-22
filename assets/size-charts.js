@@ -22,13 +22,30 @@
 
         if (type == 'cm') {
 
+            cells.map((cell) => {
+                const values = cell.textContent.split('-');
+
+                let first_value = parseInt(values[0]?.trim());
+                let second_value = parseInt(values[1]?.trim());
+
+                first_value = first_value * 2.54;
+                second_value = second_value * 2.54;
+
+                cell.textContent = `${first_value} - ${second_value}`;
+
+            });
+
         } else {
             cells.map((cell) => {
                 const values = cell.textContent.split('-');
 
-                const first_value = parseInt(values[0]?.trim());
-                const second_value = parseInt(values[1]?.trim());
-                console.log(first_value)
+                let first_value = parseInt(values[0]?.trim());
+                let second_value = parseInt(values[1]?.trim());
+
+                first_value = first_value / 2.54;
+                second_value = second_value / 2.54;
+
+                cell.textContent = `${first_value} - ${second_value}`;
 
             });
         }

@@ -17,31 +17,8 @@
   </div>
 </div>
 
-<script src="{{ 'popup.min.js' | asset_url }}" defer></script>
 <script defer>
-  (function () {
-    function waitForPopup(method) {
-      if (typeof Popup != 'undefined') {
-        method();
-      } else {
-        setTimeout(function () {
-          waitForPopup(method);
-        }, 50);
-      }
-    }
-
-    waitForPopup(init);
-
-    function init() {
-      const popup = document.querySelector('.popup-content-custom');
-      const myPopup = new Popup({
-        id: 'my-popup',
-        title: 'My First Popup',
-        content: popup,
-        showImmediately: true,
-      });
-    }
-  })();
+  (function () {})();
 </script>
 
 {% schema %}

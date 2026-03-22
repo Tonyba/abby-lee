@@ -15,7 +15,7 @@
 
     function switch_logic(type) {
 
-        const cells = document.querySelectorAll('.table-body > .flex > div');
+        const cells = Array.from(document.querySelectorAll('.table-body > .flex > div'));
         const type_unit = Array.from(document.querySelectorAll('.unit'));
 
         type_unit.map((unit) => unit.textContent = type);

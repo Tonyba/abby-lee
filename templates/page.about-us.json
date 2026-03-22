@@ -1045,7 +1045,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 18,
+            "gap": 95,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -1456,7 +1456,7 @@
                     "open_in_new_tab": false,
                     "placeholder": "",
                     "padding-block-start": 36,
-                    "padding-block-end": 34,
+                    "padding-block-end": 36,
                     "padding-inline-start": 30,
                     "padding-inline-end": 30
                   },

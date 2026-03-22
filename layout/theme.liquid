@@ -153,5 +153,9 @@
 
     <script src="{{ 'free-shipping-bar.js' | asset_url }}" defer></script>
     <script src="{{ 'cat-active-logic.js' | asset_url }}" defer></script>
+
+    {% if template.name == 'product' %}
+      {{ 'product-new.css' | asset_url | stylesheet_tag: preload: true }}
+    {% endif %}
   </body>
 </html>

@@ -297,10 +297,23 @@
                   "block_order": [
                     "text_F3ktF7"
                   ]
+                },
+                "icon_kterTz": {
+                  "type": "icon",
+                  "name": "t:names.icon",
+                  "settings": {
+                    "icon": "price_tag",
+                    "image_upload": "shopify://shop_images/chevron-red-right.svg",
+                    "width": 12,
+                    "link": "",
+                    "open_in_new_tab": false
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "group_dyRT4D"
+                "group_dyRT4D",
+                "icon_kterTz"
               ]
             }
           },

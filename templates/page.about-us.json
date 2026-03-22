@@ -2071,7 +2071,7 @@
               "name": "t:names.text",
               "settings": {
                 "custom_css": "subheading-red",
-                "text": "<h5>The ALDC YouTube channel </h5>",
+                "text": "<h5>The ALDC Podcast</h5>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2098,7 +2098,7 @@
               "name": "t:names.text",
               "settings": {
                 "custom_css": "",
-                "text": "<h2>The Abby Lee Miller Youtube Channel</h2>",
+                "text": "<p>Leave It on the Dance Floor</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",

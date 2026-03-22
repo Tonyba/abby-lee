@@ -1,10 +1,59 @@
 {% stylesheet %}
+  /* Estilos del popup (overlay y contenido) */
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .popup-overlay.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
   .popup-content-custom {
     background-color: white;
     padding-top: 25px;
     padding-left: 52px;
     padding-right: 52px;
     padding-bottom: 77px;
+    position: relative;
+    max-width: 90%;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #999;
+  }
+
+  .popup-close:hover {
+    color: #333;
+  }
+
+  /* Ocultar el contenido original que está dentro de .hide */
+  .hide {
+    display: none;
   }
 {% endstylesheet %}
 
@@ -18,7 +67,64 @@
 </div>
 
 <script defer>
-  (function () {})();
+  (function () {
+    // Clave para localStorage (evita mostrar el popup nuevamente)
+    const POPUP_STORAGE_KEY = 'popup_welcome_shown';
+
+    // Comprobar si ya se mostró este popup
+    const hasBeenShown = localStorage.getItem(POPUP_STORAGE_KEY);
+
+    // Si ya se mostró, no hacer nada
+    //  if (hasBeenShown) return;
+
+    // Clonar el contenido del popup (que está oculto en .hide)
+    const originalContent = document.querySelector('.hide .popup-content-custom');
+    if (!originalContent) return;
+
+    // Crear el overlay (fondo oscuro)
+    const overlay = document.createElement('div');
+    overlay.className = 'popup-overlay';
+
+    // Clonar el contenido para no modificar el original
+    const popupContent = originalContent.cloneNode(true);
+
+    // Añadir botón de cierre (X) al contenido clonado
+    const closeButton = document.createElement('button');
+    closeButton.innerHTML = '&times;';
+    closeButton.className = 'popup-close';
+    closeButton.setAttribute('aria-label', 'Cerrar popup');
+    popupContent.insertBefore(closeButton, popupContent.firstChild);
+
+    // Agregar el contenido al overlay
+    overlay.appendChild(popupContent);
+
+    // Agregar el overlay al body
+    document.body.appendChild(overlay);
+
+    // Función para cerrar el popup y guardar en localStorage
+    function closePopup() {
+      overlay.classList.remove('active');
+      setTimeout(() => {
+        overlay.remove();
+      }, 300); // Esperar a que termine la transición
+      localStorage.setItem(POPUP_STORAGE_KEY, 'true');
+    }
+
+    // Evento para cerrar con el botón X
+    closeButton.addEventListener('click', closePopup);
+
+    // Evento para cerrar haciendo clic en el overlay (fondo)
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay) {
+        closePopup();
+      }
+    });
+
+    // Mostrar el popup después de un breve retraso (2 segundos)
+    setTimeout(() => {
+      overlay.classList.add('active');
+    }, 2000);
+  })();
 </script>
 
 {% schema %}

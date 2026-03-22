@@ -151,18 +151,30 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 10,
+            "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
           "blocks": {
+            "icon_4TxgYV": {
+              "type": "icon",
+              "name": "t:names.icon",
+              "settings": {
+                "icon": "price_tag",
+                "image_upload": "shopify://shop_images/Vector.svg",
+                "width": 46,
+                "link": "",
+                "open_in_new_tab": false
+              },
+              "blocks": {}
+            },
             "text_FtCfiM": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h2>Quality first</h2>",
+                "text": "<h1>Sizing & Fit</h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -191,7 +203,7 @@
                 "custom_css": "",
                 "text": "<p>We obsess over the details and strive to deliver the best products at the best prices, every time.</p>",
                 "width": "100%",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",
@@ -213,6 +225,7 @@
             }
           },
           "block_order": [
+            "icon_4TxgYV",
             "text_FtCfiM",
             "text_BkdhHA"
           ]

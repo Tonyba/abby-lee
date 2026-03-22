@@ -638,6 +638,7 @@ button {
     letter-spacing: 5%;
     font-family: Montserrat;
     text-transform: uppercase;
+    padding: 28px 0;
 }
 
 .below-legacy-about .group-block:not(:last-child) {

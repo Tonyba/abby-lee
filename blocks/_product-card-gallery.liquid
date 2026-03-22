@@ -20,9 +20,9 @@
               {% if product.available == false or product.tags contains 'best seller' %} color-{{ settings.badge_sold_out_color_scheme }}{% elsif product.compare_at_price > product.price or product.tags contains 'trending' %} color-{{ settings.badge_sale_color_scheme }}{% endif %}
             "
           >
-            {% if product.tags contains 'best seller' %}
+            {% if tag == 'best seller' %}
               Best Seller
-            {% elsif product.tags contains 'trending' %}
+            {% elsif tag == 'trending' %}
               Trending
             {%- endif -%}
         </div>

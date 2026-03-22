@@ -14,7 +14,9 @@
       "name": "Popup Welcome",
       "settings": {
         "title": "Welcome to",
-        "content": "<ul><li>Buy in local currency</li><li>All Duties And Taxes Already Included - </li><li>No Hidden Fees</li><li>Excellent international delivery costs</li></ul>"
+        "content": "<ul><li>Buy in local currency</li><li>All Duties And Taxes Already Included - </li><li>No Hidden Fees</li><li>Excellent international delivery costs</li></ul>",
+        "btn_text": "Shop Now",
+        "btn_link": "shopify://collections/all"
       }
     },
     "hero_jVaWmY": {

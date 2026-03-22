@@ -409,11 +409,29 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "button_CWHB4V": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "custom_css": "",
+                "label": "Join abby’s next event",
+                "icon_width": 20,
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button-secondary",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_tAja6T",
-            "text_RXTHrm"
+            "text_RXTHrm",
+            "button_CWHB4V"
           ]
         }
       },

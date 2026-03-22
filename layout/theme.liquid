@@ -36,6 +36,22 @@
     {% endif %}
 
     {{ content_for_header }}
+
+    <style>
+      [ref='overflowMenu'] li:first-child a,
+      [ref='overflowMenu'] li:nth-child(3) a {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      [ref='overflowMenu'] li:first-child a::after,
+      [ref='overflowMenu'] li:nth-child(3) a:after {
+        content: '';
+        width: 12px;
+        height: 12px;
+        background-color: red;
+      }
+    </style>
   </head>
 
   <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">

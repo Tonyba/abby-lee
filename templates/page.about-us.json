@@ -2713,14 +2713,14 @@
               "name": "t:names.group",
               "settings": {
                 "custom_css": "",
-                "content_direction": "column",
+                "content_direction": "row",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
+                "gap": 10,
                 "width": "fill",
                 "custom_width": 100,
                 "width_mobile": "fill",
@@ -2768,10 +2768,31 @@
                     "custom_width_mobile": 100
                   },
                   "blocks": {}
+                },
+                "button_aX8kTD": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "custom_css": "no-border-r row-reverse flex items-center",
+                    "label": "Listen now",
+                    "icon": "shopify://shop_images/Group_4.svg",
+                    "inline_icon": true,
+                    "svg": "<svg width=\"26\" height=\"30\" viewbox=\"0 0 26 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M24.5139 9.93056C23.5417 10.2546 22.7315 11.0069 22.0833 12.1875C21.4352 13.3681 21.1111 14.537 21.1111 15.6944C21.1111 17.1296 21.4815 18.4606 22.2222 19.6875C22.963 20.9144 23.9583 21.6898 25.2083 22.0139C24.838 23.2639 24.2245 24.5486 23.3681 25.8681C22.5116 27.1875 21.6435 28.1713 20.7639 28.8194C20.0231 29.3287 19.0972 29.5833 17.9861 29.5833C17.2454 29.5833 16.3889 29.3981 15.4167 29.0278C14.5833 28.6111 13.8657 28.4028 13.2639 28.4028C12.8009 28.4028 11.875 28.6806 10.4861 29.2361C9.65278 29.4676 9.05093 29.5833 8.68056 29.5833C7.56944 29.5833 6.43518 29.1204 5.27778 28.1944C3.61111 26.6204 2.31481 24.7454 1.38889 22.5694C0.462963 20.3935 0 18.125 0 15.7639C0 13.3102 0.706018 11.1458 2.11806 9.27083C3.53009 7.39583 5.32407 6.45833 7.5 6.45833C8.7037 6.45833 9.81481 6.71296 10.8333 7.22222C11.6204 7.73148 12.4074 7.98611 13.1944 7.98611C13.9352 7.98611 14.6528 7.84722 15.3472 7.56944C17.1528 6.8287 18.3565 6.45833 18.9583 6.45833C20.5787 6.45833 21.9907 6.99074 23.1944 8.05556C23.75 8.61111 24.1898 9.23611 24.5139 9.93056ZM12.4306 6.66667C12.4306 5.18518 13.0093 3.72685 14.1667 2.29167C15.3241 1.04167 16.7361 0.277778 18.4028 0C18.4028 1.75926 17.8472 3.31018 16.7361 4.65278C15.4861 5.99537 14.0509 6.66667 12.4306 6.66667Z\" fill=\"currentColor\"></path>\n</svg>",
+                    "icon_width": 27,
+                    "link": "shopify://collections/all",
+                    "open_in_new_tab": false,
+                    "style_class": "button-secondary",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
-                "button_6hLkaD"
+                "button_6hLkaD",
+                "button_aX8kTD"
               ]
             }
           },

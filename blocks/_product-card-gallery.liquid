@@ -9,28 +9,28 @@
         --badge-font-family: var(--font-{{ settings.badge_font_family }}--family); --badge-font-weight: var(--font-{{ settings.badge_font_family }}--weight); --badge-text-transform: {{ settings.badge_text_transform }};
       "
     >
-      {%- if product.available == false or product.compare_at_price > product.price or product.tags contains 'best seller' or product.tags contains 'trending' -%}
-       
 
         {% for tag in product.tags %}
           {% if tag == 'best seller' or tag == 'trending' %}
               <div
-            class="
-              product-badges__badge product-badges__badge--rectangle
-              {% if tag == 'best seller' %} color-{{ settings.badge_sold_out_color_scheme }}{% elsif tag == 'trending' %} color-{{ settings.badge_sale_color_scheme }}{% endif %}
-            "
-          >
-            {% if tag == 'best seller' %}
-              Best Seller
-            {% elsif tag == 'trending' %}
-              Trending
-            {%- endif -%}
-        </div>
-          {% endif %}
-        
-         
-          
+                class="
+                  product-badges__badge product-badges__badge--rectangle
+                  {% if tag == 'best seller' %} color-{{ settings.badge_sold_out_color_scheme }}{% elsif tag == 'trending' %} color-{{ settings.badge_sale_color_scheme }}{% endif %}
+                "
+              >
+                  {% if tag == 'best seller' %}
+                    Best Seller
+                  {% elsif tag == 'trending' %}
+                    Trending
+                  {%- endif -%}
+              </div>
+          {% endif %}    
         {% endfor %}
+
+      {%- if product.available == false or product.compare_at_price > product.price or product.tags contains 'best seller' or product.tags contains 'trending' -%}
+       
+
+      
 
         <div
           class="

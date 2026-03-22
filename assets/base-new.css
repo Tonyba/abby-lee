@@ -612,6 +612,6 @@ button {
 }
 
 /*popup*/
-.blocks-renderer[data-v-53b31da5] {
-    text-align: left;
+.pop-content-blocks[data-v-9be019ae] {
+    text-align: left !important;
 }

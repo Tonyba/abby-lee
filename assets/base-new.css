@@ -632,9 +632,9 @@ button {
     min-height: 800px;
 }
 
-.below-legacy-about {
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 5%;
-    font-family: Montserrat;
+.below-legacy-about * {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    letter-spacing: 5% !important;
+    font-family: Montserrat !important;
 }

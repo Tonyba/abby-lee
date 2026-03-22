@@ -103,6 +103,10 @@ button {
     flex-direction: row !important;
 }
 
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
 .w-50 {
     width: 50%;
 }

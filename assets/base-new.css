@@ -17,7 +17,7 @@ h2,
     font-weight: bold !important;
 }
 
-.uppercase {
+.uppercase * {
     text-transform: uppercase;
 }
 

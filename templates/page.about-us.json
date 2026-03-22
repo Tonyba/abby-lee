@@ -1895,7 +1895,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "custom_css": "",
+                "custom_css": "flex",
                 "label": "Shop now",
                 "icon": "shopify://shop_images/youtube.svg",
                 "icon_width": 32,

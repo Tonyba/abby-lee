@@ -29,6 +29,12 @@
       "default": false
     },
     {
+      "type": "textarea",
+      "id": "svg",
+      "label": "SVG",
+      "visible_if": "{{ block.settings.inline_icon == true}}"
+    },
+    {
       "type": "range",
       "id": "icon_width",
       "min": 0,

@@ -2993,7 +2993,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 8,
+            "gap": 20,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -3027,7 +3027,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h2>Customer care</h2>",
+                "text": "<p>Authenticity.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -3066,7 +3066,7 @@
               "name": "t:names.description",
               "settings": {
                 "custom_css": "",
-                "text": "<p>We're always on your side: keeping our loyal customers happy is our top priority and number one goal.</p>",
+                "text": "<p>Abby’s personality — direct, passionate, and unapologetic — has always been transparent. Viewers and students know exactly where they stand.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",

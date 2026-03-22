@@ -23,14 +23,13 @@
         // Si la fecha ya pasó, mostramos 00:00:00 y detenemos el intervalo
         if (diff <= 0) {
 
-            console.log('hey')
-            console.log(diff)
             daysEl.textContent = '00';
             hoursEl.textContent = '00';
             minutesEl.textContent = '00';
             secondsEl.textContent = '00';
             clearInterval(intervalId);
-            countdown_date?.classList.add('hide');
+            console.log(document.querySelector('.countdown-section'))
+            document.querySelector('.countdown-section')?.classList.add('hide');
             return;
         }
 

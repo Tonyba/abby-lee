@@ -235,8 +235,10 @@ button {
     font-weight: 600;
 }
 
-[ref="overflowMenu"] li:first-child a {
+[ref="overflowMenu"] li:first-child a,
+[ref="overflowMenu"] li:nth-child(3) a {
     flex-direction: row;
+    align-items: center;
 }
 
 [ref="overflowMenu"] li:first-child a::after,

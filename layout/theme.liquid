@@ -38,21 +38,21 @@
     {{ content_for_header }}
 
     <style>
-       .header-menu__inner > .menu-list > [ref='overflowMenu'] li:first-child a,
-        [ref='overflowMenu'] li:nth-child(3) a {
-          flex-direction: row;
-          align-items: center;
-        }
+      .header-menu__inner > .menu-list > [ref='overflowMenu'] li:first-child a,
+      [ref='overflowMenu'] li:nth-child(3) a {
+        flex-direction: row;
+        align-items: center;
+      }
 
-      .header-menu__inner >  .menu-list >  [ref='overflowMenu'] > li:first-child > a::after,
-      .header-menu__inner >  .menu-list >  [ref='overflowMenu'] > li:nth-child(3) > a:after {
-          content: '';
-          width: 13px;
-          height: 13px;
-          background-color: red;
-          -webkit-mask: url({{'chevron-down.svg'|asset_url}}) no-repeat center / 13px;
-          background-color: currentColor;
-        }
+      .header-menu__inner > .menu-list > [ref='overflowMenu'] > li:first-child > a::after,
+      .header-menu__inner > .menu-list > [ref='overflowMenu'] > li:nth-child(3) > a:after {
+        content: '';
+        width: 13px;
+        height: 13px;
+        background-color: red;
+        -webkit-mask: url({{'chevron-down.svg'|asset_url}}) no-repeat center / 13px;
+        background-color: currentColor;
+      }
     </style>
   </head>
 
@@ -155,7 +155,7 @@
     <script src="{{ 'cat-active-logic.js' | asset_url }}" defer></script>
 
     {% if template.name == 'product' %}
-      {{ 'product-new.css' | asset_url | stylesheet_tag: preload: true }}
+      <script src="{{ 'product-new.js' | asset_url }}" defer></script>
     {% endif %}
   </body>
 </html>

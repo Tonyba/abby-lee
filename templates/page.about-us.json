@@ -1493,7 +1493,7 @@
                       "name": "t:names.text",
                       "settings": {
                         "custom_css": "",
-                        "text": "<p>Lifetime</p>",
+                        "text": "<p>National Media</p>",
                         "width": "fit-content",
                         "max_width": "normal",
                         "alignment": "left",

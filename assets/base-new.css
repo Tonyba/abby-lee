@@ -612,11 +612,11 @@ button {
 }
 
 /*popup*/
-.pop-content-blocks[data-v-9be019ae] {
+.pop-content-blocks {
     text-align: left !important;
 }
 
-.blocks-renderer .block.text-block[data-v-53b31da5] h2 {
+.blocks-renderer .block.text-block h2 {
     font-weight: 600 !important;
     text-transform: uppercase !important;
 }

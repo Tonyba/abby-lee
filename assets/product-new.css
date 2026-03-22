@@ -12,6 +12,10 @@
     padding: 21px;
 }
 
+.pickup-location__button {
+    margin: auto;
+}
+
 .pickup-availability__column:first-child {
     display: none;
 }

@@ -12,6 +12,10 @@
     padding: 21px;
 }
 
+.pickup-availability__column:first-child {
+    display: none;
+}
+
 .pickup-availability__row * {
     font-size: 16px;
 }

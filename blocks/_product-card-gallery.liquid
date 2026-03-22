@@ -17,7 +17,7 @@
               <div
             class="
               product-badges__badge product-badges__badge--rectangle
-              {% if product.available == false or product.tags contains 'best seller' %} color-{{ settings.badge_sold_out_color_scheme }}{% elsif product.compare_at_price > product.price or product.tags contains 'trending' %} color-{{ settings.badge_sale_color_scheme }}{% endif %}
+              {% if tag == 'best seller' %} color-{{ settings.badge_sold_out_color_scheme }}{% elsif tag == 'trending' %} color-{{ settings.badge_sale_color_scheme }}{% endif %}
             "
           >
             {% if tag == 'best seller' %}

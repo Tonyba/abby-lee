@@ -12,7 +12,8 @@
     padding: 21px;
 }
 
-.pickup-location__text-xs {
+.pickup-location__text-xs,
+.pickup-location__text-sm {
     font-size: 16px !important;
 }
 

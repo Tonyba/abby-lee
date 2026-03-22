@@ -578,7 +578,7 @@
       "scheme-d8e589a9-01a0-4889-b27d-44750bd5a7a2": {
         "settings": {
           "background": "#00000073",
-          "foreground_heading": "#fb0101",
+          "foreground_heading": "#ffffff",
           "foreground": "#fb0101",
           "primary": "#000000",
           "primary_hover": "#000000",

@@ -580,7 +580,8 @@ button {
     color: white;
 }
 
-.faq-items [open] {
+.faq-items [open],
+.faq-items .details:hover {
     background-color: #F9F9F9;
     color: #000000;
 }

@@ -100,6 +100,9 @@
     // Clonar el contenido para no modificar el original
     const popupContent = originalContent.cloneNode(true);
 
+    // Añadir botón de cierre (X) al contenido clonado
+    const closeButton = document.querySelector('.popup-close');
+
     // Agregar el contenido al overlay
     overlay.appendChild(popupContent);
 

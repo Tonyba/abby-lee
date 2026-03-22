@@ -3590,7 +3590,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
+            "gap": 15,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
@@ -3764,11 +3764,31 @@
           "block_order": [
             "group_8A6eNY"
           ]
+        },
+        "button_HfV3U7": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "custom_css": "",
+            "label": "View Gallery",
+            "inline_icon": false,
+            "svg": "",
+            "icon_width": 20,
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button-secondary",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "group_yJN3Rp",
-        "group_f4Ppz9"
+        "group_f4Ppz9",
+        "button_HfV3U7"
       ],
       "name": "Real stories from real champions",
       "settings": {

@@ -1,6 +1,6 @@
 (function () {
 
-    const img_cols = document.querySelectorAll('.prod-img-col .img-block');
+    const img_cols = document.querySelectorAll('.prod-img-col');
 
     console.log(img_cols)
 

@@ -414,7 +414,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "custom_css": "",
+                "custom_css": "no-border-r",
                 "label": "Join abby’s next event",
                 "icon_width": 20,
                 "link": "shopify://collections/all",

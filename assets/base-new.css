@@ -234,8 +234,14 @@ button {
 }
 
 .product-badges__badge {
-    letter-spacing: 0.5px;
-    font-size: 14px;
+    letter-spacing: 0.5px !important;
+    font-size: 14px !important;
+}
+
+.product-badges {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
 }
 
 

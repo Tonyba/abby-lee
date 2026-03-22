@@ -25,7 +25,11 @@
         } else {
             cells.map((cell) => {
                 const values = cell.textContent.split('-');
-                console.log(values)
+
+                const first_value = parseInt(values[0]?.trim());
+                const second_value = parseInt(values[1]?.trim());
+                console.log(first_value)
+
             });
         }
     }

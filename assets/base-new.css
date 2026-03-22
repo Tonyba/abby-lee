@@ -610,3 +610,8 @@ button {
     background-color: #F9F9F9;
     color: #000000;
 }
+
+/*popup*/
+.blocks-renderer[data-v-53b31da5] {
+    text-align: left;
+}

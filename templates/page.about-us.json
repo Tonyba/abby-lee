@@ -1896,7 +1896,7 @@
               "name": "t:names.button",
               "settings": {
                 "custom_css": "flex row-reverse",
-                "label": "Shop now",
+                "label": "watch now",
                 "icon": "shopify://shop_images/youtube.svg",
                 "icon_width": 32,
                 "link": "shopify://collections/all",

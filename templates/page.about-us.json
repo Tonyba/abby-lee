@@ -2742,7 +2742,28 @@
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
-              "blocks": {}
+              "blocks": {
+                "button_6hLkaD": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "custom_css": "no-border-r",
+                    "label": "Listen now",
+                    "icon_width": 20,
+                    "link": "shopify://collections/all",
+                    "open_in_new_tab": false,
+                    "style_class": "button-secondary",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "button_6hLkaD"
+              ]
             }
           },
           "block_order": [

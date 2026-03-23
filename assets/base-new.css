@@ -670,6 +670,11 @@ h2,
 }
 
 @media only screen and (max-width: 1024px) {
+
+    .w-full-t {
+        width: 100%;
+    }
+
     .resource-list__carousel .resource-list__slide {
         --column-count: 2
     }

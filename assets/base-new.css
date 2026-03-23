@@ -700,4 +700,10 @@ h2,
     .col-t>*>.mobile-column {
         flex-direction: column !important;
     }
+
+    .col-t-reverse,
+    .col-t-reverse>.group-block-content,
+    .col-t-reverse>*>.mobile-column {
+        flex-direction: column-reverse !important;
+    }
 }

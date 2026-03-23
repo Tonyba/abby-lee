@@ -237,8 +237,8 @@ h2,
 
 
 /*home hero*/
-.custom-home-hero {
-    min-height: 731px !important;
+.custom-home-hero .hero {
+    --hero-min-height: 731px;
 }
 
 /*product carousel*/

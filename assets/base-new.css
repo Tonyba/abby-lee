@@ -668,3 +668,9 @@ h2,
 .below-legacy-about .group-block:not(:last-child) {
     border-right: 1px solid;
 }
+
+@media only screen and (max-width: 1024px) {
+    .resource-list__carousel .resource-list__slide {
+        --column-count: 2
+    }
+}

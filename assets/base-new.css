@@ -682,6 +682,10 @@ h2,
         width: 100%;
     }
 
+    .justify-center-t {
+        justify-content: center;
+    }
+
     .col-t {
         flex-direction: column !important;
     }

@@ -1,6 +1,7 @@
 {{ 'overflow-list.css' | asset_url | preload_tag: as: 'style' }}
 {{ 'base.css' | asset_url | stylesheet_tag: preload: true }}
 {{ 'base-new.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'embla-styles.css' | asset_url | stylesheet_tag }}
 {% render 'mask-icons' %}
 
 {% if template.name == 'product' %}

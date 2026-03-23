@@ -695,7 +695,8 @@ h2,
         margin: auto;
     }
 
-    .col-t {
+    .col-t,
+    .col-t>.group-block-content {
         flex-direction: column !important;
     }
 }

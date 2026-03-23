@@ -105,6 +105,10 @@
     --slide-spacing: 10px;
 }
 
+.cols-auto {
+    --slide-size: auto;
+}
+
 .product-carousel .embla__controls {
     position: absolute;
     top: 0;

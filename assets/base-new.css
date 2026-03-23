@@ -696,7 +696,8 @@ h2,
     }
 
     .col-t,
-    .col-t>.group-block-content {
+    .col-t>.group-block-content,
+    .col-t>*>.mobile-column {
         flex-direction: column !important;
     }
 }

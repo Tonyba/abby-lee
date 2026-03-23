@@ -716,4 +716,8 @@ h2,
     .pt-0-t>*>.mobile-column {
         padding-top: 0;
     }
+
+    .payment-icons__list {
+        justify-content: center !important;
+    }
 }

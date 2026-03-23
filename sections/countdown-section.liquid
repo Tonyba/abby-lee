@@ -89,7 +89,7 @@
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
 <div class="section color-{{ section.settings.color_scheme }} overflow-hidden">
   <div class="flex items-center col-t">
-    <div class="texts">
+    <div class="texts w-full-t ">
       <div class="inner">
         <div class="subheading">
           <span class="icon">
@@ -128,7 +128,7 @@
         <a href="{{ section.settings.btn_link }}" class="button button-primary">{{ section.settings.btn_text }}</a>
       </div>
     </div>
-    <div class="images flex no-gap">
+    <div class="images flex no-gap w-full-t ">
       {{
         section.settings.image_1
         | image_url: width: section.settings.image_1.width, height: section.settings.image_1.height

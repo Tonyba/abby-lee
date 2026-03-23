@@ -678,6 +678,10 @@ h2,
         display: none;
     }
 
+    .w-full-t {
+        width: 100%;
+    }
+
     .col-t {
         flex-direction: column !important;
     }

@@ -673,4 +673,8 @@ h2,
     .resource-list__carousel .resource-list__slide {
         --column-count: 2
     }
+
+    .hide-t {
+        display: none;
+    }
 }

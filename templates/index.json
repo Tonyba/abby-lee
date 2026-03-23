@@ -53,7 +53,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "custom_css": "",
+            "custom_css": "hero-home-button",
             "label": "Shop Now",
             "inline_icon": false,
             "svg": "",

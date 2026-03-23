@@ -677,4 +677,8 @@ h2,
     .hide-t {
         display: none;
     }
+
+    .col-t {
+        flex-direction: column !important;
+    }
 }

@@ -58,7 +58,11 @@ function init() {
 }
 
 function emblaMobile() {
-    const emblaMobile = Array.from(document.querySelectorAll('.embla-tablet,.embla-mobile'));
+    const emblaTablet = Array.from(document.querySelectorAll('.embla-tablet'));
+    const w = window.outerWidth;
+
+    if (w < 1025) emblaTablet.map(el => el.classList.add('embla'));
+
 }
 
 function mountCarousel(elm, options, plugins) {

@@ -708,7 +708,7 @@ h2,
     }
 
     .grid-posts-cols-2-t .resource-list {
-        --resource-list-columns: repeat(2, 1fr);
+        --resource-list-columns: repeat(2, 1fr) !important;
     }
 
     .pt-0-t,

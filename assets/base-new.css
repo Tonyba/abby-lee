@@ -723,5 +723,6 @@ h2,
 
     .center-t .group-block-content {
         justify-content: center;
+        --horizontal-alignment: center !important;
     }
 }

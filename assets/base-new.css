@@ -686,6 +686,10 @@ h2,
         justify-content: center;
     }
 
+    .m-x-auto {
+        margin: auto;
+    }
+
     .col-t {
         flex-direction: column !important;
     }

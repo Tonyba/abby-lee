@@ -720,4 +720,8 @@ h2,
     .payment-icons__list {
         justify-content: center !important;
     }
+
+    .center-t {
+        justify-content: center;
+    }
 }

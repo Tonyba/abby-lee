@@ -721,7 +721,7 @@ h2,
         justify-content: center !important;
     }
 
-    .center-t {
+    .center-t .group-block-content {
         justify-content: center;
     }
 }

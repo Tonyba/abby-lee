@@ -19,8 +19,8 @@
 {% endstylesheet %}
 
 <div class="section-background color-scheme-2" bis_skin_checked="1"></div>
-<div class="section section--page-width color-{{ section.settings.color_scheme }}">
-  <div class="flex items-center">
+<div class="section section--page-width color-{{ section.settings.color_scheme }} embla__viewport">
+  <div class="flex items-center embla__container">
     {% for item in blocks %}
       {% liquid
         assign modulo_result = forloop.index | modulo: 2

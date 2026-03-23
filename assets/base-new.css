@@ -707,6 +707,10 @@ h2,
         flex-direction: column-reverse !important;
     }
 
+    .grid-posts-cols-2-t .resource-list {
+        --resource-list-columns: repeat(2, 1fr);
+    }
+
     .pt-0-t,
     .pt-0-t>.group-block-content,
     .pt-0-t>*>.mobile-column {

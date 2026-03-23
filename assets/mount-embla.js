@@ -14,6 +14,7 @@ function waitForAutoscroll(method) {
     }
 }
 
+emblaMobile();
 waitForEmbla(init);
 
 function init() {
@@ -54,6 +55,10 @@ function init() {
 
     });
 
+}
+
+function emblaMobile() {
+    const emblaMobile = Array.from(document.querySelectorAll('.embla-tablet,.embla-mobile'));
 }
 
 function mountCarousel(elm, options, plugins) {

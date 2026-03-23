@@ -1508,7 +1508,7 @@
       },
       "name": "t:names.blog_posts_carousel",
       "settings": {
-        "custom_css": "",
+        "custom_css": "grid-posts-cols-2-t",
         "blog": "events",
         "inherit_query": false,
         "layout_type": "grid",

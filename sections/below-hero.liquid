@@ -18,28 +18,30 @@
   }
 {% endstylesheet %}
 
-<div class="embla-tablet centered cols-auto section-background color-scheme-2" bis_skin_checked="1"></div>
-<div class="section section--page-width color-{{ section.settings.color_scheme }} embla__viewport">
-  <div class="flex items-center embla__container">
-    {% for item in blocks %}
-      {% liquid
-        assign modulo_result = forloop.index | modulo: 2
-      %}
+<div class="section-background color-scheme-2"></div>
+<div class="embla-tablet centered cols-auto">
+  <div class="section section--page-width color-{{ section.settings.color_scheme }} embla__viewport">
+    <div class="flex items-center embla__container">
+      {% for item in blocks %}
+        {% liquid
+          assign modulo_result = forloop.index | modulo: 2
+        %}
 
-      <div class="embla__item">
-        {{ item.settings.text }}
-      </div>
-
-      {% if forloop.index != forloop.length %}
         <div class="embla__item">
-          {% if modulo_result == 1 %}
-            <img src="{{ 'black-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
-          {% else %}
-            <img src="{{ 'transparent-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
-          {% endif %}
+          {{ item.settings.text }}
         </div>
-      {% endif %}
-    {% endfor %}
+
+        {% if forloop.index != forloop.length %}
+          <div class="embla__item">
+            {% if modulo_result == 1 %}
+              <img src="{{ 'black-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
+            {% else %}
+              <img src="{{ 'transparent-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 

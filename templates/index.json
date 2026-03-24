@@ -3399,7 +3399,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "custom_css": "p-m gap-0-m",
+            "custom_css": "p-m",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -3601,7 +3601,7 @@
       ],
       "name": "The woman beding the movement",
       "settings": {
-        "custom_css": "",
+        "custom_css": "gap-0-m",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

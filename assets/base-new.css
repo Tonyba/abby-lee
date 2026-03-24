@@ -753,6 +753,10 @@ body {
         --horizontal-alignment: center !important;
     }
 
+    .cols-1-t {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     .collection-wrapper:has(.product-carousel) slideshow-slide {
         min-height: 250px;
     }

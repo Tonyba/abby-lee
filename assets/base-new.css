@@ -1024,6 +1024,10 @@ body {
         border: 0;
     }
 
+    .blog-archive-loop .group-block * {
+        font-size: 12px;
+    }
+
     .blog-archive-loop .button-secondary {
         font-size: 14px;
         width: 100%;

@@ -855,4 +855,9 @@ h2,
         top: 0;
         left: 0;
     }
+
+    .legacy-section,
+    .flex-m {
+        display: flex;
+    }
 }

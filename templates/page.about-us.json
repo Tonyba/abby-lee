@@ -1232,7 +1232,7 @@
               "settings": {
                 "custom_css": "",
                 "content_direction": "row",
-                "vertical_on_mobile": true,
+                "vertical_on_mobile": false,
                 "horizontal_alignment": "center",
                 "vertical_alignment": "flex-start",
                 "align_baseline": false,
@@ -1451,7 +1451,7 @@
               "settings": {
                 "custom_css": "",
                 "content_direction": "row",
-                "vertical_on_mobile": true,
+                "vertical_on_mobile": false,
                 "horizontal_alignment": "center",
                 "vertical_alignment": "flex-start",
                 "align_baseline": false,

@@ -825,6 +825,12 @@ h2,
         min-height: 230px;
     }
 
+    .latest-news-h .overlay {
+        background: linear-gradient(0deg, #8A8A8A, #8A8A8A),
+            linear-gradient(180deg, rgba(0, 0, 0, 0) 61.52%, rgba(0, 0, 0, 0.8) 83.91%);
+
+    }
+
     .latest-news-h .group-block-content {
         justify-content: flex-end;
     }

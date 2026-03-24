@@ -878,6 +878,10 @@ h2,
         flex-direction: column-reverse !important;
     }
 
+    .studio-img img {
+        height: 582px;
+    }
+
     .gap-0-m,
     .gap-0-m>*>.mobile-column {
         gap: 0;

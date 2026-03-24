@@ -809,8 +809,9 @@ body {
         min-height: 445px;
     }
 
-    .pull-right-m {
-        margin-right: -15px;
+    .pull-right-m,
+    .pull-right-m:has(.section)>.custom-section-content {
+        margin-right: -30px;
     }
 
     .email-signup__input-group {

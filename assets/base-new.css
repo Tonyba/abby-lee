@@ -898,6 +898,12 @@ body {
         padding-top: 0;
     }
 
+    .pb-0-m,
+    .pb-0-m>.group-block-content,
+    .pb-0-m>*>.mobile-column {
+        padding-bottom: 0;
+    }
+
     .legacy-img img {
         height: 393px;
     }

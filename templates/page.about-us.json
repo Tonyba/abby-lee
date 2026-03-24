@@ -242,7 +242,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "custom_css": "",
+        "custom_css": "pb-0-m",
         "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,

@@ -872,6 +872,12 @@ h2,
         padding-right: 20px;
     }
 
+    .col-m-reverse,
+    .col-m-reverse>.group-block-content,
+    .col-m-reverse>*>.mobile-column {
+        flex-direction: column-reverse !important;
+    }
+
     .gap-0-m,
     .gap-0-m>*>.mobile-column {
         gap: 0;

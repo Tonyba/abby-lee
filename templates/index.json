@@ -3856,7 +3856,7 @@
       ],
       "name": "Our Studio",
       "settings": {
-        "custom_css": "left-right-overlay studio-fix-img",
+        "custom_css": "left-right-overlay studio-fix-img col-m-revers",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

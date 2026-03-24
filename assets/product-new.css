@@ -34,3 +34,7 @@
 .pickup-availability__row * {
     font-size: 16px;
 }
+
+.slideshow-controls__dots {
+    background-color: white;
+}

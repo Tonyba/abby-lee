@@ -1690,7 +1690,7 @@
                 "custom_css": "",
                 "text": "<p>The launch of Dance Moms transformed ALDC from a respected competitive studio into a global cultural phenomenon.<br/><br/>The series offered an unfiltered look into the realities of competitive dance training — showcasing ambition, pressure, dedication, and the pursuit of perfection. It sparked worldwide conversations about dance education and brought unprecedented attention to the competitive dance industry.<br/><br/>Through television, interviews, guest appearances, and digital media, Abby Lee Miller became one of the most recognizable figures in dance</p>",
                 "width": "fit-content",
-                "max_width": "normal",
+                "max_width": "none",
                 "alignment": "left",
                 "type_preset": "rte",
                 "font": "var(--font-body--family)",

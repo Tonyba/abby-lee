@@ -784,6 +784,6 @@ h2,
     }
 
     .text-center-m * {
-        text-align: center;
+        text-align: center !important;
     }
 }

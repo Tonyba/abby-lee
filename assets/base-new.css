@@ -837,4 +837,6 @@ h2,
     .hide-bg-image-m .background-image-container {
         display: none;
     }
+
+    .legacy-section {}
 }

@@ -259,10 +259,10 @@
         "padding-block-end": 100
       }
     },
-    "section_eHPWfg": {
+    "section_UzgjdM": {
       "type": "section",
       "blocks": {
-        "group_VQhNYy": {
+        "group_fMjyWq": {
           "type": "group",
           "name": "t:names.column",
           "settings": {
@@ -303,7 +303,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_aa3tqd": {
+            "text_A8CmEx": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
@@ -330,7 +330,7 @@
               },
               "blocks": {}
             },
-            "text_pNkhDG": {
+            "text_EdN4mU": {
               "type": "text",
               "name": "t:names.description",
               "settings": {
@@ -357,13 +357,13 @@
               },
               "blocks": {}
             },
-            "group_b6CJhG": {
+            "group_RgmiWD": {
               "type": "group",
               "name": "t:names.group",
               "settings": {
                 "custom_css": "",
                 "content_direction": "row",
-                "vertical_on_mobile": true,
+                "vertical_on_mobile": false,
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
@@ -372,7 +372,7 @@
                 "gap": 12,
                 "width": "fit-content",
                 "custom_width": 100,
-                "width_mobile": "fill",
+                "width_mobile": "fit-content",
                 "custom_width_mobile": 100,
                 "height": "fit",
                 "custom_height": 100,
@@ -398,7 +398,7 @@
                 "padding-inline-end": 40
               },
               "blocks": {
-                "text_38Viip": {
+                "text_4deRXM": {
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
@@ -408,8 +408,8 @@
                     "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "custom",
-                    "font": "var(--font-subheading--family)",
-                    "font_size": "1.125rem",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "1rem",
                     "line_height": "normal",
                     "letter_spacing": "loose",
                     "case": "uppercase",
@@ -425,7 +425,7 @@
                   },
                   "blocks": {}
                 },
-                "icon_Rm4mkx": {
+                "icon_etWHhn": {
                   "type": "icon",
                   "name": "t:names.icon",
                   "settings": {
@@ -439,11 +439,11 @@
                 }
               },
               "block_order": [
-                "text_38Viip",
-                "icon_Rm4mkx"
+                "text_4deRXM",
+                "icon_etWHhn"
               ]
             },
-            "text_Uj76mx": {
+            "text_RegzWh": {
               "type": "text",
               "name": "t:names.text",
               "settings": {
@@ -451,7 +451,7 @@
                 "text": "<p>Real feedback helps our dance community grow.</p>",
                 "width": "fit-content",
                 "max_width": "none",
-                "alignment": "left",
+                "alignment": "center",
                 "type_preset": "custom",
                 "font": "var(--font-body--family)",
                 "font_size": "0.875rem",
@@ -472,15 +472,15 @@
             }
           },
           "block_order": [
-            "text_aa3tqd",
-            "text_pNkhDG",
-            "group_b6CJhG",
-            "text_Uj76mx"
+            "text_A8CmEx",
+            "text_EdN4mU",
+            "group_RgmiWD",
+            "text_RegzWh"
           ]
         }
       },
       "block_order": [
-        "group_VQhNYy"
+        "group_fMjyWq"
       ],
       "name": "t:names.multicolumn",
       "settings": {
@@ -517,6 +517,6 @@
   "order": [
     "cart-section",
     "product_list_NNFgcy",
-    "section_eHPWfg"
+    "section_UzgjdM"
   ]
 }

@@ -830,7 +830,7 @@ h2,
 
     }
 
-    .latest-news-h .group-block-content.layout-panel-flex--row.layout-panel-flex {
+    .latest-news-h>.group-block-content>.group-block>.group-block-content {
         align-items: flex-end;
     }
 }

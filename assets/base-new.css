@@ -1045,4 +1045,8 @@ body {
     .cat-menu .list-unstyled {
         overflow: auto;
     }
+
+    .cat-menu .list-unstyled>* {
+        flex-shrink: 0;
+    }
 }

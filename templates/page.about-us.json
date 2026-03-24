@@ -1576,7 +1576,7 @@
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
-                    "custom_css": "tv-cult",
+                    "custom_css": "tv-cult text-tv-container",
                     "content_direction": "column",
                     "vertical_on_mobile": true,
                     "horizontal_alignment": "flex-start",

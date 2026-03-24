@@ -512,7 +512,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "custom_css": "product-archive-before",
+        "custom_css": "product-archive-before convert-embla-m pull-right-m",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

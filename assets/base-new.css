@@ -769,6 +769,11 @@ body {
         padding-top: 0;
     }
 
+    .product-grid-container .h5 * {
+        font-size: 13px;
+        line-height: 1;
+    }
+
     .justify-center-m {
         justify-content: center;
     }

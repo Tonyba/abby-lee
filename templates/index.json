@@ -3052,7 +3052,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "custom_css": "p-m",
+            "custom_css": "p-m pull-top-left-overlay-content",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -3636,7 +3636,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "custom_css": "p-m",
+            "custom_css": "p-m pull-top-left-overlay-content",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",

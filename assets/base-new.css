@@ -800,6 +800,9 @@ h2,
         min-height: 445px;
     }
 
+    .pull-right-m {
+        margin-right: -30px;
+    }
 
     .email-signup__input-group {
         flex-direction: column;

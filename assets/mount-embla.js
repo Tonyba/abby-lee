@@ -58,6 +58,11 @@ function init() {
 }
 
 function embla_conversion_mobile() {
+    const containers = Array.from(document.querySelectorAll('.convert-embla-m'));
+
+    containers.map((elm) => {
+
+    });
 
 }
 

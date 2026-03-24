@@ -245,7 +245,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
-                "custom_css": "",
+                "custom_css": "justify-center-m",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
@@ -761,6 +761,7 @@
       "name": "product description",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -1091,6 +1092,7 @@
       "name": "custom columns",
       "settings": {
         "custom_css": "product-custom-cols",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -1537,6 +1539,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "redish-gradient",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

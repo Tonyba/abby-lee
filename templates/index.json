@@ -3243,7 +3243,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
-                "custom_css": "hide-d",
+                "custom_css": "hide-d legacy-img",
                 "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",

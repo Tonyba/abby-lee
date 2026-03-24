@@ -405,7 +405,7 @@
                   "settings": {
                     "image": "shopify://shop_images/IMG_7543_2.jpg",
                     "link": "",
-                    "image_ratio": "square",
+                    "image_ratio": "adapt",
                     "width": "fill",
                     "custom_width": 100,
                     "width_mobile": "fill",

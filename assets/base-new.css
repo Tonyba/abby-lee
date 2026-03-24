@@ -782,4 +782,8 @@ h2,
     .show-m {
         display: block;
     }
+
+    .text-center-m {
+        text-align: center;
+    }
 }

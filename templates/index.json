@@ -1171,7 +1171,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "custom_css": "",
+                "custom_css": "text-center-m",
                 "text": "<h2>See Abby Live</h2>",
                 "width": "100%",
                 "max_width": "normal",
@@ -1198,7 +1198,7 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
-                "custom_css": "",
+                "custom_css": "text-center-m",
                 "text": "<p>Don't miss your chance to experience ALDC in person</p>",
                 "width": "100%",
                 "max_width": "normal",
@@ -1231,7 +1231,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "custom_css": "",
+            "custom_css": "hide-m",
             "label": "View All",
             "inline_icon": false,
             "svg": "",

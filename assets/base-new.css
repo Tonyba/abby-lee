@@ -738,6 +738,7 @@ h2,
 
 @media only screen and (max-width: 767px) {
     .resource-list__carousel .resource-list__slide {
-        --column-count: 1
+        --column-count: 1;
+        width: 90%
     }
 }

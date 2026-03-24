@@ -759,6 +759,11 @@ body {
     .collection-wrapper:has(.product-carousel) slideshow-slide {
         min-height: 250px;
     }
+
+    .below-legacy-about .group-block:not(:last-child) {
+        padding-right: 10px;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -954,5 +959,7 @@ body {
         border: 0;
         align-items: center;
     }
+
+
 
 }

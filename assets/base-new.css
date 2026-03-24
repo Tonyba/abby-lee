@@ -693,9 +693,11 @@ body {
     .resource-list__carousel .resource-list__slide,
     .resource-list--grid {
         --column-count: 2;
-        --resource-list-columns: 2;
     }
 
+    .resource-list--grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 
     .hide-t {

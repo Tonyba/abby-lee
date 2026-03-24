@@ -757,6 +757,10 @@ body {
         min-height: 250px;
     }
 
+    .product-badges__badge {
+        font-size: 12px !important;
+    }
+
     .justify-center-m {
         justify-content: center;
     }

@@ -898,6 +898,12 @@ body {
         padding-top: 0;
     }
 
+    .pt-40-m,
+    .pt-40-m>.group-block-content,
+    .pt-40-m>*>.mobile-column {
+        padding-top: 40px;
+    }
+
     .pb-0-m,
     .pb-0-m>.group-block-content,
     .pb-0-m>*>.mobile-column {

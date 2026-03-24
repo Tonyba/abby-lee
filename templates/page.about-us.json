@@ -167,7 +167,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "custom_css": "",
+            "custom_css": "pb-0-m",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -198,7 +198,7 @@
             "link": "",
             "open_in_new_tab": false,
             "placeholder": "",
-            "padding-block-start": 10,
+            "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0

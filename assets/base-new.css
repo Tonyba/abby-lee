@@ -1020,6 +1020,11 @@ body {
         padding: 0;
     }
 
+    .blog-archive-loop .button-secondary {
+        font-size: 14px;
+        width: 100%;
+    }
+
     .blog-archive-loop .image-block {
         min-height: 250px;
     }

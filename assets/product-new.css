@@ -54,3 +54,11 @@ slideshow-controls:has(.slideshow-controls__dots) {
     width: 45px;
     transition: width .5s ease-in-out;
 }
+
+@media only screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 21px !important;
+    }
+
+}

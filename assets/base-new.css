@@ -752,6 +752,10 @@ h2,
         min-height: 500px;
     }
 
+    .group-block-content .link {
+        display: none;
+    }
+
     .show-m {
         display: block;
     }

@@ -695,6 +695,11 @@ h2,
         margin: auto;
     }
 
+    .footer-cols .footer-content {
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 40px
+    }
+
     .col-t,
     .col-t>.group-block-content,
     .col-t>*>.mobile-column {

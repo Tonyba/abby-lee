@@ -37,7 +37,7 @@
 <div class="grid cols-2 no-template-areas cols-1-t">
   {% for article in tagged_articles %}
     {% if article.tags contains 'featured' %}
-      <div class="col flex items-center">
+      <div class="col flex items-center col-m">
         <div class="number">#{{ current }}</div>
         <div class="content">
           <h5>{{ article.title }}</h5>

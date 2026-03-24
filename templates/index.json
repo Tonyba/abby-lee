@@ -158,6 +158,25 @@
     "product_list_fa6P9H": {
       "type": "product-list",
       "blocks": {
+        "button_eCcFpk": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "custom_css": "",
+            "label": "Shop now",
+            "inline_icon": false,
+            "svg": "",
+            "icon_width": 20,
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        },
         "static-header": {
           "type": "_product-list-content",
           "name": "t:names.header",
@@ -409,6 +428,9 @@
           ]
         }
       },
+      "block_order": [
+        "button_eCcFpk"
+      ],
       "name": "SHOP OUR BEST-SELLERS",
       "settings": {
         "custom_css": "product-carousel custom-link",

@@ -771,9 +771,6 @@ body {
         width: 100%;
     }
 
-    .blog-archive-loop .image-block {
-        min-height: 250px;
-    }
 
     .below-legacy-about .group-block:not(:last-child) {
         border-right: 0;
@@ -1017,4 +1014,7 @@ body {
 
 
 
+    .blog-archive-loop .image-block {
+        min-height: 250px;
+    }
 }

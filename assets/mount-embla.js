@@ -59,6 +59,7 @@ function init() {
 
 function embla_conversion_mobile() {
     const containers = Array.from(document.querySelectorAll('.convert-embla-m'));
+    const sections = Array.from(document.querySelectorAll('.convert-section-embla-m'));
 
     containers.map((elm) => {
         elm.classList.add('embla');
@@ -82,6 +83,12 @@ function embla_conversion_mobile() {
         }
 
 
+    });
+
+    sections.map((elm) => {
+        elm.classList.add('embla');
+        elm.querySelector('.custom-section-content')?.classList.add('embla__viewport');
+        elm.querySelector('.layout-panel-flex')?.classList.add('embla__container');
     });
 
 }

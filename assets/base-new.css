@@ -849,7 +849,7 @@ body {
         min-height: 445px;
     }
 
-    .pull-right-m,
+    .pull-right-m .embla__viewport,
     .pull-right-m.section .custom-section-content {
         margin-right: -16px;
     }

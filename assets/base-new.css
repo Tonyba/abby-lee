@@ -774,7 +774,8 @@ h2,
         min-height: 500px;
     }
 
-    .group-block-content .link {
+    .group-block-content .link,
+    .hide-m {
         display: none;
     }
 

@@ -165,6 +165,10 @@
         --slide-spacing: 15px;
     }
 
+    .convert-embla-m .embla__container {
+        gap: 0;
+    }
+
     .cols-auto {
         --slide-size: auto;
     }

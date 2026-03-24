@@ -242,7 +242,7 @@
         "custom_css": "product-carousel custom-link",
         "collection": "all",
         "layout_type": "grid",
-        "carousel_on_mobile": false,
+        "carousel_on_mobile": true,
         "max_products": 4,
         "columns": 4,
         "mobile_columns": "1",
@@ -485,6 +485,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "redish-gradient",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

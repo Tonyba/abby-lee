@@ -4112,10 +4112,10 @@
         "padding-block-end": 75
       }
     },
-    "section_WMgQR3": {
+    "section_6CDqPK": {
       "type": "section",
       "blocks": {
-        "group_6YjnqG": {
+        "group_aAap89": {
           "type": "group",
           "name": "t:names.column",
           "settings": {
@@ -4125,7 +4125,7 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
             "gap": 30,
             "width": "fill",
@@ -4156,7 +4156,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_DayFy8": {
+            "text_beP8L9": {
               "type": "text",
               "name": "t:names.text",
               "settings": {
@@ -4183,7 +4183,7 @@
               },
               "blocks": {}
             },
-            "text_U7N3wk": {
+            "text_XAXefN": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
@@ -4210,13 +4210,13 @@
               },
               "blocks": {}
             },
-            "group_UmPnTc": {
+            "group_XxUWEY": {
               "type": "group",
               "name": "t:names.group",
               "settings": {
                 "custom_css": "follow-us-container",
                 "content_direction": "row",
-                "vertical_on_mobile": true,
+                "vertical_on_mobile": false,
                 "horizontal_alignment": "center",
                 "vertical_alignment": "center",
                 "align_baseline": false,
@@ -4225,7 +4225,7 @@
                 "gap": 12,
                 "width": "fill",
                 "custom_width": 100,
-                "width_mobile": "fill",
+                "width_mobile": "fit-content",
                 "custom_width_mobile": 100,
                 "height": "fit",
                 "custom_height": 100,
@@ -4251,7 +4251,7 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_47NGGt": {
+                "text_ydPPEC": {
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
@@ -4278,7 +4278,7 @@
                   },
                   "blocks": {}
                 },
-                "button_NmtMm6": {
+                "button_KmBxNH": {
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
@@ -4298,7 +4298,7 @@
                   },
                   "blocks": {}
                 },
-                "button_AjJAN6": {
+                "button_wJR4CU": {
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
@@ -4318,7 +4318,7 @@
                   },
                   "blocks": {}
                 },
-                "button_j8KqyU": {
+                "button_zbcTEd": {
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
@@ -4340,22 +4340,22 @@
                 }
               },
               "block_order": [
-                "text_47NGGt",
-                "button_NmtMm6",
-                "button_AjJAN6",
-                "button_j8KqyU"
+                "text_ydPPEC",
+                "button_KmBxNH",
+                "button_wJR4CU",
+                "button_zbcTEd"
               ]
             }
           },
           "block_order": [
-            "text_DayFy8",
-            "text_U7N3wk",
-            "group_UmPnTc"
+            "text_beP8L9",
+            "text_XAXefN",
+            "group_XxUWEY"
           ]
         }
       },
       "block_order": [
-        "group_6YjnqG"
+        "group_aAap89"
       ],
       "name": "Join the #ALDCStyle community.",
       "settings": {
@@ -4384,7 +4384,7 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 50,
+        "padding-block-start": 40,
         "padding-block-end": 40
       }
     },
@@ -4456,7 +4456,7 @@
     "section_DYUMe3",
     "section_PHTBfD",
     "section_nL9aPK",
-    "section_WMgQR3",
+    "section_6CDqPK",
     "blocks_mk78aB"
   ]
 }

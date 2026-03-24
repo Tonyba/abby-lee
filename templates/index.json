@@ -11,6 +11,7 @@
   "sections": {
     "popup_welcome_iiGbBM": {
       "type": "popup-welcome",
+      "disabled": true,
       "name": "Popup Welcome",
       "settings": {
         "title": "Welcome to",
@@ -162,7 +163,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "custom_css": "hide-d hide-t show-m m-x",
+            "custom_css": "hide-d hide-t show-m m-x-auto",
             "label": "View All",
             "inline_icon": false,
             "svg": "",

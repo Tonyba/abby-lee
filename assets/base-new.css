@@ -797,6 +797,10 @@ body {
         justify-content: center;
     }
 
+    .tv-cult {
+        padding: 12px 20px;
+    }
+
     .custom-home-hero {
         min-height: 629px;
     }

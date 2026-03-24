@@ -153,12 +153,20 @@
     .cols-3-half-t {
         --slide-size: 30%;
     }
+
+    .cols-auto {
+        --slide-size: auto;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     .embla {
         --slide-size: 100%;
         --slide-spacing: 15px;
+    }
+
+    .cols-auto {
+        --slide-size: auto;
     }
 
     .cols-1-half-m {

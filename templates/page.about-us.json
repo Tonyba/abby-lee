@@ -208,7 +208,7 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
-                "custom_css": "",
+                "custom_css": "pb-0-m",
                 "text": "<p><em>Founded with a singular mission — to elevate dancers through relentless discipline and bold performance — ALDC has grown into an internationally recognized institution that fosters growth, grit, and powerful self-expression.</em></p>",
                 "width": "100%",
                 "max_width": "none",

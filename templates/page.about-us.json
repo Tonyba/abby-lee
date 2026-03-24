@@ -1723,7 +1723,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "custom_css": "",
+        "custom_css": "col-t",
         "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,

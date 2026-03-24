@@ -749,13 +749,14 @@ body {
         justify-content: center;
         --horizontal-alignment: center !important;
     }
-}
-
-@media only screen and (max-width: 767px) {
 
     .collection-wrapper:has(.product-carousel) slideshow-slide {
         min-height: 250px;
     }
+}
+
+@media only screen and (max-width: 767px) {
+
 
     .product-badges__badge {
         font-size: 12px !important;

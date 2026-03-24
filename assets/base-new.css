@@ -833,4 +833,8 @@ h2,
     .latest-news-h>.group-block-content>.group-block>.group-block-content {
         align-items: flex-end;
     }
+
+    .hide-bg-image-m .background-image-container {
+        display: none;
+    }
 }

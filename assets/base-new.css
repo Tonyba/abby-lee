@@ -690,9 +690,13 @@ body {
         width: 100%;
     }
 
-    .resource-list__carousel .resource-list__slide {
-        --column-count: 2
+    .resource-list__carousel .resource-list__slide,
+    .resource-list--grid {
+        --column-count: 2;
+        --resource-list-columns: 2;
     }
+
+
 
     .hide-t {
         display: none;

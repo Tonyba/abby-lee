@@ -814,6 +814,10 @@ body {
         font-size: 13px;
     }
 
+    .gap-40-m {
+        gap: 40px;
+    }
+
     .gap-13>.group-block-content {
         gap: 13px
     }

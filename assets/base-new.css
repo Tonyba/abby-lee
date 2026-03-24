@@ -762,6 +762,17 @@ body {
     }
 
 
+    .cat-menu .list-unstyled {
+        overflow: auto;
+    }
+
+    .cat-menu .list-unstyled>* {
+        flex-shrink: 0;
+    }
+
+    .blog-posts-container {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
 
 }
 
@@ -1042,11 +1053,4 @@ body {
         min-height: 250px;
     }
 
-    .cat-menu .list-unstyled {
-        overflow: auto;
-    }
-
-    .cat-menu .list-unstyled>* {
-        flex-shrink: 0;
-    }
 }

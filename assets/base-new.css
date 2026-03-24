@@ -752,4 +752,7 @@ h2,
         min-height: 500px;
     }
 
+    .show-m {
+        display: block;
+    }
 }

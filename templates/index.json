@@ -1010,7 +1010,7 @@
         "text_TKWdbP": {
           "type": "text",
           "settings": {
-            "custom_css": "",
+            "custom_css": "text-sm-m",
             "text": "<p>Early access to drops & presales. Exclusive offers for ALDC insiders.</p>",
             "width": "100%",
             "max_width": "normal",
@@ -1062,7 +1062,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "custom_css": "",
+            "custom_css": "text-sm-m",
             "text": "<p>Join 50,000+ dancers. Unsubscribe anytime.</p>",
             "width": "fit-content",
             "max_width": "normal",

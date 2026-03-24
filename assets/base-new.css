@@ -825,7 +825,7 @@ h2,
         min-height: 230px;
     }
 
-    .latest-news-h>.group-block-content {
+    .latest-news-h .group-block-content {
         justify-content: flex-end;
     }
 }

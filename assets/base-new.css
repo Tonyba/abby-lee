@@ -811,7 +811,7 @@ body {
 
     h2,
     .h2 {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     .product-carousel slideshow-slide {

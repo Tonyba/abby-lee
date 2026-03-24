@@ -904,6 +904,10 @@ body {
         padding-top: 40px;
     }
 
+    .about-text * {
+        font-size: 16px;
+    }
+
     .pb-0-m,
     .pb-0-m>.group-block-content,
     .pb-0-m>*>.mobile-column {

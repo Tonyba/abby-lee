@@ -167,7 +167,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "custom_css": "pb-0-m",
+            "custom_css": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -208,7 +208,7 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
-                "custom_css": "pb-0-m",
+                "custom_css": "pb-0-m pt-40-m about-text",
                 "text": "<p><em>Founded with a singular mission — to elevate dancers through relentless discipline and bold performance — ALDC has grown into an internationally recognized institution that fosters growth, grit, and powerful self-expression.</em></p>",
                 "width": "100%",
                 "max_width": "none",

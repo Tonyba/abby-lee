@@ -50,4 +50,5 @@ slideshow-controls:has(.slideshow-controls__dots) {
 
 .slideshow-control[aria-selected="true"]:after {
     background-color: black;
+    width: 45px;
 }

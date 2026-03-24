@@ -764,6 +764,12 @@ body {
 @media only screen and (max-width: 767px) {
 
 
+
+    .m-x-auto-m {
+        margin: auto;
+    }
+
+
     .product-badges__badge {
         font-size: 12px !important;
     }

@@ -120,6 +120,7 @@
       "name": "header",
       "settings": {
         "custom_css": "blog-hero",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -238,6 +239,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -370,6 +372,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -519,7 +522,7 @@
           "settings": {
             "custom_css": "border-b-red",
             "content_direction": "row",
-            "vertical_on_mobile": true,
+            "vertical_on_mobile": false,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
@@ -528,7 +531,7 @@
             "gap": 26,
             "width": "fill",
             "custom_width": 100,
-            "width_mobile": "fill",
+            "width_mobile": "fit-content",
             "custom_width_mobile": 100,
             "height": "fit",
             "custom_height": 100,
@@ -613,6 +616,7 @@
       "name": "featured",
       "settings": {
         "custom_css": "redish-gradient",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -758,6 +762,7 @@
       "name": "t:names.email_signup",
       "settings": {
         "custom_css": "email-signup-section",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -959,6 +964,8 @@
                     "custom_css": "circle",
                     "label": "",
                     "icon": "shopify://shop_images/x_1.svg",
+                    "inline_icon": false,
+                    "svg": "",
                     "icon_width": 20,
                     "link": "shopify://collections/all",
                     "open_in_new_tab": false,
@@ -977,6 +984,8 @@
                     "custom_css": "circle",
                     "label": "",
                     "icon": "shopify://shop_images/instagram_7_1.svg",
+                    "inline_icon": false,
+                    "svg": "",
                     "icon_width": 20,
                     "link": "shopify://collections/all",
                     "open_in_new_tab": false,
@@ -995,6 +1004,8 @@
                     "custom_css": "circle",
                     "label": "",
                     "icon": "shopify://shop_images/tiktok.svg",
+                    "inline_icon": false,
+                    "svg": "",
                     "icon_width": 20,
                     "link": "shopify://collections/all",
                     "open_in_new_tab": false,
@@ -1028,6 +1039,7 @@
       "name": "Join the #ALDCStyle community.",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

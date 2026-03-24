@@ -791,6 +791,10 @@ body {
         width: 100%;
     }
 
+    .items-start-m {
+        align-items: flex-start;
+    }
+
 
     .below-legacy-about .group-block:not(:last-child) {
         border-right: 0;

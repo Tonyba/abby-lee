@@ -1230,7 +1230,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
-                "custom_css": "",
+                "custom_css": "gap-13",
                 "content_direction": "row",
                 "vertical_on_mobile": false,
                 "horizontal_alignment": "center",

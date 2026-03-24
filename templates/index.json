@@ -3320,7 +3320,7 @@
       ],
       "name": "OUR LEGACY",
       "settings": {
-        "custom_css": "left-right-overlay col-t-reverse",
+        "custom_css": "left-right-overlay col-t-reverse hide-bg-image-m",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

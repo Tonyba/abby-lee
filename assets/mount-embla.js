@@ -61,8 +61,9 @@ function embla_conversion_mobile() {
     const containers = Array.from(document.querySelectorAll('.convert-embla-m'));
 
     containers.map((elm) => {
-        //elm.classList.add('embla');
+        elm.classList.add('embla');
         if (!elm.querySelector('.embla__viewport')) {
+
             const embla_viewport = document.createElement('div');
             const embla__container = elm.querySelector('.group-block-content');
 

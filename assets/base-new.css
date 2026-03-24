@@ -700,6 +700,10 @@ h2,
         gap: 40px
     }
 
+    .hero-home-button {
+        min-width: 200px;
+    }
+
     .col-t,
     .col-t>.group-block-content,
     .col-t>*>.mobile-column {

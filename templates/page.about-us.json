@@ -131,6 +131,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "about-us-hero",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -145,14 +146,14 @@
         "color_scheme": "scheme-5",
         "background_media": "image",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/Rectangle_3436.png",
+        "background_image": "shopify://shop_images/IMG_7543_2.jpg",
         "background_image_position": "cover",
         "border": "none",
         "border_width": 1,
         "border_opacity": 100,
         "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
+        "toggle_overlay": true,
+        "overlay_color": "#00000080",
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 48,
@@ -242,6 +243,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -444,6 +446,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -674,6 +677,7 @@
       "name": "OUR LEGACY",
       "settings": {
         "custom_css": "left-right-overlay",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -1007,6 +1011,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "below-legacy-about",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -1646,6 +1651,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -1932,6 +1938,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -2813,6 +2820,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -2951,6 +2959,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -3447,6 +3456,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "divider-red",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -3793,6 +3803,7 @@
       "name": "Real stories from real champions",
       "settings": {
         "custom_css": "redish-gradient",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -4068,6 +4079,7 @@
       "name": "Join the #ALDCStyle community.",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

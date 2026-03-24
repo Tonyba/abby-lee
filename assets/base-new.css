@@ -1074,4 +1074,8 @@ body {
         min-height: 250px;
     }
 
+    .faq-buttons p {
+        font-size: 16px;
+    }
+
 }

@@ -3876,7 +3876,7 @@
       "name": "Real stories from real champions",
       "settings": {
         "custom_css": "redish-gradient",
-        "add_embla": false,
+        "add_embla": true,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

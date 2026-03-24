@@ -783,7 +783,7 @@ h2,
         display: block;
     }
 
-    .text-center-m {
+    .text-center-m * {
         text-align: center;
     }
 }

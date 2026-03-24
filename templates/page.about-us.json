@@ -95,7 +95,7 @@
               "type": "text",
               "name": "t:names.description",
               "settings": {
-                "custom_css": "",
+                "custom_css": "about-text",
                 "text": "<p>For over 35 years, the Abby Lee Dance Company has shaped not just dancers — but confident performers, relentless competitors, and lifelong fans.</p>",
                 "width": "100%",
                 "max_width": "none",

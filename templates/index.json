@@ -3883,7 +3883,7 @@
       ],
       "name": "Our Studio",
       "settings": {
-        "custom_css": "left-right-overlay studio-fix-img col-m-reverse",
+        "custom_css": "left-right-overlay studio-fix-img col-m-reverse legacy-section",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

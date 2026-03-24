@@ -42,3 +42,7 @@ slideshow-controls:has(.slideshow-controls__dots) {
 .slideshow-controls__dots {
     background-color: white;
 }
+
+.slideshow-control[aria-selected="true"]:after {
+    background-color: black;
+}

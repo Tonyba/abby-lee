@@ -131,6 +131,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -225,6 +226,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -370,7 +372,7 @@
                   "settings": {
                     "custom_css": "",
                     "content_direction": "row",
-                    "vertical_on_mobile": true,
+                    "vertical_on_mobile": false,
                     "horizontal_alignment": "flex-start",
                     "vertical_alignment": "center",
                     "align_baseline": false,
@@ -502,7 +504,7 @@
                   "settings": {
                     "custom_css": "",
                     "content_direction": "row",
-                    "vertical_on_mobile": true,
+                    "vertical_on_mobile": false,
                     "horizontal_alignment": "flex-start",
                     "vertical_alignment": "center",
                     "align_baseline": false,
@@ -634,7 +636,7 @@
                   "settings": {
                     "custom_css": "",
                     "content_direction": "row",
-                    "vertical_on_mobile": true,
+                    "vertical_on_mobile": false,
                     "horizontal_alignment": "flex-start",
                     "vertical_alignment": "center",
                     "align_baseline": false,
@@ -780,6 +782,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -890,6 +893,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -2216,6 +2220,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -2326,6 +2331,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -2450,6 +2456,7 @@
       "name": "t:names.contact_form",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -2595,6 +2602,7 @@
       "name": "t:names.email_signup",
       "settings": {
         "custom_css": "email-signup-section",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

@@ -162,7 +162,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "custom_css": "hide-d",
+            "custom_css": "hide-d hide-t show-m",
             "label": "View All",
             "inline_icon": false,
             "svg": "",

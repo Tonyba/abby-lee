@@ -64,9 +64,14 @@ function embla_conversion_mobile() {
         //elm.classList.add('embla');
         if (!elm.querySelector('.embla__container')) {
             const embla_viewport = document.createElement('div');
-            //const embla__viewport = elm.querySelector('.group-block_content');
+            const embla__container = document.querySelector('.group-block_content');
+            embla__container?.classList.add('embla__container');
+
             embla_viewport.classList.add('embla__container');
             elm?.append(embla_viewport);
+
+            embla_viewport.append(embla__container);
+
             /*
             embla_container.classList.add('embla__container');
             embla__viewport?.classList.add('embla__viewport');*/

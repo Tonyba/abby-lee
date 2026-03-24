@@ -43,7 +43,7 @@ slideshow-controls:has(.slideshow-controls__dots) {
     background-color: white;
 }
 
-.slideshow-control[aria-selected="false"]:after {
+.slideshow-control:after {
     background-color: #D9D9D9;
     box-shadow: unset;
     transition: width .2s;

@@ -52,11 +52,37 @@
     border: 1px solid black;
   }
 
+  /* 1. Asegura que el contenedor permita el scroll horizontal */
+  .size-chart-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Scroll suave en iOS */
+    width: 100%;
+  }
+
+  /* 2. Define un ancho mínimo para la tabla en móviles */
+  .table-size-chart {
+    border: 2px solid #d9d9d9;
+    border-bottom: 0;
+    /* El ancho mínimo debe ser lo suficiente para que 8 columnas se vean bien */
+    min-width: 800px;
+  }
+
+  /* 3. Ajuste de las celdas */
+  .size-charts .table-head > *,
+  .size-charts .table-body > .flex > * {
+    width: 12.5%; /* Esto se mantiene para que sumen 100% de los 800px */
+    padding: 19px 12px;
+    box-sizing: border-box; /* Evita que el padding rompa el ancho */
+    flex-shrink: 0; /* Evita que las celdas se encojan */
+  }
+
+  /* 4. Asegúrate de que las filas no intenten envolver el contenido */
+  .flex.no-gap {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
   @media only screen and (max-width: 1024px) {
-    .table-head > *,
-    .table-body > * > * {
-      flex-shrink: 0;
-    }
   }
 {% endstylesheet %}
 

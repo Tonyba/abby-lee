@@ -796,6 +796,11 @@ h2,
         font-size: 14px;
     }
 
+    .fix-post-img-h .image-block {
+        min-height: 445px;
+    }
+
+
     .email-signup__input-group {
         flex-direction: column;
         background-color: transparent !important;

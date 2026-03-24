@@ -886,4 +886,9 @@ h2,
     .gap-0-m>*>.mobile-column {
         gap: 0;
     }
+
+    .pull-top-left-overlay-content {
+        margin-top: -69px;
+        z-index: 1;
+    }
 }

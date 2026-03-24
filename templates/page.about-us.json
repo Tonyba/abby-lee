@@ -3041,7 +3041,7 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "custom_css": "no-border-r row-reverse flex items-center w-full-m",
+                    "custom_css": "no-border-r row-reverse flex items-center w-full-m  justify-center-m",
                     "label": "Listen now",
                     "icon": "shopify://shop_images/Group_4.svg",
                     "inline_icon": true,
@@ -3061,7 +3061,7 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "custom_css": "no-border-r row-reverse flex items-center w-full-m",
+                    "custom_css": "no-border-r row-reverse flex items-center w-full-m  justify-center-m",
                     "label": "Listen now",
                     "icon": "shopify://shop_images/Group_4.svg",
                     "inline_icon": true,

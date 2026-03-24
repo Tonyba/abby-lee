@@ -275,8 +275,8 @@
                   "name": "t:names.group",
                   "settings": {
                     "custom_css": "m-x-auto-m",
-                    "content_direction": "column",
-                    "vertical_on_mobile": true,
+                    "content_direction": "row",
+                    "vertical_on_mobile": false,
                     "horizontal_alignment": "flex-start",
                     "vertical_alignment": "center",
                     "align_baseline": false,

@@ -46,7 +46,7 @@ slideshow-controls:has(.slideshow-controls__dots) {
 .slideshow-control:after {
     background-color: #D9D9D9;
     box-shadow: unset;
-    transition: width .2s;
+    transition: width .5s;
 }
 
 .slideshow-control[aria-selected="true"]:after {

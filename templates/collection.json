@@ -513,7 +513,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "custom_css": "product-archive-before convert-section-embla-m pull-right-m",
+        "custom_css": "product-archive-before convert-section-embla-m pull-right-m cols-1-half-m",
         "add_embla": true,
         "content_direction": "row",
         "vertical_on_mobile": false,

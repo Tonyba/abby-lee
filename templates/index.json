@@ -3399,7 +3399,7 @@
           "type": "group",
           "name": "t:names.column",
           "settings": {
-            "custom_css": "p-m",
+            "custom_css": "p-m gap-0-m",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",

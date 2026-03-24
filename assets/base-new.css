@@ -748,6 +748,11 @@ h2,
         width: 90%
     }
 
+    h2,
+    .h2 {
+        font-size: 18px;
+    }
+
     .product-carousel slideshow-slide {
         min-height: 500px;
     }

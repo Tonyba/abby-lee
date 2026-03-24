@@ -52,5 +52,5 @@ slideshow-controls:has(.slideshow-controls__dots) {
 .slideshow-control[aria-selected="true"]:after {
     background-color: black;
     width: 45px;
-    transition: width .75s ease-in-out;
+    transition: width .5s ease-in-out;
 }

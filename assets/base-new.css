@@ -1022,6 +1022,10 @@ body {
         transform: translateY(15px);
     }
 
+    .col-m {
+        flex-direction: column;
+    }
+
     .last-footer nav ul {
         flex-direction: column;
         border: 0;

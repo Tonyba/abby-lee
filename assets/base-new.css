@@ -924,6 +924,10 @@ body {
         background-color: white !important;
     }
 
+    .subheading-red * {
+        font-size: 14px;
+    }
+
     .email-signup__button {
         width: 100% !important;
         padding: 12px !important;

@@ -3004,7 +3004,7 @@
                 "content_direction": "row",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
+                "vertical_alignment": "flex-start",
                 "align_baseline": false,
                 "horizontal_alignment_flex_direction_column": "flex-start",
                 "vertical_alignment_flex_direction_column": "center",
@@ -3041,7 +3041,7 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "custom_css": "no-border-r row-reverse flex items-center",
+                    "custom_css": "no-border-r row-reverse flex items-center w-full-m",
                     "label": "Listen now",
                     "icon": "shopify://shop_images/Group_4.svg",
                     "inline_icon": true,
@@ -3061,7 +3061,7 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "custom_css": "no-border-r row-reverse flex items-center",
+                    "custom_css": "no-border-r row-reverse flex items-center w-full-m",
                     "label": "Listen now",
                     "icon": "shopify://shop_images/Group_4.svg",
                     "inline_icon": true,

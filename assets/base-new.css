@@ -908,6 +908,10 @@ body {
         font-size: 16px;
     }
 
+    .about-us-hero {
+        min-height: 600px;
+    }
+
     .pb-0-m,
     .pb-0-m>.group-block-content,
     .pb-0-m>*>.mobile-column {

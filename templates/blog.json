@@ -791,10 +791,10 @@
         "padding-block-end": 60
       }
     },
-    "section_K96gcx": {
+    "section_wr74kA": {
       "type": "section",
       "blocks": {
-        "group_UA7j77": {
+        "group_q3hDKP": {
           "type": "group",
           "name": "t:names.column",
           "settings": {
@@ -804,7 +804,7 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
             "gap": 30,
             "width": "fill",
@@ -835,7 +835,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "text_9MRcWw": {
+            "text_BMfxEQ": {
               "type": "text",
               "name": "t:names.text",
               "settings": {
@@ -862,7 +862,7 @@
               },
               "blocks": {}
             },
-            "text_9rgwJd": {
+            "text_CnhGqn": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
@@ -889,13 +889,13 @@
               },
               "blocks": {}
             },
-            "group_yfQjeB": {
+            "group_jgz4DA": {
               "type": "group",
               "name": "t:names.group",
               "settings": {
                 "custom_css": "follow-us-container",
                 "content_direction": "row",
-                "vertical_on_mobile": true,
+                "vertical_on_mobile": false,
                 "horizontal_alignment": "center",
                 "vertical_alignment": "center",
                 "align_baseline": false,
@@ -904,7 +904,7 @@
                 "gap": 12,
                 "width": "fill",
                 "custom_width": 100,
-                "width_mobile": "fill",
+                "width_mobile": "fit-content",
                 "custom_width_mobile": 100,
                 "height": "fit",
                 "custom_height": 100,
@@ -930,7 +930,7 @@
                 "padding-inline-end": 0
               },
               "blocks": {
-                "text_ehpheA": {
+                "text_ebbpBD": {
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
@@ -957,7 +957,7 @@
                   },
                   "blocks": {}
                 },
-                "button_PhgwfU": {
+                "button_TPtcKH": {
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
@@ -977,7 +977,7 @@
                   },
                   "blocks": {}
                 },
-                "button_EgktP3": {
+                "button_wR3WiD": {
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
@@ -997,7 +997,7 @@
                   },
                   "blocks": {}
                 },
-                "button_pYmX33": {
+                "button_b8TBq6": {
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
@@ -1019,22 +1019,22 @@
                 }
               },
               "block_order": [
-                "text_ehpheA",
-                "button_PhgwfU",
-                "button_EgktP3",
-                "button_pYmX33"
+                "text_ebbpBD",
+                "button_TPtcKH",
+                "button_wR3WiD",
+                "button_b8TBq6"
               ]
             }
           },
           "block_order": [
-            "text_9MRcWw",
-            "text_9rgwJd",
-            "group_yfQjeB"
+            "text_BMfxEQ",
+            "text_CnhGqn",
+            "group_jgz4DA"
           ]
         }
       },
       "block_order": [
-        "group_UA7j77"
+        "group_q3hDKP"
       ],
       "name": "Join the #ALDCStyle community.",
       "settings": {
@@ -1128,7 +1128,7 @@
     "main",
     "section_xYdNic",
     "section_NCcgPB",
-    "section_K96gcx",
+    "section_wr74kA",
     "177411987240f85fdc"
   ]
 }

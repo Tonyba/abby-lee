@@ -1078,6 +1078,9 @@ body {
         padding: 30px 20px;
     }
 
+    .faq-items .svg-wrapper {
+        flex-shrink: 0;
+    }
 
     .blog-archive-loop .image-block {
         min-height: 250px;

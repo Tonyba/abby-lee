@@ -761,6 +761,8 @@ body {
         padding-right: 10px;
     }
 
+    .blog-archive-loop img {}
+
 }
 
 @media only screen and (max-width: 767px) {

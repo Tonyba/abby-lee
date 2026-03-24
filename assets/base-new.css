@@ -795,4 +795,8 @@ h2,
     .text-sm-m * {
         font-size: 14px;
     }
+
+    .email-signup__input-group {
+        flex-direction: column;
+    }
 }

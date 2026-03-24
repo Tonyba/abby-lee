@@ -329,7 +329,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
-                "custom_css": "col-t",
+                "custom_css": "col-t faq-buttons",
                 "content_direction": "row",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "flex-start",

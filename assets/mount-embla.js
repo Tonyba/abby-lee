@@ -57,13 +57,20 @@ function init() {
 
 }
 
+function embla_conversion_mobile() {
+
+}
+
 function emblaMobile() {
     const emblaTablet = Array.from(document.querySelectorAll('.embla-tablet'));
     const emblaMobile = Array.from(document.querySelectorAll('.embla-m'));
     const w = window.outerWidth;
 
     if (w < 1025) emblaTablet.map(el => el.classList.add('embla'));
-    if (w < 768) emblaMobile.map(el => el.classList.add('embla'));
+    if (w < 768) {
+        embla_conversion_mobile();
+        emblaMobile.map(el => el.classList.add('embla'));
+    }
 }
 
 function mountCarousel(elm, options, plugins) {

@@ -849,6 +849,10 @@ body {
         gap: 40px;
     }
 
+    .gap-12-m {
+        gap: 12px;
+    }
+
     .gap-13>.group-block-content {
         gap: 13px
     }

@@ -826,7 +826,7 @@ h2,
     }
 
     .latest-news-h .overlay--gradient {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 61.52%, rgba(0, 0, 0, 0.8) 83.91%) !important;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 61.52%, rgba(0, 0, 0, 0.8) 83.91%);
 
     }
 

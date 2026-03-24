@@ -801,6 +801,10 @@ body {
         padding: 12px 10px;
     }
 
+    .text-tv * {
+        font-size: 11px;
+    }
+
     .tv-cult p {
         font-size: 13px;
     }

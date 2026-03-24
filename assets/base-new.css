@@ -810,8 +810,8 @@ body {
     }
 
     .pull-right-m,
-    .pull-right-m:has(.section)>.custom-section-content {
-        margin-right: -30px;
+    .pull-right-m.section .custom-section-content {
+        margin-right: -15px;
     }
 
     .email-signup__input-group {

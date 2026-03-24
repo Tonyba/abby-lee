@@ -798,6 +798,11 @@ h2,
 
     .email-signup__input-group {
         flex-direction: column;
+        background-color: transparent !important;
+    }
+
+    .email-signup__input {
+        background-color: white !important;
     }
 
     .email-signup__button {

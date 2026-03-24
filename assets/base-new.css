@@ -1020,6 +1020,10 @@ body {
         padding: 0;
     }
 
+    .blog-archive-loop .date-icon {
+        border: 0;
+    }
+
     .blog-archive-loop .button-secondary {
         font-size: 14px;
         width: 100%;

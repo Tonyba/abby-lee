@@ -1503,7 +1503,7 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "custom_css": "no-border-r uppercase-btn",
+                    "custom_css": "no-border-r uppercase-btn w-full",
                     "label": "View Details",
                     "inline_icon": false,
                     "svg": "",

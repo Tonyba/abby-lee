@@ -3528,7 +3528,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "custom_css": "divider-red",
+        "custom_css": "divider-red col-t",
         "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,

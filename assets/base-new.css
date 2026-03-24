@@ -238,7 +238,7 @@ h2,
 
 /*home hero*/
 .custom-home-hero .hero {
-    --hero-min-height: 731px;
+    min-height: 731px;
 }
 
 /*product carousel*/
@@ -745,7 +745,7 @@ h2,
 @media only screen and (max-width: 767px) {
 
     .custom-home-hero .hero {
-        --hero-min-height: 629px;
+        min-height: 629px;
     }
 
     body {

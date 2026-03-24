@@ -892,6 +892,7 @@ body {
     }
 
     .gap-0-m,
+    .gap-0-m>*>.mobile-column,
     .gap-0-m>*>.mobile-column {
         gap: 0;
     }

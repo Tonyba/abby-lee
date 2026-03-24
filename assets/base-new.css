@@ -237,7 +237,7 @@ h2,
 
 
 /*home hero*/
-.custom-home-hero .hero {
+.custom-home-hero {
     min-height: 731px;
 }
 
@@ -744,7 +744,7 @@ h2,
 
 @media only screen and (max-width: 767px) {
 
-    .custom-home-hero .hero {
+    .custom-home-hero {
         min-height: 629px;
     }
 

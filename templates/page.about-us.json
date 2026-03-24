@@ -1617,7 +1617,7 @@
                       "type": "text",
                       "name": "t:names.text",
                       "settings": {
-                        "custom_css": "",
+                        "custom_css": "text-tv",
                         "text": "<p>Multiple Talk Show Appearances</p>",
                         "width": "fit-content",
                         "max_width": "normal",

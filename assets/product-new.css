@@ -35,6 +35,10 @@
     font-size: 16px;
 }
 
+slideshow-controls:has(.slideshow-controls__dots) {
+    mix-blend-mode: unset !important;
+}
+
 .slideshow-controls__dots {
     background-color: white;
 }

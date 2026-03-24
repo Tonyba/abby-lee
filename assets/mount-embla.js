@@ -61,6 +61,16 @@ function embla_conversion_mobile() {
     const containers = Array.from(document.querySelectorAll('.convert-embla-m'));
 
     containers.map((elm) => {
+        //elm.classList.add('embla');
+        const embla_container = document.createElement('div');
+        const embla__viewport = elm.querySelector('.group-block_content');
+        embla_container.classList.add('embla__container')
+
+        embla__viewport?.append(embla__viewport);
+
+        /*
+        embla_container.classList.add('embla__container');
+        embla__viewport?.classList.add('embla__viewport');*/
 
     });
 

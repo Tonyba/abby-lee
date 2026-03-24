@@ -1023,6 +1023,7 @@ body {
     .blog-archive-loop .button-secondary {
         font-size: 14px;
         width: 100%;
+        padding: 9px;
     }
 
     .blog-archive-loop .image-block {

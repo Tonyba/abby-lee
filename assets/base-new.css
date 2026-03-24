@@ -771,7 +771,7 @@ body {
 
     .product-grid-container .h5 * {
         font-size: 13px;
-        line-height: 1;
+        line-height: 120%
     }
 
     .justify-center-m {

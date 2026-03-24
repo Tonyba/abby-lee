@@ -1793,7 +1793,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "custom_css": "col-t",
+        "custom_css": "col-t gap-40-m",
         "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,

@@ -1016,6 +1016,10 @@ body {
         font-size: 13px !important;
     }
 
+    .blog-archive-loop .text-block {
+        padding: 0;
+    }
+
     .blog-archive-loop .image-block {
         min-height: 250px;
     }

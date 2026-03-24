@@ -801,6 +801,10 @@ body {
         padding: 12px 20px;
     }
 
+    .tv-cult p {
+        font-size: 13px;
+    }
+
     .custom-home-hero {
         min-height: 629px;
     }

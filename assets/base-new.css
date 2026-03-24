@@ -741,4 +741,9 @@ h2,
         --column-count: 1;
         width: 90%
     }
+
+    .product-carousel slideshow-slide {
+        min-height: 500px;
+    }
+
 }

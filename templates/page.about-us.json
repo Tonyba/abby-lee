@@ -1370,7 +1370,7 @@
                     "custom_width": 100,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
-                    "height": "fit",
+                    "height": "fill",
                     "custom_height": 100,
                     "inherit_color_scheme": false,
                     "color_scheme": "scheme-d8e589a9-01a0-4889-b27d-44750bd5a7a2",

@@ -74,7 +74,7 @@
 
 .embla .embla__container>* {
     transform: translate3d(0, 0, 0);
-    flex: 0 0 var(--slide-size);
+    flex: 0 0 var(--slide-size) !important;
     min-width: 0;
     padding-left: var(--slide-spacing);
     width: unset !important;

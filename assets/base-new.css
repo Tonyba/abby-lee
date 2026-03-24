@@ -753,6 +753,10 @@ body {
 
 @media only screen and (max-width: 767px) {
 
+    .justify-center-m {
+        justify-content: center;
+    }
+
     .custom-home-hero {
         min-height: 629px;
     }

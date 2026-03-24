@@ -770,6 +770,10 @@ body {
     }
 
 
+    .below-legacy-about .group-block:not(:last-child) {
+        padding-right: 10px;
+    }
+
     .m-x-auto-m {
         margin: auto;
     }

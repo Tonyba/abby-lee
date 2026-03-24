@@ -799,7 +799,7 @@ h2,
     .email-signup__input-group {
         flex-direction: column;
         background-color: transparent !important;
-        border: 0;
+        border: 0 !important;
     }
 
     .email-signup__input {
@@ -809,5 +809,7 @@ h2,
     .email-signup__button {
         width: 95% !important;
         padding: 12px !important;
+        margin: unset;
+        margin-top: 20px;
     }
 }

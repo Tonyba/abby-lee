@@ -4199,7 +4199,7 @@
       ],
       "name": "Featured Story",
       "settings": {
-        "custom_css": "col-t-reverse pt-0-t",
+        "custom_css": "col-t-reverse pt-0-t flex-m",
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

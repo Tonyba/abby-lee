@@ -842,6 +842,12 @@ h2,
         padding-top: 0;
     }
 
+    .pt-0-m,
+    .pt-0-m>.group-block-content,
+    .pt-0-m>*>.mobile-column {
+        padding-top: 0;
+    }
+
     .legacy-img img {
         height: 393px;
     }

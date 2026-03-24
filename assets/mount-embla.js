@@ -62,12 +62,11 @@ function embla_conversion_mobile() {
 
     containers.map((elm) => {
         //elm.classList.add('embla');
-        const embla_container = document.createElement('div');
-        const embla__viewport = elm.querySelector('.group-block_content');
-        embla_container.classList.add('embla__container')
+        const embla_viewport = document.createElement('div');
+        //const embla__viewport = elm.querySelector('.group-block_content');
+        embla_viewport.classList.add('embla__container')
 
-        elm?.append(embla_container);
-
+        elm?.append(embla_viewport);
         /*
         embla_container.classList.add('embla__container');
         embla__viewport?.classList.add('embla__viewport');*/

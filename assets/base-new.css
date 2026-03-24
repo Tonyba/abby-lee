@@ -801,6 +801,6 @@ h2,
     }
 
     .email-signup__input-group {
-        width: 100%;
+        width: 95% !important;
     }
 }

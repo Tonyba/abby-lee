@@ -515,7 +515,7 @@
       ],
       "name": "t:names.multicolumn",
       "settings": {
-        "custom_css": "",
+        "custom_css": "pt-0-m",
         "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,

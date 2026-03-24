@@ -838,5 +838,7 @@ h2,
         display: none;
     }
 
-    .legacy-section {}
+    .legacy-section>.custom-section-content>.section-content-wrapper {
+        padding-top: 0;
+    }
 }

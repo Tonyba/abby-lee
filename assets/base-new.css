@@ -800,7 +800,8 @@ h2,
         flex-direction: column;
     }
 
-    .email-signup__input-group {
+    .email-signup__button {
         width: 95% !important;
+        padding: 12px !important;
     }
 }

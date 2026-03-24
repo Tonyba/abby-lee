@@ -669,6 +669,10 @@ h2,
     border-right: 1px solid;
 }
 
+.w-full {
+    width: 100%;
+}
+
 @media only screen and (min-width: 1025px) {
     .hide-d {
         display: none;

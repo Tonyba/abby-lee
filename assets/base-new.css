@@ -778,6 +778,11 @@ body {
 
 @media only screen and (max-width: 767px) {
 
+    .blog-posts-container {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+
     .w-full-m {
         width: 100%;
     }

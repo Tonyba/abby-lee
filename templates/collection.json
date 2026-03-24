@@ -85,6 +85,7 @@
       "name": "Collection heading",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -513,6 +514,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "product-archive-before convert-embla-m pull-right-m",
+        "add_embla": true,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -809,6 +811,7 @@
       "name": "t:names.email_signup",
       "settings": {
         "custom_css": "email-signup-section",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

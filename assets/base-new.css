@@ -841,4 +841,8 @@ h2,
     .legacy-section>.custom-section-content>.section-content-wrapper {
         padding-top: 0;
     }
+
+    .legacy-img img {
+        height: 393px;
+    }
 }

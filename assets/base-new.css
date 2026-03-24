@@ -799,4 +799,8 @@ h2,
     .email-signup__input-group {
         flex-direction: column;
     }
+
+    .email-signup__input-group {
+        width: 100%;
+    }
 }

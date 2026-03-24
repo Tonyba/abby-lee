@@ -845,4 +845,14 @@ h2,
     .legacy-img img {
         height: 393px;
     }
+
+    .legacy-img:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(359.61deg, #070605 13.74%, rgba(7, 6, 5, 0) 43.27%);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }

@@ -831,6 +831,6 @@ h2,
     }
 
     .latest-news-h .group-block-content {
-        justify-content: flex-end;
+        align-items: flex-end;
     }
 }

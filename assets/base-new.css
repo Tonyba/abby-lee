@@ -1012,7 +1012,7 @@ body {
         align-items: center;
     }
 
-    .blog-archive-loop h4 {
+    .blog-archive-loop h4 * {
         font-size: 13px !important;
     }
 

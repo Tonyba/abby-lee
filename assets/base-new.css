@@ -771,7 +771,8 @@ body {
 
 
     .below-legacy-about .group-block:not(:last-child) {
-        padding-right: 10px;
+        border-right: 0;
+        border-bottom: 1px solid;
     }
 
     .m-x-auto-m {

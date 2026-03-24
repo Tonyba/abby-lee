@@ -820,4 +820,8 @@ h2,
         margin: unset !important;
         margin-top: 10px !important;
     }
+
+    .latest-news-h>.group-block-content {
+        min-height: 230px;
+    }
 }

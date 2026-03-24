@@ -805,6 +805,10 @@ body {
         font-size: 13px;
     }
 
+    .gap-13>.group-block-content {
+        gap: 13px
+    }
+
     .custom-home-hero {
         min-height: 629px;
     }

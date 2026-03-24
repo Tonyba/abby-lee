@@ -166,7 +166,7 @@
     }
 
     .convert-embla-m .embla__container,
-    .convert-section-embla-m.embla__container {
+    .convert-section-embla-m .embla__container {
         gap: 0;
     }
 

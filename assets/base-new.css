@@ -786,4 +786,9 @@ h2,
     .text-center-m * {
         text-align: center !important;
     }
+
+    .h2-big h2,
+    .h2-big h1 {
+        font-size: 26px;
+    }
 }

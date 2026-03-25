@@ -858,9 +858,9 @@ body {
     }
 
     .custom-home-hero,
-    .custom-home-hero .hero {
+    .hero {
         min-height: 629px;
-        --section-height-medium: 629px;
+        --section-height-medium: 629px !important;
     }
 
     .custom-home-hero .hero__content-wrapper {

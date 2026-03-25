@@ -195,6 +195,10 @@
               },
               "blocks": {}
             },
+            "easify_options_easify_product_options_EmcWnx": {
+              "type": "shopify://apps/easify-options/blocks/easify-product-options/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
+              "settings": {}
+            },
             "buy_buttons_eYQEYi": {
               "type": "buy-buttons",
               "settings": {
@@ -661,6 +665,7 @@
             "group_icgrde",
             "divider_VJhene",
             "variant_picker_aaUq9j",
+            "easify_options_easify_product_options_EmcWnx",
             "buy_buttons_eYQEYi",
             "group_tzbwcy",
             "accordion_H49V98"

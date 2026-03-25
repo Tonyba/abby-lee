@@ -25,7 +25,7 @@
 </div>
 
 <script>
-  const shareButton = document.getElementById('shareButton');
+  const shareButton = document.querySelector('.btn-share');
   shareButton.addEventListener('click', async () => {
     if (navigator.share) {
       try {

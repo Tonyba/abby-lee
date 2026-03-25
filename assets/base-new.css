@@ -857,8 +857,10 @@ body {
         gap: 13px
     }
 
-    .custom-home-hero {
+    .custom-home-hero,
+    .custom-home-hero .hero {
         min-height: 629px;
+        --section-height-medium: 629px;
     }
 
     .custom-home-hero .hero__content-wrapper {

@@ -74,13 +74,14 @@
 
         setTimeout(() => {
             barContainer = document.querySelector('.free-shipping-bar');
+            const progressBar = document.querySelector('.fsb-progress-bar');
+
             if (remaining <= 0) {
                 // Free shipping achieved
                 barContainer.classList.add('free-shipping-achieved');
                 const messageEl = barContainer.querySelector('.fsb-message-text');
                 if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';
 
-                const progressBar = barContainer.querySelector('.fsb-progress-bar');
                 if (progressBar) progressBar.style.width = '100%';
                 console.log(percent)
                 console.log(barContainer.querySelector('.fsb-progress-bar'))
@@ -89,7 +90,7 @@
                 const remainingFormatted = formatMoney(remaining);
                 const messageEl = barContainer.querySelector('.fsb-message-text');
                 if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted}  away from Free Standard Shipping`;
-                const progressBar = barContainer.querySelector('.fsb-progress-bar');
+
                 console.log(percent)
                 console.log(barContainer.querySelector('.fsb-progress-bar'))
                 if (progressBar) progressBar.style.width = percent + '%';

@@ -110,7 +110,7 @@
     }
 
     function initlogic() {
-
+        console.log('free-shipping-exec')
         // Set initial data from existing cart if available
         if (window.Shopify && window.Shopify.cart) {
             updateFreeShippingBar();

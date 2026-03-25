@@ -1,5 +1,6 @@
 (function () {
 
+    console.log('hey');
 
     waitForElm('[data-menu-grid-id="MegaMenuList-3"]  .mega-menu__content').then((megaTarget) => {
         const megaContent = document.querySelector('.mega-menu-about');

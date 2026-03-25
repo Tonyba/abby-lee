@@ -11,10 +11,10 @@
   "type": "footer",
   "name": "t:names.footer",
   "sections": {
-    "mega_menu_about_BzxXdm": {
+    "mega_menu_about_DYf48r": {
       "type": "mega-menu-about",
       "blocks": {
-        "mega_menu_item_Y4ciX3": {
+        "mega_menu_item_nMfpNp": {
           "type": "mega-menu-item",
           "name": "mega menu item",
           "settings": {
@@ -24,7 +24,7 @@
           },
           "blocks": {}
         },
-        "mega_menu_item_FBVrJc": {
+        "mega_menu_item_kmPE3W": {
           "type": "mega-menu-item",
           "name": "mega menu item",
           "settings": {
@@ -36,10 +36,10 @@
         }
       },
       "block_order": [
-        "mega_menu_item_Y4ciX3",
-        "mega_menu_item_FBVrJc"
+        "mega_menu_item_nMfpNp",
+        "mega_menu_item_kmPE3W"
       ],
-      "name": "mega-menu-about",
+      "name": "mega menu about",
       "settings": {}
     },
     "section_Cjet6t": {
@@ -1448,7 +1448,7 @@
     }
   },
   "order": [
-    "mega_menu_about_BzxXdm",
+    "mega_menu_about_DYf48r",
     "section_Cjet6t",
     "footer",
     "section_nggLLh",

@@ -4,5 +4,5 @@
 
     console.log(megaContent)
     console.log(megaTarget)
-    megaTarget?.append(megaContent);
+    megaTarget?.appendChild(megaContent);
 }());

@@ -58,7 +58,6 @@
 
         // Get cart total from Shopify's cart data
         let cartTotal = 0;
-        console.log(barContainer)
         if (window.Shopify && window.Shopify.cart) {
             cartTotal = window.Shopify.cart.total_price;
         } else {
@@ -89,7 +88,9 @@
                 const progressBar = barContainer.querySelector('.fsb-progress-bar');
                 if (progressBar) progressBar.style.width = percent + '%';
             }
-        }, 100)
+
+            console.log('pasando')
+        }, 1000)
 
 
     }

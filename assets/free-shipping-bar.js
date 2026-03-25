@@ -95,6 +95,7 @@
 
     // Function to get cart data from Shopify AJAX API and update
     function fetchCartAndUpdate(cart) {
+        console.log(cart);
         if (cart?.total_price) {
             if (window.Shopify) window.Shopify.cart = cart;
             updateFreeShippingBar();
@@ -113,10 +114,8 @@
         console.log('free-shipping-exec')
         // Set initial data from existing cart if available
         if (window.Shopify && window.Shopify.cart) {
-            console.log('pasa')
             updateFreeShippingBar();
         } else {
-            console.log('no pasa')
             fetchCartAndUpdate(window.Shopify.cart);
         }
 

@@ -244,8 +244,8 @@ body {
 /*home hero*/
 .custom-home-hero,
 .hero {
-    min-height: 629px;
-    --hero-min-height: 629px !important;
+    min-height: 731px;
+    --hero-min-height: 731px !important;
 }
 
 

@@ -242,9 +242,12 @@ body {
 
 
 /*home hero*/
-.custom-home-hero {
-    min-height: 731px !important;
+.custom-home-hero,
+.hero {
+    min-height: 629px;
+    --hero-min-height: 629px !important;
 }
+
 
 /*product carousel*/
 

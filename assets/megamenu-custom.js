@@ -1,12 +1,13 @@
 (function () {
 
-    console.log('hey');
+    console.log('hey 123');
 
     waitForElm('[data-menu-grid-id="MegaMenuList-3"]  .mega-menu__content').then((megaTarget) => {
         const megaContent = document.querySelector('.mega-menu-about');
-        console.log(megaTarget)
-        megaContent?.classList.remove('hide');
-        megaTarget?.appendChild(megaContent);
+        setTimeout(() => {
+            megaContent?.classList.remove('hide');
+            megaTarget?.appendChild(megaContent);
+        }, 1000);
     });
 
     function waitForElm(selector) {

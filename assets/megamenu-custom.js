@@ -3,6 +3,7 @@
 
     waitForElm('[data-menu-grid-id="MegaMenuList-3"]  .mega-menu__content').then((megaTarget) => {
         const megaContent = document.querySelector('.mega-menu-about');
+        console.log(megaTarget)
         megaContent?.classList.remove('hide');
         megaTarget?.appendChild(megaContent);
     });

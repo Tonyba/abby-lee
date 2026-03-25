@@ -1,5 +1,5 @@
 {% if block.settings.img != blank %}
-  {{ block.settings.img | image_url: width: 400, height: 400 | image_tag }}
+  <a href="{{ block.settings.link }}"> {{ block.settings.img | image_url: width: 400, height: 400 | image_tag }}</a>
 {% endif %}
 
 <h5>

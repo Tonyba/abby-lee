@@ -1,10 +1,11 @@
 (function () {
 
 
-    waitForElm('[data-menu-grid-id="MegaMenuList-3"]  .mega-menu__content').then((megaTarget) => {
+    waitForElm('[data-menu-grid-id="MegaMenuList-3"]  .mega-menu__content').then((elm) => {
 
         setTimeout(() => {
             setTimeout(() => {
+                const megaTarget = document.querySelector('[data-menu-grid-id="MegaMenuList-3"]  .mega-menu__content');
                 const megaContent = document.querySelector('.mega-menu-about');
                 megaContent?.classList.remove('hide');
                 megaTarget?.appendChild(megaContent);

@@ -83,7 +83,7 @@
                 if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';
 
                 if (progressBar) progressBar.style.width = '100%';
-                setTimeout(() => { progressBar.style.width = '50%'; console.log('hey') }, 100)
+                setTimeout(() => { progressBar.style.width = '50%'; console.log('hey') }, 1000)
 
             } else {
                 barContainer.classList.remove('free-shipping-achieved');

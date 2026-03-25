@@ -296,10 +296,42 @@
         "enable_transparent_header_collection": false,
         "collection_color_scheme": "default"
       }
+    },
+    "mega_menu_about_txxPGX": {
+      "type": "mega-menu-about",
+      "blocks": {
+        "mega_menu_item_qBCWWL": {
+          "type": "mega-menu-item",
+          "name": "mega menu item",
+          "settings": {
+            "text": "Our Legacy",
+            "img": "shopify://shop_images/IMG_7543_2.jpg",
+            "link": "#"
+          },
+          "blocks": {}
+        },
+        "mega_menu_item_3FcWYd": {
+          "type": "mega-menu-item",
+          "name": "mega menu item",
+          "settings": {
+            "text": "Leave It on the Dance Floor",
+            "img": "shopify://shop_images/IMG_7526_2.jpg",
+            "link": "#"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "mega_menu_item_qBCWWL",
+        "mega_menu_item_3FcWYd"
+      ],
+      "name": "mega menu about",
+      "settings": {}
     }
   },
   "order": [
     "section_jDFD8E",
-    "header_section"
+    "header_section",
+    "mega_menu_about_txxPGX"
   ]
 }

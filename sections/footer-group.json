@@ -13,6 +13,32 @@
   "sections": {
     "mega_menu_about_BzxXdm": {
       "type": "mega-menu-about",
+      "blocks": {
+        "mega_menu_item_Y4ciX3": {
+          "type": "mega-menu-item",
+          "name": "mega menu item",
+          "settings": {
+            "text": "Our Legacy",
+            "img": "shopify://shop_images/IMG_7543_2.jpg",
+            "link": "#"
+          },
+          "blocks": {}
+        },
+        "mega_menu_item_FBVrJc": {
+          "type": "mega-menu-item",
+          "name": "mega menu item",
+          "settings": {
+            "text": "Leave It on the Dance Floor",
+            "img": "shopify://shop_images/IMG_7526_2.jpg",
+            "link": "#"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "mega_menu_item_Y4ciX3",
+        "mega_menu_item_FBVrJc"
+      ],
       "name": "mega-menu-about",
       "settings": {}
     },

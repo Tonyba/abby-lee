@@ -92,7 +92,7 @@
 
             console.log(barContainer.querySelector('.fsb-progress-bar'))
 
-        }, 500)
+        }, 100)
 
 
     }

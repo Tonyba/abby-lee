@@ -11,6 +11,11 @@
   "type": "footer",
   "name": "t:names.footer",
   "sections": {
+    "mega_menu_about_BzxXdm": {
+      "type": "mega-menu-about",
+      "name": "mega-menu-about",
+      "settings": {}
+    },
     "section_Cjet6t": {
       "type": "section",
       "blocks": {
@@ -365,6 +370,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "footer-first",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -1195,6 +1201,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "col-t",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -1385,6 +1392,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "last-footer col-t col-m-reverse",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "center",
@@ -1414,6 +1422,7 @@
     }
   },
   "order": [
+    "mega_menu_about_BzxXdm",
     "section_Cjet6t",
     "footer",
     "section_nggLLh",

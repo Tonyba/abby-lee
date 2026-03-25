@@ -24,4 +24,26 @@
   Share
 </div>
 
-<script></script>
+<script>
+  const shareButton = document.getElementById('shareButton');
+  shareButton.addEventListener('click', async () => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: document.title, // Gets the title of the current page
+          text: 'Check out this interesting page!',
+          url: window.location.href, // Gets the current page's URL
+        });
+        console.log('Content shared successfully!');
+        // statusEl.textContent = 'Shared successfully!';
+      } catch (error) {
+        console.error('Error sharing:', error);
+        // statusEl.textContent = 'Error sharing: ' + error.message;
+      }
+    } else {
+      // Fallback for browsers that do not support the Web Share API
+      alert('Your browser does not support the Web Share API. You can copy the URL manually.');
+      // You can also provide a traditional social media share button UI here as a fallback
+    }
+  });
+</script>

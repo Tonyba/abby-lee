@@ -84,7 +84,7 @@
                 if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';
 
                 if (progressBar) progressBar.style.width = '100%';
-                setTimeout(() => { progressBar.style.width = '100%'; console.log('hey') }, 1000)
+                setTimeout(() => { progressBar.style.width = '100%'; }, 1000)
 
             } else {
                 barContainer.classList.remove('free-shipping-achieved');
@@ -95,6 +95,7 @@
                 console.log(percent)
                 console.log(barContainer.querySelector('.fsb-progress-bar'))
                 if (progressBar) progressBar.style.width = percent + '%';
+                setTimeout(() => { progressBar.style.width = percent + '%'; }, 1000)
             }
 
 

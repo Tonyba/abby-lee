@@ -113,8 +113,10 @@
         console.log('free-shipping-exec')
         // Set initial data from existing cart if available
         if (window.Shopify && window.Shopify.cart) {
+            console.log('pasa')
             updateFreeShippingBar();
         } else {
+            console.log('no pasa')
             fetchCartAndUpdate(window.Shopify.cart);
         }
 

@@ -32,9 +32,9 @@
     if (navigator.share) {
       try {
         await navigator.share({
-          title: document.title, // Gets the title of the current page
+          title: {{ product.title }}, // Gets the title of the current page
           text: 'Check out this interesting page!',
-          url: window.location.href, // Gets the current page's URL
+          url: {{ product.url }}, // Gets the current page's URL
         });
         console.log('Content shared successfully!');
         // statusEl.textContent = 'Shared successfully!';

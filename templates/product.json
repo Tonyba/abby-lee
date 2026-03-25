@@ -181,14 +181,15 @@
               },
               "blocks": {}
             },
-            "variant_picker_R3rGDr": {
+            "variant_picker_aaUq9j": {
               "type": "variant-picker",
+              "name": "t:names.product_variant_picker",
               "settings": {
                 "variant_style": "buttons",
                 "show_swatches": true,
                 "alignment": "left",
                 "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-end": 8,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0
               },
@@ -659,7 +660,7 @@
           "block_order": [
             "group_icgrde",
             "divider_VJhene",
-            "variant_picker_R3rGDr",
+            "variant_picker_aaUq9j",
             "buy_buttons_eYQEYi",
             "group_tzbwcy",
             "accordion_H49V98"

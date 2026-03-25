@@ -2,6 +2,10 @@
   {{ block.settings.img | image_url: width: 400, height: 400 | image_tag }}
 {% endif %}
 
+<h5>
+  <a href="{{ block.settings.link }}">{{ block.settings.text }}</a>
+</h5>
+
 {% schema %}
 {
   "name": "mega menu item",

@@ -79,8 +79,11 @@
                 barContainer.classList.add('free-shipping-achieved');
                 const messageEl = barContainer.querySelector('.fsb-message-text');
                 if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';
+
                 const progressBar = barContainer.querySelector('.fsb-progress-bar');
                 if (progressBar) progressBar.style.width = '100%';
+                console.log(percent)
+                console.log(barContainer.querySelector('.fsb-progress-bar'))
             } else {
                 barContainer.classList.remove('free-shipping-achieved');
                 const remainingFormatted = formatMoney(remaining);

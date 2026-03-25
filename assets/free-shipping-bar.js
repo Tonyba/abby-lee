@@ -95,12 +95,13 @@
 
     // Function to get cart data from Shopify AJAX API and update
     function fetchCartAndUpdate(cart) {
-        console.log(cart);
+
         if (cart?.total_price) {
             if (window.Shopify) window.Shopify.cart = cart;
             updateFreeShippingBar();
             return;
         }
+        console.log('fetching cart')
         fetch('/cart.js')
             .then(response => response.json())
             .then(cart_fetched => {

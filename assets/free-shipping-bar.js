@@ -73,6 +73,7 @@
         if (percent > 100) percent = 100;
 
         setTimeout(() => {
+            barContainer = document.querySelector('.free-shipping-bar ');
             if (remaining <= 0) {
                 // Free shipping achieved
                 barContainer.classList.add('free-shipping-achieved');

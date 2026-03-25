@@ -860,7 +860,7 @@ body {
     .custom-home-hero,
     .hero {
         min-height: 629px;
-        --section-height-medium: 629px !important;
+        --hero-min-height: 629px !important;
     }
 
     .custom-home-hero .hero__content-wrapper {

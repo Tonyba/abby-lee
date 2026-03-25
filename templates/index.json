@@ -11,7 +11,6 @@
   "sections": {
     "popup_welcome_iiGbBM": {
       "type": "popup-welcome",
-      "disabled": true,
       "name": "Popup Welcome",
       "settings": {
         "title": "Welcome to",
@@ -596,6 +595,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -1095,6 +1095,7 @@
       "name": "t:names.email_signup",
       "settings": {
         "custom_css": "email-signup-section",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -1254,6 +1255,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "custom-link",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -2179,6 +2181,7 @@
       "name": "Real stories from real champions",
       "settings": {
         "custom_css": "redish-gradient",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -2432,6 +2435,7 @@
       "name": "Love Your Gear? Get 10% Off.",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -3018,6 +3022,7 @@
       "name": "THE LATEST NEWS",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -3321,6 +3326,7 @@
       "name": "OUR LEGACY",
       "settings": {
         "custom_css": "left-right-overlay col-t-reverse hide-bg-image-m legacy-section",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -3602,6 +3608,7 @@
       "name": "The woman beding the movement",
       "settings": {
         "custom_css": "gap-0-m pt-0-m",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -3884,6 +3891,7 @@
       "name": "Our Studio",
       "settings": {
         "custom_css": "left-right-overlay studio-fix-img col-m-reverse legacy-section hide-bg-image-m",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -4200,6 +4208,7 @@
       "name": "Featured Story",
       "settings": {
         "custom_css": "col-t-reverse pt-0-t flex-m",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -4475,6 +4484,7 @@
       "name": "Join the #ALDCStyle community.",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

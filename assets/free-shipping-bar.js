@@ -58,6 +58,7 @@
 
         // Get cart total from Shopify's cart data
         let cartTotal = 0;
+        console.log(window.Shopify.cart)
         if (window.Shopify && window.Shopify.cart) {
             cartTotal = window.Shopify.cart.total_price;
         } else {
@@ -105,14 +106,13 @@
             .then(response => response.json())
             .then(cart_fetched => {
                 if (window.Shopify) window.Shopify.cart = cart_fetched;
-                console.log(cart_fetched)
+
                 updateFreeShippingBar();
             })
             .catch(error => console.error('Error fetching cart:', error));
     }
 
     function initlogic() {
-        console.log('free-shipping-exec')
         // Set initial data from existing cart if available
         if (window.Shopify && window.Shopify.cart) {
             updateFreeShippingBar();

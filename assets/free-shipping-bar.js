@@ -89,7 +89,8 @@
                 if (progressBar) progressBar.style.width = percent + '%';
             }
 
-            console.log('pasando')
+            console.log(barContainer.querySelector('.fsb-progress-bar'))
+
         }, 1000)
 
 

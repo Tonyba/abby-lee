@@ -1,5 +1,7 @@
 (function () {
 
+    console.log('free-shipping-exec')
+
     // Helper to format money without relying on Shopify.formatMoney
     // It reads the shop's money format from the DOM or uses a default.
     function formatMoney(cents, format) {

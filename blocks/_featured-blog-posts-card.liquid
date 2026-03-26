@@ -81,7 +81,7 @@
   <a
     class="featured-blog-posts-card__link"
     {% unless onboarding %}
-      href="{{ article.url }}"
+      href=" {% if block_settings.custom_link  != blank %} {{ block_settings.custom_link }}  {% else %} {{ article.url }} {% endif %} "
     {% endunless %}
   >
     <span class="visually-hidden">{{ display_title }}</span>

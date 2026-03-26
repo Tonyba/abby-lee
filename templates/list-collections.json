@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "collection_list_Wfgh3m": {
       "type": "main-collection-list",
@@ -16,8 +16,7 @@
           "type": "group",
           "name": "t:names.header",
           "settings": {
-            "link": "",
-            "open_in_new_tab": false,
+            "custom_css": "",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
@@ -45,6 +44,9 @@
             "overlay_color": "#00000026",
             "overlay_style": "solid",
             "gradient_direction": "to top",
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
             "padding-block-start": 0,
             "padding-block-end": 48,
             "padding-inline-start": 0,
@@ -55,6 +57,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
+                "custom_css": "",
                 "text": "<h1>Shop by collection</h1>",
                 "width": "100%",
                 "max_width": "normal",
@@ -87,6 +90,7 @@
           "name": "t:names.collection_card",
           "static": true,
           "settings": {
+            "custom_css": "",
             "placement": "below_image",
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "flex-start",
@@ -129,7 +133,7 @@
               "name": "t:names.collection_card_image",
               "static": true,
               "settings": {
-                "image_ratio": "adapt",
+                "image_ratio": "square",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",

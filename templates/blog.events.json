@@ -309,6 +309,7 @@
           "static": true,
           "settings": {
             "custom_css": "event-card fix-post-img-h fix-heading",
+            "custom_link": "{{ closest.article.metafields.custom.event_link.value }}",
             "alignment": "left",
             "gap": 8,
             "inherit_color_scheme": true,

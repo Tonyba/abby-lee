@@ -1510,7 +1510,7 @@
                     "inline_icon": false,
                     "svg": "",
                     "icon_width": 20,
-                    "link": "{{ closest.article.url }}",
+                    "link": "{{ closest.article.metafields.custom.event_link.value }}",
                     "open_in_new_tab": false,
                     "style_class": "button-secondary",
                     "width": "custom",

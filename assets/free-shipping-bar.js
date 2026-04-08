@@ -103,6 +103,8 @@
                     if (progressBar) progressBar.style.width = percent + '%';
                 });
             }
+        } catch (e) {
+            console.log(e)
         } finally {
             // Pequeño retraso para liberar la bandera después de que las animaciones terminen
             setTimeout(() => { isUpdating = false; }, 200);

@@ -77,6 +77,7 @@
 
             requestAnimationFrame(() => {
                 barContainer.classList.remove('free-shipping-achieved');
+                console.log(remainingCents)
                 const remainingFormatted = formatMoney(remainingCents);
 
                 if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted} away from Free Standard Shipping`;

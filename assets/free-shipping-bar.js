@@ -155,10 +155,10 @@
             // Si estamos actualizando, ignoramos todas las mutaciones
             if (isUpdating) return;
 
-            console.log('first')
             // Buscar si la barra ha sido añadida al DOM
             const barExists = document.querySelector('.free-shipping-bar');
             if (!initialized && barExists) {
+                console.log(barExists)
                 initialized = true;
                 // Esperamos a que el carrito esté listo antes de inicializar
                 waitForCart(() => {

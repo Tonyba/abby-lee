@@ -48,7 +48,6 @@
 
         thresholdsTtext.forEach(el => {
             setTimeout(() => {
-                console.log('cambio')
                 el.innerHTML = formatMoney(parseFloat(barContainer.dataset.freeShippingThreshold) * conversionRate);
             }, 500);
         });

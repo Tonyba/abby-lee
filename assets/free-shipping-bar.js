@@ -87,7 +87,7 @@
 
     // Actualiza todas las barras de envío gratuito
     function updateFreeShippingBar() {
-        confirm.log('hey')
+        console.log('hey')
         const barContainers = document.querySelectorAll('.free-shipping-bar');
         if (!barContainers.length) return;
         barContainers.forEach(bar => handleShippingCart(bar));

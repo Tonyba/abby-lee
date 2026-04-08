@@ -158,12 +158,9 @@
             // Buscar si la barra ha sido añadida al DOM
             const barExists = document.querySelector('.free-shipping-bar');
             if (!initialized && barExists) {
-                console.log(barExists)
                 initialized = true;
                 // Esperamos a que el carrito esté listo antes de inicializar
-                waitForCart(() => {
-                    init();
-                }, 30);
+                waitForCart(init, 30);
             } else if (barExists && window.Shopify && window.Shopify.cart) {
                 // Si la barra ya existe y el carrito está listo, actualizamos
                 updateAllBars();

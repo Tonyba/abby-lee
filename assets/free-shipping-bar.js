@@ -52,7 +52,7 @@
         const cartTotalBaseCents = window.Shopify.cart.total_price;
         // Convertir a moneda actual
         const cartTotalCurrentCents = Math.round(cartTotalBaseCents);
-
+        console.log(`${thresholdCents} - ${cartTotalCurrentCents} = ${thresholdCents - cartTotalCurrentCents}`);
         const remainingCents = thresholdCents - cartTotalCurrentCents;
         let percent = (cartTotalCurrentCents / thresholdCents) * 100;
         if (percent > 100) percent = 100;

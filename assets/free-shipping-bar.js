@@ -1,112 +1,87 @@
 (function () {
-
-    // Helper to format money without relying on Shopify.formatMoney
-    // It reads the shop's money format from the DOM or uses a default.
+    // Helper to format money (centavos en la moneda actual)
     function formatMoney(cents, format) {
         if (typeof cents === 'string') cents = cents.replace('.', '');
         cents = parseInt(cents, 10);
 
-        // Try to get the money format from the theme settings if available
         let moneyFormat = format;
         if (!moneyFormat) {
-            // Attempt to read from the HTML element that Shopify often uses
             const moneyFormatElement = document.querySelector('[data-money-format]');
             if (moneyFormatElement) {
                 moneyFormat = moneyFormatElement.getAttribute('data-money-format');
+            } else if (window.Shopify && window.Shopify.money_format) {
+                moneyFormat = window.Shopify.money_format;
             } else {
-                // Fallback: read from window.Shopify?.money_format if it exists
-                if (window.Shopify && window.Shopify.money_format) {
-                    moneyFormat = window.Shopify.money_format;
-                } else {
-                    // Default format: ${{amount}}
-                    moneyFormat = '${{amount}}';
-                }
+                moneyFormat = '${{amount}}';
             }
         }
 
-        // Convert cents to dollars (with two decimal places)
         let amount = cents / 100;
         let formatted = moneyFormat.replace('{{amount}}', amount.toFixed(2));
-
-        // If the format includes {{amount_no_decimals}} handle it
-        /* if (moneyFormat.includes('{{amount_no_decimals}}')) {
-          const amountNoDecimals = Math.floor(amount);
-          formatted = moneyFormat.replace('{{amount_no_decimals}}', amountNoDecimals);
-          formatted = formatted.replace('{{amount}}', amount.toFixed(2));
-        }*/
-
         return formatted;
     }
 
-    // Function to update the free shipping bar
-    function updateFreeShippingBar() {
-
-        const barContainer = Array.from(document.querySelectorAll('.free-shipping-bar'));
-
-        if (!barContainer.length) return;
-
-        barContainer.map(bar => handleShippingCart(bar));
-
-
-    }
-
+    // Actualiza una barra específica (con setTimeout para la animación)
     function handleShippingCart(barContainer) {
+        // Leer umbral convertido (centavos en moneda actual)
+        const threshold = parseFloat(barContainer.dataset.freeShippingThreshold) || 7500;
+        // Leer tasa de conversión (USD -> moneda actual)
+        const conversionRate = parseFloat(barContainer.dataset.conversionRate) || 1.0;
 
-
-
-        const threshold = parseFloat(barContainer.dataset.freeShippingThreshold) || 7500; // in cents
-
-        // Get cart total from Shopify's cart data
-        let cartTotal = 0;
+        // Obtener total del carrito en moneda base (centavos)
+        let cartTotalBase = 0;
         if (window.Shopify && window.Shopify.cart) {
-            cartTotal = window.Shopify.cart.total_price;
+            cartTotalBase = window.Shopify.cart.total_price;
         } else {
-            // Fallback: read from DOM if available
             const cartTotalElement = document.querySelector('[data-cart-total]');
             if (cartTotalElement) {
-                cartTotal = parseFloat(cartTotalElement.dataset.cartTotal);
+                cartTotalBase = parseFloat(cartTotalElement.dataset.cartTotal);
             }
         }
 
-        let remaining = threshold - cartTotal;
-        let percent = (cartTotal / threshold) * 100;
+        // Convertir total a la moneda actual (centavos)
+        const cartTotalCurrent = Math.round(cartTotalBase * conversionRate);
+        const remaining = threshold - cartTotalCurrent;
+        let percent = (cartTotalCurrent / threshold) * 100;
         if (percent > 100) percent = 100;
 
+        // Aplicar setTimeout para asegurar que el DOM esté listo y la animación se ejecute
         setTimeout(() => {
-            console.log('executing free bar')
-            barContainer = document.querySelector('.free-shipping-bar');
-            const progressBar = document.querySelector('.fsb-progress-bar');
+            // Volvemos a obtener los elementos por si acaso (como en el original)
+            const currentBar = document.querySelector('.free-shipping-bar');
+            const progressBar = currentBar ? currentBar.querySelector('.fsb-progress-bar') : null;
+            const messageEl = currentBar ? currentBar.querySelector('.fsb-message-text') : null;
 
             if (remaining <= 0) {
-                // Free shipping achieved
-                barContainer.classList.add('free-shipping-achieved');
-                const messageEl = barContainer.querySelector('.fsb-message-text');
+                if (currentBar) currentBar.classList.add('free-shipping-achieved');
                 if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';
-
-                if (progressBar) progressBar.style.width = '100%';
-                setTimeout(() => { progressBar.style.width = '100%'; }, 1000)
-
+                if (progressBar) {
+                    progressBar.style.width = '100%';
+                    // Pequeño timeout adicional para forzar la transición si es necesario
+                    setTimeout(() => { progressBar.style.width = '100%'; }, 50);
+                }
             } else {
-                barContainer.classList.remove('free-shipping-achieved');
+                if (currentBar) currentBar.classList.remove('free-shipping-achieved');
                 const remainingFormatted = formatMoney(remaining);
-                const messageEl = barContainer.querySelector('.fsb-message-text');
-                if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted}  away from Free Standard Shipping`;
-
-                console.log(percent)
-                console.log(barContainer.querySelector('.fsb-progress-bar'))
-                if (progressBar) progressBar.style.width = percent + '%';
-                setTimeout(() => { progressBar.style.width = percent + '%'; }, 1000)
+                if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted} away from Free Standard Shipping`;
+                if (progressBar) {
+                    progressBar.style.width = percent + '%';
+                    setTimeout(() => { progressBar.style.width = percent + '%'; }, 50);
+                }
             }
-
-
-        }, 100)
-
-
+        }, 100); // El timeout original era 100ms
     }
 
-    // Function to get cart data from Shopify AJAX API and update
+    // Actualiza todas las barras de envío gratuito
+    function updateFreeShippingBar() {
+        const barContainers = document.querySelectorAll('.free-shipping-bar');
+        if (!barContainers.length) return;
+        barContainers.forEach(bar => handleShippingCart(bar));
+    }
+
+    // Obtiene el carrito desde la API de Shopify y actualiza
     function fetchCartAndUpdate(cart) {
-        if (cart?.total_price) {
+        if (cart && cart.total_price !== undefined) {
             if (window.Shopify) window.Shopify.cart = cart;
             updateFreeShippingBar();
             return;
@@ -114,39 +89,29 @@
 
         fetch('/cart.js')
             .then(response => response.json())
-            .then(cart_fetched => {
-                if (window.Shopify) window.Shopify.cart = cart_fetched;
-
+            .then(cartFetched => {
+                if (window.Shopify) window.Shopify.cart = cartFetched;
                 updateFreeShippingBar();
             })
             .catch(error => console.error('Error fetching cart:', error));
     }
 
-    function initlogic() {
-        // Set initial data from existing cart if available
+    // Inicialización con setTimeout (como en el original)
+    function init() {
         if (window.Shopify && window.Shopify.cart) {
             updateFreeShippingBar();
         } else {
-            fetchCartAndUpdate(window.Shopify.cart);
+            fetchCartAndUpdate();
         }
 
-        // Listen for cart updates via AJAX (standard Shopify events)
         document.addEventListener('cart:update', function (e) {
             fetchCartAndUpdate(e.detail.resource);
         });
-
-        // If the cart is updated via theme's own AJAX, they might not trigger our events.
-        // As a fallback, we can observe mutations or use a simple interval.
-        // Instead, we'll intercept the fetch of cart.js? That's heavy.
-        // We'll rely on the fact that the theme should trigger 'cart:updated' after any cart change.
-        // If not, we can provide an optional manual trigger for theme developers to call window.updateFreeShippingBar().
     }
 
-    // Initial update on page load
     document.addEventListener('DOMContentLoaded', function () {
-        setTimeout(() => initlogic(), 1000);
+        setTimeout(() => init(), 1000); // Mantenemos el timeout de 1 segundo
     });
 
-    // Expose function globally so theme can manually trigger update if needed
     window.updateFreeShippingBar = updateFreeShippingBar;
 })();

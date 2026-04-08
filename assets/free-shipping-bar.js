@@ -41,8 +41,10 @@
         // Obtener tasa de conversión dinámicamente
         const conversionRate = getConversionRate(barContainer);
 
+        console.log(conversionRate)
         conversionRate.toLocaleString(conversionRate)
         console.log(conversionRate)
+
         // Obtener total del carrito en moneda base (centavos)
         let cartTotalBase = 0;
         if (window.Shopify && window.Shopify.cart) {

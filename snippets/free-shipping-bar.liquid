@@ -108,6 +108,8 @@
   </div>
   <div class="flex justify-between free-shipping-below">
     <span> {{ 0 | money_with_currency }} </span>
-    <span> {{ threshold_decimal | round: 2 | append: ' ' | append: cart.currency.symbol }} </span>
+    <span class="threshold-text">
+      {{ threshold_decimal | round: 2 | append: ' ' | append: cart.currency.symbol }}
+    </span>
   </div>
 </div>

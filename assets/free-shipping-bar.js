@@ -57,7 +57,6 @@
         const progressBar = barContainer.querySelector('.fsb-progress-bar');
         const messageEl = barContainer.querySelector('.fsb-message-text');
 
-        console.log(percent)
 
         if (remainingCents <= 0) {
             barContainer.classList.add('free-shipping-achieved');
@@ -66,8 +65,11 @@
         } else {
             barContainer.classList.remove('free-shipping-achieved');
             const remainingFormatted = formatMoney(remainingCents);
+
             if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted} away from Free Standard Shipping`;
             if (progressBar) progressBar.style.width = percent + '%';
+            console.log(progressBar);
+            console.log(percent)
         }
     }
 

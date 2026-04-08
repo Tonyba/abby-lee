@@ -25,8 +25,6 @@
   # 4. Para mostrar el umbral formateado (sin doble conversión)
   assign threshold_decimal = threshold_current_cents | divided_by: 100.0
 %}
-hey
-{{ conversion_rate }}
 
 {% stylesheet %}
   .free-shipping-bar {
@@ -100,6 +98,7 @@ hey
   class="free-shipping-bar"
   data-free-shipping-threshold="{{ threshold_current_cents }}"
   data-conversion-rate="{{ conversion_rate }}"
+  data-money-format="{{ cart.currency.format }}"
 >
   <div class="fsb-message items-center">
     <span class="fsb-message-text"></span>

@@ -21,12 +21,25 @@
         return formatted;
     }
 
+    // Obtener la tasa de conversión actual (base -> moneda seleccionada)
+    function getConversionRate(barContainer) {
+        // Priorizar window.Shopify.currency.rate (más fiable en el cliente)
+        if (window.Shopify && window.Shopify.currency && typeof window.Shopify.currency.rate === 'number') {
+            return window.Shopify.currency.rate;
+        }
+        // Fallback al data attribute (por si el snippet aún lo provee)
+        const rateAttr = barContainer.dataset.conversionRate;
+        if (rateAttr) return parseFloat(rateAttr);
+        // Último fallback: sin conversión (1:1)
+        return 1.0;
+    }
+
     // Actualiza una barra específica (con setTimeout para la animación)
     function handleShippingCart(barContainer) {
-        // Leer umbral convertido (centavos en moneda actual)
+        // Leer umbral convertido (centavos en moneda actual) – ya viene convertido desde Liquid
         const threshold = parseFloat(barContainer.dataset.freeShippingThreshold) || 7500;
-        // Leer tasa de conversión (USD -> moneda actual)
-        const conversionRate = parseFloat(barContainer.dataset.conversionRate) || 1.0;
+        // Obtener tasa de conversión dinámicamente
+        const conversionRate = getConversionRate(barContainer);
 
         // Obtener total del carrito en moneda base (centavos)
         let cartTotalBase = 0;
@@ -57,8 +70,7 @@
                 if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';
                 if (progressBar) {
                     progressBar.style.width = '100%';
-                    // Pequeño timeout adicional para forzar la transición si es necesario
-                    setTimeout(() => { progressBar.style.width = '100%'; }, 50);
+                    setTimeout(() => { progressBar.style.width = '100%'; }, 1000);
                 }
             } else {
                 if (currentBar) currentBar.classList.remove('free-shipping-achieved');
@@ -66,10 +78,10 @@
                 if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted} away from Free Standard Shipping`;
                 if (progressBar) {
                     progressBar.style.width = percent + '%';
-                    setTimeout(() => { progressBar.style.width = percent + '%'; }, 50);
+                    setTimeout(() => { progressBar.style.width = percent + '%'; }, 1000);
                 }
             }
-        }, 100); // El timeout original era 100ms
+        }, 1000);
     }
 
     // Actualiza todas las barras de envío gratuito
@@ -107,10 +119,15 @@
         document.addEventListener('cart:update', function (e) {
             fetchCartAndUpdate(e.detail.resource);
         });
+
+        // Opcional: escuchar cambio de moneda (si el tema lo dispara)
+        document.addEventListener('currency:changed', function () {
+            updateFreeShippingBar();
+        });
     }
 
     document.addEventListener('DOMContentLoaded', function () {
-        setTimeout(() => init(), 1000); // Mantenemos el timeout de 1 segundo
+        setTimeout(() => init(), 1000);
     });
 
     window.updateFreeShippingBar = updateFreeShippingBar;

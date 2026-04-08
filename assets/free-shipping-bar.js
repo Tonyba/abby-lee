@@ -58,10 +58,8 @@
         // No hacer nada si estamos en medio de una actualización (para evitar recursión)
         if (isUpdating) return;
 
-        console.log(!window.Shopify || !window.Shopify.cart || typeof window.Shopify.cart == 'undefined')
-
         // Verificar que el carrito exista SIN reintento recursivo (delegamos en waitForCart)
-        if (!window.Shopify || !window.Shopify.cart || typeof window.Shopify.cart == 'undefined') {
+        if (!window.Shopify || !window.Shopify.cart || typeof window.Shopify.cart.total_price == 'undefined') {
             return; // Salir silenciosamente; la actualización se reintentará cuando el carrito esté listo
         }
 

@@ -161,7 +161,6 @@
             if (!initialized && barExists) {
                 initialized = true;
                 // Esperamos a que el carrito esté listo antes de inicializar
-                console.log('waiting')
                 waitForCart(init, 30);
             } else if (barExists && window.Shopify && window.Shopify.cart) {
                 // Si la barra ya existe y el carrito está listo, actualizamos

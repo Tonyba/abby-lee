@@ -46,9 +46,9 @@
         // Obtener tasa de conversión dinámicamente
         const conversionRate = getConversionRate(barContainer);
 
+        console.log(thresholdsTtext)
         thresholdsTtext.forEach(el => {
             el.innerHTML = formatMoney(parseFloat(barContainer.dataset.freeShippingThreshold) * conversionRate);
-            console.log(formatMoney(parseFloat(barContainer.dataset.freeShippingThreshold) * conversionRate))
         });
 
         conversionRate.toLocaleString(conversionRate)

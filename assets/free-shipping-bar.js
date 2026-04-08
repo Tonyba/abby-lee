@@ -78,7 +78,7 @@
         const cartTotalBaseCents = window.Shopify.cart.total_price;
         // Convertir a moneda actual
         const cartTotalCurrentCents = Math.round(cartTotalBaseCents);
-        console.log(`${thresholdCents} - ${cartTotalCurrentCents} = ${thresholdCents - cartTotalCurrentCents}`);
+        //console.log(`${thresholdCents} - ${cartTotalCurrentCents} = ${thresholdCents - cartTotalCurrentCents}`);
         const remainingCents = thresholdCents - cartTotalCurrentCents;
         let percent = (cartTotalCurrentCents / thresholdCents) * 100;
         if (percent > 100) percent = 100;
@@ -104,7 +104,6 @@
 
             requestAnimationFrame(() => {
                 barContainer.classList.remove('free-shipping-achieved');
-                console.log(remainingCents)
                 const remainingFormatted = formatMoney(remainingCents);
 
                 if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted} away from Free Standard Shipping`;

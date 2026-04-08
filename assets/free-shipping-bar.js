@@ -48,7 +48,7 @@
 
         thresholdsTtext.forEach(el => {
 
-            console.log(conversionRate)
+            console.log(el)
             el.innerHTML = formatMoney(parseFloat(barContainer.dataset.freeShippingThreshold) * conversionRate);
 
         });

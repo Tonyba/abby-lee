@@ -69,8 +69,6 @@
 
         if (remainingCents <= 0) {
             requestAnimationFrame(() => {
-                console.log(remainingCents)
-                const remainingFormatted = formatMoney(remainingCents);
                 barContainer.classList.add('free-shipping-achieved');
                 if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';
                 if (progressBar) progressBar.style.width = '100%';

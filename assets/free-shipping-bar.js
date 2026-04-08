@@ -36,11 +36,11 @@
 
     // Actualiza una barra específica (con setTimeout para la animación)
     function handleShippingCart(barContainer) {
-        console.log('hey pasa')
         // Leer umbral convertido (centavos en moneda actual) – ya viene convertido desde Liquid
         const threshold = parseFloat(barContainer.dataset.freeShippingThreshold) || 7500;
         // Obtener tasa de conversión dinámicamente
         const conversionRate = getConversionRate(barContainer);
+        console.log(conversionRate)
         conversionRate.toLocaleString(conversionRate)
 
         // Obtener total del carrito en moneda base (centavos)

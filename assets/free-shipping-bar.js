@@ -60,7 +60,7 @@
         console.log('threshold:', threshold)
 
         // Convertir total a la moneda actual (centavos)
-        const cartTotalCurrent = Math.round(cartTotalBase * conversionRate);
+        const cartTotalCurrent = Math.round(cartTotalBase);
         const remaining = threshold - cartTotalCurrent;
 
         console.log('remaining:', remaining)

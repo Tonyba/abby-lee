@@ -1,7 +1,10 @@
 (function () {
+    // Bandera para evitar que el observer se dispare por cambios hechos por nosotros
+    let isUpdating = false;
+
     // Espera a que Shopify esté listo y el carrito cargado
     function waitForCart(callback, maxAttempts = 50) {
-        if (typeof window.Shopify != 'undefined') {
+        if (window.Shopify && window.Shopify.cart && typeof window.Shopify.cart.total_price !== 'undefined') {
             callback();
         } else if (maxAttempts > 0) {
             setTimeout(function () {
@@ -52,52 +55,62 @@
     }
 
     function updateShippingBar(barContainer) {
+        // No hacer nada si estamos en medio de una actualización (para evitar recursión)
+        if (isUpdating) return;
 
+        // Verificar que el carrito exista SIN reintento recursivo (delegamos en waitForCart)
         if (!window.Shopify || !window.Shopify.cart || typeof window.Shopify.cart.total_price === 'undefined') {
-            console.warn('Carrito no disponible aún');
-            return;
+            return; // Salir silenciosamente; la actualización se reintentará cuando el carrito esté listo
         }
 
-        const conversionRate = getConversionRate();
-        const thresholdCents = (parseFloat(barContainer.dataset.freeShippingThreshold) || 7500) * conversionRate;
+        isUpdating = true;
 
-        requestAnimationFrame(() => {
-            const thresholdsTtext = Array.from(document.querySelectorAll('.threshold-text'));
-            thresholdsTtext.forEach(el => {
-                el.innerHTML = formatMoney(parseFloat(barContainer.dataset.freeShippingThreshold) * conversionRate);
-            });
-        });
+        try {
+            const conversionRate = getConversionRate();
+            const thresholdCents = (parseFloat(barContainer.dataset.freeShippingThreshold) || 7500) * conversionRate;
 
-        const cartTotalBaseCents = window.Shopify.cart.total_price;
-        const cartTotalCurrentCents = Math.round(cartTotalBaseCents);
-        const remainingCents = thresholdCents - cartTotalCurrentCents;
-        let percent = (cartTotalCurrentCents / thresholdCents) * 100;
-        if (percent > 100) percent = 100;
-
-        document.querySelectorAll('.threshold-text').forEach(el => {
-            el.innerHTML = formatMoney(thresholdCents);
-        });
-
-        let progressBar = barContainer.querySelector('.fsb-progress-bar');
-        const messageEl = barContainer.querySelector('.fsb-message-text');
-
-        if (remainingCents <= 0) {
             requestAnimationFrame(() => {
-                barContainer.classList.add('free-shipping-achieved');
-                if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';
-                if (progressBar) progressBar.style.width = '100%';
+                const thresholdsTtext = Array.from(document.querySelectorAll('.threshold-text'));
+                thresholdsTtext.forEach(el => {
+                    el.innerHTML = formatMoney(parseFloat(barContainer.dataset.freeShippingThreshold) * conversionRate);
+                });
             });
-        } else {
-            requestAnimationFrame(() => {
-                barContainer.classList.remove('free-shipping-achieved');
-                const remainingFormatted = formatMoney(remainingCents);
-                if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted} away from Free Standard Shipping`;
-                if (progressBar) progressBar.style.width = percent + '%';
+
+            const cartTotalBaseCents = window.Shopify.cart.total_price;
+            const cartTotalCurrentCents = Math.round(cartTotalBaseCents);
+            const remainingCents = thresholdCents - cartTotalCurrentCents;
+            let percent = (cartTotalCurrentCents / thresholdCents) * 100;
+            if (percent > 100) percent = 100;
+
+            document.querySelectorAll('.threshold-text').forEach(el => {
+                el.innerHTML = formatMoney(thresholdCents);
             });
+
+            let progressBar = barContainer.querySelector('.fsb-progress-bar');
+            const messageEl = barContainer.querySelector('.fsb-message-text');
+
+            if (remainingCents <= 0) {
+                requestAnimationFrame(() => {
+                    barContainer.classList.add('free-shipping-achieved');
+                    if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';
+                    if (progressBar) progressBar.style.width = '100%';
+                });
+            } else {
+                requestAnimationFrame(() => {
+                    barContainer.classList.remove('free-shipping-achieved');
+                    const remainingFormatted = formatMoney(remainingCents);
+                    if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted} away from Free Standard Shipping`;
+                    if (progressBar) progressBar.style.width = percent + '%';
+                });
+            }
+        } finally {
+            // Pequeño retraso para liberar la bandera después de que las animaciones terminen
+            setTimeout(() => { isUpdating = false; }, 200);
         }
     }
 
     function updateAllBars() {
+        if (isUpdating) return;
         document.querySelectorAll('.free-shipping-bar').forEach(bar => updateShippingBar(bar));
     }
 
@@ -132,38 +145,35 @@
         });
     }
 
-    // ----- SOLUCIÓN PARA EL COMPONENTE DINÁMICO -----
-    // Observa el DOM para detectar cuándo aparece el elemento .free-shipping-bar
-    // y entonces ejecuta init (o actualiza las barras). También se vuelve a ejecutar
-    // si el contenido del componente cambia y la barra se vuelve a insertar.
+    // Observer optimizado: solo se activa cuando aparece la barra, y evita bucles
     function observeFreeShippingBar() {
-        const targetNode = document.body; // o podrías usar document.querySelector('cart-items-component') si quieres más específico
-        const config = { childList: true, subtree: true };
         let initialized = false;
+        const observer = new MutationObserver(function (mutations) {
+            // Si estamos actualizando, ignoramos todas las mutaciones
+            if (isUpdating) return;
 
-        const callback = function (mutationsList, observer) {
-            // Si ya existe al menos una barra y aún no hemos inicializado, inicializamos
-            if (!initialized && document.querySelector('.free-shipping-bar')) {
+            // Buscar si la barra ha sido añadida al DOM
+            const barExists = document.querySelector('.free-shipping-bar');
+            if (!initialized && barExists) {
                 initialized = true;
-                // Esperamos un poco más para asegurar que el componente haya terminado de pintar
-                setTimeout(() => {
+                // Esperamos a que el carrito esté listo antes de inicializar
+                waitForCart(() => {
                     init();
-                }, 100);
-            } else if (document.querySelector('.free-shipping-bar')) {
-                // Si ya está inicializado pero la barra se reemplazó (por ejemplo, al cambiar de página o actualizar carrito),
-                // actualizamos sus valores
+                }, 30);
+            } else if (barExists && window.Shopify && window.Shopify.cart) {
+                // Si la barra ya existe y el carrito está listo, actualizamos
                 updateAllBars();
             }
-        };
+        });
 
-        const observer = new MutationObserver(callback);
-        observer.observe(targetNode, config);
+        observer.observe(document.body, { childList: true, subtree: true });
     }
 
-    // Inicialización tradicional con DOMContentLoaded + setTimeout (lo mantienes)
     document.addEventListener('DOMContentLoaded', function () {
-        setTimeout(() => init(), 1000);
-        // Además, activamos el observer para capturar casos donde la barra aparece más tarde
+        // Usamos waitForCart en lugar de setTimeout para mayor confiabilidad
+        waitForCart(() => {
+            init();
+        }, 50);
         observeFreeShippingBar();
     });
 

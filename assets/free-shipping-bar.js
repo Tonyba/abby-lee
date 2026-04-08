@@ -40,6 +40,7 @@
         const threshold = parseFloat(barContainer.dataset.freeShippingThreshold) || 7500;
         // Obtener tasa de conversión dinámicamente
         const conversionRate = getConversionRate(barContainer);
+        conversionRate.toLocaleString(conversionRate)
 
         // Obtener total del carrito en moneda base (centavos)
         let cartTotalBase = 0;

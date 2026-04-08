@@ -1,4 +1,7 @@
 (function () {
+
+    const thresholdsTtext = document.querySelectorAll('.threshold-text');
+
     // Helper to format money (centavos en la moneda actual)
     function formatMoney(cents, format) {
         if (typeof cents === 'string') cents = cents.replace('.', '');

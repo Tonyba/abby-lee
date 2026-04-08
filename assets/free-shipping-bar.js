@@ -5,7 +5,6 @@
     // Espera a que Shopify esté listo y el carrito cargado
     function waitForCart(callback, maxAttempts = 50) {
         if (typeof window.Shopify.cart !== 'undefined') {
-            console.log('pasa')
             callback();
         } else if (maxAttempts > 0) {
             setTimeout(function () {
@@ -156,6 +155,7 @@
             // Si estamos actualizando, ignoramos todas las mutaciones
             if (isUpdating) return;
 
+            console.log('first')
             // Buscar si la barra ha sido añadida al DOM
             const barExists = document.querySelector('.free-shipping-bar');
             if (!initialized && barExists) {

@@ -63,6 +63,8 @@
             return; // Salir silenciosamente; la actualización se reintentará cuando el carrito esté listo
         }
 
+
+
         isUpdating = true;
 
         try {
@@ -79,7 +81,11 @@
             const cartTotalBaseCents = window.Shopify.cart.total_price;
             const cartTotalCurrentCents = Math.round(cartTotalBaseCents);
             const remainingCents = thresholdCents - cartTotalCurrentCents;
+
+            console.log(`${thresholdCents} - ${cartTotalCurrentCents}`)
             let percent = (cartTotalCurrentCents / thresholdCents) * 100;
+
+
             if (percent > 100) percent = 100;
 
             document.querySelectorAll('.threshold-text').forEach(el => {
@@ -88,6 +94,8 @@
 
             let progressBar = barContainer.querySelector('.fsb-progress-bar');
             const messageEl = barContainer.querySelector('.fsb-message-text');
+
+
 
             if (remainingCents <= 0) {
                 requestAnimationFrame(() => {

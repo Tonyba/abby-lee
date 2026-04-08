@@ -26,6 +26,8 @@
   assign threshold_decimal = threshold_current_cents | divided_by: 100.0
 %}
 
+{{ cart.currency.conversion_rate }}
+
 {% stylesheet %}
   .free-shipping-bar {
     font-family: inherit;

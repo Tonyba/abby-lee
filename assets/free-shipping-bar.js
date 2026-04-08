@@ -134,6 +134,7 @@
         }
 
         document.addEventListener('cart:update', function (e) {
+            console.log('pasa')
             if (e.detail && e.detail.resource) {
                 window.Shopify.cart = e.detail.resource;
                 updateAllBars();

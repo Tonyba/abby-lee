@@ -141,8 +141,7 @@
         }
 
         document.addEventListener('cart:update', function (e) {
-            console.log(e);
-            if (e.detail && e.detail.resource) {
+            if (e.detail && Object.keys(e.detail.resource).length > 0) {
                 console.log('pasando e.detail.resource')
                 window.Shopify.cart = e.detail.resource;
                 console.log(window.Shopify.cart)

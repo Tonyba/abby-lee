@@ -36,7 +36,6 @@
     function updateShippingBar(barContainer) {
         // Datos del umbral (ya convertido a moneda actual en Liquid, en centavos)
 
-        console.log(barContainer)
         const conversionRate = getConversionRate();
         const thresholdCents = (parseFloat(barContainer.dataset.freeShippingThreshold) || 7500) * conversionRate;
 
@@ -57,6 +56,8 @@
         // Actualizar barra y mensaje
         const progressBar = barContainer.querySelector('.fsb-progress-bar');
         const messageEl = barContainer.querySelector('.fsb-message-text');
+
+        console.log(progressBar)
 
         if (remainingCents <= 0) {
             barContainer.classList.add('free-shipping-achieved');

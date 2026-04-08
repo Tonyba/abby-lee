@@ -52,6 +52,7 @@
         const cartTotalBaseCents = window.Shopify.cart.total_price;
         // Convertir a moneda actual
         const cartTotalCurrentCents = Math.round(cartTotalBaseCents);
+        console.log(`${thresholdCents} - ${cartTotalCurrentCents}`);
         const remainingCents = thresholdCents - cartTotalCurrentCents;
         let percent = (cartTotalCurrentCents / thresholdCents) * 100;
         if (percent > 100) percent = 100;
@@ -67,7 +68,7 @@
         const messageEl = barContainer.querySelector('.fsb-message-text');
 
 
-        if (remainingCents <= 0) {
+        if (  <= 0) {
             requestAnimationFrame(() => {
                 barContainer.classList.add('free-shipping-achieved');
                 if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';

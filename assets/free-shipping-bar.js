@@ -1,7 +1,7 @@
 (function () {
     // Espera a que Shopify esté listo y el carrito cargado
     function waitForCart(callback, maxAttempts = 50) {
-        if (window.Shopify && window.Shopify.cart && window.Shopify.cart.total_price !== undefined) {
+        if (window.Shopify && window.Shopify.cart && window.Shopify.cart !== undefined) {
             callback();
         } else if (maxAttempts > 0) {
             setTimeout(function () {

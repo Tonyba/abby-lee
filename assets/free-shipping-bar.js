@@ -65,15 +65,13 @@
                 if (progressBar) progressBar.style.width = '100%';
             });
         } else {
-            barContainer.classList.remove('free-shipping-achieved');
-            const remainingFormatted = formatMoney(remainingCents);
 
-            if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted} away from Free Standard Shipping`;
-            // if (progressBar) progressBar.style.width = percent + '%';
             requestAnimationFrame(() => {
-                console.log(percent)
-                progressBar = document.querySelector('.fsb-progress-bar');
-                progressBar.style.width = percent + '%';
+                barContainer.classList.remove('free-shipping-achieved');
+                const remainingFormatted = formatMoney(remainingCents);
+
+                if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted} away from Free Standard Shipping`;
+                if (progressBar) progressBar.style.width = percent + '%';
             });
         }
     }

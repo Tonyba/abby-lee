@@ -57,7 +57,7 @@
         const progressBar = barContainer.querySelector('.fsb-progress-bar');
         const messageEl = barContainer.querySelector('.fsb-message-text');
 
-        console.log(progressBar)
+        console.log(percent)
 
         if (remainingCents <= 0) {
             barContainer.classList.add('free-shipping-achieved');

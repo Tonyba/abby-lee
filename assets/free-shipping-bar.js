@@ -59,11 +59,12 @@
             }
         }
 
-        console.log(threshold)
+        console.log(cartTotalBase)
 
         // Convertir total a la moneda actual (centavos)
         const cartTotalCurrent = Math.round(cartTotalBase * conversionRate);
-        const remaining = (threshold * conversionRate) - cartTotalCurrent;
+        const remaining = threshold - cartTotalCurrent;
+
         let percent = (cartTotalCurrent / threshold) * 100;
         if (percent > 100) percent = 100;
 

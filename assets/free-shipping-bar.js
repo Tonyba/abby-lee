@@ -54,7 +54,7 @@
         });
 
         // Actualizar barra y mensaje
-        const progressBar = barContainer.querySelector('.fsb-progress-bar');
+        let progressBar = barContainer.querySelector('.fsb-progress-bar');
         const messageEl = barContainer.querySelector('.fsb-message-text');
 
 
@@ -69,6 +69,7 @@
             if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted} away from Free Standard Shipping`;
             // if (progressBar) progressBar.style.width = percent + '%';
             requestAnimationFrame(() => {
+                progressBar = document.querySelector('.fsb-progress-bar');
                 progressBar.style.width = percent + '%';
             });
         }

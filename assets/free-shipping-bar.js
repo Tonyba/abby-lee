@@ -1,6 +1,6 @@
 (function () {
 
-    const thresholdsTtext = document.querySelectorAll('.threshold-text');
+    const thresholdsTtext = Array.from(document.querySelectorAll('.threshold-text'));
 
     // Helper to format money (centavos en la moneda actual)
     function formatMoney(cents, format) {
@@ -45,6 +45,11 @@
     function handleShippingCart(barContainer) {
         // Obtener tasa de conversión dinámicamente
         const conversionRate = getConversionRate(barContainer);
+
+        thresholdsTtext.forEach(el => {
+            el.innerHTML = formatMoney(parseFloat(barContainer.dataset.freeShippingThreshold) * conversionRate);
+        });
+
         conversionRate.toLocaleString(conversionRate)
         const threshold = (parseFloat(barContainer.dataset.freeShippingThreshold) || 7500) * conversionRate;
 

@@ -1,15 +1,29 @@
 {% comment %}
-  Free Shipping Bar - Threshold: $75
-  Shows progress bar and message indicating how much more to spend for free shipping.
+  Free Shipping Bar - Threshold: $75 USD (convertido dinámicamente a la moneda seleccionada)
 {% endcomment %}
 
 {% liquid
-  assign free_shipping_minimum = settings.free_shipping_threshold
-  if free_shipping_minimum != blank
-    assign free_shipping_minimum = free_shipping_minimum | times: 100.0
+  # 1. Obtener umbral base en dólares (como número decimal, ej: 75)
+  assign usd_threshold = settings.free_shipping_threshold
+  if usd_threshold == blank
+    assign usd_threshold = 75.0
   else
-    assign free_shipping_minimum = 7500
+    assign usd_threshold = usd_threshold | times: 1.0
   endif
+
+  # 2. Obtener tasa de conversión desde USD a la moneda actual
+  # Nota: Asume que la moneda base de la tienda es USD.
+  # Si no es así, necesitas calcular la tasa USD -> moneda base adicionalmente.
+  assign conversion_rate = cart.currency.conversion_rate
+  if conversion_rate == blank
+    assign conversion_rate = 1.0
+  endif
+
+  # 3. Calcular umbral en la moneda actual (en centavos)
+  assign threshold_current_cents = usd_threshold | times: conversion_rate | times: 100 | round
+
+  # 4. Para mostrar el umbral formateado (sin doble conversión)
+  assign threshold_decimal = threshold_current_cents | divided_by: 100.0
 %}
 
 {% stylesheet %}
@@ -19,7 +33,6 @@
     padding: 0 20px;
     margin-bottom: 30px;
   }
-
   .fsb-message {
     margin-bottom: 8px;
     font-weight: 500;
@@ -44,22 +57,17 @@
     color: #2e7d32;
     font-weight: bold;
   }
-
   .fsb-message-text {
     font-weight: 600;
   }
-
   .free-shipping-below {
     margin-top: 10px;
     font-weight: 600;
     color: #5c5c5c;
   }
-
   .fsb-progress-bar {
     background-color: var(--color-primary-button-background);
   }
-
-  /* Responsive */
   @media (max-width: 768px) {
     .free-shipping-bar {
       padding: 10px;
@@ -71,38 +79,34 @@
 {% endstylesheet %}
 
 <style>
-   .free-shipping-bar:not(.free-shipping-achieved) .fsb-message {
+  .free-shipping-bar:not(.free-shipping-achieved) .fsb-message {
     display: flex;
     gap: 14px;
   }
-
   .free-shipping-bar:not(.free-shipping-achieved) .fsb-message:after {
     display: block;
     content: '';
-    -webkit-mask: url({{ 'truck.svg' | asset_url }}) no-repeat center /
-      22px;
+    -webkit-mask: url({{ 'truck.svg' | asset_url }}) no-repeat center / 22px;
     background-color: currentColor;
-    display: block;
     width: 22px;
     height: 18px;
-    flex-shrink: 0
+    flex-shrink: 0;
   }
 </style>
 
 <div
   class="free-shipping-bar"
-  data-free-shipping-threshold="{{ free_shipping_minimum }}"
+  data-free-shipping-threshold="{{ threshold_current_cents }}"
+  data-cart-total-current="{{ cart.total_price | times: conversion_rate | round }}"
 >
   <div class="fsb-message items-center">
-    <span class="fsb-message-text">
-      {% comment %} Dynamic text will be updated by JS {% endcomment %}
-    </span>
+    <span class="fsb-message-text"></span>
   </div>
   <div class="fsb-progress">
     <div class="fsb-progress-bar" style="width: 0%;"></div>
   </div>
   <div class="flex justify-between free-shipping-below">
-    <span> {{ '0' | money_with_currency }} </span>
-    <span> {{ free_shipping_minimum | money_with_currency }} </span>
+    <span> {{ 0 | money_with_currency }} </span>
+    <span> {{ threshold_decimal | round: 2 | append: ' ' | append: cart.currency.symbol }} </span>
   </div>
 </div>

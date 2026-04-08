@@ -67,7 +67,10 @@
             const remainingFormatted = formatMoney(remainingCents);
 
             if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted} away from Free Standard Shipping`;
-            if (progressBar) progressBar.style.width = percent + '%';
+            // if (progressBar) progressBar.style.width = percent + '%';
+            requestAnimationFrame(() => {
+                progressBar.style.width = percent + '%';
+            });
         }
     }
 

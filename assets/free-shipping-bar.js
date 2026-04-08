@@ -25,7 +25,7 @@
     function getConversionRate(barContainer) {
         // Priorizar window.Shopify.currency.rate (más fiable en el cliente)
         if (window.Shopify && window.Shopify.currency && typeof window.Shopify.currency.rate === 'number') {
-            return window.Shopify.currency.rate;
+            return parseFloat(window.Shopify.currency.rate);
         }
         // Fallback al data attribute (por si el snippet aún lo provee)
         const rateAttr = barContainer.dataset.conversionRate;

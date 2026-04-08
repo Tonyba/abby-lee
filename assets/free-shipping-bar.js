@@ -127,7 +127,6 @@
     }
 
     function init() {
-        console.log('initing')
         if (!window.Shopify || !window.Shopify.cart) {
             fetchCartAndUpdate();
         } else {
@@ -135,7 +134,6 @@
         }
 
         document.addEventListener('cart:update', function (e) {
-            console.log('pasa')
             if (e.detail && e.detail.resource) {
                 window.Shopify.cart = e.detail.resource;
                 updateAllBars();

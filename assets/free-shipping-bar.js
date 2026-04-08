@@ -40,6 +40,14 @@
         const conversionRate = getConversionRate();
         const thresholdCents = (parseFloat(barContainer.dataset.freeShippingThreshold) || 7500) * conversionRate;
 
+        requestAnimationFrame(() => {
+            const thresholdsTtext = Array.from(document.querySelectorAll('.threshold-text'));
+            thresholdsTtext.forEach(el => {
+                el.innerHTML = formatMoney(parseFloat(barContainer.dataset.freeShippingThreshold) * conversionRate);
+            });
+        });
+
+
         // Total del carrito en moneda base (centavos USD)
         const cartTotalBaseCents = window.Shopify.cart.total_price;
         // Convertir a moneda actual
@@ -78,6 +86,8 @@
     }
 
     function updateAllBars() {
+
+
         document.querySelectorAll('.free-shipping-bar').forEach(bar => updateShippingBar(bar));
     }
 

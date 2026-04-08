@@ -20,7 +20,7 @@
         }
 
         let amount = cents / 100;
-        let formatted = moneyFormat + ' ' + amount.toFixed(2);
+        let formatted = moneyFormat + '' + amount.toFixed(2);
         return formatted;
     }
 

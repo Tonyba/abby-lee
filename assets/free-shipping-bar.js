@@ -24,7 +24,7 @@
     // Obtener la tasa de conversión actual (base -> moneda seleccionada)
     function getConversionRate(barContainer) {
         // Priorizar window.Shopify.currency.rate (más fiable en el cliente)
-        if (window.Shopify && window.Shopify.currency) {
+        if (window.Shopify && window.Shopify.currency && isNumeric(window.Shopify.currency.rate)) {
             return parseFloat(window.Shopify.currency.rate);
         }
         // Fallback al data attribute (por si el snippet aún lo provee)
@@ -34,6 +34,10 @@
         return 1.0;
     }
 
+    function isNumeric(num) {
+        return !isNaN(num)
+    }
+
     // Actualiza una barra específica (con setTimeout para la animación)
     function handleShippingCart(barContainer) {
         // Leer umbral convertido (centavos en moneda actual) – ya viene convertido desde Liquid
@@ -41,9 +45,7 @@
         // Obtener tasa de conversión dinámicamente
         const conversionRate = getConversionRate(barContainer);
 
-        console.log(conversionRate)
         conversionRate.toLocaleString(conversionRate)
-        console.log(conversionRate)
 
         // Obtener total del carrito en moneda base (centavos)
         let cartTotalBase = 0;

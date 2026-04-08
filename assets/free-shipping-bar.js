@@ -143,8 +143,9 @@
 
         document.addEventListener('cart:update', function (e) {
             console.log('cart updated')
-            console.log(e.detail)
-            if (e.detail && e.detail.resource) {
+
+            if ((e.detail && e.detail.resource) {
+                console.log('pasando e.detail.resource')
                 window.Shopify.cart = e.detail.resource;
                 updateAllBars();
             } else {

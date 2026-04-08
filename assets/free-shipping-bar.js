@@ -63,6 +63,8 @@
         const cartTotalCurrent = Math.round(cartTotalBase * conversionRate);
         const remaining = threshold - cartTotalCurrent;
 
+        console.log('remaining:', remaining)
+
         let percent = (cartTotalCurrent / threshold) * 100;
         if (percent > 100) percent = 100;
 

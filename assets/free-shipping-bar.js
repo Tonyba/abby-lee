@@ -47,7 +47,6 @@
 
         conversionRate.toLocaleString(conversionRate)
 
-        console.log(conversionRate)
 
         // Obtener total del carrito en moneda base (centavos)
         let cartTotalBase = 0;

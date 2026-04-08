@@ -4,7 +4,7 @@
 
     // Espera a que Shopify esté listo y el carrito cargado
     function waitForCart(callback, maxAttempts = 50) {
-        if (typeof window.Shopify.cart !== 'undefined') {
+        if (typeof window.Shopify !== 'undefined') {
             callback();
         } else if (maxAttempts > 0) {
             setTimeout(function () {

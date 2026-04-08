@@ -23,7 +23,8 @@
             else moneyFormat = '${{amount}}';
         }
         let amount = cents / 100;
-        return moneyFormat.replace('{{amount}}', amount.toFixed(2));
+        let formatted = moneyFormat + '' + amount.toFixed(2);
+        return formatted;
     }
 
     function getConversionRate() {

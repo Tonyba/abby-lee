@@ -47,9 +47,9 @@
         const conversionRate = getConversionRate(barContainer);
 
         thresholdsTtext.forEach(el => {
-            setTimeout(() => {
-                el.innerHTML = formatMoney(parseFloat(barContainer.dataset.freeShippingThreshold) * conversionRate);
-            }, 500);
+
+            el.innerHTML = formatMoney(parseFloat(barContainer.dataset.freeShippingThreshold) * conversionRate);
+
         });
 
         conversionRate.toLocaleString(conversionRate)

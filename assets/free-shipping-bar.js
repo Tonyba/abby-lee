@@ -52,6 +52,12 @@
     }
 
     function updateShippingBar(barContainer) {
+
+        if (!window.Shopify || !window.Shopify.cart || typeof window.Shopify.cart.total_price === 'undefined') {
+            console.warn('Carrito no disponible aún');
+            return;
+        }
+
         const conversionRate = getConversionRate();
         const thresholdCents = (parseFloat(barContainer.dataset.freeShippingThreshold) || 7500) * conversionRate;
 

@@ -35,13 +35,14 @@
 
     function updateShippingBar(barContainer) {
         // Datos del umbral (ya convertido a moneda actual en Liquid, en centavos)
-        const thresholdCents = parseFloat(barContainer.dataset.freeShippingThreshold) || 7500;
+
         const conversionRate = getConversionRate();
+        const thresholdCents = (parseFloat(barContainer.dataset.freeShippingThreshold) || 7500) * conversionRate;
 
         // Total del carrito en moneda base (centavos USD)
         const cartTotalBaseCents = window.Shopify.cart.total_price;
         // Convertir a moneda actual
-        const cartTotalCurrentCents = Math.round(cartTotalBaseCents * conversionRate);
+        const cartTotalCurrentCents = Math.round(cartTotalBaseCents);
         const remainingCents = thresholdCents - cartTotalCurrentCents;
         let percent = (cartTotalCurrentCents / thresholdCents) * 100;
         if (percent > 100) percent = 100;

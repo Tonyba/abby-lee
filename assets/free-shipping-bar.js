@@ -66,7 +66,7 @@
         }
 
 
-
+        console.log('pasa igual')
         isUpdating = true;
 
         try {

@@ -94,15 +94,11 @@
   }
 </style>
 
-{% capture currencyString %}{{ shop.money_format }}{% endcapture %}
-{% assign tempArray = currencyString | split: ‘{’ %}
-{% assign currencySymbol = tempArray.first %}
-
 <div
   class="free-shipping-bar"
   data-free-shipping-threshold="{{ threshold_current_cents }}"
   data-conversion-rate="{{ conversion_rate }}"
-  data-money-format="{{ currencySymbol }}"
+  data-money-format="{{ cart.currency.symbol }}"
 >
   <div class="fsb-message items-center">
     <span class="fsb-message-text"></span>

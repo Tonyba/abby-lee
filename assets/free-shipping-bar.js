@@ -36,6 +36,7 @@
     function updateShippingBar(barContainer) {
         // Datos del umbral (ya convertido a moneda actual en Liquid, en centavos)
 
+        console.log(barContainer)
         const conversionRate = getConversionRate();
         const thresholdCents = (parseFloat(barContainer.dataset.freeShippingThreshold) || 7500) * conversionRate;
 

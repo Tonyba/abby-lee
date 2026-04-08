@@ -89,7 +89,6 @@
     function updateFreeShippingBar() {
         const barContainers = document.querySelectorAll('.free-shipping-bar');
         if (!barContainers.length) return;
-        console.log('Updating free shipping bars:', barContainers.length);
         barContainers.forEach(bar => handleShippingCart(bar));
     }
 

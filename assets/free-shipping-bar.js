@@ -66,6 +66,8 @@
         let percent = (cartTotalCurrent / threshold) * 100;
         if (percent > 100) percent = 100;
 
+        console.log('percent:', percent);
+
         // Aplicar setTimeout para asegurar que el DOM esté listo y la animación se ejecute
         setTimeout(() => {
             // Volvemos a obtener los elementos por si acaso (como en el original)

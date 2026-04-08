@@ -127,6 +127,7 @@
     }
 
     function init() {
+        console.log('initing')
         if (!window.Shopify || !window.Shopify.cart) {
             fetchCartAndUpdate();
         } else {

@@ -48,8 +48,9 @@
 
 
         thresholdsTtext.forEach(el => {
-            el.innerHTML = formatMoney(parseFloat(barContainer.dataset.freeShippingThreshold) * conversionRate);
-            console.log(el.innerHTML)
+            setTimeout(() => {
+                el.innerHTML = formatMoney(parseFloat(barContainer.dataset.freeShippingThreshold) * conversionRate);
+            }, 1000);
         });
 
         conversionRate.toLocaleString(conversionRate)

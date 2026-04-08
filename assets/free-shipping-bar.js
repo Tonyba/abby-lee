@@ -63,8 +63,6 @@
             return; // Salir silenciosamente; la actualización se reintentará cuando el carrito esté listo
         }
 
-
-        console.log('pasa igual')
         isUpdating = true;
 
         try {

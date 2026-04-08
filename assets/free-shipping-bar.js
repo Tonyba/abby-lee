@@ -112,6 +112,7 @@
 
         // Escuchar eventos de actualización del carrito
         document.addEventListener('cart:update', function (e) {
+            console.log('hey')
             if (e.detail && e.detail.resource) {
                 window.Shopify.cart = e.detail.resource;
                 updateAllBars();

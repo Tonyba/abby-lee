@@ -59,9 +59,11 @@
 
 
         if (remainingCents <= 0) {
-            barContainer.classList.add('free-shipping-achieved');
-            if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';
-            if (progressBar) progressBar.style.width = '100%';
+            requestAnimationFrame(() => {
+                barContainer.classList.add('free-shipping-achieved');
+                if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';
+                if (progressBar) progressBar.style.width = '100%';
+            });
         } else {
             barContainer.classList.remove('free-shipping-achieved');
             const remainingFormatted = formatMoney(remainingCents);

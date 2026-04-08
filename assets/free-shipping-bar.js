@@ -148,9 +148,16 @@
         });
     }
 
-    document.addEventListener('DOMContentLoaded', function () {
-        setTimeout(() => init(), 1000);
-    });
+    function defer(method) {
+        if (typeof window.Shopify != 'undefined') {
+            method();
+        } else {
+            setTimeout(function () { defer(method) }, 50);
+        }
+    }
+
+    defer(init);
+
 
     window.updateFreeShippingBar = updateFreeShippingBar;
 })();

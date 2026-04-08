@@ -120,7 +120,6 @@
     }
 
     function updateAllBars() {
-        console.log(isUpdating)
         if (isUpdating) return;
         document.querySelectorAll('.free-shipping-bar').forEach(bar => updateShippingBar(bar));
     }

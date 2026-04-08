@@ -113,7 +113,9 @@
     }
 
     function updateAllBars() {
-        document.querySelectorAll('.free-shipping-bar').forEach(bar => updateShippingBar(bar));
+        requestAnimationFrame(() => {
+            document.querySelectorAll('.free-shipping-bar').forEach(bar => updateShippingBar(bar));
+        });
     }
 
     function fetchCartAndUpdate() {

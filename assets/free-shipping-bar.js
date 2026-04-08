@@ -24,7 +24,7 @@
     // Obtener la tasa de conversión actual (base -> moneda seleccionada)
     function getConversionRate(barContainer) {
         // Priorizar window.Shopify.currency.rate (más fiable en el cliente)
-        if (window.Shopify && window.Shopify.currency && typeof window.Shopify.currency.rate === 'number') {
+        if (window.Shopify && window.Shopify.currency) {
             return parseFloat(window.Shopify.currency.rate);
         }
         // Fallback al data attribute (por si el snippet aún lo provee)

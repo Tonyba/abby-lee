@@ -121,13 +121,15 @@
             }
         });
 
+
         document.addEventListener('currency:changed', function () {
             updateAllBars();
         });
     }
 
-
-    waitForCart(init);
+    document.addEventListener('DOMContentLoaded', function () {
+        setTimeout(() => init(), 1000);
+    });
 
 
     window.updateFreeShippingBar = updateAllBars;

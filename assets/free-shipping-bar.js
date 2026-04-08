@@ -68,7 +68,7 @@
         const messageEl = barContainer.querySelector('.fsb-message-text');
 
 
-        if (  <= 0) {
+        if (remainingCents <= 0) {
             requestAnimationFrame(() => {
                 barContainer.classList.add('free-shipping-achieved');
                 if (messageEl) messageEl.innerHTML = '🎉 Congratulations! You have free shipping 🎉';

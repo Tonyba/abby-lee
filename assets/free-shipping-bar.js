@@ -127,6 +127,7 @@
             .then(res => res.json())
             .then(cart => {
                 if (window.Shopify) window.Shopify.cart = cart;
+                console.log(window.Shopify.cart)
                 updateAllBars();
             })
             .catch(err => console.error('Error fetching cart:', err));
@@ -144,6 +145,7 @@
             if (e.detail && e.detail.resource) {
                 console.log('pasando e.detail.resource')
                 window.Shopify.cart = e.detail.resource;
+                console.log(window.Shopify.cart)
                 updateAllBars();
             } else {
                 fetchCartAndUpdate();

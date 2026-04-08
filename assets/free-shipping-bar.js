@@ -68,8 +68,6 @@
 
             if (messageEl) messageEl.innerHTML = `You're ${remainingFormatted} away from Free Standard Shipping`;
             if (progressBar) progressBar.style.width = percent + '%';
-            console.log(progressBar);
-            console.log(percent)
         }
     }
 

@@ -56,7 +56,8 @@
             }
         }
 
-        console.log(cartTotalBase)
+        console.log('cartTotalBase:', cartTotalBase);
+        console.log('threshold:', threshold)
 
         // Convertir total a la moneda actual (centavos)
         const cartTotalCurrent = Math.round(cartTotalBase * conversionRate);

@@ -127,7 +127,6 @@
     }
 
     function init() {
-        console.log('initing')
         if (!window.Shopify || !window.Shopify.cart) {
             fetchCartAndUpdate();
         } else {
@@ -180,6 +179,7 @@
         }, 50);
         observeFreeShippingBar();
     });
+
 
     window.updateFreeShippingBar = updateAllBars;
 })();

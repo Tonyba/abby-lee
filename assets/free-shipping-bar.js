@@ -50,7 +50,7 @@
             formatted = formatted.replace('{{amount}}', formattedAmount);
         }
 
-        return formatted;
+        return getcurrency() + formattedAmount;
     }
 
     function getConversionRate() {

@@ -1084,7 +1084,7 @@
           "type": "group",
           "name": "t:names.group",
           "settings": {
-            "custom_css": "follow-us-container",
+            "custom_css": "follow-us-container justify-center-t",
             "content_direction": "row",
             "vertical_on_mobile": false,
             "horizontal_alignment": "flex-end",

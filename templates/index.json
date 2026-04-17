@@ -4482,6 +4482,66 @@
                     "custom_width_mobile": 100
                   },
                   "blocks": {}
+                },
+                "button_nYwiCV": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "custom_css": "circle",
+                    "label": "",
+                    "icon": "shopify://shop_images/patreon.svg",
+                    "inline_icon": false,
+                    "svg": "",
+                    "icon_width": 20,
+                    "link": "https://www.tiktok.com/@aldctherealabbylee",
+                    "open_in_new_tab": true,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                },
+                "button_G7giWj": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "custom_css": "circle",
+                    "label": "",
+                    "icon": "shopify://shop_images/Cameo.svg",
+                    "inline_icon": false,
+                    "svg": "",
+                    "icon_width": 20,
+                    "link": "https://www.tiktok.com/@aldctherealabbylee",
+                    "open_in_new_tab": true,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                },
+                "button_n467L4": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "custom_css": "circle",
+                    "label": "",
+                    "icon": "shopify://shop_images/youtube.svg",
+                    "inline_icon": false,
+                    "svg": "",
+                    "icon_width": 20,
+                    "link": "https://www.tiktok.com/@aldctherealabbylee",
+                    "open_in_new_tab": true,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
@@ -4489,7 +4549,10 @@
                 "button_rJCGzg",
                 "button_mdpDKw",
                 "button_iLdH9R",
-                "button_R8tddK"
+                "button_R8tddK",
+                "button_nYwiCV",
+                "button_G7giWj",
+                "button_n467L4"
               ]
             }
           },

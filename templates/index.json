@@ -4542,6 +4542,26 @@
                     "custom_width_mobile": 100
                   },
                   "blocks": {}
+                },
+                "button_tFG4MJ": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "custom_css": "circle",
+                    "label": "",
+                    "icon": "shopify://shop_images/youtube.svg",
+                    "inline_icon": false,
+                    "svg": "",
+                    "icon_width": 20,
+                    "link": "https://www.youtube.com/@therealabbyleemiller",
+                    "open_in_new_tab": true,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
@@ -4552,7 +4572,8 @@
                 "button_R8tddK",
                 "button_nYwiCV",
                 "button_G7giWj",
-                "button_n467L4"
+                "button_n467L4",
+                "button_tFG4MJ"
               ]
             }
           },

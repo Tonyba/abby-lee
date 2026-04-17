@@ -345,6 +345,8 @@ body {
 /*follow us*/
 .follow-us-container .circle {
     padding: 10px 11px;
+    min-width: 40px;
+    min-height: 40px;
 }
 
 /*footer*/

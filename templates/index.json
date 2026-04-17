@@ -3186,7 +3186,7 @@
                 "inline_icon": false,
                 "svg": "",
                 "icon_width": 13,
-                "link": "shopify://collections/all",
+                "link": "shopify://pages/about-us",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",

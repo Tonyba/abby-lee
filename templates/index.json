@@ -4462,13 +4462,34 @@
                     "custom_width_mobile": 100
                   },
                   "blocks": {}
+                },
+                "button_R8tddK": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "custom_css": "circle",
+                    "label": "",
+                    "icon": "shopify://shop_images/thread.svg",
+                    "inline_icon": false,
+                    "svg": "",
+                    "icon_width": 20,
+                    "link": "https://www.tiktok.com/@aldctherealabbylee",
+                    "open_in_new_tab": true,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
                 "text_N64rpq",
                 "button_rJCGzg",
                 "button_mdpDKw",
-                "button_iLdH9R"
+                "button_iLdH9R",
+                "button_R8tddK"
               ]
             }
           },

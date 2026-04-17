@@ -1080,22 +1080,22 @@
             "payment_icons_pqxXBp"
           ]
         },
-        "group_yPpy89": {
+        "group_RUpXnq": {
           "type": "group",
-          "name": "t:names.column",
+          "name": "t:names.group",
           "settings": {
-            "custom_css": "follow-us-container center-t",
+            "custom_css": "follow-us-container",
             "content_direction": "row",
             "vertical_on_mobile": false,
             "horizontal_alignment": "flex-end",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-end",
-            "vertical_alignment_flex_direction_column": "flex-start",
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
             "gap": 12,
             "width": "fill",
             "custom_width": 100,
-            "width_mobile": "fill",
+            "width_mobile": "fit-content",
             "custom_width_mobile": 100,
             "height": "fit",
             "custom_height": 100,
@@ -1121,7 +1121,7 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "button_RHHLL9": {
+            "button_hcmXLm": {
               "type": "button",
               "name": "t:names.button",
               "settings": {
@@ -1130,7 +1130,7 @@
                 "icon": "shopify://shop_images/x_1.svg",
                 "inline_icon": false,
                 "svg": "",
-                "icon_width": 15,
+                "icon_width": 20,
                 "link": "https://x.com/abby_lee_miller",
                 "open_in_new_tab": true,
                 "style_class": "button",
@@ -1141,7 +1141,7 @@
               },
               "blocks": {}
             },
-            "button_J3PjVJ": {
+            "button_tBtfH9": {
               "type": "button",
               "name": "t:names.button",
               "settings": {
@@ -1150,7 +1150,7 @@
                 "icon": "shopify://shop_images/instagram_7_1.svg",
                 "inline_icon": false,
                 "svg": "",
-                "icon_width": 15,
+                "icon_width": 20,
                 "link": "https://www.instagram.com/therealabbylee",
                 "open_in_new_tab": true,
                 "style_class": "button",
@@ -1161,7 +1161,7 @@
               },
               "blocks": {}
             },
-            "button_CbGCmA": {
+            "button_KnkYca": {
               "type": "button",
               "name": "t:names.button",
               "settings": {
@@ -1170,9 +1170,129 @@
                 "icon": "shopify://shop_images/tiktok.svg",
                 "inline_icon": false,
                 "svg": "",
-                "icon_width": 15,
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
+                "icon_width": 20,
+                "link": "https://www.tiktok.com/@aldctherealabbylee",
+                "open_in_new_tab": true,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "button_e4NAK6": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "custom_css": "circle",
+                "label": "",
+                "icon": "shopify://shop_images/thread.svg",
+                "inline_icon": false,
+                "svg": "",
+                "icon_width": 20,
+                "link": "https://www.threads.com/@therealabbylee",
+                "open_in_new_tab": true,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "button_TReVMj": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "custom_css": "circle",
+                "label": "",
+                "icon": "shopify://shop_images/patreon.svg",
+                "inline_icon": false,
+                "svg": "",
+                "icon_width": 20,
+                "link": "https://www.patreon.com/THEREALABBYLEE",
+                "open_in_new_tab": true,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "button_eb8C4H": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "custom_css": "circle",
+                "label": "",
+                "icon": "shopify://shop_images/Cameo.svg",
+                "inline_icon": false,
+                "svg": "",
+                "icon_width": 20,
+                "link": "https://www.cameo.com/therealabbylee",
+                "open_in_new_tab": true,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "button_FPJ6gf": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "custom_css": "circle",
+                "label": "",
+                "icon": "shopify://shop_images/spotify-white.svg",
+                "inline_icon": false,
+                "svg": "",
+                "icon_width": 20,
+                "link": "https://open.spotify.com/show/2DM1Q7YgafZi3CGsUekDyA?nd=1&dlsi=a996b899249b4f60",
+                "open_in_new_tab": true,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "button_6yNp3N": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "custom_css": "circle",
+                "label": "",
+                "icon": "shopify://shop_images/youtube.svg",
+                "inline_icon": false,
+                "svg": "",
+                "icon_width": 20,
+                "link": "https://www.youtube.com/@therealabbyleemiller",
+                "open_in_new_tab": true,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "button_nx9YLt": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "custom_css": "circle",
+                "label": "",
+                "icon": "shopify://shop_images/apple-podcast.svg",
+                "inline_icon": false,
+                "svg": "",
+                "icon_width": 20,
+                "link": "https://podcasts.apple.com/us/podcast/leave-it-on-the-dance-floor/id1693326930",
+                "open_in_new_tab": true,
                 "style_class": "button",
                 "width": "fit-content",
                 "custom_width": 100,
@@ -1183,15 +1303,21 @@
             }
           },
           "block_order": [
-            "button_RHHLL9",
-            "button_J3PjVJ",
-            "button_CbGCmA"
+            "button_hcmXLm",
+            "button_tBtfH9",
+            "button_KnkYca",
+            "button_e4NAK6",
+            "button_TReVMj",
+            "button_eb8C4H",
+            "button_FPJ6gf",
+            "button_6yNp3N",
+            "button_nx9YLt"
           ]
         }
       },
       "block_order": [
         "group_CwimgN",
-        "group_yPpy89"
+        "group_RUpXnq"
       ],
       "name": "t:names.multicolumn",
       "settings": {

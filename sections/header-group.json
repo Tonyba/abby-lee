@@ -306,7 +306,7 @@
           "settings": {
             "text": "Our Legacy",
             "img": "shopify://shop_images/IMG_7543_2.jpg",
-            "link": "#"
+            "link": "shopify://pages/about-us"
           },
           "blocks": {}
         },

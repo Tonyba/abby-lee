@@ -713,7 +713,8 @@ body {
     }
 
 
-    .justify-center-t {
+    .justify-center-t,
+    .justify-center-t>.group-block-content {
         justify-content: center;
     }
 

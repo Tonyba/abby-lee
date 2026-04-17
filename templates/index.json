@@ -4562,6 +4562,26 @@
                     "custom_width_mobile": 100
                   },
                   "blocks": {}
+                },
+                "button_xyE4bF": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "custom_css": "circle",
+                    "label": "",
+                    "icon": "shopify://shop_images/apple-podcast.svg",
+                    "inline_icon": false,
+                    "svg": "",
+                    "icon_width": 20,
+                    "link": "https://podcasts.apple.com/us/podcast/leave-it-on-the-dance-floor/id1693326930",
+                    "open_in_new_tab": true,
+                    "style_class": "button",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
@@ -4573,7 +4593,8 @@
                 "button_nYwiCV",
                 "button_G7giWj",
                 "button_n467L4",
-                "button_tFG4MJ"
+                "button_tFG4MJ",
+                "button_xyE4bF"
               ]
             }
           },

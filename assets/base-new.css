@@ -345,8 +345,11 @@ body {
 /*follow us*/
 .follow-us-container .circle {
     padding: 10px 11px;
-    min-width: 40px;
-    min-height: 40px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
 }
 
 /*footer*/

@@ -1409,7 +1409,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h2>Love Your Gear? Get 10% Off.</h2>",
+                "text": "<h2>LOVE YOUR GEAR? SHARE YOUR STORY.</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -1436,7 +1436,7 @@
               "name": "t:names.description",
               "settings": {
                 "custom_css": "",
-                "text": "<p>Leave a review and receive 10% off your next order. Share your ALDC experience!<br/></p>",
+                "text": "<p>Tell us what you love about your ALDC pieces and how they make you feel in and out of the studio</p>",
                 "width": "100%",
                 "max_width": "none",
                 "alignment": "center",

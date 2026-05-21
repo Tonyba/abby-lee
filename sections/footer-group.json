@@ -917,7 +917,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "bold-red",
-                "text": "<h5><strong>15% OFF</strong> your order when you sign-up to our emails</h5>",
+                "text": "<p>BE <strong>THE FIRST</strong> TO KNOW</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -944,7 +944,7 @@
               "name": "t:names.text",
               "settings": {
                 "custom_css": "",
-                "text": "<p>A new perspective in your inbox. Sign up for our newsletter to stay connected on events happenings, product launches, and more.</p>",
+                "text": "<p>Sign up for ALDC emails and stay updated on new gear, upcoming events, fresh collections, and community news.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",

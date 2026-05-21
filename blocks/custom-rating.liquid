@@ -20,9 +20,15 @@
 
   assign rating_arr = '' | split: ','
 
+  assign reviews_count = 0
+  
   paginate collections.all.products by 50
    for product in collections.all.products
    
+
+    assign reviewers = product.metafields.judgeme.review_summary.count_reviews
+    assign reviews_count = reviews_count | plus: reviewers
+
      assign product_rating = product.metafields.custom.rating.value | default: 0
      assign rating_arr = rating_arr | append: product_rating
 
@@ -121,7 +127,7 @@
 </div>
 
 <div>
-  Based on <strong>{{ rating_arr.size }} Reviews</strong>
+  Based on <strong>{{ reviews_count }} Reviews</strong>
 </div>
 
 {% schema %}

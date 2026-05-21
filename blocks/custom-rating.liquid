@@ -29,14 +29,18 @@
    endfor 
  endpaginate 
 
+  for rating in rating_arr
+  assign rating_num = rating | plus: 0 
+    assign sum = sum | plus: rating_num 
+  endfor
+
+  assign average = sum | times: 1.0 | divided_by: rating_arr.size
 
 -%}
 
-{{ rating_arr }}
-
 <div class="flex items-center justify-center">
   <div class="rating">
-    {{ block.settings.rating }}
+    {{ average }}
   </div>
 
   <div class="stars">

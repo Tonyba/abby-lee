@@ -12,11 +12,27 @@
 {% endstylesheet %}
 
 {% liquid
+  
   assign rating = block.settings.rating
   assign scale_max = 5
   assign rating_count = 5
   assign block_settings = block.settings
+
+  assign rating_arr = '' | split: ','
+
+  paginate collections.all.products by 50
+   for product in collections.all.products
+   
+     assign product_rating = product.metafields.custom.rating.value | default: 0
+     assign rating_arr = rating_arr | append: product_rating
+
+   endfor 
+ endpaginate 
+
+
 -%}
+
+{{ rating_arr }}
 
 <div class="flex items-center justify-center">
   <div class="rating">

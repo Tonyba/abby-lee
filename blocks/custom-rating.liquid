@@ -12,7 +12,7 @@
 
   .below-stars {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 {% endstylesheet %}
 
@@ -59,7 +59,7 @@
       {% liquid
         assign star_count_rating = scale_max
         assign decimal_rating = 0
-        assign decimal = rating | modulo: 1
+        assign decimal = average | modulo: 1
 
         if decimal >= 0.3 and decimal <= 0.7
           assign decimal_rating = 0.5

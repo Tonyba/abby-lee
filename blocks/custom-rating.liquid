@@ -44,7 +44,7 @@
   </div>
 
   <div class="stars">
-    {%- if rating != blank -%}
+    {%- if average != blank -%}
       {% liquid
         assign star_count_rating = scale_max
         assign decimal_rating = 0
@@ -59,7 +59,7 @@
         # this is used so I can tell how many stars I need to fill. When the decimal rating above is 0.5 or 1 I count it as one as the half star is dealt with with a SVG linear gradient.
         assign decimal_rounded = decimal_rating | ceil
 
-        assign svg_filled_stars = rating | floor | plus: decimal_rounded
+        assign svg_filled_stars = average | floor | plus: decimal_rounded
       %}
 
       <div

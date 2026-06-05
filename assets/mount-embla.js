@@ -41,6 +41,7 @@ function init() {
             };
         }
 
+        if (elm.classList.contains('centered')) options.align = 'center';
 
         if( elm.classList.contains('story-embla') ) {
 
@@ -70,7 +71,6 @@ function init() {
     
  
 
-        if (elm.classList.contains('centered')) options.align = 'center';
 
         if (elm.classList.contains('autoscroll')) {
             waitForAutoscroll(function () {

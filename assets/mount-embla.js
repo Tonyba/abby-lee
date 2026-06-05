@@ -32,6 +32,7 @@ function init() {
           
 
            // rightCol.classList.add('embla');
+            rightCol.classList.add('mounted');
             rightCol.classList.add('cols-1');
             embla_viewport.classList.add('embla__viewport');
             embla__container.classList.add('embla__container');
@@ -41,15 +42,14 @@ function init() {
             embla__container.append(embla_viewport.children[0]);
             embla_viewport.append(embla__container);
 
+
+            const rightCol  =  mountCarousel(rightCol, options, plugins)
+            const mainApi =  mountCarousel(elm, options, plugins);
+
+            return;
         }
     
-
-
-        if(elm.classList.contains('hotspots-container-custom')) {
-            
-            console.log(elm);
-
-        }
+     
 
         const options = { loop: true, align: 'start' };
 

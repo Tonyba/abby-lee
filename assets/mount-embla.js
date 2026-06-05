@@ -63,7 +63,7 @@ function embla_conversion_mobile() {
 
     const rightCol = document.querySelector('.hotspots-container-custom');
 
-    console.log(rightCol)
+    console.log('right', rightCol)
 
     containers.map((elm) => {
         elm.classList.add('embla');

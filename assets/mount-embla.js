@@ -104,7 +104,7 @@ function addThumbButtonClickHandlers (emblaApiMain, emblaApiThumb)  {
   })
 }
 
-function addToggleThumbButtonsActive = (emblaApiMain, emblaApiThumb)  {
+function addToggleThumbButtonsActive (emblaApiMain, emblaApiThumb)  {
   const slidesThumbs = emblaApiThumb.slideNodes()
 
   const toggleThumbBtnsState = () => {

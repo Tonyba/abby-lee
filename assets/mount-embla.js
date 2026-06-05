@@ -45,6 +45,12 @@ function init() {
     
 
 
+        if(elm.classList.contains('hotspots-container-custom')) {
+            
+            console.log(elm);
+
+        }
+
         const options = { loop: true, align: 'start' };
 
         if (elm.classList.contains('embla--only-tablet')) {

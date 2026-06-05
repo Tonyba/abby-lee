@@ -51,7 +51,7 @@ function init() {
             const embla__container = document.createElement('div');
           
 
-           // rightCol.classList.add('embla');
+            rightCol.classList.add('embla');
             rightCol.classList.add('mounted');
             rightCol.classList.add('cols-1');
             embla_viewport.classList.add('embla__viewport');

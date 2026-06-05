@@ -26,6 +26,21 @@ function init() {
         
         const options = { loop: true, align: 'start' };
 
+        const plugins = [];
+
+
+        if (elm.classList.contains('embla--only-tablet')) {
+            options.breakpoints = {
+                '(min-width: 1024px)': { active: false }
+            };
+        }
+
+        if (elm.classList.contains('embla--only-mobile')) {
+            options.breakpoints = {
+                '(min-width: 768px)': { active: false }
+            };
+        }
+
 
         if( elm.classList.contains('story-embla') ) {
 
@@ -53,22 +68,7 @@ function init() {
             return;
         }
     
-     
-
-        if (elm.classList.contains('embla--only-tablet')) {
-            options.breakpoints = {
-                '(min-width: 1024px)': { active: false }
-            };
-        }
-
-        if (elm.classList.contains('embla--only-mobile')) {
-            options.breakpoints = {
-                '(min-width: 768px)': { active: false }
-            };
-        }
-
-        const plugins = [];
-
+ 
 
         if (elm.classList.contains('centered')) options.align = 'center';
 

@@ -89,6 +89,34 @@ function init() {
 
 }
 
+function addThumbButtonClickHandlers (emblaApiMain, emblaApiThumb)  {
+  const slidesThumbs = emblaApiThumb.slideNodes()
+
+  const scrollToIndex = slidesThumbs.map(
+    (_, index) => () => emblaApiMain.scrollTo(index)
+  )
+
+  slidesThumbs.forEach((slideNode, index) => {
+    slideNode.addEventListener('click', scrollToIndex[index], false)
+  })
+}
+
+function addToggleThumbButtonsActive = (emblaApiMain, emblaApiThumb)  {
+  const slidesThumbs = emblaApiThumb.slideNodes()
+
+  const toggleThumbBtnsState = () => {
+    emblaApiThumb.scrollTo(emblaApiMain.selectedScrollSnap())
+    const previous = emblaApiMain.previousScrollSnap()
+    const selected = emblaApiMain.selectedScrollSnap()
+    slidesThumbs[previous].classList.remove('embla-thumbs__slide--selected')
+    slidesThumbs[selected].classList.add('embla-thumbs__slide--selected')
+  }
+
+  emblaApiMain.on('select', toggleThumbBtnsState)
+  toggleThumbBtnsState()
+}
+
+
 function embla_conversion_mobile() {
     const containers = Array.from(document.querySelectorAll('.convert-embla-m'));
     const sections = Array.from(document.querySelectorAll('.convert-section-embla-m'));

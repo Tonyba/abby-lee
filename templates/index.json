@@ -4216,10 +4216,47 @@
               "block_order": [
                 "custom_hospot_product_gfJhY6"
               ]
+            },
+            "product_hotspot_TnUgmh": {
+              "type": "product-hotspot",
+              "name": "t:names.product_hotspots",
+              "settings": {
+                "image": "shopify://shop_images/82eed567c290f7ca0a9051bc7023098d3ebdc51e.jpg",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "section_width": "full-width",
+                "section_height": "auto",
+                "hotspot_color": "#ffffff57",
+                "bullseye_color": "#ffffff",
+                "color_scheme": "scheme-1",
+                "product_title_gap": 8,
+                "product_title_preset": "",
+                "product_price_preset": "",
+                "padding-block-start": 40,
+                "padding-block-end": 40
+              },
+              "blocks": {
+                "custom_hospot_product_iA9QJN": {
+                  "type": "custom-hospot-product",
+                  "name": "t:names.hotspot_product",
+                  "settings": {
+                    "product": "aldc-hoodie",
+                    "x-position": 20,
+                    "y-position": 50
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "custom_hospot_product_iA9QJN"
+              ]
             }
           },
           "block_order": [
-            "product_hotspot_jQnXyB"
+            "product_hotspot_jQnXyB",
+            "product_hotspot_TnUgmh"
           ]
         }
       },

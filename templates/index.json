@@ -4088,12 +4088,24 @@
                     "subtext": "Dancer"
                   },
                   "blocks": {}
+                },
+                "story_carousel_item_KE8fbL": {
+                  "type": "story-carousel-item",
+                  "name": "story carousel Item",
+                  "settings": {
+                    "main_text": "“ALDC makes dance feel even more fun.”",
+                    "content": "<p>I love wearing ALDC because it feels bright, comfortable, and full of personality. Whether I’m dancing, stretching, or just having fun, the pieces move with me and make me feel confident.</p><p>It’s the kind of dancewear that brings energy into every moment and reminds me how much I love being part of dance.</p>",
+                    "name": "Ivy M.",
+                    "subtext": "Young Dancer"
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
                 "story_carousel_item_fL3UMV",
                 "story_carousel_item_3w48Kb",
-                "story_carousel_item_9K3h4E"
+                "story_carousel_item_9K3h4E",
+                "story_carousel_item_KE8fbL"
               ]
             }
           },

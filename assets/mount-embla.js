@@ -66,6 +66,9 @@ function init() {
             const rightColApi  =  mountCarousel(rightCol, options, plugins)
             const mainApi =  mountCarousel(elm, options, plugins);
 
+            addThumbButtonClickHandlers(mainApi, rightColApi)
+            addToggleThumbButtonsActive(mainApi, rightColApi)
+
             return;
         }
     

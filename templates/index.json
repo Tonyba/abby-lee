@@ -4077,11 +4077,23 @@
                     "subtext": "Dancer"
                   },
                   "blocks": {}
+                },
+                "story_carousel_item_9K3h4E": {
+                  "type": "story-carousel-item",
+                  "name": "story carousel Item",
+                  "settings": {
+                    "main_text": "\"ALDC gear makes me feel strong, stylish, and ready to perform.\"",
+                    "content": "<p>I love wearing ALDC because it feels like more than dancewear. It gives me confidence the moment I put it on, whether I’m heading to class, practicing at home, or getting ready for a performance.</p><p>The fit is comfortable, the style stands out, and it always makes me feel connected to the dance world I love so much.</p>",
+                    "name": "Brooklyn",
+                    "subtext": "Dancer"
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
                 "story_carousel_item_fL3UMV",
-                "story_carousel_item_3w48Kb"
+                "story_carousel_item_3w48Kb",
+                "story_carousel_item_9K3h4E"
               ]
             }
           },

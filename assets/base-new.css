@@ -15,7 +15,9 @@ body {
     }
 }
 
-
+.hotspots-container-custom .section-product-hotspots__wrapper {
+    height: 612px;
+}
 
 .hide {
     display: none !important;

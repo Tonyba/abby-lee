@@ -80,6 +80,7 @@
     width: unset !important;
 }
 
+
 .cols-1 {
     --slide-size: 100%;
 }
@@ -88,7 +89,7 @@
     --slide-size: 33.33%;
 }
 
-.no-gap-embla {
+.no-gap {
     --slide-spacing: 0px;
 }
 
@@ -195,4 +196,11 @@
     .cols-3-half-m {
         --slide-size: 70%;
     }
+
+    
+    .no-gap {
+        --slide-spacing: 0px;
+    }
+
+
 }

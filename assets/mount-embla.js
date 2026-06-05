@@ -18,8 +18,33 @@ emblaMobile();
 waitForEmbla(init);
 
 function init() {
+
+
     const elms = document.querySelectorAll('.embla:not(.mounted)');
     elms.forEach((elm, i) => {
+
+        if( elm.classList.contains('story-embla') ) {
+
+            const rightCol = document.querySelector('.hotspots-container-custom');
+            
+            const embla_viewport =  rightCol.querySelector('.group-block-content');
+            const embla__container = document.createElement('div');
+          
+
+            rightCol.classList.add('embla');
+            embla_viewport.classList.add('embla__viewport');
+            embla__container.classList.add('embla__container');
+
+            embla__container.append(embla__viewport.children[0]);
+            embla__viewport.append(embla__container);
+            
+           
+            
+
+
+        }
+    
+
 
         const options = { loop: true, align: 'start' };
 

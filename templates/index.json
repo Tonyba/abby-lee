@@ -4099,13 +4099,25 @@
                     "subtext": "Young Dancer"
                   },
                   "blocks": {}
+                },
+                "story_carousel_item_ywLLhX": {
+                  "type": "story-carousel-item",
+                  "name": "story carousel Item",
+                  "settings": {
+                    "main_text": "ALDC gives me confidence before I even start dancing.",
+                    "content": "<p>When I wear ALDC, I feel polished, comfortable, and ready to take on class or rehearsal. The pieces have that perfect mix of dance energy and everyday style, so I can feel confident both in and out of the studio.</p><p>It reminds me to keep showing up, keep improving, and trust myself every time I dance.</p>",
+                    "name": "Kenna M.",
+                    "subtext": "Dancer"
+                  },
+                  "blocks": {}
                 }
               },
               "block_order": [
                 "story_carousel_item_fL3UMV",
                 "story_carousel_item_3w48Kb",
                 "story_carousel_item_9K3h4E",
-                "story_carousel_item_KE8fbL"
+                "story_carousel_item_KE8fbL",
+                "story_carousel_item_ywLLhX"
               ]
             }
           },

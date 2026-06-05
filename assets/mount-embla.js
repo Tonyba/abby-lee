@@ -34,7 +34,9 @@ function init() {
             rightCol.classList.add('embla');
             rightCol.classList.add('cols-1');
             embla_viewport.classList.add('embla__viewport');
-            embla__container.classList.add('embla__container w-100');
+            embla__container.classList.add('embla__container');
+            embla__container.classList.add('w-100');
+
 
             embla__container.append(embla_viewport.children[0]);
             embla_viewport.append(embla__container);

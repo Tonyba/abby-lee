@@ -43,7 +43,7 @@ function init() {
             embla_viewport.append(embla__container);
 
 
-            const rightCol  =  mountCarousel(rightCol, options, plugins)
+            const rightColApi  =  mountCarousel(rightCol, options, plugins)
             const mainApi =  mountCarousel(elm, options, plugins);
 
             return;

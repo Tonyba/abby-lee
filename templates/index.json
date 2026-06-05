@@ -4252,11 +4252,159 @@
               "block_order": [
                 "custom_hospot_product_iA9QJN"
               ]
+            },
+            "product_hotspot_UVKqaz": {
+              "type": "product-hotspot",
+              "name": "t:names.product_hotspots",
+              "settings": {
+                "image": "shopify://shop_images/Imagen2.jpg",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "section_width": "full-width",
+                "section_height": "auto",
+                "hotspot_color": "#ffffff57",
+                "bullseye_color": "#ffffff",
+                "color_scheme": "scheme-1",
+                "product_title_gap": 8,
+                "product_title_preset": "",
+                "product_price_preset": "",
+                "padding-block-start": 40,
+                "padding-block-end": 40
+              },
+              "blocks": {
+                "custom_hospot_product_QtFyFx": {
+                  "type": "custom-hospot-product",
+                  "name": "t:names.hotspot_product",
+                  "settings": {
+                    "product": "aldc-hoodie",
+                    "x-position": 20,
+                    "y-position": 50
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "custom_hospot_product_QtFyFx"
+              ]
+            },
+            "product_hotspot_keRddq": {
+              "type": "product-hotspot",
+              "name": "t:names.product_hotspots",
+              "settings": {
+                "image": "shopify://shop_images/Imagen3.jpg",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "section_width": "full-width",
+                "section_height": "auto",
+                "hotspot_color": "#ffffff57",
+                "bullseye_color": "#ffffff",
+                "color_scheme": "scheme-1",
+                "product_title_gap": 8,
+                "product_title_preset": "",
+                "product_price_preset": "",
+                "padding-block-start": 40,
+                "padding-block-end": 40
+              },
+              "blocks": {
+                "custom_hospot_product_bLxQqe": {
+                  "type": "custom-hospot-product",
+                  "name": "t:names.hotspot_product",
+                  "settings": {
+                    "product": "aldc-hoodie",
+                    "x-position": 20,
+                    "y-position": 50
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "custom_hospot_product_bLxQqe"
+              ]
+            },
+            "product_hotspot_ryr9fK": {
+              "type": "product-hotspot",
+              "name": "t:names.product_hotspots",
+              "settings": {
+                "image": "shopify://shop_images/Imagen4.jpg",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "section_width": "full-width",
+                "section_height": "auto",
+                "hotspot_color": "#ffffff57",
+                "bullseye_color": "#ffffff",
+                "color_scheme": "scheme-1",
+                "product_title_gap": 8,
+                "product_title_preset": "",
+                "product_price_preset": "",
+                "padding-block-start": 40,
+                "padding-block-end": 40
+              },
+              "blocks": {
+                "custom_hospot_product_cyyKnB": {
+                  "type": "custom-hospot-product",
+                  "name": "t:names.hotspot_product",
+                  "settings": {
+                    "product": "aldc-hoodie",
+                    "x-position": 20,
+                    "y-position": 50
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "custom_hospot_product_cyyKnB"
+              ]
+            },
+            "product_hotspot_XQ9qUG": {
+              "type": "product-hotspot",
+              "name": "t:names.product_hotspots",
+              "settings": {
+                "image": "shopify://shop_images/Imagen5.jpg",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "section_width": "full-width",
+                "section_height": "auto",
+                "hotspot_color": "#ffffff57",
+                "bullseye_color": "#ffffff",
+                "color_scheme": "scheme-1",
+                "product_title_gap": 8,
+                "product_title_preset": "",
+                "product_price_preset": "",
+                "padding-block-start": 40,
+                "padding-block-end": 40
+              },
+              "blocks": {
+                "custom_hospot_product_YGGrBh": {
+                  "type": "custom-hospot-product",
+                  "name": "t:names.hotspot_product",
+                  "settings": {
+                    "product": "aldc-hoodie",
+                    "x-position": 20,
+                    "y-position": 50
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "custom_hospot_product_YGGrBh"
+              ]
             }
           },
           "block_order": [
             "product_hotspot_jQnXyB",
-            "product_hotspot_TnUgmh"
+            "product_hotspot_TnUgmh",
+            "product_hotspot_UVKqaz",
+            "product_hotspot_keRddq",
+            "product_hotspot_ryr9fK",
+            "product_hotspot_XQ9qUG"
           ]
         }
       },

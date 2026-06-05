@@ -23,6 +23,10 @@ function init() {
     const elms = document.querySelectorAll('.embla:not(.mounted)');
     elms.forEach((elm, i) => {
 
+        
+        const options = { loop: true, align: 'start' };
+
+
         if( elm.classList.contains('story-embla') ) {
 
             const rightCol = document.querySelector('.hotspots-container-custom');
@@ -50,8 +54,6 @@ function init() {
         }
     
      
-
-        const options = { loop: true, align: 'start' };
 
         if (elm.classList.contains('embla--only-tablet')) {
             options.breakpoints = {

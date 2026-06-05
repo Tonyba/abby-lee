@@ -799,6 +799,10 @@ body {
     }
 
 
+    .hotspots-container-custom .section-product-hotspots__wrapper {
+        height: 320px;
+    }
+
     .w-full-m {
         width: 100%;
     }

@@ -59,7 +59,10 @@ function init() {
             embla__container.classList.add('w-100');
 
 
-            embla__container.append(embla_viewport.children[0]);
+            embla_viewport.children.forEach( child =>  {
+                embla__container.append(child);
+            });
+
             embla_viewport.append(embla__container);
 
 

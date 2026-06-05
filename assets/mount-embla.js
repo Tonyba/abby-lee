@@ -54,7 +54,7 @@ function init() {
             rightCol.classList.add('embla');
             rightCol.classList.add('mounted');
             rightCol.classList.add('cols-1');
-            rightCol.classList.add('no-gap');
+            rightCol.classList.add('no-gap-embla');
 
             embla_viewport.classList.add('embla__viewport');
             embla__container.classList.add('embla__container');

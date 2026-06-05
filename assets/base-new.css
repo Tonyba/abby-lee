@@ -20,8 +20,9 @@ body {
 }
 
 .hotspots-container-custom  .section-product-hotspots__content {
-    height: 100%;
+    height: 612px;
 }
+
 
 .hide {
     display: none !important;

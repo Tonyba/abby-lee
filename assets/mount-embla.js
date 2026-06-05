@@ -37,11 +37,8 @@ function init() {
 
             embla__container.append(embla__viewport.children[0]);
             embla__viewport.append(embla__container);
-            
-           
-            
 
-
+            console.log(embla__container)
         }
     
 

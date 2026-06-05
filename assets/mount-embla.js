@@ -36,7 +36,7 @@ function init() {
             embla__container.classList.add('embla__container');
 
             embla__container.append(embla_viewport.children[0]);
-            embla__viewport.append(embla__container);
+            embla_viewport.append(embla__container);
 
             console.log(embla__container)
         }

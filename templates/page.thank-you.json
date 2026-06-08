@@ -12,22 +12,23 @@
     "main": {
       "type": "main-page",
       "blocks": {
-        "heading": {
+        "text_k8zUmd": {
           "type": "text",
-          "name": "Title",
+          "name": "t:names.text",
           "settings": {
-            "text": "<h1>{{ closest.page.title }}</h1>",
-            "width": "100%",
+            "custom_css": "",
+            "text": "<h1>Thank You for Reaching Out</h1><p>Your message has been received successfully!<br/><br/>Thank you for contacting the Abby Lee Dance Company. We appreciate your interest in our programs, legacy, and commitment to dance education.<br/><br/>For over 35 years, our mission has been rooted in nurturing talented and dedicated dancers, helping them grow with discipline, confidence, creativity, and passion.<br/><br/>A member of our team will review your inquiry and get back to you as soon as possible!<br/><br/>In the meantime, we invite you to continue exploring our products.<br/><br/><em>Dance nourishes the body, sharpens the mind, and uplifts the spirit.</em></p>",
+            "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "h2",
-            "font": "var(--font-primary--family)",
-            "font_size": "",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
             "line_height": "normal",
             "letter_spacing": "normal",
             "case": "none",
             "wrap": "pretty",
-            "color": "",
+            "color": "var(--color-foreground)",
             "background": false,
             "background_color": "#00000026",
             "corner_radius": 0,
@@ -37,16 +38,10 @@
             "padding-inline-end": 0
           },
           "blocks": {}
-        },
-        "page-content": {
-          "type": "page-content",
-          "settings": {},
-          "blocks": {}
         }
       },
       "block_order": [
-        "heading",
-        "page-content"
+        "text_k8zUmd"
       ],
       "settings": {
         "content_direction": "column",

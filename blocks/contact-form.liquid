@@ -16,6 +16,13 @@
 >
   {% assign form_id = block.id | default: section.id | prepend: 'ContactForm-' %}
   {%- form 'contact', id: form_id, class: 'contact-form__form', return_to: "thank-you" -%}
+
+    {% if form.posted_successfully? %}
+      <script>
+        window.location = "pages/thank-you"
+      </script>
+    {% endif %}
+
     <input
       name="contact[id]"
       type="hidden"

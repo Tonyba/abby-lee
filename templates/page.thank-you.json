@@ -18,9 +18,9 @@
           "settings": {
             "custom_css": "",
             "text": "<h1>Thank You for Reaching Out</h1><p>Your message has been received successfully!<br/><br/>Thank you for contacting the Abby Lee Dance Company. We appreciate your interest in our programs, legacy, and commitment to dance education.<br/><br/>For over 35 years, our mission has been rooted in nurturing talented and dedicated dancers, helping them grow with discipline, confidence, creativity, and passion.<br/><br/>A member of our team will review your inquiry and get back to you as soon as possible!<br/><br/>In the meantime, we invite you to continue exploring our products.<br/><br/><em>Dance nourishes the body, sharpens the mind, and uplifts the spirit.</em></p>",
-            "width": "fit-content",
+            "width": "100%",
             "max_width": "normal",
-            "alignment": "left",
+            "alignment": "center",
             "type_preset": "rte",
             "font": "var(--font-body--family)",
             "font_size": "1rem",

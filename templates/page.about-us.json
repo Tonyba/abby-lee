@@ -2375,7 +2375,7 @@
                   "type": "custom-liquid",
                   "name": "t:names.custom_liquid",
                   "settings": {
-                    "custom_liquid": "<iframe frameborder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\" width=\"100%\" height=\"352\" src=\"https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO3eIivx?utm_source=iframe-api\"></iframe>"
+                    "custom_liquid": "<iframe src=\"https://widgets.sociablekit.com/spotify-podcast/iframe/25690555\" frameborder=\"0\" width=\"100%\" height=\"1000px\"></iframe>"
                   },
                   "blocks": {}
                 }

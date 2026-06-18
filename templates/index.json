@@ -957,7 +957,7 @@
           "name": "t:names.heading",
           "settings": {
             "custom_css": "h2-big",
-            "text": "<h2>Get 10% Off Your First Order</h2>",
+            "text": "<h2>JOIN OUR DANCE COMMUNITY</h2>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -1020,7 +1020,7 @@
             "input_type_preset": "paragraph",
             "style_class": "button",
             "display_type": "text",
-            "label": "Get 10% Off",
+            "label": "SIGN ME UP",
             "integrated_button": true,
             "button_type_preset": "paragraph",
             "padding-block-start": 0,

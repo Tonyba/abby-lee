@@ -19,6 +19,10 @@ body {
     height: 612px;
 }
 
+div:has(> .playlist-iframe) {
+    width: 100%;
+}
+
 .hotspots-container-custom .hotspot-trigger {
 display:none
 }

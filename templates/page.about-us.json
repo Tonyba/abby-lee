@@ -668,33 +668,12 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "button_We6AJ3": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "custom_css": "forced-row flex items-center",
-                "label": "Discover the Story",
-                "icon": "shopify://shop_images/solid-chevron-right.svg",
-                "inline_icon": false,
-                "svg": "",
-                "icon_width": 13,
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "text_gtt7hz",
             "text_prRdfU",
-            "text_x8AmkT",
-            "button_We6AJ3"
+            "text_x8AmkT"
           ]
         },
         "group_YBjHim": {

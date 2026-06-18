@@ -9,15 +9,19 @@ body {
     overflow-x: clip;
 }
 
-.legacy-section .background-image-container img {
-    object-position: center -261px;
-}
 
 
 @media only screen and (min-width: 1025px) {
+    
     .topbar {
         z-index: 9;
     }
+
+    .legacy-section .background-image-container img {
+        object-position: center -261px;
+    }
+
+
 }
 
 .hotspots-container-custom .section-product-hotspots__wrapper {

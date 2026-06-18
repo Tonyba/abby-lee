@@ -2330,6 +2330,14 @@
               },
               "blocks": {}
             },
+            "custom_liquid_iE8rWQ": {
+              "type": "custom-liquid",
+              "name": "t:names.custom_liquid",
+              "settings": {
+                "custom_liquid": "<iframe data-testid=\"embed-iframe\" style=\"border-radius:12px\" src=\"https://open.spotify.com/embed/show/2DM1Q7YgafZi3CGsUekDyA?utm_source=generator&theme=0&si=36408575be03405d\" width=\"100%\" height=\"152\" frameBorder=\"0\" allowfullscreen=\"\" allow=\"autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture\" loading=\"lazy\"></iframe>"
+              },
+              "blocks": {}
+            },
             "group_6m3xJg": {
               "type": "group",
               "name": "t:names.group",
@@ -3089,6 +3097,7 @@
             "text_BDJHHt",
             "text_yAeUkg",
             "text_fqdBdm",
+            "custom_liquid_iE8rWQ",
             "group_6m3xJg",
             "group_idTet9"
           ]

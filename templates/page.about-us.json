@@ -490,7 +490,7 @@
                 "inline_icon": false,
                 "svg": "",
                 "icon_width": 20,
-                "link": "shopify://collections/all",
+                "link": "shopify://blogs/events",
                 "open_in_new_tab": false,
                 "style_class": "button-secondary",
                 "width": "fit-content",

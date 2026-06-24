@@ -2,6 +2,8 @@
   assign blocks = section.blocks
 %}
 
+{{ 'embla-styles.css' | asset_url | stylesheet_tag }}
+
 {% stylesheet %}
   .below-hero {
     padding: 20px 0;

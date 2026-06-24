@@ -1399,7 +1399,7 @@
               "name": "t:names.description",
               "settings": {
                 "custom_css": "",
-                "text": "<p>© 2026 Abby Lee Dance Company | Grow.al</p>",
+                "text": "<p>© 2026 Abby Lee Dance Company</p>",
                 "width": "fit-content",
                 "max_width": "none",
                 "alignment": "center",

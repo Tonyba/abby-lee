@@ -157,6 +157,12 @@
           "settings": {
             "text": "✴ Worldwide Shipping ✴"
           }
+        },
+        "text_6rQaih": {
+          "type": "text",
+          "settings": {
+            "text": "☆ Official ALDC Store ☆"
+          }
         }
       },
       "block_order": [
@@ -167,7 +173,8 @@
         "text_A9dMJd",
         "text_nDhPkG",
         "text_iqGfWa",
-        "text_MtYbwC"
+        "text_MtYbwC",
+        "text_6rQaih"
       ],
       "name": "below hero",
       "settings": {

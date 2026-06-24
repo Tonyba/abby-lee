@@ -31,15 +31,17 @@
           {{ item.settings.text }}
         </div>
 
-        {% if forloop.index != forloop.length %}
-          <div class="embla__item">
-            {% if modulo_result == 1 %}
-              <img src="{{ 'black-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
-            {% else %}
-              <img src="{{ 'transparent-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
-            {% endif %}
-          </div>
-        {% endif %}
+        {% comment %}
+          {% if forloop.index != forloop.length %}
+            <div class="embla__item">
+              {% if modulo_result == 1 %}
+                <img src="{{ 'black-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
+              {% else %}
+                <img src="{{ 'transparent-asterisk.svg' | asset_url }}" alt="asterisk" width="30" height="30">
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endcomment %}
       {% endfor %}
     </div>
   </div>

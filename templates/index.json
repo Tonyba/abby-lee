@@ -1737,6 +1737,30 @@
                   },
                   "blocks": {}
                 },
+                "video_xyJbNN": {
+                  "type": "video",
+                  "name": "t:names.video",
+                  "settings": {
+                    "source": "uploaded",
+                    "video": "shopify://files/videos/ALDC Ambassador 05.mov",
+                    "video_url": "",
+                    "video_autoplay": false,
+                    "video_loop": true,
+                    "alt": "",
+                    "custom_width": 100,
+                    "custom_width_mobile": 100,
+                    "aspect_ratio": "auto",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "video_xk4xzf": {
                   "type": "video",
                   "name": "t:names.video",
@@ -1790,6 +1814,7 @@
                 "video_GTwj3k",
                 "video_YkMe3R",
                 "video_KCiWQk",
+                "video_xyJbNN",
                 "video_xk4xzf",
                 "video_dd4UPB"
               ]

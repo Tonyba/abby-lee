@@ -5044,6 +5044,61 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "1782329324a3722873": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_188b0ad_j4nREV": {
+          "type": "ai_gen_block_188b0ad",
+          "settings": {
+            "item_1": "☆ Official ALDC Store ☆",
+            "item_2": "✸ Verified Event Tickets ✸",
+            "item_3": "☆  Free Shipping Over $75 ☆",
+            "item_4": "✴ Secure Checkout ✴",
+            "color_scheme": "scheme-1",
+            "text_size": 16,
+            "text_weight": "600",
+            "text_transform": "uppercase",
+            "letter_spacing": 1,
+            "vertical_padding": 16,
+            "separator_size": 6,
+            "separator_opacity": 50,
+            "scroll_speed": 30,
+            "item_spacing": 40
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_188b0ad_j4nREV"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -5066,6 +5121,7 @@
     "section_dRPrhi",
     "section_WNPP7U",
     "section_gX7hra",
-    "1773927171a80b5195"
+    "1773927171a80b5195",
+    "1782329324a3722873"
   ]
 }

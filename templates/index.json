@@ -1670,7 +1670,31 @@
                   "name": "t:names.video",
                   "settings": {
                     "source": "uploaded",
-                    "video": "shopify://files/videos/09e50678882544fa95d0e50ed292b33b.MP4",
+                    "video": "shopify://files/videos/ALDC Ambassador - 04.mp4",
+                    "video_url": "",
+                    "video_autoplay": false,
+                    "video_loop": true,
+                    "alt": "",
+                    "custom_width": 100,
+                    "custom_width_mobile": 100,
+                    "aspect_ratio": "auto",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "video_YkMe3R": {
+                  "type": "video",
+                  "name": "t:names.video",
+                  "settings": {
+                    "source": "uploaded",
+                    "video": "shopify://files/videos/ALDC Ambassador 02.mov",
                     "video_url": "",
                     "video_autoplay": false,
                     "video_loop": true,
@@ -1694,7 +1718,31 @@
                   "name": "t:names.video",
                   "settings": {
                     "source": "uploaded",
-                    "video": "shopify://files/videos/09e50678882544fa95d0e50ed292b33b.MP4",
+                    "video": "shopify://files/videos/ALDC Ambassador - 01.mp4",
+                    "video_url": "",
+                    "video_autoplay": false,
+                    "video_loop": true,
+                    "alt": "",
+                    "custom_width": 100,
+                    "custom_width_mobile": 100,
+                    "aspect_ratio": "auto",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "video_xk4xzf": {
+                  "type": "video",
+                  "name": "t:names.video",
+                  "settings": {
+                    "source": "uploaded",
+                    "video": "shopify://files/videos/ALDC Ambassador 03.mov",
                     "video_url": "",
                     "video_autoplay": false,
                     "video_loop": true,
@@ -1718,7 +1766,7 @@
                   "name": "t:names.video",
                   "settings": {
                     "source": "uploaded",
-                    "video": "shopify://files/videos/09e50678882544fa95d0e50ed292b33b.MP4",
+                    "video": "shopify://files/videos/ALDC - Galway.mp4",
                     "video_url": "",
                     "video_autoplay": false,
                     "video_loop": true,
@@ -1740,7 +1788,9 @@
               },
               "block_order": [
                 "video_GTwj3k",
+                "video_YkMe3R",
                 "video_KCiWQk",
+                "video_xk4xzf",
                 "video_dd4UPB"
               ]
             }

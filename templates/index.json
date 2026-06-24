@@ -107,59 +107,57 @@
         "padding-block-end": 44
       }
     },
-    "blocks_UVftRN": {
-      "type": "_blocks",
+    "below_hero_BYFTfR": {
+      "type": "below-hero",
       "blocks": {
-        "ai_gen_block_188b0ad_zUn7Xz": {
-          "type": "ai_gen_block_188b0ad",
+        "text_cQHjtJ": {
+          "type": "text",
           "settings": {
-            "item_1": "☆ Official ALDC Store ☆",
-            "item_2": "✸ Verified Event Tickets ✸",
-            "item_3": "☆  Free Shipping Over $75 ☆",
-            "item_4": "✴ Worldwide Shipping ✴",
-            "color_scheme": "scheme-1",
-            "text_size": 16,
-            "text_weight": "600",
-            "text_transform": "uppercase",
-            "letter_spacing": 1,
-            "vertical_padding": 16,
-            "separator_size": 6,
-            "separator_opacity": 50,
-            "scroll_speed": 10,
-            "item_spacing": 20
-          },
-          "blocks": {}
+            "text": "☆ Official ALDC Store ☆"
+          }
+        },
+        "text_AMcMDJ": {
+          "type": "text",
+          "settings": {
+            "text": "✸ Verified Event Tickets ✸"
+          }
+        },
+        "text_hkyjfa": {
+          "type": "text",
+          "settings": {
+            "text": "☆  Free Shipping Over $75 ☆"
+          }
+        },
+        "text_PizJCz": {
+          "type": "text",
+          "settings": {
+            "text": "✴ Worldwide Shipping ✴"
+          }
+        },
+        "text_A9dMJd": {
+          "type": "text",
+          "settings": {
+            "text": "☆ Official ALDC Store ☆"
+          }
+        },
+        "text_nDhPkG": {
+          "type": "text",
+          "settings": {
+            "text": "✸ Verified Event Tickets ✸"
+          }
         }
       },
       "block_order": [
-        "ai_gen_block_188b0ad_zUn7Xz"
+        "text_cQHjtJ",
+        "text_AMcMDJ",
+        "text_hkyjfa",
+        "text_PizJCz",
+        "text_A9dMJd",
+        "text_nDhPkG"
       ],
+      "name": "below hero",
       "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
-        "section_width": "page-width",
-        "section_height": "",
-        "section_height_custom": 50,
-        "color_scheme": "",
-        "background_media": "none",
-        "video_position": "cover",
-        "background_image_position": "cover",
-        "border": "none",
-        "border_width": 1,
-        "border_opacity": 100,
-        "border_radius": 0,
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "padding-block-start": 0,
-        "padding-block-end": 0
+        "color_scheme": ""
       }
     },
     "product_list_fa6P9H": {
@@ -5112,7 +5110,7 @@
   "order": [
     "popup_welcome_iiGbBM",
     "hero_jVaWmY",
-    "blocks_UVftRN",
+    "below_hero_BYFTfR",
     "product_list_fa6P9H",
     "countdown_section_qNgcMg",
     "section_U4Em6e",

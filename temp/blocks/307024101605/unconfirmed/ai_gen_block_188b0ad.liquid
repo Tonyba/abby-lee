@@ -1,6 +1,302 @@
+{% doc %}
+  @prompt
+    Create a scrolling marquee text section that displays the following text items in a continuous horizontal scroll animation: "Official ALDC Store", "Secure Checkout", "Free Shipping Over $75", "Verified Event Tickets". The text should scroll smoothly from right to left in a loop, with separators between each item. The section should support color scheme settings to match the existing theme.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-marquee-container-{{ ai_gen_id }} {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(var(--color-background));
+    color: rgb(var(--color-foreground));
+    padding: {{ block.settings.vertical_padding }}px 0;
+    display: block;
+  }
+
+  .ai-marquee-wrapper-{{ ai_gen_id }} {
+    display: flex;
+    width: fit-content;
+    animation: ai-marquee-scroll-{{ ai_gen_id }} {{ block.settings.scroll_speed }}s linear infinite;
+  }
+
+  .ai-marquee-content-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: {{ block.settings.item_spacing }}px;
+  }
+
+  .ai-marquee-item-{{ ai_gen_id }} {
+    font-size: {{ block.settings.text_size }}px;
+    font-weight: {{ block.settings.text_weight }};
+    text-transform: {{ block.settings.text_transform }};
+    letter-spacing: {{ block.settings.letter_spacing }}px;
+  }
+
+  .ai-marquee-separator-{{ ai_gen_id }} {
+    width: {{ block.settings.separator_size }}px;
+    height: {{ block.settings.separator_size }}px;
+    background-color: rgb(var(--color-foreground));
+    border-radius: 50%;
+    opacity: {{ block.settings.separator_opacity | divided_by: 100.0 }};
+  }
+
+  @keyframes ai-marquee-scroll-{{ ai_gen_id }} {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ai-marquee-wrapper-{{ ai_gen_id }} {
+      animation: none;
+    }
+  }
+{% endstyle %}
+
+<scrolling-marquee-{{ ai_gen_id }}
+  class="ai-marquee-container-{{ ai_gen_id }} color-{{ block.settings.color_scheme }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-marquee-wrapper-{{ ai_gen_id }}">
+    <div class="ai-marquee-content-{{ ai_gen_id }}">
+      {% if block.settings.item_1 != blank %}
+        <span class="ai-marquee-item-{{ ai_gen_id }}">{{ block.settings.item_1 }}</span>
+        <span class="ai-marquee-separator-{{ ai_gen_id }}"></span>
+      {% endif %}
+      {% if block.settings.item_2 != blank %}
+        <span class="ai-marquee-item-{{ ai_gen_id }}">{{ block.settings.item_2 }}</span>
+        <span class="ai-marquee-separator-{{ ai_gen_id }}"></span>
+      {% endif %}
+      {% if block.settings.item_3 != blank %}
+        <span class="ai-marquee-item-{{ ai_gen_id }}">{{ block.settings.item_3 }}</span>
+        <span class="ai-marquee-separator-{{ ai_gen_id }}"></span>
+      {% endif %}
+      {% if block.settings.item_4 != blank %}
+        <span class="ai-marquee-item-{{ ai_gen_id }}">{{ block.settings.item_4 }}</span>
+        <span class="ai-marquee-separator-{{ ai_gen_id }}"></span>
+      {% endif %}
+    </div>
+    <div class="ai-marquee-content-{{ ai_gen_id }}" aria-hidden="true">
+      {% if block.settings.item_1 != blank %}
+        <span class="ai-marquee-item-{{ ai_gen_id }}">{{ block.settings.item_1 }}</span>
+        <span class="ai-marquee-separator-{{ ai_gen_id }}"></span>
+      {% endif %}
+      {% if block.settings.item_2 != blank %}
+        <span class="ai-marquee-item-{{ ai_gen_id }}">{{ block.settings.item_2 }}</span>
+        <span class="ai-marquee-separator-{{ ai_gen_id }}"></span>
+      {% endif %}
+      {% if block.settings.item_3 != blank %}
+        <span class="ai-marquee-item-{{ ai_gen_id }}">{{ block.settings.item_3 }}</span>
+        <span class="ai-marquee-separator-{{ ai_gen_id }}"></span>
+      {% endif %}
+      {% if block.settings.item_4 != blank %}
+        <span class="ai-marquee-item-{{ ai_gen_id }}">{{ block.settings.item_4 }}</span>
+        <span class="ai-marquee-separator-{{ ai_gen_id }}"></span>
+      {% endif %}
+    </div>
+  </div>
+</scrolling-marquee-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class ScrollingMarquee{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.adjustSpeed();
+      }
+
+      adjustSpeed() {
+        const wrapper = this.querySelector('.ai-marquee-wrapper-{{ ai_gen_id }}');
+        if (!wrapper) return;
+
+        const content = this.querySelector('.ai-marquee-content-{{ ai_gen_id }}');
+        if (!content) return;
+
+        const contentWidth = content.offsetWidth;
+        const speed = {{ block.settings.scroll_speed }};
+        const duration = (contentWidth / 100) * speed;
+
+        wrapper.style.animationDuration = duration + 's';
+      }
+    }
+
+    customElements.define('scrolling-marquee-{{ ai_gen_id }}', ScrollingMarquee{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Scrolling marquee",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "item_1",
+      "label": "Item 1",
+      "default": "Official ALDC Store"
+    },
+    {
+      "type": "text",
+      "id": "item_2",
+      "label": "Item 2",
+      "default": "Secure Checkout"
+    },
+    {
+      "type": "text",
+      "id": "item_3",
+      "label": "Item 3",
+      "default": "Free Shipping Over $75"
+    },
+    {
+      "type": "text",
+      "id": "item_4",
+      "label": "Item 4",
+      "default": "Verified Event Tickets"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Text size",
+      "min": 12,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "text_weight",
+      "label": "Text weight",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semibold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ],
+      "default": "600"
+    },
+    {
+      "type": "select",
+      "id": "text_transform",
+      "label": "Text case",
+      "options": [
+        {
+          "value": "none",
+          "label": "Default"
+        },
+        {
+          "value": "uppercase",
+          "label": "Uppercase"
+        }
+      ],
+      "default": "uppercase"
+    },
+    {
+      "type": "range",
+      "id": "letter_spacing",
+      "label": "Letter spacing",
+      "min": 0,
+      "max": 5,
+      "step": 0.5,
+      "unit": "px",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "vertical_padding",
+      "label": "Vertical padding",
+      "min": 8,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Separator"
+    },
+    {
+      "type": "range",
+      "id": "separator_size",
+      "label": "Size",
+      "min": 2,
+      "max": 12,
+      "step": 1,
+      "unit": "px",
+      "default": 6
+    },
+    {
+      "type": "range",
+      "id": "separator_opacity",
+      "label": "Opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Animation"
+    },
+    {
+      "type": "range",
+      "id": "scroll_speed",
+      "label": "Scroll speed",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "s",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "item_spacing",
+      "label": "Item spacing",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "Scrolling marquee"
+    }
+  ]
+}
 {% endschema %}

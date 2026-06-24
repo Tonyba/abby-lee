@@ -4594,7 +4594,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "h2-big bold-red",
-                "text": "<h2>Join the <strong>#ALDCStyle</strong> community.<br/>Tag <span style=\"text-decoration:underline\">@ALDCOfficial</span> and get featured.</h2>",
+                "text": "<h2>Join the <strong>#ALDCStyle</strong> community.<br/>Tag <span style=\"text-decoration:underline\">@</span><a href=\"https://instagram.com/aldcstudiola\" title=\"https://instagram.com/aldcstudiola\"><span style=\"text-decoration:underline\">aldcstudiola</span></a> and get featured.</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",

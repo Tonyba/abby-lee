@@ -1035,7 +1035,7 @@
           "name": "t:names.text",
           "settings": {
             "custom_css": "text-sm-m",
-            "text": "<p>Join 50,000+ dancers. Unsubscribe anytime.</p>",
+            "text": "<p>Join 10M+ dancers. Unsubscribe anytime.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",

@@ -5079,6 +5079,7 @@
       "block_order": [
         "ai_gen_block_188b0ad_j4nREV"
       ],
+      "disabled": true,
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,

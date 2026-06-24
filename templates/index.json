@@ -163,6 +163,18 @@
           "settings": {
             "text": "☆ Official ALDC Store ☆"
           }
+        },
+        "text_NnGBAh": {
+          "type": "text",
+          "settings": {
+            "text": "✸ Verified Event Tickets ✸"
+          }
+        },
+        "text_XdbnKT": {
+          "type": "text",
+          "settings": {
+            "text": "☆  Free Shipping Over $75 ☆"
+          }
         }
       },
       "block_order": [
@@ -174,7 +186,9 @@
         "text_nDhPkG",
         "text_iqGfWa",
         "text_MtYbwC",
-        "text_6rQaih"
+        "text_6rQaih",
+        "text_NnGBAh",
+        "text_XdbnKT"
       ],
       "name": "below hero",
       "settings": {

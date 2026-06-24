@@ -125,8 +125,8 @@
             "vertical_padding": 16,
             "separator_size": 6,
             "separator_opacity": 50,
-            "scroll_speed": 40,
-            "item_spacing": 30
+            "scroll_speed": 60,
+            "item_spacing": 20
           },
           "blocks": {}
         }

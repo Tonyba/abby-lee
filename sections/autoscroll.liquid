@@ -1,0 +1,69 @@
+{% liquid
+  assign blocks = section.blocks
+%}
+
+{{ 'embla-styles.css' | asset_url | stylesheet_tag }}
+
+{% stylesheet %}
+
+  .autoscroll-section {
+    padding: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+{% endstylesheet %}
+
+
+
+<div class="embla centered cols-auto autoscroll">
+  <div class="section section--page-width color-{{ section.settings.color_scheme }} embla__viewport">
+    <div class="flex items-center embla__container">
+      {% for item in blocks %}
+        {% liquid
+          assign modulo_result = forloop.index | modulo: 2
+        %}
+
+        <div class="embla__item">
+          {{ item.settings.text }}
+        </div>
+
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+<script src="{{ 'embla-carousel.umd.js' | asset_url }}" defer></script>
+<script src="{{ 'embla-carousel-auto-scroll.umd.js' | asset_url }}" defer></script>
+<script src="{{ 'mount-embla.js' | asset_url }}" defer></script>
+
+
+
+{% schema %}
+{
+  "name": "Autoscroll Section",
+  "class": "autoscroll-section",
+  "settings": [
+  
+  ],
+  "blocks": [
+    {
+      "name": "text",
+      "type": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Autoscroll Section"
+    }
+  ]
+}
+{% endschema %}

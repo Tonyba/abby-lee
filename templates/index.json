@@ -145,6 +145,18 @@
           "settings": {
             "text": "✸ Verified Event Tickets ✸"
           }
+        },
+        "text_iqGfWa": {
+          "type": "text",
+          "settings": {
+            "text": "☆  Free Shipping Over $75 ☆"
+          }
+        },
+        "text_MtYbwC": {
+          "type": "text",
+          "settings": {
+            "text": "✴ Worldwide Shipping ✴"
+          }
         }
       },
       "block_order": [
@@ -153,7 +165,9 @@
         "text_hkyjfa",
         "text_PizJCz",
         "text_A9dMJd",
-        "text_nDhPkG"
+        "text_nDhPkG",
+        "text_iqGfWa",
+        "text_MtYbwC"
       ],
       "name": "below hero",
       "settings": {

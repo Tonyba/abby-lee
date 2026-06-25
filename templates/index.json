@@ -1202,6 +1202,22 @@
             "icon": "shopify://shop_images/heart_1.svg",
             "color": ""
           }
+        },
+        "text_TjkY3W": {
+          "type": "text",
+          "settings": {
+            "text": "EXCLUSIVE MERCH",
+            "icon": "shopify://shop_images/bag.svg",
+            "color": "#FC0001"
+          }
+        },
+        "text_ccmw8B": {
+          "type": "text",
+          "settings": {
+            "text": "TAG US & SHARE THE LOVE",
+            "icon": "shopify://shop_images/heart_1.svg",
+            "color": ""
+          }
         }
       },
       "block_order": [
@@ -1212,7 +1228,9 @@
         "text_44JQrT",
         "text_yec9jr",
         "text_dLL3p6",
-        "text_dd3b4a"
+        "text_dd3b4a",
+        "text_TjkY3W",
+        "text_ccmw8B"
       ],
       "name": "Autoscroll Section",
       "settings": {}

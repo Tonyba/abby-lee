@@ -1136,6 +1136,24 @@
         "padding-block-end": 60
       }
     },
+    "autoscroll_AfXgNa": {
+      "type": "autoscroll",
+      "blocks": {
+        "text_7nXUnU": {
+          "type": "text",
+          "settings": {
+            "text": "EXCLUSIVE MERCH",
+            "icon": "shopify://shop_images/bag.svg",
+            "color": "#FC0001"
+          }
+        }
+      },
+      "block_order": [
+        "text_7nXUnU"
+      ],
+      "name": "Autoscroll Section",
+      "settings": {}
+    },
     "section_UNiYLp": {
       "type": "section",
       "blocks": {
@@ -5152,6 +5170,7 @@
     "collection_list_7CJRkw",
     "collection_tabs_e8ejrT",
     "section_UXUiAL",
+    "autoscroll_AfXgNa",
     "section_UNiYLp",
     "featured_blog_posts_9trEFp",
     "section_Ppmcgg",

@@ -1146,10 +1146,73 @@
             "icon": "shopify://shop_images/bag.svg",
             "color": "#FC0001"
           }
+        },
+        "text_RpaEGp": {
+          "type": "text",
+          "settings": {
+            "text": "TAG US & SHARE THE LOVE",
+            "icon": "shopify://shop_images/heart_1.svg",
+            "color": ""
+          }
+        },
+        "text_kVAnhV": {
+          "type": "text",
+          "settings": {
+            "text": "EXCLUSIVE MERCH",
+            "icon": "shopify://shop_images/bag.svg",
+            "color": "#FC0001"
+          }
+        },
+        "text_NmbBAW": {
+          "type": "text",
+          "settings": {
+            "text": "TAG US & SHARE THE LOVE",
+            "icon": "shopify://shop_images/heart_1.svg",
+            "color": ""
+          }
+        },
+        "text_44JQrT": {
+          "type": "text",
+          "settings": {
+            "text": "EXCLUSIVE MERCH",
+            "icon": "shopify://shop_images/bag.svg",
+            "color": "#FC0001"
+          }
+        },
+        "text_yec9jr": {
+          "type": "text",
+          "settings": {
+            "text": "TAG US & SHARE THE LOVE",
+            "icon": "shopify://shop_images/heart_1.svg",
+            "color": ""
+          }
+        },
+        "text_dLL3p6": {
+          "type": "text",
+          "settings": {
+            "text": "EXCLUSIVE MERCH",
+            "icon": "shopify://shop_images/bag.svg",
+            "color": "#FC0001"
+          }
+        },
+        "text_dd3b4a": {
+          "type": "text",
+          "settings": {
+            "text": "TAG US & SHARE THE LOVE",
+            "icon": "shopify://shop_images/heart_1.svg",
+            "color": ""
+          }
         }
       },
       "block_order": [
-        "text_7nXUnU"
+        "text_7nXUnU",
+        "text_RpaEGp",
+        "text_kVAnhV",
+        "text_NmbBAW",
+        "text_44JQrT",
+        "text_yec9jr",
+        "text_dLL3p6",
+        "text_dd3b4a"
       ],
       "name": "Autoscroll Section",
       "settings": {}

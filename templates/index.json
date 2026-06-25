@@ -1218,6 +1218,54 @@
             "icon": "shopify://shop_images/heart_1.svg",
             "color": ""
           }
+        },
+        "text_bQykPe": {
+          "type": "text",
+          "settings": {
+            "text": "EXCLUSIVE MERCH",
+            "icon": "shopify://shop_images/bag.svg",
+            "color": "#FC0001"
+          }
+        },
+        "text_JNMNhA": {
+          "type": "text",
+          "settings": {
+            "text": "TAG US & SHARE THE LOVE",
+            "icon": "shopify://shop_images/heart_1.svg",
+            "color": ""
+          }
+        },
+        "text_LzVhQk": {
+          "type": "text",
+          "settings": {
+            "text": "EXCLUSIVE MERCH",
+            "icon": "shopify://shop_images/bag.svg",
+            "color": "#FC0001"
+          }
+        },
+        "text_yzqrV6": {
+          "type": "text",
+          "settings": {
+            "text": "TAG US & SHARE THE LOVE",
+            "icon": "shopify://shop_images/heart_1.svg",
+            "color": ""
+          }
+        },
+        "text_nii6fa": {
+          "type": "text",
+          "settings": {
+            "text": "EXCLUSIVE MERCH",
+            "icon": "shopify://shop_images/bag.svg",
+            "color": "#FC0001"
+          }
+        },
+        "text_dYbBW7": {
+          "type": "text",
+          "settings": {
+            "text": "TAG US & SHARE THE LOVE",
+            "icon": "shopify://shop_images/heart_1.svg",
+            "color": ""
+          }
         }
       },
       "block_order": [
@@ -1230,7 +1278,13 @@
         "text_dLL3p6",
         "text_dd3b4a",
         "text_TjkY3W",
-        "text_ccmw8B"
+        "text_ccmw8B",
+        "text_bQykPe",
+        "text_JNMNhA",
+        "text_LzVhQk",
+        "text_yzqrV6",
+        "text_nii6fa",
+        "text_dYbBW7"
       ],
       "name": "Autoscroll Section",
       "settings": {}

@@ -22,10 +22,10 @@
       {% for item in blocks %}
      
         <div class="embla__item">
-          <div class="flex items-center">
+          <div class="flex items-center" style="color:{{ item.settings.color }}">
                 <span>  
                     {{
-                        item.icon
+                        item.settings.icon
                         | image_url: width: 22
                         | image_tag: height: 22
                     }}

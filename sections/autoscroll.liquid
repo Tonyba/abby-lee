@@ -20,12 +20,19 @@
   <div class="section section--page-width color-{{ section.settings.color_scheme }} embla__viewport">
     <div class="flex items-center embla__container">
       {% for item in blocks %}
-        {% liquid
-          assign modulo_result = forloop.index | modulo: 2
-        %}
-
+     
         <div class="embla__item">
-          {{ item.settings.text }}
+          <div class="flex items-center">
+                <span>  
+                    {{
+                        item.icon
+                        | image_url: width: 22
+                        | image_tag: height: 22
+                    }}
+                </span>
+                <span>{{ item.settings.text }}</span>
+          </div>
+         
         </div>
 
       {% endfor %}

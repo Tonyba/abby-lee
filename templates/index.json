@@ -1144,7 +1144,7 @@
           "settings": {
             "text": "EXCLUSIVE MERCH",
             "icon": "shopify://shop_images/bag.svg",
-            "color": "#FC0001"
+            "color": "#fc0001"
           }
         },
         "text_RpaEGp": {
@@ -1160,7 +1160,7 @@
           "settings": {
             "text": "EXCLUSIVE MERCH",
             "icon": "shopify://shop_images/bag.svg",
-            "color": "#FC0001"
+            "color": "#fc0001"
           }
         },
         "text_NmbBAW": {
@@ -1176,7 +1176,7 @@
           "settings": {
             "text": "EXCLUSIVE MERCH",
             "icon": "shopify://shop_images/bag.svg",
-            "color": "#FC0001"
+            "color": "#fc0001"
           }
         },
         "text_yec9jr": {
@@ -1192,7 +1192,7 @@
           "settings": {
             "text": "EXCLUSIVE MERCH",
             "icon": "shopify://shop_images/bag.svg",
-            "color": "#FC0001"
+            "color": "#fc0001"
           }
         },
         "text_dd3b4a": {
@@ -1208,7 +1208,7 @@
           "settings": {
             "text": "EXCLUSIVE MERCH",
             "icon": "shopify://shop_images/bag.svg",
-            "color": "#FC0001"
+            "color": "#fc0001"
           }
         },
         "text_ccmw8B": {
@@ -1224,7 +1224,7 @@
           "settings": {
             "text": "EXCLUSIVE MERCH",
             "icon": "shopify://shop_images/bag.svg",
-            "color": "#FC0001"
+            "color": "#fc0001"
           }
         },
         "text_JNMNhA": {
@@ -1240,7 +1240,7 @@
           "settings": {
             "text": "EXCLUSIVE MERCH",
             "icon": "shopify://shop_images/bag.svg",
-            "color": "#FC0001"
+            "color": "#fc0001"
           }
         },
         "text_yzqrV6": {
@@ -1256,7 +1256,7 @@
           "settings": {
             "text": "EXCLUSIVE MERCH",
             "icon": "shopify://shop_images/bag.svg",
-            "color": "#FC0001"
+            "color": "#fc0001"
           }
         },
         "text_dYbBW7": {
@@ -1704,7 +1704,7 @@
         "inherit_query": false,
         "layout_type": "grid",
         "carousel_on_mobile": true,
-        "post_limit": 8,
+        "post_limit": 4,
         "columns": 4,
         "mobile_columns": "1",
         "mobile_card_size": "60cqw",

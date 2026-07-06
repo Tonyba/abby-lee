@@ -581,7 +581,7 @@
                       "type": "text",
                       "settings": {
                         "custom_css": "",
-                        "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                        "text": "<p>Check out our Sizing & Fit FAQs page for more information.</p>",
                         "width": "100%",
                         "max_width": "none",
                         "alignment": "left",

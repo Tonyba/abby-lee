@@ -163,7 +163,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h1><strong>Returns & Exchanges</strong></h1>",
+                "text": "<h1>Still Waiting On A Refund Or Exchange?</h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -251,7 +251,7 @@
             "accordion_row_QTwQrb": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "What is your return policy?",
+                "heading": "How long do refunds take to process?",
                 "open_by_default": true,
                 "icon": "none",
                 "width": 20
@@ -261,7 +261,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Eligible merchandise may be returned within the return window outlined in our store policy. Items must be unworn, unused, and in original condition with tags attached.<br/></p>",
+                    "text": "<p>Once your return is received and inspected, approved refunds are typically processed within 5–10 business days. Depending on your bank or credit card provider, additional processing time may apply.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -291,7 +291,7 @@
             "accordion_row_YTNy4J": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Are sale items eligible for return?",
+                "heading": "How will I know if my refund has been approved?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -301,7 +301,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Sale, clearance, and promotional items may be considered final sale. Please review product details before purchasing.<br/></p>",
+                    "text": "<p>You'll receive an email confirmation once your refund has been processed.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -332,7 +332,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "How do I start a return?",
+                "heading": "I haven't received my refund yet. What should I do?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -343,7 +343,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>To begin a return, email <strong>aldcshipping@gmail.com</strong> with your order number and reason for return. Our team will provide instructions and next steps.</p>",
+                    "text": "<p>If it has been more than 10 business days since receiving your refund confirmation, please contact <strong>aldcshipping@gmail.com</strong> for assistance.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -374,7 +374,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Do customers pay for return shipping?",
+                "heading": "When will my exchange ship?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -411,56 +411,13 @@
               "block_order": [
                 "text_tVGfGR"
               ]
-            },
-            "accordion_row_3LkEYi": {
-              "type": "_accordion-row",
-              "name": "t:names.accordion_row",
-              "settings": {
-                "heading": "Can I exchange for a different size?",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 20
-              },
-              "blocks": {
-                "text_w9jKRM": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "custom_css": "",
-                    "text": "<p>Yes, exchanges are available based on inventory availability. Contact <strong>aldcshipping@gmail.com</strong> to begin the exchange process.</p>",
-                    "width": "100%",
-                    "max_width": "none",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_w9jKRM"
-              ]
             }
           },
           "block_order": [
             "accordion_row_QTwQrb",
             "accordion_row_YTNy4J",
             "accordion_row_7kRMqE",
-            "accordion_row_jHn9UA",
-            "accordion_row_3LkEYi"
+            "accordion_row_jHn9UA"
           ]
         }
       },

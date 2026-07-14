@@ -86,6 +86,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -272,6 +273,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -325,7 +327,7 @@
             "accordion_row_QTwQrb": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "How do ALDC sizes compare to standard sizing?",
+                "heading": "How do I know what size to order?",
                 "open_by_default": true,
                 "icon": "none",
                 "width": 20
@@ -335,7 +337,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>ALDC apparel runs true to size with an athletic fit. Our sizing is designed for performance and movement, similar to premium athletic brands. If you're between sizes or prefer a looser fit, we recommend sizing up.</p>",
+                    "text": "<p>Please refer to the size chart available on the product page whenever applicable.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -375,7 +377,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>We are unable to accept returns on certain items. These will be carefully marked before purchase.</p>",
+                    "text": "<p>For a more relaxed fit, we generally recommend sizing up.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -406,13 +408,97 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Do you offer size exchanges?",
+                "heading": "Do your products fit true to size?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
               },
               "blocks": {
                 "text_NNkMwa": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "custom_css": "",
+                    "text": "<p>Most apparel is designed to fit true to size, although fit may vary slightly by style.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_NNkMwa"
+              ]
+            },
+            "accordion_row_Mfe3tE": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Can I exchange an item if it doesn't fit?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_iRyQGi": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "custom_css": "",
+                    "text": "<p>Yes. Eligible items may be exchanged according to our exchange policy and inventory availability.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_iRyQGi"
+              ]
+            },
+            "accordion_row_3MWM8t": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Are youth and adult sizes available?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_qPAxxy": {
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
@@ -441,14 +527,16 @@
                 }
               },
               "block_order": [
-                "text_NNkMwa"
+                "text_qPAxxy"
               ]
             }
           },
           "block_order": [
             "accordion_row_QTwQrb",
             "accordion_row_YTNy4J",
-            "accordion_row_7kRMqE"
+            "accordion_row_7kRMqE",
+            "accordion_row_Mfe3tE",
+            "accordion_row_3MWM8t"
           ]
         }
       },
@@ -458,6 +546,7 @@
       "name": "t:names.faq_section",
       "settings": {
         "custom_css": "faq-items",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -568,6 +657,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -692,6 +782,7 @@
       "name": "t:names.contact_form",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -837,6 +928,7 @@
       "name": "t:names.email_signup",
       "settings": {
         "custom_css": "email-signup-section",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",

@@ -163,7 +163,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h1><strong>Orders & Shipping</strong></h1>",
+                "text": "<h1>Expected Delivery Date</h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -251,7 +251,7 @@
             "accordion_row_QTwQrb": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "How can I check my order status?",
+                "heading": "How long does shipping take?",
                 "open_by_default": true,
                 "icon": "none",
                 "width": 20
@@ -261,7 +261,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>You will receive tracking information via email once your order ships. For additional assistance, email <strong>aldcshipping@gmail.com</strong> with your order number.</p>",
+                    "text": "<p>Most domestic orders arrive within 4–7 business days after shipment. Delivery times may vary depending on your location and the shipping method selected at checkout.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -291,7 +291,7 @@
             "accordion_row_YTNy4J": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "What payment methods do you accept?",
+                "heading": "Will I receive tracking information?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -301,7 +301,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>We accept major credit cards and additional payment methods offered through our secure checkout process.</p>",
+                    "text": "<p>Yes. Once your order ships, you'll receive a shipping confirmation email with tracking details.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -332,7 +332,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Can I ship to a different address than my billing address?",
+                "heading": "Do you offer expedited shipping?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -343,7 +343,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Yes. You may enter a separate shipping address during checkout.</p>",
+                    "text": "<p>Available shipping options are displayed during checkout and may vary by location.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -374,7 +374,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Where can I purchase official ALDC merchandise?",
+                "heading": "My tracking says delivered, but I haven't received my package.",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -385,7 +385,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>The Abby Lee Dance Company website is the official source for ALDC merchandise, apparel, accessories, and exclusive releases.</p>",
+                    "text": "<p>Please check with neighbors, household members, and your local carrier. If you're still unable to locate your package, contact <strong>aldcshipping@gmail.com </strong>and we'll assist with the next steps.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -411,13 +411,56 @@
               "block_order": [
                 "text_tVGfGR"
               ]
+            },
+            "accordion_row_3LkEYi": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Do you ship internationally?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_w9jKRM": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "custom_css": "",
+                    "text": "<p>Yes. We offer international shipping to many countries worldwide. Shipping times, duties, taxes, and customs fees vary by destination.</p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_w9jKRM"
+              ]
             }
           },
           "block_order": [
             "accordion_row_QTwQrb",
             "accordion_row_YTNy4J",
             "accordion_row_7kRMqE",
-            "accordion_row_jHn9UA"
+            "accordion_row_jHn9UA",
+            "accordion_row_3LkEYi"
           ]
         }
       },

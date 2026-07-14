@@ -163,7 +163,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h1>Expected Delivery Date</h1>",
+                "text": "<h1><strong>Returns & Exchanges</strong></h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -251,7 +251,7 @@
             "accordion_row_QTwQrb": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "How long does shipping take?",
+                "heading": "What is your return policy?",
                 "open_by_default": true,
                 "icon": "none",
                 "width": 20
@@ -261,7 +261,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Most domestic orders arrive within 4–7 business days after shipment. Delivery times may vary depending on your location and the shipping method selected at checkout.</p>",
+                    "text": "<p>Eligible merchandise may be returned within the return window outlined in our store policy. Items must be unworn, unused, and in original condition with tags attached.<br/></p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -291,7 +291,7 @@
             "accordion_row_YTNy4J": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Will I receive tracking information?",
+                "heading": "Are sale items eligible for return?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -301,7 +301,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Yes. Once your order ships, you'll receive a shipping confirmation email with tracking details.</p>",
+                    "text": "<p>Sale, clearance, and promotional items may be considered final sale. Please review product details before purchasing.<br/></p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -332,7 +332,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Do you offer expedited shipping?",
+                "heading": "How do I start a return?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -343,7 +343,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Available shipping options are displayed during checkout and may vary by location.</p>",
+                    "text": "<p>To begin a return, email <strong>aldcshipping@gmail.com</strong> with your order number and reason for return. Our team will provide instructions and next steps.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -374,7 +374,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "My tracking says delivered, but I haven't received my package.",
+                "heading": "Do customers pay for return shipping?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -385,7 +385,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Please check with neighbors, household members, and your local carrier. If you're still unable to locate your package, contact <strong>aldcshipping@gmail.com </strong>and we'll assist with the next steps.</p>",
+                    "text": "<p>Unless the return is due to a damaged, defective, or incorrect item, customers are generally responsible for return shipping costs.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -416,7 +416,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Do you ship internationally?",
+                "heading": "Can I exchange for a different size?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -427,7 +427,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Yes. We offer international shipping to many countries worldwide. Shipping times, duties, taxes, and customs fees vary by destination.</p>",
+                    "text": "<p>Yes, exchanges are available based on inventory availability. Contact <strong>aldcshipping@gmail.com</strong> to begin the exchange process.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",

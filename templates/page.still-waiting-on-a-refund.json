@@ -385,7 +385,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Unless the return is due to a damaged, defective, or incorrect item, customers are generally responsible for return shipping costs.</p>",
+                    "text": "<p>Approved exchanges are processed and shipped after the original item has been received and inspected. You'll receive tracking information once your exchange has shipped.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",

@@ -251,7 +251,7 @@
             "accordion_row_QTwQrb": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "How long does shipping take?",
+                "heading": "How can I find upcoming events and workshops?",
                 "open_by_default": true,
                 "icon": "none",
                 "width": 20
@@ -291,7 +291,7 @@
             "accordion_row_YTNy4J": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Will I receive tracking information?",
+                "heading": "How do I register for an event?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -332,7 +332,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Do you offer expedited shipping?",
+                "heading": "Are event tickets refundable?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -374,7 +374,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "My tracking says delivered, but I haven't received my package.",
+                "heading": "What happens if an event is rescheduled?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20

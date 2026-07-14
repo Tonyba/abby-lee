@@ -163,7 +163,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h1>Problem With Your Order?</h1>",
+                "text": "<h1><strong>Orders & Shipping</strong></h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -251,7 +251,7 @@
             "accordion_row_QTwQrb": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "I received the wrong item. What should I do?",
+                "heading": "How can I check my order status?",
                 "open_by_default": true,
                 "icon": "none",
                 "width": 20
@@ -261,7 +261,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>We're sorry for the mix-up. Please email <strong>aldcshipping@gmail.com</strong> within 7 days of receiving your order and include your order number along with photos of the item received. Our team will work quickly to make it right.</p>",
+                    "text": "<p>You will receive tracking information via email once your order ships. For additional assistance, email <strong>aldcshipping@gmail.com</strong> with your order number.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -291,7 +291,7 @@
             "accordion_row_YTNy4J": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "My order arrived damaged. What should I do?",
+                "heading": "What payment methods do you accept?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -301,7 +301,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>If your item arrives damaged, please contact <strong>aldcshipping@gmail.com</strong> as soon as possible with photos of the packaging and product. We'll review the issue and provide the appropriate resolution.<br/></p>",
+                    "text": "<p>We accept major credit cards and additional payment methods offered through our secure checkout process.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -332,7 +332,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "I'm missing an item from my order.",
+                "heading": "Can I ship to a different address than my billing address?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -343,7 +343,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Please email <strong>aldcshipping@gmail.com</strong> with your order number and details about the missing item. Our team will investigate and assist you promptly.<br/></p>",
+                    "text": "<p>Yes. You may enter a separate shipping address during checkout.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -374,7 +374,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Can I modify or cancel my order after it's been placed?",
+                "heading": "Where can I purchase official ALDC merchandise?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -385,7 +385,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Orders begin processing quickly. If you need to modify or cancel an order, contact <strong>aldcshipping@gmail.com</strong> immediately. While changes cannot be guaranteed once processing begins, we'll do our best to help.<br/></p>",
+                    "text": "<p>The Abby Lee Dance Company website is the official source for ALDC merchandise, apparel, accessories, and exclusive releases.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",

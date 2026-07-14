@@ -503,7 +503,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                    "text": "<p>Availability varies by product. Please review the individual product listing for available sizes.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",

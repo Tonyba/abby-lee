@@ -163,7 +163,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h1>Events & Workshops</h1>",
+                "text": "<h1>Product Availability & Regions</h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -251,7 +251,7 @@
             "accordion_row_QTwQrb": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "How can I find upcoming events and workshops?",
+                "heading": "Is all merchandise available worldwide?",
                 "open_by_default": true,
                 "icon": "none",
                 "width": 20
@@ -261,7 +261,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Upcoming events, workshops, appearances, and special opportunities are announced on the Abby Lee Dance Company website and official social media channels.</p>",
+                    "text": "<p>Most merchandise is available internationally; however, certain products may be restricted based on regional shipping regulations.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -291,7 +291,7 @@
             "accordion_row_YTNy4J": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "How do I register for an event?",
+                "heading": "Why can't I purchase a certain item?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -301,7 +301,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Registration information and ticketing details are available on each event page. Space may be limited and is often available on a first-come, first-served basis.</p>",
+                    "text": "<p>Products may occasionally be out of stock, discontinued, or unavailable in certain regions.<br/></p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -332,7 +332,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Are event tickets refundable?",
+                "heading": "Will sold-out items be restocked?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -343,7 +343,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Refund policies vary by event. Please review the event details before purchasing.</p>",
+                    "text": "<p>Popular items may be restocked based on demand. Follow our website and social channels for announcements regarding restocks and new releases.<br/></p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -374,7 +374,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "What happens if an event is rescheduled?",
+                "heading": "How can I be notified about new merchandise?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -385,7 +385,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Registered attendees will receive notification regarding new dates, credits, or refund options when applicable.</p>",
+                    "text": "<p>Subscribe to our email list to receive updates on new products, exclusive offers, events, and special releases.<br/></p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -416,7 +416,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Can dancers of all skill levels attend workshops?",
+                "heading": "Do you offer limited-edition merchandise?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -427,7 +427,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Many workshops welcome dancers of varying experience levels, although some may have age or skill requirements. Please review the event description for details.</p>",
+                    "text": "<p>Yes. Certain collections, collaborations, and event-exclusive items may only be available for a limited time while supplies last.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",

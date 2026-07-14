@@ -163,7 +163,7 @@
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h1>Expected Delivery Date</h1>",
+                "text": "<h1>Events & Workshops</h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -261,7 +261,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Most domestic orders arrive within 4–7 business days after shipment. Delivery times may vary depending on your location and the shipping method selected at checkout.</p>",
+                    "text": "<p>Upcoming events, workshops, appearances, and special opportunities are announced on the Abby Lee Dance Company website and official social media channels.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -301,7 +301,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Yes. Once your order ships, you'll receive a shipping confirmation email with tracking details.</p>",
+                    "text": "<p>Registration information and ticketing details are available on each event page. Space may be limited and is often available on a first-come, first-served basis.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -343,7 +343,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Available shipping options are displayed during checkout and may vary by location.</p>",
+                    "text": "<p>Refund policies vary by event. Please review the event details before purchasing.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -385,7 +385,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Please check with neighbors, household members, and your local carrier. If you're still unable to locate your package, contact <strong>aldcshipping@gmail.com </strong>and we'll assist with the next steps.</p>",
+                    "text": "<p>Registered attendees will receive notification regarding new dates, credits, or refund options when applicable.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -416,7 +416,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Do you ship internationally?",
+                "heading": "Can dancers of all skill levels attend workshops?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -427,7 +427,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>Yes. We offer international shipping to many countries worldwide. Shipping times, duties, taxes, and customs fees vary by destination.</p>",
+                    "text": "<p>Many workshops welcome dancers of varying experience levels, although some may have age or skill requirements. Please review the event description for details.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",

@@ -86,6 +86,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -157,24 +158,12 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "icon_4TxgYV": {
-              "type": "icon",
-              "name": "t:names.icon",
-              "settings": {
-                "icon": "price_tag",
-                "image_upload": "shopify://shop_images/Vector.svg",
-                "width": 46,
-                "link": "",
-                "open_in_new_tab": false
-              },
-              "blocks": {}
-            },
             "text_FtCfiM": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
                 "custom_css": "",
-                "text": "<h1>Sizing & Fit</h1>",
+                "text": "<h1>Problem With Your Order?</h1>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
@@ -195,74 +184,10 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "text_BkdhHA": {
-              "type": "text",
-              "name": "t:names.description",
-              "settings": {
-                "custom_css": "",
-                "text": "<p>Support with product sizing, restock notifications, product aftercare and our commitment to Sustainability</p>",
-                "width": "100%",
-                "max_width": "none",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 60,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
-            "size_charts_cLfp6g": {
-              "type": "size-charts",
-              "name": "Size Charts",
-              "settings": {},
-              "blocks": {}
-            },
-            "text_fkh44G": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "custom_css": "",
-                "text": "<h5>How to measure</h5><ul><li><strong>BUST</strong>: Measure around the fullest part of your bust, keeping the tape measure horizontal.</li><li><strong>WAIST:</strong> Measure around the narrowest part (typically where your body bends side to side), keeping the tape measure horizontal</li><li><strong>HIPS:</strong> Measure around the fullest part of your hips, keeping the tape measure horizontal.</li></ul>",
-                "width": "fit-content",
-                "max_width": "none",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 38,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
-            "icon_4TxgYV",
-            "text_FtCfiM",
-            "text_BkdhHA",
-            "size_charts_cLfp6g",
-            "text_fkh44G"
+            "text_FtCfiM"
           ]
         }
       },
@@ -272,6 +197,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -296,7 +222,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 63,
-        "padding-block-end": 60
+        "padding-block-end": 30
       }
     },
     "section_bbPFM7": {
@@ -325,7 +251,7 @@
             "accordion_row_QTwQrb": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "How do ALDC sizes compare to standard sizing?",
+                "heading": "I received the wrong item. What should I do?",
                 "open_by_default": true,
                 "icon": "none",
                 "width": 20
@@ -335,7 +261,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>ALDC apparel runs true to size with an athletic fit. Our sizing is designed for performance and movement, similar to premium athletic brands. If you're between sizes or prefer a looser fit, we recommend sizing up.</p>",
+                    "text": "<p>We're sorry for the mix-up. Please email <strong>aldcshipping@gmail.com</strong> within 7 days of receiving your order and include your order number along with photos of the item received. Our team will work quickly to make it right.</p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -365,7 +291,7 @@
             "accordion_row_YTNy4J": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "What if I'm between sizes?",
+                "heading": "My order arrived damaged. What should I do?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -375,7 +301,7 @@
                   "type": "text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>We are unable to accept returns on certain items. These will be carefully marked before purchase.</p>",
+                    "text": "<p>If your item arrives damaged, please contact <strong>aldcshipping@gmail.com</strong> as soon as possible with photos of the packaging and product. We'll review the issue and provide the appropriate resolution.<br/></p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -406,7 +332,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_row",
               "settings": {
-                "heading": "Do you offer size exchanges?",
+                "heading": "I'm missing an item from my order.",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -417,7 +343,7 @@
                   "name": "t:names.text",
                   "settings": {
                     "custom_css": "",
-                    "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                    "text": "<p>Please email <strong>aldcshipping@gmail.com</strong> with your order number and details about the missing item. Our team will investigate and assist you promptly.<br/></p>",
                     "width": "100%",
                     "max_width": "none",
                     "alignment": "left",
@@ -443,12 +369,55 @@
               "block_order": [
                 "text_NNkMwa"
               ]
+            },
+            "accordion_row_jHn9UA": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Can I modify or cancel my order after it's been placed?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_tVGfGR": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "custom_css": "",
+                    "text": "<p>Orders begin processing quickly. If you need to modify or cancel an order, contact <strong>aldcshipping@gmail.com</strong> immediately. While changes cannot be guaranteed once processing begins, we'll do our best to help.<br/></p>",
+                    "width": "100%",
+                    "max_width": "none",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_tVGfGR"
+              ]
             }
           },
           "block_order": [
             "accordion_row_QTwQrb",
             "accordion_row_YTNy4J",
-            "accordion_row_7kRMqE"
+            "accordion_row_7kRMqE",
+            "accordion_row_jHn9UA"
           ]
         }
       },
@@ -458,6 +427,7 @@
       "name": "t:names.faq_section",
       "settings": {
         "custom_css": "faq-items",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -568,6 +538,7 @@
       "name": "t:names.multicolumn",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "row",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -692,6 +663,7 @@
       "name": "t:names.contact_form",
       "settings": {
         "custom_css": "",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
@@ -837,6 +809,7 @@
       "name": "t:names.email_signup",
       "settings": {
         "custom_css": "email-signup-section",
+        "add_embla": false,
         "content_direction": "column",
         "vertical_on_mobile": true,
         "horizontal_alignment": "flex-start",
